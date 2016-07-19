@@ -16,8 +16,8 @@
     <!-- Navbar -->
     <div class='navbar navbar-default' id='navbar'>
       <a class='navbar-brand' href='#'>
-        <i class='icon-beer'></i>
-        Hierapolis
+        <i class='glyphicon glyphicon-fire'></i>
+        Torch
       </a>
       <ul class='nav navbar-nav pull-right'>
         <li class='dropdown'>
@@ -51,7 +51,7 @@
         <li class='dropdown user'>
           <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
             <i class='icon-user'></i>
-            <strong>John DOE</strong>
+            <strong>Eric Park</strong>
             <img class="img-rounded" src="http://placehold.it/20x20/ccc/777" />
             <b class='caret'></b>
           </a>
@@ -72,15 +72,15 @@
       <section id='sidebar'>
         <i class='icon-align-justify icon-large' id='toggle'></i>
         <ul id='dock'>
-          <li class='active launcher'>
+          <li class='{% if request.path == "/dashboard/" %} active {% endif %} launcher'>
             <i class='icon-dashboard'></i>
             <a href="/dashboard">Dashboard</a>
           </li>
-          <li class='launcher'>
+          <li class='{% if request.path == "/forms/" %} active {% endif %} launcher'>
             <i class='icon-file-text-alt'></i>
             <a href="/forms">Forms</a>
           </li>
-          <li class='launcher'>
+          <li class='{% if request.path == "/tables/" %} active {% endif %} launcher'>
             <i class='icon-table'></i>
             <a href="/tables">Tables</a>
           </li>
@@ -113,7 +113,7 @@
             <a href='#'>Feedback</a>
           </li>
         </ul>
-        <div data-toggle='tooltip' id='beaker' title='Made by lab2023'></div>
+        <div data-toggle='tooltip' id='beaker' title='Made by Torch'></div>
       </section>
       <!-- Tools -->
       <section id='tools'>
