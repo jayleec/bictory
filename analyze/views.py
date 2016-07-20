@@ -7,10 +7,10 @@ def index(request):
     return render(request, 'analyze/index.html')
 
 def calculate(request):
-    print("Calculating...")
+    print("Calculatings...")
     print("...")
 
-    data = ET.parse("/Users/Sohn/Desktop/crulechk.0.xml")
+    data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
     print(len(root))
 
