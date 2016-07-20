@@ -16,3 +16,6 @@ def forgot_password(request):
 
 def tables(request):
     return render(request, 'tables.html')
+
+def report(request):
+    return render(request, 'report.html')
