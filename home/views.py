@@ -16,3 +16,9 @@ def forgot_password(request):
 
 def tables(request):
     return render(request, 'tables.html')
+
+def visual(request):
+    return render(request, 'visualTest.html')
+
+def d3test(request):
+    return render(request, 'd3_test.html')
