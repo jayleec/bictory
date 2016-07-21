@@ -1,7 +1,13 @@
-queue() 
-	.defer(d3.csv, "/static/data/occupations by age.csv")
-	.defer(d3.csv, "/static/data/IDofParentLevels.csv")
-	.defer(d3.json, "/static/data/occupation.json")
+// queue()
+// 	.defer(d3.csv, "/static/data/occupations by age.csv")
+// 	.defer(d3.csv, "/static/data/IDofParentLevels.csv")
+// 	.defer(d3.json, "/static/data/occupation.json")
+// 	.await(drawAll);
+
+queue()
+	.defer(d3.csv, "/static/data/Metrics for each Function.csv")
+	.defer(d3.csv, "/static/data/IDofParents.csv")
+	.defer(d3.json, "/static/data/Metrics.json")
 	.await(drawAll);
 	
 //Initiates practically everything
