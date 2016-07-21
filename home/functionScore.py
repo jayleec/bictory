@@ -1,11 +1,15 @@
 import xml.etree.ElementTree as ET
 
+tree = ET.parse("/Users/jay/torch_5th/home/static/data/crulechk.0.xml")
+root = tree.getroot()
+print(root)
+
+
 def cal_complexity(child2):
     sumofcom = 0
     # number of statements less 9 = 0
     if float(child2[15].text) < 9:
         sumofcom += 9
-        print("sumofcom = ", sumofcom)
     if float(child2[2].text) < 50:
         sumofcom += 9
     if float(child2[1].text) < 35:
@@ -28,11 +32,6 @@ def cal_complexity(child2):
         sumofcom += 9
     return sumofcom
 
-
-tree = ET.parse("analyze/crulechk.0.xml")
-root = tree.getroot()
-
-print(root)
 
 # 메트릭 개수는 항상 27개
 # 전체 파일 개수
@@ -60,7 +59,7 @@ for child in root:
         # for i in range(1, 26):  # 모든 메트릭 loop
         #     strTest = child2[i].text
         #     print(float(strTest))
-        print(complexity)
+        print("complexity = ", complexity)
 
 
 
