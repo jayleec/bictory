@@ -73,8 +73,8 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		bodyFont = "Merriweather Sans";
 	
 	var colorCircle = d3.scale.ordinal()
-			.domain([0,1,2,3])
-			.range(['#bfbfbf','#838383','#4c4c4c','#1c1c1c']);
+			.domain([0,1,2,3]) //  원의 깊이 갯수
+			.range(['#bfbfbf','#838383','#4c4c4c','#1c1c1c']); //바깥에서부터 원의 색깔
 			
 	var colorBar = d3.scale.ordinal()
 		.domain(["16 to 19","20 to 24","25 to 34","35 to 44","45 to 54","55 to 64","65+"])
@@ -107,7 +107,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 	var nodes = pack.nodes(occupations),
 		root = occupations,
 		focus = root,
-		nodeCount = nodes.length;
+		nodeCount = nodes.length; //json 파일에서 전체 node 갯수 뽑음
 
 	var nodeByName = {};
 	nodes.forEach(function(d,i) {
