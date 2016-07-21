@@ -6,4 +6,5 @@ app_name = 'analyze'
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^calculate/$', views.calculate, name='calculate'),
+    url(r'^visualize/$', views.visualize, name='visualize'),
 ]

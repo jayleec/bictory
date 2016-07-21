@@ -60,3 +60,6 @@ def calculate(request):
 
 
     return HttpResponse("Calculating...")
+
+def visualize(request):
+    return render(request, 'analyze/visualize.html')
