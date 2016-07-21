@@ -29,7 +29,7 @@ def cal_complexity(child2):
     return sumofcom
 
 
-tree = ET.parse("/Users/jay/torch_5th/home/static/data/crulechk.0.xml")
+tree = ET.parse("analyze/crulechk.0.xml")
 root = tree.getroot()
 
 print(root)
