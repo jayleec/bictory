@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee418b3-9858-4ae1-9e2d-41cb9d819532" name="Default" comment="Merge branch 'master' of https://github.com/sohn126/torch&#10;&#10;# Conflicts:&#10;#&#9;home/__pycache__/urls.cpython-35.pyc&#10;#&#9;home/__pycache__/views.cpython-35.pyc&#10;#&#9;home/views.py&#10;#&#9;torch/__pycache__/urls.cpython-35.pyc&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/parsingTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/static/data/data_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+    <list default="true" id="eee418b3-9858-4ae1-9e2d-41cb9d819532" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/models.py" afterPath="$PROJECT_DIR$/home/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/static/data/crulechk.0.xml" afterPath="$PROJECT_DIR$/home/static/data/crulechk.0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/static/js/script6.js" afterPath="$PROJECT_DIR$/home/static/js/script6.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/templates/d3_test.html" afterPath="$PROJECT_DIR$/home/templates/d3_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/urls.py" afterPath="$PROJECT_DIR$/home/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/views.py" afterPath="$PROJECT_DIR$/home/views.py" />
     </list>
     <list id="63c8359e-4ace-4f79-94ab-ce3b198e138d" name="Failed commit: Default" comment="Merge branch 'master' of https://github.com/sohn126/torch&#10;&#10;# Conflicts:&#10;#&#9;home/__pycache__/urls.cpython-35.pyc&#10;#&#9;home/__pycache__/views.cpython-35.pyc&#10;#&#9;home/views.py&#10;#&#9;torch/__pycache__/urls.cpython-35.pyc&#10;" />
     <ignored path="torch_5th.iws" />
@@ -96,8 +87,8 @@
       <file leaf-file-name="parsingTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/parsingTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="247">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -257,6 +248,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -505,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468976008119</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/sohn126/torch&#10;&#10;# Conflicts:&#10;#&#9;home/__pycache__/urls.cpython-35.pyc&#10;#&#9;home/__pycache__/views.cpython-35.pyc&#10;#&#9;home/views.py&#10;#&#9;torch/__pycache__/urls.cpython-35.pyc&#10;">
+      <created>1469076800436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1469076800436</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -529,7 +528,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.48707592" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08387097" sideWeight="0.42084005" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05" sideWeight="0.42084005" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -966,8 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/parsingTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="27" />
+        <state relative-caret-position="247">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding />
         </state>
       </provider>
