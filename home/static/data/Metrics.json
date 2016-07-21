@@ -3,8 +3,8 @@
         {
             "children": [
                 {
-                    "ID": "1.1.2",
-                    "name": "goodParam",
+                    "ID": "1.1.1",
+                    "name": "badParam",
                     "size": "3"
                 },
                 {
@@ -38,9 +38,9 @@
         {
             "children": [
                 {
-                    "ID": "1.4.2",
-                    "name": "goodFoo",
-                    "size": "60"
+                    "ID": "1.4.1",
+                    "name": "badFoo",
+                    "size": "63"
                 },
                 {
                     "ID": "1.4.2",
@@ -143,9 +143,9 @@
         {
             "children": [
                 {
-                    "ID": "1.14.2",
-                    "name": "goodFoo",
-                    "size": "30"
+                    "ID": "1.14.1",
+                    "name": "badFoo",
+                    "size": "39"
                 },
                 {
                     "ID": "1.14.2",
@@ -208,9 +208,9 @@
         {
             "children": [
                 {
-                    "ID": "1.20.2",
-                    "name": "another",
-                    "size": "126"
+                    "ID": "1.20.1",
+                    "name": "order",
+                    "size": "39"
                 },
                 {
                     "ID": "1.20.2",
@@ -243,8 +243,8 @@
         {
             "children": [
                 {
-                    "ID": "1.23.2",
-                    "name": "goodFoo",
+                    "ID": "1.23.1",
+                    "name": "badFoo",
                     "size": "12"
                 },
                 {
@@ -268,8 +268,8 @@
         {
             "children": [
                 {
-                    "ID": "1.25.2",
-                    "name": "FuncGood",
+                    "ID": "1.25.1",
+                    "name": "FuncBad",
                     "size": "3"
                 },
                 {
@@ -293,19 +293,19 @@
         {
             "children": [
                 {
-                    "ID": "1.27.4",
-                    "name": "function",
-                    "size": "30"
+                    "ID": "1.27.1",
+                    "name": "getuid",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.27.4",
-                    "name": "function",
-                    "size": "30"
+                    "ID": "1.27.2",
+                    "name": "geteuid",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.27.4",
-                    "name": "function",
-                    "size": "30"
+                    "ID": "1.27.3",
+                    "name": "func",
+                    "size": "24"
                 },
                 {
                     "ID": "1.27.4",
@@ -358,159 +358,159 @@
         {
             "children": [
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.1",
+                    "name": "SQLExecDirect",
+                    "size": "3"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.2",
+                    "name": "ldap_search_ext_s",
+                    "size": "15"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.3",
+                    "name": "ldap_simple_bind_s",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.4",
+                    "name": "dlopen",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.5",
+                    "name": "SQLConnect",
+                    "size": "3"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.6",
+                    "name": "verify",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.7",
+                    "name": "getpasswd",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.8",
+                    "name": "U51000089_1",
+                    "size": "192"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.9",
+                    "name": "release",
+                    "size": "24"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.10",
+                    "name": "memory_leak",
+                    "size": "201"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.11",
+                    "name": "ret_null",
+                    "size": "36"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.12",
+                    "name": "null_deref",
+                    "size": "123"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.13",
+                    "name": "rpt",
+                    "size": "156"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.14",
+                    "name": "ldap_injection",
+                    "size": "183"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.15",
+                    "name": "ldap_manipulation",
+                    "size": "372"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.16",
+                    "name": "ldap_safe_manipulation",
+                    "size": "150"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.17",
+                    "name": "resource_injection",
+                    "size": "114"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.18",
+                    "name": "process_control",
+                    "size": "108"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.19",
+                    "name": "information_exposure",
+                    "size": "171"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.20",
+                    "name": "main",
+                    "size": "216"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.21",
+                    "name": "searchData2LDAP",
+                    "size": "231"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.22",
+                    "name": "integer_overflow",
+                    "size": "93"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.23",
+                    "name": "safe_integer_overflow",
+                    "size": "138"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.24",
+                    "name": "safe_plaintext_passwd",
+                    "size": "168"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.25",
+                    "name": "plaintext_passwd",
+                    "size": "180"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.26",
+                    "name": "hardcoded_crypt",
+                    "size": "198"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.27",
+                    "name": "safe_hardcoded_crypt",
+                    "size": "174"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.28",
+                    "name": "unexpected_sign_extension2",
+                    "size": "162"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.29",
+                    "name": "unexpected_sign_extension",
+                    "size": "129"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.30",
+                    "name": "test_strcpy",
+                    "size": "75"
                 },
                 {
-                    "ID": "1.32.32",
-                    "name": "test_extreme",
-                    "size": "72"
+                    "ID": "1.32.31",
+                    "name": "aux_test_extreme",
+                    "size": "36"
                 },
                 {
                     "ID": "1.32.32",
@@ -523,9 +523,9 @@
         {
             "children": [
                 {
-                    "ID": "1.33.2",
-                    "name": "func",
-                    "size": "93"
+                    "ID": "1.33.1",
+                    "name": "sfunc",
+                    "size": "36"
                 },
                 {
                     "ID": "1.33.2",
@@ -558,8 +558,8 @@
         {
             "children": [
                 {
-                    "ID": "1.36.2",
-                    "name": "goodFoo",
+                    "ID": "1.36.1",
+                    "name": "badFoo",
                     "size": "12"
                 },
                 {
@@ -573,13 +573,13 @@
         {
             "children": [
                 {
-                    "ID": "1.37.3",
-                    "name": "func3",
+                    "ID": "1.37.1",
+                    "name": "func1",
                     "size": "12"
                 },
                 {
-                    "ID": "1.37.3",
-                    "name": "func3",
+                    "ID": "1.37.2",
+                    "name": "func2",
                     "size": "12"
                 },
                 {
@@ -603,24 +603,24 @@
         {
             "children": [
                 {
-                    "ID": "1.39.5",
-                    "name": "multiply",
+                    "ID": "1.39.1",
+                    "name": "sub_test",
+                    "size": "216"
+                },
+                {
+                    "ID": "1.39.2",
+                    "name": "sum",
                     "size": "18"
                 },
                 {
-                    "ID": "1.39.5",
-                    "name": "multiply",
+                    "ID": "1.39.3",
+                    "name": "substract",
                     "size": "18"
                 },
                 {
-                    "ID": "1.39.5",
-                    "name": "multiply",
-                    "size": "18"
-                },
-                {
-                    "ID": "1.39.5",
-                    "name": "multiply",
-                    "size": "18"
+                    "ID": "1.39.4",
+                    "name": "divide",
+                    "size": "36"
                 },
                 {
                     "ID": "1.39.5",
@@ -663,9 +663,9 @@
         {
             "children": [
                 {
-                    "ID": "1.43.2",
-                    "name": "goodFoo",
-                    "size": "3"
+                    "ID": "1.43.1",
+                    "name": "badFoo",
+                    "size": "6"
                 },
                 {
                     "ID": "1.43.2",
@@ -708,24 +708,24 @@
         {
             "children": [
                 {
-                    "ID": "1.47.5",
-                    "name": "f",
-                    "size": "57"
+                    "ID": "1.47.1",
+                    "name": "_mbscpy",
+                    "size": "3"
                 },
                 {
-                    "ID": "1.47.5",
-                    "name": "f",
-                    "size": "57"
+                    "ID": "1.47.2",
+                    "name": "_mbscpy_s",
+                    "size": "3"
                 },
                 {
-                    "ID": "1.47.5",
-                    "name": "f",
-                    "size": "57"
+                    "ID": "1.47.3",
+                    "name": "_mbscat",
+                    "size": "3"
                 },
                 {
-                    "ID": "1.47.5",
-                    "name": "f",
-                    "size": "57"
+                    "ID": "1.47.4",
+                    "name": "_mbscat_s",
+                    "size": "3"
                 },
                 {
                     "ID": "1.47.5",
@@ -748,29 +748,29 @@
         {
             "children": [
                 {
-                    "ID": "1.49.6",
-                    "name": "goodSalt2",
-                    "size": "81"
+                    "ID": "1.49.1",
+                    "name": "badSalt",
+                    "size": "30"
                 },
                 {
-                    "ID": "1.49.6",
-                    "name": "goodSalt2",
-                    "size": "81"
+                    "ID": "1.49.2",
+                    "name": "badSalt2",
+                    "size": "45"
                 },
                 {
-                    "ID": "1.49.6",
-                    "name": "goodSalt2",
-                    "size": "81"
+                    "ID": "1.49.3",
+                    "name": "badSalt3",
+                    "size": "63"
                 },
                 {
-                    "ID": "1.49.6",
-                    "name": "goodSalt2",
-                    "size": "81"
+                    "ID": "1.49.4",
+                    "name": "badSalt4",
+                    "size": "75"
                 },
                 {
-                    "ID": "1.49.6",
-                    "name": "goodSalt2",
-                    "size": "81"
+                    "ID": "1.49.5",
+                    "name": "goodSalt",
+                    "size": "30"
                 },
                 {
                     "ID": "1.49.6",
@@ -783,8 +783,8 @@
         {
             "children": [
                 {
-                    "ID": "1.50.2",
-                    "name": "goodFoo",
+                    "ID": "1.50.1",
+                    "name": "badFoo",
                     "size": "33"
                 },
                 {
@@ -798,9 +798,9 @@
         {
             "children": [
                 {
-                    "ID": "1.51.2",
-                    "name": "goodFoo",
-                    "size": "45"
+                    "ID": "1.51.1",
+                    "name": "badFoo",
+                    "size": "99"
                 },
                 {
                     "ID": "1.51.2",
@@ -823,9 +823,9 @@
         {
             "children": [
                 {
-                    "ID": "1.53.2",
-                    "name": "fooNestedBad",
-                    "size": "33"
+                    "ID": "1.53.1",
+                    "name": "fooBad",
+                    "size": "27"
                 },
                 {
                     "ID": "1.53.2",
@@ -858,19 +858,19 @@
         {
             "children": [
                 {
-                    "ID": "1.56.4",
-                    "name": "goodFoo",
-                    "size": "18"
+                    "ID": "1.56.1",
+                    "name": "strcpy",
+                    "size": "9"
                 },
                 {
-                    "ID": "1.56.4",
-                    "name": "goodFoo",
-                    "size": "18"
+                    "ID": "1.56.2",
+                    "name": "getSSS",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.56.4",
-                    "name": "goodFoo",
-                    "size": "18"
+                    "ID": "1.56.3",
+                    "name": "badFoo",
+                    "size": "36"
                 },
                 {
                     "ID": "1.56.4",
@@ -883,9 +883,9 @@
         {
             "children": [
                 {
-                    "ID": "1.57.2",
-                    "name": "getGoodSumG",
-                    "size": "72"
+                    "ID": "1.57.1",
+                    "name": "getBadSum",
+                    "size": "99"
                 },
                 {
                     "ID": "1.57.2",
@@ -908,9 +908,9 @@
         {
             "children": [
                 {
-                    "ID": "1.59.2",
-                    "name": "goodFoo",
-                    "size": "30"
+                    "ID": "1.59.1",
+                    "name": "badFoo",
+                    "size": "39"
                 },
                 {
                     "ID": "1.59.2",
@@ -923,419 +923,419 @@
         {
             "children": [
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.1",
+                    "name": "buffer_overrun_01_sub",
+                    "size": "21"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.2",
+                    "name": "buffer_overrun_01_main",
+                    "size": "33"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.3",
+                    "name": "buffer_overrun_complex_01_sub",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.4",
+                    "name": "buffer_overrun_complex_01_main",
+                    "size": "24"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.5",
+                    "name": "buffer_overrun_02_main",
+                    "size": "66"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.6",
+                    "name": "buffer_overrun_complex_02_sub",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
+                    "ID": "1.60.7",
+                    "name": "buffer_overrun_complex_02_main",
                     "size": "42"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.8",
+                    "name": "buffer_overrun_03",
+                    "size": "75"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.9",
+                    "name": "buffer_overrun_complex_03_sub",
+                    "size": "24"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.10",
+                    "name": "buffer_overrun_complex_03",
+                    "size": "60"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.11",
+                    "name": "memory_leak_01_sub",
+                    "size": "81"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.12",
+                    "name": "memory_leak_01_main",
+                    "size": "84"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.13",
+                    "name": "memory_leak_complex_01_sub",
+                    "size": "81"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.14",
+                    "name": "memory_leak_complex_01_sub_free",
+                    "size": "9"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.15",
+                    "name": "memory_leak_complex_01_main",
+                    "size": "72"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.16",
+                    "name": "resource_leak_01_sub",
+                    "size": "78"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.17",
+                    "name": "resource_leak_01_main",
+                    "size": "75"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.18",
+                    "name": "resource_leak_complex_01_sub",
+                    "size": "78"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.19",
+                    "name": "resource_leak_complex_01_sub_close",
+                    "size": "9"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.20",
+                    "name": "resource_leak_complex_01_main",
+                    "size": "114"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.21",
+                    "name": "null_deref_01_sub",
+                    "size": "21"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.22",
+                    "name": "null_deref_01_main",
+                    "size": "39"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.23",
+                    "name": "null_deref_complex_01_sub",
+                    "size": "21"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.24",
+                    "name": "null_deref_complex_01_sub2",
+                    "size": "15"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.25",
+                    "name": "null_deref_complex_01_main",
+                    "size": "27"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.26",
+                    "name": "null_deref_02_main",
+                    "size": "54"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.27",
+                    "name": "null_deref_complex_02_sub",
+                    "size": "18"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.28",
+                    "name": "null_deref_complex_02_main",
+                    "size": "27"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.29",
+                    "name": "null_deref_03_main",
+                    "size": "48"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.30",
+                    "name": "divide_by_zero_03",
+                    "size": "69"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.31",
+                    "name": "divide_by_zero_complex_03_sub",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.32",
+                    "name": "divide_by_zero_complex_03",
+                    "size": "51"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.33",
+                    "name": "divide_by_zero_04",
+                    "size": "45"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.34",
+                    "name": "divide_by_zero_complex_04_sub",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
+                    "ID": "1.60.35",
+                    "name": "divide_by_zero_complex_04",
                     "size": "42"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.36",
+                    "name": "double_free_sub",
+                    "size": "18"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.37",
+                    "name": "double_free_main",
+                    "size": "102"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.38",
+                    "name": "double_free_complex_sub",
+                    "size": "21"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.39",
+                    "name": "double_free_complex_main",
+                    "size": "102"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.40",
+                    "name": "use_after_free",
+                    "size": "18"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.41",
+                    "name": "use_after_free_complex_sub",
+                    "size": "9"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.42",
+                    "name": "use_after_free_complex",
+                    "size": "18"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.43",
+                    "name": "return_pointer_to_freed",
+                    "size": "39"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.44",
+                    "name": "return_pointer_to_freed_complex_sub",
+                    "size": "9"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.45",
+                    "name": "return_pointer_to_freed_complex",
+                    "size": "39"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.46",
+                    "name": "uninit",
+                    "size": "54"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.47",
+                    "name": "uninit_sub",
+                    "size": "36"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.48",
+                    "name": "uninit_main",
+                    "size": "30"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.49",
+                    "name": "return_pointer_to_local",
+                    "size": "27"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.50",
+                    "name": "free_non_heap",
+                    "size": "84"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.51",
+                    "name": "pass_by_value",
+                    "size": "21"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.52",
+                    "name": "missing_return",
+                    "size": "51"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.53",
+                    "name": "cast_alters_value",
+                    "size": "57"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.54",
+                    "name": "free_null_pointer_call",
+                    "size": "9"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.55",
+                    "name": "free_null_pointer_main",
+                    "size": "27"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.56",
+                    "name": "memcpy_with_overlapping_regions",
+                    "size": "66"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.57",
+                    "name": "null_check_after_dereference",
+                    "size": "48"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.58",
+                    "name": "shift_exceeds_bit_width",
+                    "size": "45"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.59",
+                    "name": "shift_negative",
+                    "size": "48"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
+                    "ID": "1.60.60",
+                    "name": "underrun_static",
                     "size": "42"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.61",
+                    "name": "underrun_static_bad_condition",
+                    "size": "45"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.62",
+                    "name": "type_underrun_static",
+                    "size": "36"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.63",
+                    "name": "type_underrun_bad",
+                    "size": "48"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.64",
+                    "name": "unresonable_parameter",
+                    "size": "54"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.65",
+                    "name": "format_string",
+                    "size": "30"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.66",
+                    "name": "unreachable_code",
+                    "size": "33"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.67",
+                    "name": "ignored_return_value",
+                    "size": "45"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.68",
+                    "name": "ignored_return_2_sub",
+                    "size": "18"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.69",
+                    "name": "ignored_return_2_main",
+                    "size": "30"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.70",
+                    "name": "checked_return",
+                    "size": "243"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.71",
+                    "name": "dangerous_func_cast_sub",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.72",
+                    "name": "dangerous_func_cast_main",
+                    "size": "21"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.73",
+                    "name": "varargs_func_cast_sub",
+                    "size": "3"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.74",
+                    "name": "varargs_func_cast_main",
+                    "size": "21"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.75",
+                    "name": "overrun_pf",
+                    "size": "84"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.76",
+                    "name": "information_leak",
+                    "size": "36"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.77",
+                    "name": "argument_number_mismatch1",
+                    "size": "15"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.78",
+                    "name": "argument_number_mismatch2",
+                    "size": "3"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
+                    "ID": "1.60.79",
+                    "name": "double_close",
                     "size": "42"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.80",
+                    "name": "redundant_condition1",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.81",
+                    "name": "redundant_condition2",
+                    "size": "12"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.82",
+                    "name": "redundant_condition3",
+                    "size": "57"
                 },
                 {
-                    "ID": "1.60.84",
-                    "name": "missing_function_return",
-                    "size": "42"
+                    "ID": "1.60.83",
+                    "name": "minimal_scope",
+                    "size": "30"
                 },
                 {
                     "ID": "1.60.84",
@@ -1378,24 +1378,24 @@
         {
             "children": [
                 {
-                    "ID": "1.64.5",
-                    "name": "env",
-                    "size": "33"
+                    "ID": "1.64.1",
+                    "name": "exit1",
+                    "size": "9"
                 },
                 {
-                    "ID": "1.64.5",
-                    "name": "env",
-                    "size": "33"
+                    "ID": "1.64.2",
+                    "name": "exit2",
+                    "size": "24"
                 },
                 {
-                    "ID": "1.64.5",
-                    "name": "env",
-                    "size": "33"
+                    "ID": "1.64.3",
+                    "name": "func2",
+                    "size": "3"
                 },
                 {
-                    "ID": "1.64.5",
-                    "name": "env",
-                    "size": "33"
+                    "ID": "1.64.4",
+                    "name": "func1",
+                    "size": "3"
                 },
                 {
                     "ID": "1.64.5",
@@ -1408,9 +1408,9 @@
         {
             "children": [
                 {
-                    "ID": "1.65.2",
-                    "name": "decision2",
-                    "size": "180"
+                    "ID": "1.65.1",
+                    "name": "decision",
+                    "size": "243"
                 },
                 {
                     "ID": "1.65.2",
@@ -1473,9 +1473,9 @@
         {
             "children": [
                 {
-                    "ID": "1.71.2",
-                    "name": "goodTest",
-                    "size": "15"
+                    "ID": "1.71.1",
+                    "name": "badTest",
+                    "size": "27"
                 },
                 {
                     "ID": "1.71.2",
@@ -1488,9 +1488,9 @@
         {
             "children": [
                 {
-                    "ID": "1.72.2",
-                    "name": "goodUsage",
-                    "size": "21"
+                    "ID": "1.72.1",
+                    "name": "badUsage",
+                    "size": "15"
                 },
                 {
                     "ID": "1.72.2",
@@ -1503,8 +1503,8 @@
         {
             "children": [
                 {
-                    "ID": "1.73.2",
-                    "name": "goodFoo",
+                    "ID": "1.73.1",
+                    "name": "badFoo",
                     "size": "39"
                 },
                 {
@@ -1528,9 +1528,9 @@
         {
             "children": [
                 {
-                    "ID": "1.75.2",
-                    "name": "goodFoo",
-                    "size": "69"
+                    "ID": "1.75.1",
+                    "name": "badFoo",
+                    "size": "78"
                 },
                 {
                     "ID": "1.75.2",
@@ -1543,13 +1543,13 @@
         {
             "children": [
                 {
-                    "ID": "1.76.3",
-                    "name": "goodDBIO",
+                    "ID": "1.76.1",
+                    "name": "badDBIOWithoutRollback",
                     "size": "3"
                 },
                 {
-                    "ID": "1.76.3",
-                    "name": "goodDBIO",
+                    "ID": "1.76.2",
+                    "name": "badDBIOWithoutCommit",
                     "size": "3"
                 },
                 {
@@ -1583,18 +1583,18 @@
         {
             "children": [
                 {
-                    "ID": "1.79.4",
-                    "name": "badError2",
+                    "ID": "1.79.1",
+                    "name": "badError",
                     "size": "15"
                 },
                 {
-                    "ID": "1.79.4",
-                    "name": "badError2",
-                    "size": "15"
+                    "ID": "1.79.2",
+                    "name": "goodError",
+                    "size": "27"
                 },
                 {
-                    "ID": "1.79.4",
-                    "name": "badError2",
+                    "ID": "1.79.3",
+                    "name": "goodError2",
                     "size": "15"
                 },
                 {
@@ -1608,14 +1608,14 @@
         {
             "children": [
                 {
-                    "ID": "1.80.3",
-                    "name": "test_strcpy_dyn",
-                    "size": "81"
+                    "ID": "1.80.1",
+                    "name": "aux_test_extreme",
+                    "size": "27"
                 },
                 {
-                    "ID": "1.80.3",
-                    "name": "test_strcpy_dyn",
-                    "size": "81"
+                    "ID": "1.80.2",
+                    "name": "test_extreme",
+                    "size": "48"
                 },
                 {
                     "ID": "1.80.3",
@@ -1638,14 +1638,14 @@
         {
             "children": [
                 {
-                    "ID": "1.82.3",
-                    "name": "MEM08_main",
-                    "size": "66"
+                    "ID": "1.82.1",
+                    "name": "returnRealloc",
+                    "size": "18"
                 },
                 {
-                    "ID": "1.82.3",
-                    "name": "MEM08_main",
-                    "size": "66"
+                    "ID": "1.82.2",
+                    "name": "test",
+                    "size": "33"
                 },
                 {
                     "ID": "1.82.3",
@@ -1678,9 +1678,9 @@
         {
             "children": [
                 {
-                    "ID": "1.85.2",
-                    "name": "foo2",
-                    "size": "72"
+                    "ID": "1.85.1",
+                    "name": "foo",
+                    "size": "12"
                 },
                 {
                     "ID": "1.85.2",
@@ -1713,29 +1713,29 @@
         {
             "children": [
                 {
-                    "ID": "1.88.6",
-                    "name": "mismatch_new_to_free",
+                    "ID": "1.88.1",
+                    "name": "mismatch_malloc_to_delete",
+                    "size": "27"
+                },
+                {
+                    "ID": "1.88.2",
+                    "name": "mismatch_malloc_to_delete_array",
+                    "size": "27"
+                },
+                {
+                    "ID": "1.88.3",
+                    "name": "mismatch_new_array_to_delete",
+                    "size": "18"
+                },
+                {
+                    "ID": "1.88.4",
+                    "name": "mismatch_new_array_to_free",
                     "size": "21"
                 },
                 {
-                    "ID": "1.88.6",
-                    "name": "mismatch_new_to_free",
-                    "size": "21"
-                },
-                {
-                    "ID": "1.88.6",
-                    "name": "mismatch_new_to_free",
-                    "size": "21"
-                },
-                {
-                    "ID": "1.88.6",
-                    "name": "mismatch_new_to_free",
-                    "size": "21"
-                },
-                {
-                    "ID": "1.88.6",
-                    "name": "mismatch_new_to_free",
-                    "size": "21"
+                    "ID": "1.88.5",
+                    "name": "mismatch_new_to_delete_array",
+                    "size": "18"
                 },
                 {
                     "ID": "1.88.6",
@@ -1768,8 +1768,8 @@
         {
             "children": [
                 {
-                    "ID": "1.91.2",
-                    "name": "goodFoo",
+                    "ID": "1.91.1",
+                    "name": "badFoo",
                     "size": "30"
                 },
                 {
@@ -1793,8 +1793,8 @@
         {
             "children": [
                 {
-                    "ID": "1.93.2",
-                    "name": "goodPadding",
+                    "ID": "1.93.1",
+                    "name": "badPadding",
                     "size": "54"
                 },
                 {
@@ -1828,24 +1828,24 @@
         {
             "children": [
                 {
-                    "ID": "1.96.5",
-                    "name": "xman",
-                    "size": "87"
+                    "ID": "1.96.1",
+                    "name": "foo1",
+                    "size": "66"
                 },
                 {
-                    "ID": "1.96.5",
-                    "name": "xman",
-                    "size": "87"
+                    "ID": "1.96.2",
+                    "name": "foo2",
+                    "size": "72"
                 },
                 {
-                    "ID": "1.96.5",
-                    "name": "xman",
-                    "size": "87"
+                    "ID": "1.96.3",
+                    "name": "bar1",
+                    "size": "72"
                 },
                 {
-                    "ID": "1.96.5",
-                    "name": "xman",
-                    "size": "87"
+                    "ID": "1.96.4",
+                    "name": "bar2",
+                    "size": "72"
                 },
                 {
                     "ID": "1.96.5",
@@ -1878,9 +1878,9 @@
         {
             "children": [
                 {
-                    "ID": "1.99.2",
-                    "name": "goodLoop",
-                    "size": "78"
+                    "ID": "1.99.1",
+                    "name": "badLoop",
+                    "size": "75"
                 },
                 {
                     "ID": "1.99.2",

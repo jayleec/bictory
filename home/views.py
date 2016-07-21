@@ -90,6 +90,7 @@ def convert(request):
         fundict = {}
         # child2 = function
         for child2 in child[1]:  # 소스파일 단위로 for loop
+            fundict = {}
             numberOfFunction += 1
 
             cw.writerow(["\"" + child2[0].text + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
