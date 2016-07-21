@@ -24,14 +24,20 @@ def calculate(request):
     numberOfFunction = 0
     totalCpntLenOfProject = 0
     StructurednessScoreOfFile = 0
+
+    funcarr = []
+    funcdict = {}
+
     for child in root:
         numberOfFile += 1
         sumOfTheNumberOfFunctions += len(child[1])
         print("File Path : ", child[0].text) # 파일 경로 출력
         print("Number of functions: ", len(child[1])) # function의 개수
         numberOfFunction = len(child[1])
-
+        function_number = 0
         for child2 in child[1]: # 소스파일 단위로 for loop
+            function_number += 1
+            funcdict = {}
             # print(child2[5].text) # component length 출력
             cpntLenOfFunction = float(child2[5].text)
             totalCpntLenOfFunction += cpntLenOfFunction
@@ -60,6 +66,10 @@ def calculate(request):
                         StructurednessScoreOfFile -= 20
 
             print("Function score(Structuredness) : ", StructurednessScoreOfFile)
+            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
+            funcdict['Structuredness'] = str(StructurednessScoreOfFile)
+            funcarr.append(funcdict)
+
             # 이거를 Dictionnary에다가 넣어서 저장 1.100.1  (프로젝트 번호.파일 번호. 펑션 번호)
 
 
@@ -68,6 +78,9 @@ def calculate(request):
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
+    print("Print Structredness Result")
+    for i in funcarr:
+        print(i['ID'], "Structredness Score: ",i['Structuredness'])
 
     print("Average Cpnt length of each file in this project : ", totalCpntLenOfProject / numberOfFile)
     print("Average Number of Function : ", sumOfTheNumberOfFunctions / numberOfFile)
