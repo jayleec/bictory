@@ -34,16 +34,21 @@ def d3test(request):
     structuredness = 0
     testability = 0
 
+    numOfFunctions = 0
     complexity_list = []
+    aveComplexity = 0
 
     for child in root:
-        print("File Path : ", child[0].text)  # 파일 경로 출력
+        #print("File Path : ", child[0].text)  # 파일 경로 출력
+        numOfFunctions += len(child[1])
         for child2 in child[1]:  # 소스파일 단위로 for loop
             complexity = cal_complexity(child2)
             complexity_list.append(complexity)
-            print("list added: ", complexity)
+            aveComplexity = ave_complexity(complexity_list,numOfFunctions)
+            #print("list added: ", complexity)
 
-    return render(request, 'd3_test.html', {'content': complexity_list})
+    return render(request, 'd3_test.html', {'complexity_list': complexity_list ,
+                                            'aveComplexity': aveComplexity})
 
 def cal_complexity(child2):
     sumofcom = 0
@@ -72,6 +77,12 @@ def cal_complexity(child2):
         sumofcom += 9
     return sumofcom
 
+def ave_complexity(complexity_list, numOfFunctions):
+    sumtemp = 0
+    for c in complexity_list:
+        sumtemp += c
+
+    return sumtemp/numOfFunctions
 
 
 def report(request):
