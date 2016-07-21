@@ -1,4 +1,8 @@
+from django.http import HttpResponse
 from django.shortcuts import render
+from django.template import loader
+import xml.etree.ElementTree as ET
+from .models import functionScore
 
 # Create your views here.
 
@@ -22,3 +26,23 @@ def visual(request):
 
 def d3test(request):
     return render(request, 'd3_test.html')
+
+def report(request):
+    return render(request, 'report.html')
+
+def pullMetricFromXml(request):
+    tree = ET.parse("/Users/jay/torch_5th/home/static/data/crulechk.0.xml")
+    root = tree.getroot()
+
+
+    all_functions = functionScore.objects.all()
+    template = loader.get_template('d3_test.html')
+    context = {
+        'functionID': all_functions,
+    }
+
+    for child in root:
+        print(child.tag)
+        print(child.attrib)
+    return HttpResponse(template.render(context, request))
+

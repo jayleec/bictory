@@ -11,5 +11,5 @@ urlpatterns = [
     url(r'^report/$', views.report, name='report'),
     url(r'^forgot_password/$', views.forgot_password, name='forgot_password'),
     url(r'^visual/$', views.visual, name='visual'),
-    url(r'^d3test/$', views.d3test, name='d3'),
+    url(r'^d3test/$', views.pullMetricFromXml, name='d3'),
 ]

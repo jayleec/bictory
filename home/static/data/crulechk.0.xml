@@ -10220,7 +10220,7 @@
 				<ocr_oprd>6</ocr_oprd>
 				<cpnt_len>18</cpnt_len>
 				<cpnt_vol>66.6</cpnt_vol>
-				<cpnt_voca>13</cpnt_voca>
+				<cpnt_voca>13</cpnt_voca>   #7
 				<prg_lv>1.11</prg_lv>
 				<prg_dif>0.9</prg_dif>
 				<cpnt_eff>59.94</cpnt_eff>
@@ -10233,7 +10233,7 @@
 				<uncond_num>0</uncond_num>
 				<goto_num>0</goto_num>
 				<dcs_stmt>0</dcs_stmt>
-				<avg_stmt>3</avg_stmt>
+				<avg_stmt>3</avg_stmt>   #20
 				<lang_scope>1.38</lang_scope>
 				<param_num>1</param_num>
 				<call_num>0</call_num>
