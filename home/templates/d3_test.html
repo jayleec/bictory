@@ -6,11 +6,12 @@
 </head>
 <body>
 <p>function 별 점수 뽑기 </p>
+{% block content %}
 
-    {% for func in functionScore %}
-    <a href="{{func.id}}">
+    {{content}}
 
-    {% endfor %}
+
+{% endblock %}
 
 </body>
 </html>

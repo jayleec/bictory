@@ -26,10 +26,58 @@ def visual(request):
     return render(request, 'visualTest.html')
 
 def d3test(request):
-    return render(request, 'd3_test.html')
+    tree = ET.parse("home/static/data/crulechk.0.xml")
+    root = tree.getroot()
+
+    complexity = 0
+    maintainability = 0
+    structuredness = 0
+    testability = 0
+
+    complexity_list = []
+
+    for child in root:
+        print("File Path : ", child[0].text)  # 파일 경로 출력
+        for child2 in child[1]:  # 소스파일 단위로 for loop
+            complexity = cal_complexity(child2)
+            complexity_list.append(complexity)
+            print("list added: ", complexity)
+
+    return render(request, 'd3_test.html', {'content': complexity_list})
+
+def cal_complexity(child2):
+    sumofcom = 0
+    # number of statements less 9 = 0
+    if float(child2[15].text) < 9:
+        sumofcom += 9
+    if float(child2[2].text) < 50:
+        sumofcom += 9
+    if float(child2[1].text) < 35:
+        sumofcom += 9
+    if float(child2[4].text) < 120:
+        sumofcom += 9
+    if float(child2[3].text) < 140:
+        sumofcom += 9
+    if 3 <= float(child2[7].text) <= 75:
+        sumofcom += 9
+    if 3 <= float(child2[5].text) <= 250:
+        sumofcom += 10
+    if float(child2[20].text) < 8:
+        sumofcom += 9
+    if float(child2[25].text) < 15:
+        sumofcom += 9
+    if float(child2[19].text) < 9:
+        sumofcom += 9
+    if float(child2[16].text) < 7:
+        sumofcom += 9
+    return sumofcom
+
+
 
 def report(request):
     return render(request, 'report.html')
+
+
 
 def convert(request):
 
