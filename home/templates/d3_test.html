@@ -5,12 +5,14 @@
     <title>Title</title>
 </head>
 <body>
-<p>function 별 점수 뽑기 </p>
+<p>function 별 complexity 점수 뽑기 </p>
+{% block content %}
+    <p>모든 function의 점수</p>
+    <p>{{ complexity_list }}</p>
 
-    {% for func in functionScore %}
-    <a href="{{func.id}}">
-
-    {% endfor %}
+    <p>전체 프로젝트 평균 점수</p>
+    <p>{{ aveComplexity }}</p>
+{% endblock %}
 
 </body>
 </html>
