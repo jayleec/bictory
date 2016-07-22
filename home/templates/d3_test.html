@@ -1,18 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<p>function 별 complexity 점수 뽑기 </p>
+{% extends 'base.html' %}
 {% block content %}
+<script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+<script src="/static/js/liquidFillGauge.js" language="JavaScript"></script>
+
+<p>function 별 complexity 점수 뽑기 </p>
+
+
     <p>모든 function의 점수</p>
     <p>{{ complexity_list }}</p>
 
     <p>전체 프로젝트 평균 점수</p>
     <p>{{ aveComplexity }}</p>
+
+<svg id="fillgauge1" width="97%" height="250" onclick="gauge1.update(NewValue());"></svg>
+
+<script language="JavaScript">
+    var complexity = "{{ aveComplexity }}";
+
+    var gauge1 = loadLiquidFillGauge("fillgauge1", complexity); // (elementId,value, config)
+    var config1 = liquidFillGaugeDefaultSettings();
+    config1.circleColor = "#FF7777";
+    config1.textColor = "#FF4444";
+    config1.waveTextColor = "#FFAAAA";
+    config1.waveColor = "#FFDDDD";
+    config1.circleThickness = 0.2;
+    config1.textVertPosition = 0.2;
+    config1.waveAnimateTime = 1000;
+
+
+
+
+</script>
+
 {% endblock %}
 
-</body>
-</html>
+
