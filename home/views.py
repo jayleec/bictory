@@ -45,10 +45,78 @@ def d3test(request):
             complexity = cal_complexity(child2)
             complexity_list.append(complexity)
             aveComplexity = ave_complexity(complexity_list,numOfFunctions)
-            #print("list added: ", complexity)
+
+            rest_result = []
+            rest_result = cal_rest(child2) # structure, test, understand 값이 리스트로 담김
 
     return render(request, 'd3_test.html', {'complexity_list': complexity_list ,
-                                            'aveComplexity': aveComplexity})
+                                            'aveComplexity': aveComplexity,
+                                            'structuredness': rest_result[0]})
+
+def cal_rest(child2):
+    structurednessScoreOfFunction = 100
+    testabilityScoreOfFunction = 100
+    understandabilityScoreOfFunction = 100
+
+    result = []
+
+    for child3 in child2:  # function 단위로 for loop
+        if child3.tag == 'stmt_num':
+            if int(child3.text) > 80:  # 80이하여야 한다.
+                understandabilityScoreOfFunction -= 15
+
+        if child3.tag == 'cyclomatic':
+            if int(child3.text) > 5:
+                structurednessScoreOfFunction -= 20
+                testabilityScoreOfFunction -= 25
+
+        # 고유의 오퍼랜드 개수가 50개를 넘어가면 이해도가 감소할 것이다.
+        if child3.tag == 'd_oprd':
+            if int(child3.text) > 50:
+                testabilityScoreOfFunction -= 25
+                understandabilityScoreOfFunction -= 15
+
+        if child3.tag == 'd_optr':
+            if int(child3.text) > 35:  # 제한은 35이다.
+                understandabilityScoreOfFunction -= 15
+
+        if child3.tag == 'cpnt_voca':
+            if int(child3.text) < 3 or int(child3.text) > 75:
+                understandabilityScoreOfFunction -= 15
+
+        if child3.tag == 'avg_stmt':
+            if float(child3.text) > 8:
+                understandabilityScoreOfFunction -= 15
+
+        if child3.tag == 'cpnt_len':
+            if int(child3.text) < 3 or int(child3.text) > 250:
+                understandabilityScoreOfFunction -= 25
+        # Number of Decision Statements의 총 개수는 9보다 작아야 한다.
+        if child3.tag == 'dcs_stmt':
+            if int(child3.text) > 8:
+                testabilityScoreOfFunction -= 25
+
+        if child3.tag == 'entry_ptr':
+            if int(child3.text) != 1:
+                structurednessScoreOfFunction -= 20
+
+        if child3.tag == 'exit_pnt':
+            if int(child3.text) != 1:
+                structurednessScoreOfFunction -= 20
+
+        if child3.tag == 'strc_lv':
+            if int(child3.text) > 7:
+                structurednessScoreOfFunction -= 20
+
+        if child3.tag == 'uncond_num':
+            if int(child3.text) > 0:
+                structurednessScoreOfFunction -= 20
+                testabilityScoreOfFunction -= 25
+        result.append(structurednessScoreOfFunction)
+        result.append(testabilityScoreOfFunction)
+        result.append(understandabilityScoreOfFunction)
+        print("result: ", result[0], result[1], result[2])
+        return result
 
 def cal_complexity(child2):
     sumofcom = 0

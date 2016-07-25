@@ -12,7 +12,11 @@
     <p>전체 프로젝트 평균 점수</p>
     <p>{{ aveComplexity }}</p>
 
+    <p>Structuredness<p>
+    <p>{{ structuredness }}</p>
+
 <svg id="fillgauge1" width="97%" height="250" onclick="gauge1.update(NewValue());"></svg>
+<svg id="fillgauge2" width="19%" height="200" onclick="gauge2.update(NewValue());"></svg>
 
 <script language="JavaScript">
     var complexity = "{{ aveComplexity }}";
@@ -27,8 +31,19 @@
     config1.textVertPosition = 0.2;
     config1.waveAnimateTime = 1000;
 
-
-
+    var structuredness = "{{ structuredness }}"
+    var gauge2= loadLiquidFillGauge("fillgauge2", structuredness, config1);
+    var config2 = liquidFillGaugeDefaultSettings();
+    config2.circleColor = "#D4AB6A";
+    config2.textColor = "#553300";
+    config2.waveTextColor = "#805615";
+    config2.waveColor = "#AA7D39";
+    config2.circleThickness = 0.1;
+    config2.circleFillGap = 0.2;
+    config2.textVertPosition = 0.8;
+    config2.waveAnimateTime = 2000;
+    config2.waveHeight = 0.3;
+    config2.waveCount = 1;
 
 </script>
 
