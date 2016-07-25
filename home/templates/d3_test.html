@@ -2,21 +2,41 @@
 {% block content %}
 <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
 <script src="/static/js/liquidFillGauge.js" language="JavaScript"></script>
+    <style>
+        .liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+        #scoreboard {
+            float: left;
+            margin-left: 20px;
+            margin-right: 34px;
+            font-size: 18px;
+            font-weight: bold;
+        }
 
-<p>function 별 complexity 점수 뽑기 </p>
+    </style>
 
 
-    <p>모든 function의 점수</p>
-    <p>{{ complexity_list }}</p>
-
-    <p>전체 프로젝트 평균 점수</p>
-    <p>{{ aveComplexity }}</p>
-
-    <p>Structuredness<p>
-    <p>{{ structuredness }}</p>
-
-<svg id="fillgauge1" width="97%" height="250" onclick="gauge1.update(NewValue());"></svg>
+<svg id="fillgauge1" width="19%" height="200" onclick="gauge1.update(NewValue());"></svg>
 <svg id="fillgauge2" width="19%" height="200" onclick="gauge2.update(NewValue());"></svg>
+<svg id="fillgauge3" width="19%" height="200" onclick="gauge3.update(NewValue());"></svg>
+<svg id="fillgauge4" width="19%" height="200" onclick="gauge4.update(NewValue());"></svg>
+<svg id="fillgauge5" width="19%" height="200" onclick="gauge5.update(NewValue());"></svg>
+<br>
+<div id="scoreboard">
+COMPLEXITY
+</div>
+<div id="scoreboard">
+STRUCTURDNESS
+</div>
+<div id="scoreboard">
+TEXTABILITY
+</div>
+<div id="scoreboard">
+UNDERSTANDABILITY
+</div>
+<div id="scoreboard">
+MAINTAINABILITY
+</div>
+
 
 <script language="JavaScript">
     var complexity = "{{ aveComplexity }}";
@@ -44,6 +64,40 @@
     config2.waveAnimateTime = 2000;
     config2.waveHeight = 0.3;
     config2.waveCount = 1;
+
+
+    var testability = "{{ testability }}"
+    var gauge3 = loadLiquidFillGauge("fillgauge3", testability, config2);
+    var config3 = liquidFillGaugeDefaultSettings();
+    config3.textVertPosition = 0.8;
+    config3.waveAnimateTime = 5000;
+    config3.waveHeight = 0.15;
+    config3.waveAnimate = false;
+    config3.waveOffset = 0.25;
+    config3.valueCountUp = false;
+    config3.displayPercent = false;
+
+    var understandability = "{{ understandability }}"
+    var gauge4 = loadLiquidFillGauge("fillgauge4", understandability, config3);
+
+    var maintainability = "{{ maintainability }}"
+    var config4 = liquidFillGaugeDefaultSettings();
+    config4.circleThickness = 0.15;
+    config4.circleColor = "#808015";
+    config4.textColor = "#555500";
+    config4.waveTextColor = "#FFFFAA";
+    config4.waveColor = "#AAAA39";
+    config4.textVertPosition = 0.8;
+    config4.waveAnimateTime = 1000;
+    config4.waveHeight = 0.05;
+    config4.waveAnimate = true;
+    config4.waveRise = false;
+    config4.waveHeightScaling = false;
+    config4.waveOffset = 0.25;
+    config4.textSize = 0.75;
+    config4.waveCount = 3;
+    var gauge5 = loadLiquidFillGauge("fillgauge5", maintainability, config4);
+
 
 </script>
 

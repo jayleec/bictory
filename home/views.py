@@ -46,12 +46,21 @@ def d3test(request):
             complexity_list.append(complexity)
             aveComplexity = ave_complexity(complexity_list,numOfFunctions)
 
+
             rest_result = []
             rest_result = cal_rest(child2) # structure, test, understand 값이 리스트로 담김
+            maintainability = cal_maintainability(aveComplexity, rest_result[0], rest_result[1], rest_result[2])
 
     return render(request, 'd3_test.html', {'complexity_list': complexity_list ,
                                             'aveComplexity': aveComplexity,
-                                            'structuredness': rest_result[0]})
+                                            'structuredness': rest_result[0],
+                                            'testability': rest_result[1],
+                                            'understandability': rest_result[2],
+                                            'maintainability': maintainability})
+
+def cal_maintainability(comp, stru, test, under):
+    return comp*0.25 + stru * 0.25 + test * 0.25 + under * 0.25
+
 
 def cal_rest(child2):
     structurednessScoreOfFunction = 100
