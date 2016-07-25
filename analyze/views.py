@@ -23,6 +23,11 @@ def calculate(request):
     cpntLenOfFunction = 0
     numberOfFunction = 0
     totalCpntLenOfProject = 0
+    TotalComplexityScore = 0
+    TotalStructurednessScore = 0
+    TotalUnderstandabilityScore = 0
+    TotalMaintainabilityScore = 0
+    TotalTestabilityScore = 0
 
 
     funcarr = []
@@ -64,6 +69,13 @@ def calculate(request):
             # Number of Statements(15), Number of Distinct Operands(15), Number of Distinct Operators(15),
             # Vocabulary Size(15), Average Statement Size(15), Component Length(25)
             UnderstandabilityScoreOfFunction = 100
+
+            if function_number == 1:
+                AverageComplexityOfFile = 0
+                AverageStructurednessOfFile = 0
+                AverageMaintainabilityOfFile = 0
+                AverageTestabilityOfFile = 0
+                AverageUnderstandabilityOfFile = 0
 
             for child3 in child2: # function 단위로 for loop
                 if child3.tag == 'stmt_num':
@@ -144,6 +156,30 @@ def calculate(request):
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
             funcarr.append(funcdict)
 
+            AverageComplexityOfFile += ComplexityScoreOfFunction
+            if function_number == numberOfFunction:
+                AverageComplexityOfFile /= function_number
+                TotalComplexityScore += AverageComplexityOfFile
+
+            AverageTestabilityOfFile += TestabilityScoreOfFunction
+            if function_number == numberOfFunction:
+                AverageTestabilityOfFile /= function_number
+                TotalTestabilityScore += AverageTestabilityOfFile
+
+            AverageStructurednessOfFile += StructurednessScoreOfFunction
+            if function_number == numberOfFunction:
+                AverageStructurednessOfFile /= function_number
+                TotalStructurednessScore += AverageStructurednessOfFile
+
+            AverageMaintainabilityOfFile += MaintainabilityScoreOfFunction
+            if function_number == numberOfFunction:
+                AverageMaintainabilityOfFile /= function_number
+                TotalMaintainabilityScore += AverageMaintainabilityOfFile
+
+            AverageUnderstandabilityOfFile += UnderstandabilityScoreOfFunction
+            if function_number == numberOfFunction:
+                AverageUnderstandabilityOfFile /= function_number
+                TotalUnderstandabilityScore += AverageUnderstandabilityOfFile
 
             # 이거를 Dictionnary에다가 넣어서 저장 1.100.1  (프로젝트 번호.파일 번호. 펑션 번호)
 
@@ -157,10 +193,16 @@ def calculate(request):
     for i in funcarr:
         print(i)
 
+
+
     print("Average Cpnt length of each file in this project : ", totalCpntLenOfProject / numberOfFile)
     print("Average Number of Function : ", sumOfTheNumberOfFunctions / numberOfFile)
     print("Total File : ", numberOfFile) # 전체 파일 개수 출력
-
+    print("Average Complexity : ", TotalComplexityScore / numberOfFile)
+    print("Average Understandabilty : ", TotalUnderstandabilityScore / numberOfFile)
+    print("Average Testability : ", TotalTestabilityScore / numberOfFile)
+    print("Average Maintainability : ", TotalMaintainabilityScore / numberOfFile)
+    print("Average Structredness : ", TotalStructurednessScore / numberOfFile)
     # functionsRoot = fileRoot.findall("functions")
 
     # for child in fileRoot:
@@ -170,8 +212,12 @@ def calculate(request):
     # Find specific tag
     # file_tag = root.find("file")
     # print(file_tag.attrib)
-
-    return HttpResponse("Calculating...")
+    context = {'complexity_score': TotalComplexityScore / numberOfFile,
+               'understandability_score': TotalUnderstandabilityScore / numberOfFile,
+               'testability_score': TotalTestabilityScore / numberOfFile,
+               'maintainability_score': TotalMaintainabilityScore / numberOfFile,
+               'structuredness_score': TotalMaintainabilityScore / numberOfFile,}
+    return render(request, 'dashboard.html', context)
 
 def visualize(request):
     return render(request, 'analyze/visualize.html')
