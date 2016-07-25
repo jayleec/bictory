@@ -85,6 +85,8 @@ def ave_complexity(complexity_list, numOfFunctions):
     return sumtemp/numOfFunctions
 
 
+
+
 def report(request):
     return render(request, 'report.html')
 
