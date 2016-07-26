@@ -2,8 +2,12 @@ from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
 import json
 import csv
+<<<<<<< HEAD
 import locale
 locale.setlocale(locale.LC_ALL, '')
+=======
+import statistics
+>>>>>>> a9153d3fd4aab9f9ffbab035555120e97cbd193a
 
 # import cElementTree as ElementTree
 
@@ -63,8 +67,8 @@ def d3test(request):
         numOfFunctions += len(child[1])
         numberOfFile += 1
         sumOfTheNumberOfFunctions += len(child[1])
-        print("File Path : ", child[0].text) # 파일 경로 출력
-        print("Number of functions: ", len(child[1])) # function의 개수
+        #print("File Path : ", child[0].text) # 파일 경로 출력
+        #ßprint("Number of functions: ", len(child[1])) # function의 개수
         numberOfFunction = len(child[1])
         function_number = 0
         for child2 in child[1]:  # 소스파일 단위로 for loop
@@ -155,32 +159,19 @@ def d3test(request):
                         StructurednessScoreOfFunction -= 20
                         TestabilityScoreOfFunction -= 25
 
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Structuredness"
-            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Complexity"
-            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Testability"
-            funcdict['Testability'] = str(TestabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Understandabilty"
-            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Maintainability"
+
+            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
+            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
+            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
+            funcdict['Testability'] = str(TestabilityScoreOfFunction)
+            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
             funcarr.append(funcdict)
+            funcdict = {}
 
             AverageComplexityOfFile += ComplexityScoreOfFunction
+            # 마지막 function에서 그 파일의 평균 점수를 구한다.
             if function_number == numberOfFunction:
                 AverageComplexityOfFile /= function_number
                 TotalComplexityScore += AverageComplexityOfFile
@@ -205,14 +196,17 @@ def d3test(request):
                 AverageUnderstandabilityOfFile /= function_number
                 TotalUnderstandabilityScore += AverageUnderstandabilityOfFile
 
-                # 이거를 Dictionnary에다가 넣어서 저장 1.100.1  (프로젝트 번호.파일 번호. 펑션 번호)
-
         averageCpntLenOfFile = totalCpntLenOfFunction / numberOfFunction
         totalCpntLenOfProject += averageCpntLenOfFile
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
 
+
+
+    #표준편차 출력
+    print("standardDeviation(funcarr)",standardDeviation(funcarr))
+    print(get1(funcarr))
 
     #프로젝트 최종 점수 계산
     aveStructure = TotalMaintainabilityScore / numberOfFile
@@ -228,6 +222,41 @@ def d3test(request):
                                             'understandability': aveUnderstand,
                                             'maintainability':  aveMaintainability,
                                             'projectScore': projectScore})
+
+def getIntegerParts(data):
+    return int(data)
+
+def getFractionalParts(data):
+    return data - int(data)
+
+#딕셔너리 리스트로 받아서 표준편차 계산 표준편차값 리턴함
+def standardDeviation(data):
+    temp = []
+    for i in data:
+        print(i["Understandabilty"])
+        temp.append(float(i["Understandabilty"]))
+    return statistics.variance(temp)
+
+#1사분위수
+def get1(data):
+    temp = []
+    for i in data:
+        temp.append(float(i["Understandabilty"]))
+
+    dataLength = len(temp)
+    print("data length = ",dataLength)
+    order = float(dataLength + 1.0)/4.0
+
+    intPart = getIntegerParts(order)
+    fractionalPart = getFractionalParts(order)
+
+    leftWeight = 1 - fractionalPart
+    rightWeight = fractionalPart
+
+    target1 = temp[intPart - 1]
+    target2 = temp[intPart]
+
+    return target1*leftWeight + target2+rightWeight
 
 
 def cal_projectScore(comp, stru, text, under, main):
