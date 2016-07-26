@@ -12,7 +12,6 @@ def calculate(request):
 
     data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
-    print(len(root))
 
     # 메트릭 개수는 항상 27개
     # 전체 파일 개수
@@ -29,25 +28,23 @@ def calculate(request):
     TotalMaintainabilityScore = 0
     TotalTestabilityScore = 0
 
-
     funcarr = []
     funcdict = {}
 
-    for child in root:
+    for child in root: # child = file
         numberOfFile += 1
         sumOfTheNumberOfFunctions += len(child[1])
         print("File Path : ", child[0].text) # 파일 경로 출력
         print("Number of functions: ", len(child[1])) # function의 개수
         numberOfFunction = len(child[1])
         function_number = 0
-        for child2 in child[1]: # 소스파일 단위로 for loop
+        for child2 in child[1]: # 소스파일 단위로 for loop , child[1] = <functions>, child2 = <function>
             function_number += 1
             funcdict = {}
-            # print(child2[5].text) # component length 출력
             cpntLenOfFunction = float(child2[5].text)
             totalCpntLenOfFunction += cpntLenOfFunction
 
-            # MARK : Check
+            # MARK : Complexity 계산 안되있음
 
             # Number of Statements(9), Number of Distinct Operands(9), Number of Distinct Operators(9),
             # Number of Operand Occurences(9), Number of Operator Occurrences(9), Vocabulary Size(9),
@@ -77,41 +74,50 @@ def calculate(request):
                 AverageTestabilityOfFile = 0
                 AverageUnderstandabilityOfFile = 0
 
-            for child3 in child2: # function 단위로 for loop
+            for child3 in child2: # function 단위로 for loop, child3는 각 메트릭
                 if child3.tag == 'stmt_num':
                     if int(child3.text) > 80: # 80이하여야 한다.
                         UnderstandabilityScoreOfFunction -= 15
+                        ComplexityScoreOfFunction -= 9
 
                 if child3.tag == 'cyclomatic':
                     if int(child3.text) > 5:
                         StructurednessScoreOfFunction -= 20
                         TestabilityScoreOfFunction -= 25
+                        ComplexityScoreOfFunction -= 9
 
                 # 고유의 오퍼랜드 개수가 50개를 넘어가면 이해도가 감소할 것이다.
                 if child3.tag == 'd_oprd':
                     if int(child3.text) > 50:
                         TestabilityScoreOfFunction -= 25
                         UnderstandabilityScoreOfFunction -= 15
+                        ComplexityScoreOfFunction -= 9
 
                 if child3.tag == 'd_optr':
                     if int(child3.text) > 35: # 제한은 35이다.
                         UnderstandabilityScoreOfFunction -= 15
+                        ComplexityScoreOfFunction -= 9
 
                 if child3.tag == 'cpnt_voca':
                     if int(child3.text) < 3 or int(child3.text) > 75:
                         UnderstandabilityScoreOfFunction -= 15
+                        ComplexityScoreOfFunction -= 9
 
                 if child3.tag == 'avg_stmt':
                     if float(child3.text) > 8:
                         UnderstandabilityScoreOfFunction -= 15
+                        ComplexityScoreOfFunction -= 9
 
                 if child3.tag == 'cpnt_len':
                     if int(child3.text) < 3 or int(child3.text) > 250:
                         UnderstandabilityScoreOfFunction -= 25
+                        ComplexityScoreOfFunction -= 10
                 # Number of Decision Statements의 총 개수는 9보다 작아야 한다.
+
                 if child3.tag == 'dcs_stmt':
                     if int(child3.text) > 8:
                          TestabilityScoreOfFunction -= 25
+                         ComplexityScoreOfFunction -= 9
 
                 if child3.tag == 'entry_ptr':
                     if int(child3.text) != 1:
@@ -124,39 +130,34 @@ def calculate(request):
                 if child3.tag == 'strc_lv':
                     if int(child3.text) > 7:
                         StructurednessScoreOfFunction -= 20
+                        ComplexityScoreOfFunction -= 9
 
                 if child3.tag == 'uncond_num':
                     if int(child3.text) > 0:
                         StructurednessScoreOfFunction -= 20
                         TestabilityScoreOfFunction -= 25
 
+                if child3.tag == 'ocr_oprd':
+                    if int(child3.text) > 120:
+                        ComplexityScoreOfFunction -= 9
 
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Structuredness"
-            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Complexity"
-            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Testability"
-            funcdict['Testability'] = str(TestabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Understandabilty"
-            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
+                if child3.tag == 'ocr_optr':
+                    if int(child3.text) > 140:
+                        ComplexityScoreOfFunction -= 9
 
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Maintainability"
+
+            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
+            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
+            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
+            funcdict['Testability'] = str(TestabilityScoreOfFunction)
+            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
             funcarr.append(funcdict)
+            funcdict = {}
 
             AverageComplexityOfFile += ComplexityScoreOfFunction
+            # 마지막 function에서 그 파일의 평균 점수를 구한다.
             if function_number == numberOfFunction:
                 AverageComplexityOfFile /= function_number
                 TotalComplexityScore += AverageComplexityOfFile
@@ -181,42 +182,30 @@ def calculate(request):
                 AverageUnderstandabilityOfFile /= function_number
                 TotalUnderstandabilityScore += AverageUnderstandabilityOfFile
 
-            # 이거를 Dictionnary에다가 넣어서 저장 1.100.1  (프로젝트 번호.파일 번호. 펑션 번호)
-
-
         averageCpntLenOfFile = totalCpntLenOfFunction / numberOfFunction
         totalCpntLenOfProject += averageCpntLenOfFile
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
-    print("Print Structredness Result")
-    for i in funcarr:
-        print(i)
+    # print("Average Cpnt length of each file in this project : ", totalCpntLenOfProject / numberOfFile)
+    # print("Average Number of Function : ", sumOfTheNumberOfFunctions / numberOfFile)
+    # print("Total File : ", numberOfFile) # 전체 파일 개수 출력
+    # print("Average Complexity : ", TotalComplexityScore / numberOfFile)
+    # print("Average Understandabilty : ", TotalUnderstandabilityScore / numberOfFile)
+    # print("Average Testability : ", TotalTestabilityScore / numberOfFile)
+    # print("Average Maintainability : ", TotalMaintainabilityScore / numberOfFile)
+    # print("Average Structredness : ", TotalStructurednessScore / numberOfFile)
 
-
-
-    print("Average Cpnt length of each file in this project : ", totalCpntLenOfProject / numberOfFile)
-    print("Average Number of Function : ", sumOfTheNumberOfFunctions / numberOfFile)
-    print("Total File : ", numberOfFile) # 전체 파일 개수 출력
-    print("Average Complexity : ", TotalComplexityScore / numberOfFile)
-    print("Average Understandabilty : ", TotalUnderstandabilityScore / numberOfFile)
-    print("Average Testability : ", TotalTestabilityScore / numberOfFile)
-    print("Average Maintainability : ", TotalMaintainabilityScore / numberOfFile)
-    print("Average Structredness : ", TotalStructurednessScore / numberOfFile)
-    # functionsRoot = fileRoot.findall("functions")
-
-    # for child in fileRoot:
-    #     print(child[1])
-    # for child in root:
-    #     print(child[1].tag)
-    # Find specific tag
-    # file_tag = root.find("file")
-    # print(file_tag.attrib)
     context = {'complexity_score': TotalComplexityScore / numberOfFile,
                'understandability_score': TotalUnderstandabilityScore / numberOfFile,
                'testability_score': TotalTestabilityScore / numberOfFile,
                'maintainability_score': TotalMaintainabilityScore / numberOfFile,
-               'structuredness_score': TotalMaintainabilityScore / numberOfFile,}
+               'structuredness_score': TotalStructurednessScore / numberOfFile,}
+
+    # 터미널에 출력
+    for i in funcarr:
+        print(i)
+
     return render(request, 'dashboard.html', context)
 
 def visualize(request):
