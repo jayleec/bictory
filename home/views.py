@@ -2,6 +2,7 @@ from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
 import json
 import csv
+import statistics
 
 # import cElementTree as ElementTree
 
@@ -196,9 +197,11 @@ def d3test(request):
         totalCpntLenOfFunction = 0
 
 
-    #funcarray - ID 출력
-    for i in funcarr:
-        print(i)
+
+
+    #표준편차 출력
+    print("standardDeviation(funcarr)",standardDeviation(funcarr))
+    print(get1(funcarr))
 
     #프로젝트 최종 점수 계산
     aveStructure = TotalMaintainabilityScore / numberOfFile
@@ -214,6 +217,41 @@ def d3test(request):
                                             'understandability': aveUnderstand,
                                             'maintainability':  aveMaintainability,
                                             'projectScore': projectScore})
+
+def getIntegerParts(data):
+    return int(data)
+
+def getFractionalParts(data):
+    return data - int(data)
+
+#딕셔너리 리스트로 받아서 표준편차 계산 표준편차값 리턴함
+def standardDeviation(data):
+    temp = []
+    for i in data:
+        print(i["Understandabilty"])
+        temp.append(float(i["Understandabilty"]))
+    return statistics.variance(temp)
+
+#1사분위수
+def get1(data):
+    temp = []
+    for i in data:
+        temp.append(float(i["Understandabilty"]))
+
+    dataLength = len(temp)
+    print("data length = ",dataLength)
+    order = float(dataLength + 1.0)/4.0
+
+    intPart = getIntegerParts(order)
+    fractionalPart = getFractionalParts(order)
+
+    leftWeight = 1 - fractionalPart
+    rightWeight = fractionalPart
+
+    target1 = temp[intPart - 1]
+    target2 = temp[intPart]
+
+    return target1*leftWeight + target2+rightWeight
 
 
 def cal_projectScore(comp, stru, text, under, main):
