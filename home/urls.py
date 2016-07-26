@@ -13,4 +13,5 @@ urlpatterns = [
     url(r'^visual/$', views.visual, name='visual'),
     url(r'^d3test/$', views.d3test, name='d3'),
     url(r'^convert/$', views.convert, name='convert'),
+    url(r'^Wtree_test', views.Wtree_test, name='Wtree_test'),
 ]

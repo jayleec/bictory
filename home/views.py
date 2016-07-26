@@ -211,7 +211,13 @@ def convert(request):
     # child = File
     for child in root:
         filedict = {}
-
+        # tmp = []
+        # tmp = child[0].text
+        # # if(child[0].text[0] == '\\'):
+        # #     tmp = tmp.split('\\testcode\c\\')
+        # # else:
+        # #     tmp = tmp.split('/testcode/c/')
+        # # print(tmp[1])
         filedict['name'] = child[0].text
 
         numberOfFile += 1
@@ -378,3 +384,6 @@ class XmlDictConfig(dict):
             # the text
             else:
                 self.update({element.tag: element.text})
+
+def Wtree_test(request):
+    return render(request, 'Wtree_test.html')

@@ -13,7 +13,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API47.c"
+            "name": "API47.c"
         },
         {
             "children": [
@@ -23,7 +23,7 @@
                     "size": "195"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MULTIPLE_BINDS_TO_SAME_PORT.c"
+            "name": "MULTIPLE_BINDS_TO_SAME_PORT.c"
         },
         {
             "children": [
@@ -33,7 +33,7 @@
                     "size": "9"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_MACRO.MISUSE.c"
+            "name": "BAD_MACRO.MISUSE.c"
         },
         {
             "children": [
@@ -48,7 +48,7 @@
                     "size": "60"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\FBD15.c"
+            "name": "FBD15.c"
         },
         {
             "children": [
@@ -58,7 +58,7 @@
                     "size": "36"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/MSC34.c"
+            "name": "MSC34.c"
         },
         {
             "children": [
@@ -68,7 +68,7 @@
                     "size": "30"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.IMPROPER_VARARGS.c"
+            "name": "BAD_CALL.IMPROPER_VARARGS.c"
         },
         {
             "children": [
@@ -78,7 +78,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c"
+            "name": "BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c"
         },
         {
             "children": [
@@ -88,7 +88,7 @@
                     "size": "39"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.FORBIDDEN.LIB.PROCESS.c"
+            "name": "BAD_CALL.FORBIDDEN.LIB.PROCESS.c"
         },
         {
             "children": [
@@ -98,7 +98,7 @@
                     "size": "9"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API27.c"
+            "name": "API27.c"
         },
         {
             "children": [
@@ -108,7 +108,7 @@
                     "size": "12"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.FORBIDDEN.LIB.SIGNAL.c"
+            "name": "BAD_CALL.FORBIDDEN.LIB.SIGNAL.c"
         },
         {
             "children": [
@@ -118,7 +118,7 @@
                     "size": "189"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/TRYLOCK_FAIL.c"
+            "name": "TRYLOCK_FAIL.c"
         },
         {
             "children": [
@@ -128,7 +128,7 @@
                     "size": "51"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.TYPE_MISMATCH.STRING.c"
+            "name": "BAD_CALL.TYPE_MISMATCH.STRING.c"
         },
         {
             "children": [
@@ -138,7 +138,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_INCLUDE.FORBIDDEN.c"
+            "name": "BAD_INCLUDE.FORBIDDEN.c"
         },
         {
             "children": [
@@ -153,7 +153,7 @@
                     "size": "30"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API36.c"
+            "name": "API36.c"
         },
         {
             "children": [
@@ -163,7 +163,7 @@
                     "size": "48"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS03.c"
+            "name": "MIS03.c"
         },
         {
             "children": [
@@ -173,7 +173,7 @@
                     "size": "9"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS15_A.h"
+            "name": "MIS15_A.h"
         },
         {
             "children": [
@@ -183,7 +183,7 @@
                     "size": "9"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS15_B.h"
+            "name": "MIS15_B.h"
         },
         {
             "children": [
@@ -193,7 +193,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS15.c"
+            "name": "MIS15.c"
         },
         {
             "children": [
@@ -203,7 +203,7 @@
                     "size": "15"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\FORBIDDEN_CALL.BEFORE_CALL.c"
+            "name": "FORBIDDEN_CALL.BEFORE_CALL.c"
         },
         {
             "children": [
@@ -218,7 +218,7 @@
                     "size": "126"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API50.c"
+            "name": "API50.c"
         },
         {
             "children": [
@@ -228,7 +228,7 @@
                     "size": "9"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS17.h"
+            "name": "MIS17.h"
         },
         {
             "children": [
@@ -238,7 +238,7 @@
                     "size": "9"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS17.c"
+            "name": "MIS17.c"
         },
         {
             "children": [
@@ -253,7 +253,7 @@
                     "size": "12"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API29.c"
+            "name": "API29.c"
         },
         {
             "children": [
@@ -263,7 +263,7 @@
                     "size": "24"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.FORBIDDEN.LIB.TP.c"
+            "name": "BAD_CALL.FORBIDDEN.LIB.TP.c"
         },
         {
             "children": [
@@ -278,7 +278,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.REQUIRED.PRE_CALL.c"
+            "name": "BAD_CALL.REQUIRED.PRE_CALL.c"
         },
         {
             "children": [
@@ -288,7 +288,7 @@
                     "size": "21"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_QUALIFIER.FORBIDDEN.c"
+            "name": "BAD_QUALIFIER.FORBIDDEN.c"
         },
         {
             "children": [
@@ -313,7 +313,7 @@
                     "size": "30"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/SIZE_CALCULATION_BAD_COMPARE.c"
+            "name": "SIZE_CALCULATION_BAD_COMPARE.c"
         },
         {
             "children": [
@@ -323,7 +323,7 @@
                     "size": "15"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.REQUIRED.VARARGS.c"
+            "name": "BAD_CALL.REQUIRED.VARARGS.c"
         },
         {
             "children": [
@@ -333,7 +333,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_INCLUDE.INVALID_PATH.c"
+            "name": "BAD_INCLUDE.INVALID_PATH.c"
         },
         {
             "children": [
@@ -343,7 +343,7 @@
                     "size": "9"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.FORBIDDEN.LIB.TIMER.c"
+            "name": "BAD_CALL.FORBIDDEN.LIB.TIMER.c"
         },
         {
             "children": [
@@ -353,7 +353,7 @@
                     "size": "72"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/MSC32.c"
+            "name": "MSC32.c"
         },
         {
             "children": [
@@ -518,7 +518,7 @@
                     "size": "72"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c"
+            "name": "SECURE_OPUS_COMPLEX.c"
         },
         {
             "children": [
@@ -533,7 +533,7 @@
                     "size": "93"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/INCORRECT_PERMISSION.c"
+            "name": "INCORRECT_PERMISSION.c"
         },
         {
             "children": [
@@ -543,7 +543,7 @@
                     "size": "12"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS07.c"
+            "name": "MIS07.c"
         },
         {
             "children": [
@@ -553,7 +553,7 @@
                     "size": "192"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/DOUBLE_LOCK.c"
+            "name": "DOUBLE_LOCK.c"
         },
         {
             "children": [
@@ -568,7 +568,7 @@
                     "size": "12"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API32.c"
+            "name": "API32.c"
         },
         {
             "children": [
@@ -588,7 +588,7 @@
                     "size": "12"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\TOO_MANY_METHODS.c"
+            "name": "TOO_MANY_METHODS.c"
         },
         {
             "children": [
@@ -598,7 +598,7 @@
                     "size": "15"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.FORBIDDEN.PARAM.NAME.c"
+            "name": "BAD_CALL.FORBIDDEN.PARAM.NAME.c"
         },
         {
             "children": [
@@ -628,7 +628,7 @@
                     "size": "18"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\sub.c"
+            "name": "sub.c"
         },
         {
             "children": [
@@ -638,7 +638,7 @@
                     "size": "9"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS14.c"
+            "name": "MIS14.c"
         },
         {
             "children": [
@@ -648,7 +648,7 @@
                     "size": "18"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_INIT.CHAR_ARRAY.c"
+            "name": "BAD_INIT.CHAR_ARRAY.c"
         },
         {
             "children": [
@@ -658,7 +658,7 @@
                     "size": "15"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.FORBIDDEN.VARARGS.c"
+            "name": "BAD_CALL.FORBIDDEN.VARARGS.c"
         },
         {
             "children": [
@@ -673,7 +673,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\FBD01.c"
+            "name": "FBD01.c"
         },
         {
             "children": [
@@ -683,7 +683,7 @@
                     "size": "9"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.REQUIRED.PARAM.c"
+            "name": "BAD_CALL.REQUIRED.PARAM.c"
         },
         {
             "children": [
@@ -693,7 +693,7 @@
                     "size": "27"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.NOT_ALLOWED.PARAM.NAME.c"
+            "name": "BAD_CALL.NOT_ALLOWED.PARAM.NAME.c"
         },
         {
             "children": [
@@ -703,7 +703,7 @@
                     "size": "12"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/EXCESSIVE_STACK_DEPTH.c"
+            "name": "EXCESSIVE_STACK_DEPTH.c"
         },
         {
             "children": [
@@ -733,7 +733,7 @@
                     "size": "57"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_STRING_MANAGEMENT.c"
+            "name": "BAD_STRING_MANAGEMENT.c"
         },
         {
             "children": [
@@ -743,7 +743,7 @@
                     "size": "21"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.FORBIDDEN.PARAM.LITERAL.c"
+            "name": "BAD_CALL.FORBIDDEN.PARAM.LITERAL.c"
         },
         {
             "children": [
@@ -778,7 +778,7 @@
                     "size": "81"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c"
+            "name": "WEAK_ENCRYPTION.HARDCODED_SALT.c"
         },
         {
             "children": [
@@ -793,7 +793,7 @@
                     "size": "33"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API46.c"
+            "name": "API46.c"
         },
         {
             "children": [
@@ -808,7 +808,7 @@
                     "size": "45"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API41.c"
+            "name": "API41.c"
         },
         {
             "children": [
@@ -818,7 +818,7 @@
                     "size": "54"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS06.c"
+            "name": "MIS06.c"
         },
         {
             "children": [
@@ -833,7 +833,7 @@
                     "size": "33"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/API42.c"
+            "name": "API42.c"
         },
         {
             "children": [
@@ -843,7 +843,7 @@
                     "size": "153"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/DOUBLE_UNLOCK.c"
+            "name": "DOUBLE_UNLOCK.c"
         },
         {
             "children": [
@@ -853,7 +853,7 @@
                     "size": "39"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.MISSING_CALL_PARAM.c"
+            "name": "BAD_CALL.MISSING_CALL_PARAM.c"
         },
         {
             "children": [
@@ -878,7 +878,7 @@
                     "size": "18"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API24.c"
+            "name": "API24.c"
         },
         {
             "children": [
@@ -893,7 +893,7 @@
                     "size": "72"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API40.c"
+            "name": "API40.c"
         },
         {
             "children": [
@@ -903,7 +903,7 @@
                     "size": "93"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS22.c"
+            "name": "MIS22.c"
         },
         {
             "children": [
@@ -918,7 +918,7 @@
                     "size": "30"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API35.c"
+            "name": "API35.c"
         },
         {
             "children": [
@@ -1343,7 +1343,7 @@
                     "size": "42"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/all_sample.c"
+            "name": "all_sample.c"
         },
         {
             "children": [
@@ -1353,7 +1353,7 @@
                     "size": "21"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_INTEGER_CONST_DEFINITION.c"
+            "name": "BAD_INTEGER_CONST_DEFINITION.c"
         },
         {
             "children": [
@@ -1363,7 +1363,7 @@
                     "size": "27"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.FORBIDDEN.LIB.RESOURCE.c"
+            "name": "BAD_CALL.FORBIDDEN.LIB.RESOURCE.c"
         },
         {
             "children": [
@@ -1373,7 +1373,7 @@
                     "size": "18"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/PASSWORD_IN_COMMENT.c"
+            "name": "PASSWORD_IN_COMMENT.c"
         },
         {
             "children": [
@@ -1403,7 +1403,7 @@
                     "size": "33"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/ENV32.c"
+            "name": "ENV32.c"
         },
         {
             "children": [
@@ -1418,7 +1418,7 @@
                     "size": "180"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/SECURITY_DECISION_ON_DNS_LOOKUP.c"
+            "name": "SECURITY_DECISION_ON_DNS_LOOKUP.c"
         },
         {
             "children": [
@@ -1428,7 +1428,7 @@
                     "size": "51"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c"
+            "name": "BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c"
         },
         {
             "children": [
@@ -1438,7 +1438,7 @@
                     "size": "27"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MISSING_WRAPPER_ON_VARIABLE.c"
+            "name": "MISSING_WRAPPER_ON_VARIABLE.c"
         },
         {
             "children": [
@@ -1448,7 +1448,7 @@
                     "size": "27"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_PRIVILEGE_RELINQUISHMENT.c"
+            "name": "BAD_PRIVILEGE_RELINQUISHMENT.c"
         },
         {
             "children": [
@@ -1458,7 +1458,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\INCONSISTENT_GLOBAL_VARIABLE_TYPE.c"
+            "name": "INCONSISTENT_GLOBAL_VARIABLE_TYPE.c"
         },
         {
             "children": [
@@ -1468,7 +1468,7 @@
                     "size": "15"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.FORBIDDEN.PARAM.STRING.c"
+            "name": "BAD_CALL.FORBIDDEN.PARAM.STRING.c"
         },
         {
             "children": [
@@ -1483,7 +1483,7 @@
                     "size": "15"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS18.c"
+            "name": "MIS18.c"
         },
         {
             "children": [
@@ -1498,7 +1498,7 @@
                     "size": "21"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API28.c"
+            "name": "API28.c"
         },
         {
             "children": [
@@ -1513,7 +1513,7 @@
                     "size": "39"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API30.c"
+            "name": "API30.c"
         },
         {
             "children": [
@@ -1523,7 +1523,7 @@
                     "size": "12"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\FUNCTION_DEFINITION_TYPE_MISMATCH.c"
+            "name": "FUNCTION_DEFINITION_TYPE_MISMATCH.c"
         },
         {
             "children": [
@@ -1538,7 +1538,7 @@
                     "size": "69"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API45.c"
+            "name": "API45.c"
         },
         {
             "children": [
@@ -1558,7 +1558,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API43.c"
+            "name": "API43.c"
         },
         {
             "children": [
@@ -1568,7 +1568,7 @@
                     "size": "30"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/UCTS-041.c"
+            "name": "UCTS-041.c"
         },
         {
             "children": [
@@ -1578,7 +1578,7 @@
                     "size": "147"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/ENV04.c"
+            "name": "ENV04.c"
         },
         {
             "children": [
@@ -1603,7 +1603,7 @@
                     "size": "15"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API23.c"
+            "name": "API23.c"
         },
         {
             "children": [
@@ -1623,7 +1623,7 @@
                     "size": "81"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/UCTS-028.c"
+            "name": "UCTS-028.c"
         },
         {
             "children": [
@@ -1633,7 +1633,7 @@
                     "size": "3"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.REQUIRED.c"
+            "name": "BAD_CALL.REQUIRED.c"
         },
         {
             "children": [
@@ -1653,7 +1653,7 @@
                     "size": "66"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/MEM08.c"
+            "name": "MEM08.c"
         },
         {
             "children": [
@@ -1663,7 +1663,7 @@
                     "size": "66"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_STRUCT_MEMBER_ACCESS.c"
+            "name": "BAD_STRUCT_MEMBER_ACCESS.c"
         },
         {
             "children": [
@@ -1673,7 +1673,7 @@
                     "size": "15"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.REQUIRED.ARGS.c"
+            "name": "BAD_CALL.REQUIRED.ARGS.c"
         },
         {
             "children": [
@@ -1688,7 +1688,7 @@
                     "size": "72"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\PREMATURE_THREAD_TERMINATION.c"
+            "name": "PREMATURE_THREAD_TERMINATION.c"
         },
         {
             "children": [
@@ -1698,7 +1698,7 @@
                     "size": "141"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MSC17.c"
+            "name": "MSC17.c"
         },
         {
             "children": [
@@ -1708,7 +1708,7 @@
                     "size": "30"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MIS11.c"
+            "name": "MIS11.c"
         },
         {
             "children": [
@@ -1743,7 +1743,7 @@
                     "size": "21"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp"
+            "name": "mismatch.cpp"
         },
         {
             "children": [
@@ -1753,7 +1753,7 @@
                     "size": "75"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/FIO43.c"
+            "name": "FIO43.c"
         },
         {
             "children": [
@@ -1763,7 +1763,7 @@
                     "size": "165"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.PASSWORD.c"
+            "name": "WEAK_ENCRYPTION.PASSWORD.c"
         },
         {
             "children": [
@@ -1778,7 +1778,7 @@
                     "size": "30"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API38.c"
+            "name": "API38.c"
         },
         {
             "children": [
@@ -1788,7 +1788,7 @@
                     "size": "75"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\DO_NOT_USE_SIZEOF_ON_PTR.c"
+            "name": "DO_NOT_USE_SIZEOF_ON_PTR.c"
         },
         {
             "children": [
@@ -1803,7 +1803,7 @@
                     "size": "54"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\WEAK_ENCRYPTION.RSA_PADDING.c"
+            "name": "WEAK_ENCRYPTION.RSA_PADDING.c"
         },
         {
             "children": [
@@ -1813,7 +1813,7 @@
                     "size": "120"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/NEGATIVE_FILE_DESCRIPTOR.c"
+            "name": "NEGATIVE_FILE_DESCRIPTOR.c"
         },
         {
             "children": [
@@ -1823,7 +1823,7 @@
                     "size": "48"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_CALL.REQUIRED.WRAPPER.c"
+            "name": "BAD_CALL.REQUIRED.WRAPPER.c"
         },
         {
             "children": [
@@ -1853,7 +1853,7 @@
                     "size": "87"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/IMPROPER_NULL_TERMINATION.c"
+            "name": "IMPROPER_NULL_TERMINATION.c"
         },
         {
             "children": [
@@ -1863,7 +1863,7 @@
                     "size": "54"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c"
+            "name": "CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c"
         },
         {
             "children": [
@@ -1873,7 +1873,7 @@
                     "size": "135"
                 }
             ],
-            "name": "/home/kskyj/sparrow4/util/testcode/c/CHECK_ALIGNMENT_OF_MEMORY.c"
+            "name": "CHECK_ALIGNMENT_OF_MEMORY.c"
         },
         {
             "children": [
@@ -1888,7 +1888,7 @@
                     "size": "78"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API44.c"
+            "name": "API44.c"
         },
         {
             "children": [
@@ -1898,7 +1898,7 @@
                     "size": "54"
                 }
             ],
-            "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API31.c"
+            "name": "API31.c"
         }
     ],
     "name": "Project"
