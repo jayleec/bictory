@@ -2,12 +2,12 @@ from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
 import json
 import csv
-<<<<<<< HEAD
+
 import locale
 locale.setlocale(locale.LC_ALL, '')
-=======
+
 import statistics
->>>>>>> a9153d3fd4aab9f9ffbab035555120e97cbd193a
+
 
 # import cElementTree as ElementTree
 
