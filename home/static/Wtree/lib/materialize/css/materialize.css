@@ -2585,7 +2585,7 @@ nav ul a span.badge {
 
 @font-face {
   font-family: "Material-Design-Icons";
-  src: url("../../../../../../../../Downloads/대학/Torch/weightedtree 2/lib/materialize/font/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("../../../../../../../../Downloads/대학/Torch/weightedtree 2/lib/materialize/font/material-design-icons/Material-Design-Icons.woff2") format("woff2"), url("../../../../../../../../Downloads/대학/Torch/weightedtree 2/lib/materialize/font/material-design-icons/Material-Design-Icons.woff") format("woff"), url("../../../../../../../../Downloads/대학/Torch/weightedtree 2/lib/materialize/font/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("../../../../../../../../Downloads/대학/Torch/weightedtree 2/lib/materialize/font/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg");
+  src: url("/static/Wtree/lib/materialize/font/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("/static/Wtree/lib/materialize/font/material-design-icons/Material-Design-Icons.woff2") format("woff2"), url("/static/Wtree/lib/materialize/font/material-design-icons/Material-Design-Icons.woff") format("woff"), url("/static/Wtree/lib/materialize/font/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("/static/Wtree/lib/materialize/font/material-design-iconsMaterial-Design-Icons.svg#Material-Design-Icons") format("svg");
   font-weight: normal;
   font-style: normal; }
 
