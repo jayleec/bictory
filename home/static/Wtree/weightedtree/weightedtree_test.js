@@ -50,7 +50,7 @@ var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "$" + d3.format(
 
 function loadData() {
 
-    d3.csv("/static/Wtree/data/weightedtree_federal_budget.csv", function (csv) {
+    d3.csv("/static/Wtree/data/Wtree_test.csv", function (csv) {
 
         data.values=prepData(csv);
 
