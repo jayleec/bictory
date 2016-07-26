@@ -61,8 +61,8 @@ def d3test(request):
         numOfFunctions += len(child[1])
         numberOfFile += 1
         sumOfTheNumberOfFunctions += len(child[1])
-        print("File Path : ", child[0].text) # 파일 경로 출력
-        print("Number of functions: ", len(child[1])) # function의 개수
+        #print("File Path : ", child[0].text) # 파일 경로 출력
+        #ßprint("Number of functions: ", len(child[1])) # function의 개수
         numberOfFunction = len(child[1])
         function_number = 0
         for child2 in child[1]:  # 소스파일 단위로 for loop
@@ -153,32 +153,19 @@ def d3test(request):
                         StructurednessScoreOfFunction -= 20
                         TestabilityScoreOfFunction -= 25
 
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Structuredness"
-            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Complexity"
-            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Testability"
-            funcdict['Testability'] = str(TestabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Understandabilty"
-            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Maintainability"
+
+            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
+            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
+            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
+            funcdict['Testability'] = str(TestabilityScoreOfFunction)
+            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
             funcarr.append(funcdict)
+            funcdict = {}
 
             AverageComplexityOfFile += ComplexityScoreOfFunction
+            # 마지막 function에서 그 파일의 평균 점수를 구한다.
             if function_number == numberOfFunction:
                 AverageComplexityOfFile /= function_number
                 TotalComplexityScore += AverageComplexityOfFile
@@ -203,14 +190,15 @@ def d3test(request):
                 AverageUnderstandabilityOfFile /= function_number
                 TotalUnderstandabilityScore += AverageUnderstandabilityOfFile
 
-                # 이거를 Dictionnary에다가 넣어서 저장 1.100.1  (프로젝트 번호.파일 번호. 펑션 번호)
-
         averageCpntLenOfFile = totalCpntLenOfFunction / numberOfFunction
         totalCpntLenOfProject += averageCpntLenOfFile
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
 
+    #funcarray - ID 출력
+    for i in funcarr:
+        print(i)
 
     #프로젝트 최종 점수 계산
     aveStructure = TotalMaintainabilityScore / numberOfFile
