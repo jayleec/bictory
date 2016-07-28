@@ -325,12 +325,7 @@ def test(request):
     return HttpResponse("Testing...")
 
 
-
 def convert(request):
-
-    # with open('data.txt', 'w') as f:
-    #     json.dump(data, f, ensure_ascii=False)
-
     # 초기 사전
     jsondict = {"name": "Project"}
 
@@ -359,8 +354,6 @@ def convert(request):
     cw3 = csv.writer(csv_file3, delimiter=',', quotechar=',')
     cw3.writerow(["Level1", "Level2", "Level3", "Federal", "GovXFer", "State", "Local"])
 
-
-
     # 메트릭 개수는 항상 27개
     # 전체 파일 개수
     sumOfTheNumberOfFunctions = 0
@@ -374,13 +367,7 @@ def convert(request):
     # child = File
     for child in root:
         filedict = {}
-        # tmp = []
-        # tmp = child[0].text
-        # # if(child[0].text[0] == '\\'):
-        # #     tmp = tmp.split('\\testcode\c\\')
-        # # else:
-        # #     tmp = tmp.split('/testcode/c/')
-        # # print(tmp[1])
+
         filedict['name'] = child[0].text
 
         numberOfFile += 1
@@ -414,6 +401,7 @@ def convert(request):
             s = locale.format_string('%s', s, True).replace(",", "")
             for child3 in child2:
                 if child3.tag == 'name':
+                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
                     continue
                 cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
                 cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
@@ -437,56 +425,9 @@ def convert(request):
 
     print("\n")
 
-    # print(json.dumps(jsondict, sort_keys=True, indent=4))
-
-    # with open('data.txt', 'w') as f:
-    #     json.dumps(jsondict, sort_keys=True, indent=4)
-
-    # with open('data.txt', 'w') as outfile:
-    #     json.dump(jsondict, outfile)
-
     with open('Metrics.json', 'w') as outfile:
         json.dump(jsondict, outfile, sort_keys=True, indent=4,
                   ensure_ascii=False)
-
-    # with open('data.txt', 'w') as f:
-    #     json.dump(data, f, ensure_ascii=False)
-
-    # xmldict = XmlDictConfig(root)
-
-    # data = ET.parse("analyze/crulechk.0.xml")
-    # print(data)
-    # print(data.get("metric"))
-    # note = data.getroot()
-    # print(len(note))
-    # print(note.keys())
-    # print(note.items())
-    # print(note.get("metric"))
-    # print(xmldict)
-    # print(json.dumps(data, sort_keys=True, indent=4))
-    # print(xmldict.get('metric'))
-    # print(xmldict['metric'])
-    # print(type(xmldict))
-    # # print(dict(xmldict))
-    # # print(type(dict(xmldict)))
-
-
-
-    # xmldict = dict(xmldict)
-    # xmldict = xmldict['file']
-
-    # print(xmldict)
-    # for k in xmldict.keys():
-    #     print(k)
-
-    # for k, v in xmldict.items():
-    #     print(k,v)
-    #     print("\n")
-    #     for k2, v2 in v.items():
-    #         print(k2, v2)
-    #         print("\n")
-
-
 
     return HttpResponse("Converting...")
 
@@ -554,3 +495,70 @@ class XmlDictConfig(dict):
 
 def Wtree_test(request):
     return render(request, 'Wtree_test.html')
+
+class metric_controller():
+    def __init__(self):
+        self.num = 0
+        self.array = []
+
+    def append(self, dict):
+        self.array.append(dict)
+        self.num += 1
+
+    def find(self, id):
+        for elt in self.array:
+            if elt['id'] == id:
+                return elt
+
+
+#매트릭 계산기
+class calculator(dict):
+    # 매트릭의 기준 표
+    # 각 매트릭의 기준 (최소치, 최대치)
+    table = {
+        'avg_stmt' : [0, 7],
+        'cpnt_len' : [3, 250],
+        'stmt_num' : [0, 80],
+        'd_optr' : [0, 35],
+        'd_oprd' : [0, 50],
+        'ocr_optr' : [0, 140],
+        'ocr_oprd' : [0, 120],
+        'cpnt_voca' : [3, 75],
+        'voca_size' : [3, 75],
+        'dcs_stmt' : [0, 9],
+        'strc_lv' : [0, 7],
+        'entry_ptr' : [1, 1],
+        'exit_pnt' : [1, 1],
+        'uncond_num' : [0, 0],
+    }
+
+    def __init__(self, elt):
+        self.dict = elt
+
+
+    def return_score(self, name):
+        # if table[name]
+        # 최소치 이상 일 경우
+        if table[name][0] <= self.dict[name]:
+            # 최대치 이하일 경우
+            if table[name][1] >= self.dict[name]:
+                return 100  # 100점
+            # 최소치 이상 최대치 이상
+            else:
+                # 2배를 넘지 않으면 점수 계산
+                if self.dict[name] - table[name][1] >= 0:
+                    return 100 - ((self.dict[name] - table[name][1]) / table[name][1] * 100)
+                # 2배를 넘으면 0점
+                else:
+                    return 0
+        #최소치 이하일 경우
+        else:
+            # 0점
+            return 0
+
+    def complexity(self):
+        score['statement'] = 9
+
+
+
+
