@@ -2,7 +2,12 @@ from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
 import json
 import csv
+
+import locale
+locale.setlocale(locale.LC_ALL, '')
+
 import statistics
+
 
 # import cElementTree as ElementTree
 
@@ -338,6 +343,12 @@ def convert(request):
     cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
     cw2.writerow(["\"ID\"", "\"age\"", "\"value\""])
 
+    csv_file3 = open('Wtree_test.csv', "w")
+    cw3 = csv.writer(csv_file3, delimiter=',', quotechar=',')
+    cw3.writerow(["Category", "Level1", "Level2", "Level3", "Level4", "Federal", "GovXFer", "State", "Local"])
+
+
+
     # 메트릭 개수는 항상 27개
     # 전체 파일 개수
     sumOfTheNumberOfFunctions = 0
@@ -387,10 +398,13 @@ def convert(request):
             fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
             funarr.append(fundict)
 
+            s = ","
+            s = locale.format_string('%s', s, True).replace(",", "")
             for child3 in child2:
                 if child3.tag == 'name':
                     continue
                 cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
+                cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
 
 
         filedict['children'] = funarr
@@ -402,6 +416,7 @@ def convert(request):
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
+    cw3.writerow([", , Level2, Level3, Level4,, , , , ,"])
     jsondict['children'] = filearr
 
     print("Average Cpnt length of each file in this project : ", totalCpntLenOfProject / numberOfFile)
