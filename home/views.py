@@ -2,6 +2,7 @@ from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
 import json
 import csv
+import re
 
 # import cElementTree as ElementTree
 
@@ -275,6 +276,17 @@ def ave_complexity(complexity_list, numOfFunctions):
 
 def report(request):
     return render(request, 'report.html')
+
+def test(request):
+    data = ET.parse("analyze/crulechk.0.xml")
+    root = data.getroot()
+
+    for child in root:
+        words = child[0].text
+        word = words.replace('/', "\\").split("\\")
+        print(word)
+
+    return HttpResponse("Testing...")
 
 
 
