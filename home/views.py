@@ -323,7 +323,10 @@ def test(request):
         print(word)
 
     return HttpResponse("Testing...")
+<<<<<<< HEAD
 
+=======
+>>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
 
 def convert(request):
     # 초기 사전
@@ -498,7 +501,41 @@ class XmlDictConfig(dict):
 def Wtree_test(request):
     return render(request, 'Wtree_test.html')
 
+<<<<<<< HEAD
 class metric_controller():
+=======
+def convert2(request):
+    data = ET.parse("analyze/crulechk.0.xml")
+    root = data.getroot()
+    metrics = MetricController()
+
+    # child = File
+    for child in root:
+        print("File Path : ", child[0].text)  # 파일 경로 출력
+        print("Number of functions: ", len(child[1]))  # function의 개수
+
+        # child2 = function
+        for child2 in child[1]:  # 소스파일 단위로 for loop
+            tmpdict = {}
+            # function안에 모든 메트릭을 Dictionary타입으로 변환하여 저장하는 for문
+            for child3 in child2:
+                if child3.tag == 'name':
+                    tmpdict['name'] = child3.text
+                    continue
+                tmpdict[child3.tag] = int(child3.text)
+
+            # 메트릭 컨트롤러에 저장
+            metrics.append(tmpdict)
+            print("Metrics : ", metrics.array)
+            cal = Calculator(tmpdict)
+            print("Complexity : ", cal.complexity())
+
+
+
+    return HttpResponse("Testing...")
+
+class MetricController():
+>>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
     def __init__(self):
         self.num = 0
         self.array = []
@@ -511,10 +548,18 @@ class metric_controller():
         for elt in self.array:
             if elt['id'] == id:
                 return elt
+<<<<<<< HEAD
 
 
 #매트릭 계산기
 class calculator(dict):
+=======
+        return false
+
+
+#매트릭 계산기
+class Calculator(dict):
+>>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
     # 매트릭의 기준 표
     # 각 매트릭의 기준 (최소치, 최대치)
     table = {
@@ -532,12 +577,17 @@ class calculator(dict):
         'entry_ptr' : [1, 1],
         'exit_pnt' : [1, 1],
         'uncond_num' : [0, 0],
+<<<<<<< HEAD
+=======
+        'cylomatic' : [0, 15],
+>>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
     }
 
     def __init__(self, elt):
         self.dict = elt
 
 
+<<<<<<< HEAD
     # def return_score(self, name):
     #     # if table[name]
     #     # 최소치 이상 일 경우
@@ -560,6 +610,48 @@ class calculator(dict):
     #
     # def complexity(self):
     #     score['statement'] = 9
+=======
+    def return_score(self, name):
+        # if table[name]
+        # 최소치 이상 일 경우
+        if self.table[name][0] <= self.dict[name]:
+            # 최대치 이하일 경우
+            if self.table[name][1] >= self.dict[name]:
+                return 100  # 100점
+            # 최소치 이상 최대치 이상
+            else:
+                # 2배를 넘지 않으면 점수 계산
+                if self.dict[name] - self.table[name][1] >= 0:
+                    return 100 - ((self.dict[name] - self.table[name][1]) / self.table[name][1] * 100)
+                # 2배를 넘으면 0점
+                else:
+                    return 0
+        #최소치 이하일 경우
+        else:
+            # 0점
+            return 0
+
+    def complexity(self):
+        scores = {
+            'stmt_num' : 9,
+            'd_oprd' : 9,
+            'd_optr' : 9,
+            'ocr_oprd' : 9,
+            'ocr_optr' : 9,
+            'cpnt_voca' : 9,
+            'cpnt_len' : 10,
+            'avg_stmt' : 9,
+            'cyclomatic' : 9,
+            'dcs_stmt' : 9,
+            'strc_lv' : 9,
+        }
+        names = ['stmt_num', 'd_oprd', 'd_optr', 'ocr_oprd', 'ocr_optr', 'cpnt_voca', 'cpnt_len', 'avg_stmt', 'cyclomatic', 'dcs_stmt', 'strc_lv']
+        score = 0
+        for x in names:
+            print("x : ", x)
+            score += self.return_score(x) * scores[x]
+        return score / 1000
+>>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
 
 
 
