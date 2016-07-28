@@ -340,7 +340,7 @@ def convert(request):
 
     csv_file3 = open('Wtree_test.csv', "w")
     cw3 = csv.writer(csv_file3, delimiter=',', quotechar=',')
-    cw3.writerow(["Category", "Level1", "Level2", "Level3", "Level4", "Federal", "GovXFer", "State", "Local"])
+    cw3.writerow(["Level1", "Level2", "Level3", "Federal", "GovXFer", "State", "Local"])
 
 
 
