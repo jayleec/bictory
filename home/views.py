@@ -202,11 +202,22 @@ def d3test(request):
         totalCpntLenOfFunction = 0
 
 
+    #표준화변수 출력 테스트 - 'Understandability'
+    print("표준편차 standardDeviation(funcarr)",standardDeviation(funcarr, "Understandabilty"))
+    print("평균: ", getAverage(funcarr, "Understandabilty"))
 
+    #표준화변수 html 출력용 변수
+    #평균
+    average = getAverage(funcarr, "Understandabilty")
+    #표준편차
+    stdDeviation = standardDeviation(funcarr, "Understandabilty")
+    #표준화변수
+    stdDevVar = []
+    for x in funcarr:
+        stdDevVar.append(getStandardizationVar(float(x["Understandabilty"]), average, stdDeviation, x["ID"]))
 
-    #표준편차 출력
-    print("standardDeviation(funcarr)",standardDeviation(funcarr))
-    print(get1(funcarr))
+    print(getMinimum(stdDevVar,'stdVar'))
+    minimumVar = getMinimum(stdDevVar,'stdVar')
 
     #프로젝트 최종 점수 계산
     aveStructure = TotalMaintainabilityScore / numberOfFile
@@ -221,42 +232,36 @@ def d3test(request):
                                             'testability': aveTestability,
                                             'understandability': aveUnderstand,
                                             'maintainability':  aveMaintainability,
-                                            'projectScore': projectScore})
+                                            'projectScore': projectScore,
+                                            'minimumStdVarID': minimumVar['ID']})
 
-def getIntegerParts(data):
-    return int(data)
+#표준화변수 구하기
+#(data -  평균) / 표준편차
+def getStandardizationVar(data, average, stdDeviation, id):
+    result = {} #{ 표준화변수,  'ID'}
+    result['stdVar'] = (data - average)/stdDeviation
+    result['ID'] = id
+    return result
 
-def getFractionalParts(data):
-    return data - int(data)
+#평균 구하기
+def getAverage(data, category):
+    temp = []
+    for i in data:
+        temp.append(float(i[category]))
+    return statistics.mean(temp)
 
+#표준편차
 #딕셔너리 리스트로 받아서 표준편차 계산 표준편차값 리턴함
-def standardDeviation(data):
+def standardDeviation(data, category):
     temp = []
     for i in data:
-        print(i["Understandabilty"])
-        temp.append(float(i["Understandabilty"]))
-    return statistics.variance(temp)
+        temp.append(float(i[category]))
+    return statistics.stdev(temp)
 
-#1사분위수
-def get1(data):
-    temp = []
-    for i in data:
-        temp.append(float(i["Understandabilty"]))
+#딕셔너리 리스트 중에 특정 카테고리 가장 작은값 리턴
+def getMinimum(list, category):
+    return min(list, key=lambda x: x[category])
 
-    dataLength = len(temp)
-    print("data length = ",dataLength)
-    order = float(dataLength + 1.0)/4.0
-
-    intPart = getIntegerParts(order)
-    fractionalPart = getFractionalParts(order)
-
-    leftWeight = 1 - fractionalPart
-    rightWeight = fractionalPart
-
-    target1 = temp[intPart - 1]
-    target2 = temp[intPart]
-
-    return target1*leftWeight + target2+rightWeight
 
 
 def cal_projectScore(comp, stru, text, under, main):
