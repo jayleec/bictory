@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<head>
 <meta charset="utf-8">
-<style>
 
+<style>
 .chart div {
   font: 10px sans-serif;
   background-color: steelblue;
@@ -10,23 +11,22 @@
   margin: 1px;
   color: white;
 }
-
 </style>
-<div class="chart"></div>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+    <!-- <p>abc</p>
+    <p>def</p>
+    <p>ghi</p> -->
+    <script>
+    var data = [4, 8, 15, 16, 23];
 
-var data = [4, 8, 15, 16, 23, 42];
-
-var x = d3.scale.linear()
-    .domain([0, d3.max(data)])
-    .range([0, 420]);
-
-d3.select(".chart")
-  .selectAll("div")
+    d3.select("body")
+    .selectAll("p")
     .data(data)
-  .enter().append("div")
-    .style("width", function(d) { return x(d) + "px"; })
-    .text(function(d) { return d; });
-
-</script>
+    .enter()
+    .append("p")
+    .text(function(asd, i){return i % 2 ? "hsl(" + Math.random() * 360 + ", 100%, 50%)" : Math.random()});
+    </script>
+</body>
+</html>

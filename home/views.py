@@ -4,6 +4,12 @@ import json
 import csv
 import re
 
+import locale
+locale.setlocale(locale.LC_ALL, '')
+
+import statistics
+
+
 # import cElementTree as ElementTree
 
 # Create your views here.
@@ -62,8 +68,8 @@ def d3test(request):
         numOfFunctions += len(child[1])
         numberOfFile += 1
         sumOfTheNumberOfFunctions += len(child[1])
-        print("File Path : ", child[0].text) # 파일 경로 출력
-        print("Number of functions: ", len(child[1])) # function의 개수
+        #print("File Path : ", child[0].text) # 파일 경로 출력
+        #ßprint("Number of functions: ", len(child[1])) # function의 개수
         numberOfFunction = len(child[1])
         function_number = 0
         for child2 in child[1]:  # 소스파일 단위로 for loop
@@ -154,32 +160,19 @@ def d3test(request):
                         StructurednessScoreOfFunction -= 20
                         TestabilityScoreOfFunction -= 25
 
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Structuredness"
-            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Complexity"
-            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Testability"
-            funcdict['Testability'] = str(TestabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Understandabilty"
-            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Maintainability"
+
+            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
+            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
+            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
+            funcdict['Testability'] = str(TestabilityScoreOfFunction)
+            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
             funcarr.append(funcdict)
+            funcdict = {}
 
             AverageComplexityOfFile += ComplexityScoreOfFunction
+            # 마지막 function에서 그 파일의 평균 점수를 구한다.
             if function_number == numberOfFunction:
                 AverageComplexityOfFile /= function_number
                 TotalComplexityScore += AverageComplexityOfFile
@@ -204,14 +197,28 @@ def d3test(request):
                 AverageUnderstandabilityOfFile /= function_number
                 TotalUnderstandabilityScore += AverageUnderstandabilityOfFile
 
-                # 이거를 Dictionnary에다가 넣어서 저장 1.100.1  (프로젝트 번호.파일 번호. 펑션 번호)
-
         averageCpntLenOfFile = totalCpntLenOfFunction / numberOfFunction
         totalCpntLenOfProject += averageCpntLenOfFile
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
 
+    #표준화변수 출력 테스트 - 'Understandability'
+    print("표준편차 standardDeviation(funcarr)",standardDeviation(funcarr, "Understandabilty"))
+    print("평균: ", getAverage(funcarr, "Understandabilty"))
+
+    #표준화변수 html 출력용 변수
+    #평균
+    average = getAverage(funcarr, "Understandabilty")
+    #표준편차
+    stdDeviation = standardDeviation(funcarr, "Understandabilty")
+    #표준화변수
+    stdDevVar = []
+    for x in funcarr:
+        stdDevVar.append(getStandardizationVar(float(x["Understandabilty"]), average, stdDeviation, x["ID"]))
+
+    print(getMinimum(stdDevVar,'stdVar'))
+    minimumVar = getMinimum(stdDevVar,'stdVar')
 
     #프로젝트 최종 점수 계산
     aveStructure = TotalMaintainabilityScore / numberOfFile
@@ -226,7 +233,36 @@ def d3test(request):
                                             'testability': aveTestability,
                                             'understandability': aveUnderstand,
                                             'maintainability':  aveMaintainability,
-                                            'projectScore': projectScore})
+                                            'projectScore': projectScore,
+                                            'minimumStdVarID': minimumVar['ID']})
+
+#표준화변수 구하기
+#(data -  평균) / 표준편차
+def getStandardizationVar(data, average, stdDeviation, id):
+    result = {} #{ 표준화변수,  'ID'}
+    result['stdVar'] = (data - average)/stdDeviation
+    result['ID'] = id
+    return result
+
+#평균 구하기
+def getAverage(data, category):
+    temp = []
+    for i in data:
+        temp.append(float(i[category]))
+    return statistics.mean(temp)
+
+#표준편차
+#딕셔너리 리스트로 받아서 표준편차 계산 표준편차값 리턴함
+def standardDeviation(data, category):
+    temp = []
+    for i in data:
+        temp.append(float(i[category]))
+    return statistics.stdev(temp)
+
+#딕셔너리 리스트 중에 특정 카테고리 가장 작은값 리턴
+def getMinimum(list, category):
+    return min(list, key=lambda x: x[category])
+
 
 
 def cal_projectScore(comp, stru, text, under, main):
@@ -319,6 +355,12 @@ def convert(request):
     cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
     cw2.writerow(["\"ID\"", "\"age\"", "\"value\""])
 
+    csv_file3 = open('Wtree_test.csv', "w")
+    cw3 = csv.writer(csv_file3, delimiter=',', quotechar=',')
+    cw3.writerow(["Level1", "Level2", "Level3", "Federal", "GovXFer", "State", "Local"])
+
+
+
     # 메트릭 개수는 항상 27개
     # 전체 파일 개수
     sumOfTheNumberOfFunctions = 0
@@ -332,7 +374,13 @@ def convert(request):
     # child = File
     for child in root:
         filedict = {}
-
+        # tmp = []
+        # tmp = child[0].text
+        # # if(child[0].text[0] == '\\'):
+        # #     tmp = tmp.split('\\testcode\c\\')
+        # # else:
+        # #     tmp = tmp.split('/testcode/c/')
+        # # print(tmp[1])
         filedict['name'] = child[0].text
 
         numberOfFile += 1
@@ -362,10 +410,13 @@ def convert(request):
             fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
             funarr.append(fundict)
 
+            s = ","
+            s = locale.format_string('%s', s, True).replace(",", "")
             for child3 in child2:
                 if child3.tag == 'name':
                     continue
                 cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
+                cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
 
 
         filedict['children'] = funarr
@@ -377,6 +428,7 @@ def convert(request):
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
+    cw3.writerow([", , Level2, Level3, Level4,, , , , ,"])
     jsondict['children'] = filearr
 
     print("Average Cpnt length of each file in this project : ", totalCpntLenOfProject / numberOfFile)
@@ -499,3 +551,6 @@ class XmlDictConfig(dict):
             # the text
             else:
                 self.update({element.tag: element.text})
+
+def Wtree_test(request):
+    return render(request, 'Wtree_test.html')
