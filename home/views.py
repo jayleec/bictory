@@ -2,6 +2,13 @@ from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
 import json
 import csv
+import re
+
+import locale
+locale.setlocale(locale.LC_ALL, '')
+
+import statistics
+
 
 # import cElementTree as ElementTree
 
@@ -61,8 +68,8 @@ def d3test(request):
         numOfFunctions += len(child[1])
         numberOfFile += 1
         sumOfTheNumberOfFunctions += len(child[1])
-        print("File Path : ", child[0].text) # 파일 경로 출력
-        print("Number of functions: ", len(child[1])) # function의 개수
+        #print("File Path : ", child[0].text) # 파일 경로 출력
+        #ßprint("Number of functions: ", len(child[1])) # function의 개수
         numberOfFunction = len(child[1])
         function_number = 0
         for child2 in child[1]:  # 소스파일 단위로 for loop
@@ -153,32 +160,19 @@ def d3test(request):
                         StructurednessScoreOfFunction -= 20
                         TestabilityScoreOfFunction -= 25
 
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Structuredness"
-            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Complexity"
-            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Testability"
-            funcdict['Testability'] = str(TestabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Understandabilty"
-            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
-            funcarr.append(funcdict)
-            funcdict = {}
-
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
-            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number) + ".Maintainability"
+
+            funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
+            funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
+            funcdict['Complexity'] = str(ComplexityScoreOfFunction)
+            funcdict['Testability'] = str(TestabilityScoreOfFunction)
+            funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
             funcarr.append(funcdict)
+            funcdict = {}
 
             AverageComplexityOfFile += ComplexityScoreOfFunction
+            # 마지막 function에서 그 파일의 평균 점수를 구한다.
             if function_number == numberOfFunction:
                 AverageComplexityOfFile /= function_number
                 TotalComplexityScore += AverageComplexityOfFile
@@ -203,14 +197,28 @@ def d3test(request):
                 AverageUnderstandabilityOfFile /= function_number
                 TotalUnderstandabilityScore += AverageUnderstandabilityOfFile
 
-                # 이거를 Dictionnary에다가 넣어서 저장 1.100.1  (프로젝트 번호.파일 번호. 펑션 번호)
-
         averageCpntLenOfFile = totalCpntLenOfFunction / numberOfFunction
         totalCpntLenOfProject += averageCpntLenOfFile
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
 
+    #표준화변수 출력 테스트 - 'Understandability'
+    print("표준편차 standardDeviation(funcarr)",standardDeviation(funcarr, "Understandabilty"))
+    print("평균: ", getAverage(funcarr, "Understandabilty"))
+
+    #표준화변수 html 출력용 변수
+    #평균
+    average = getAverage(funcarr, "Understandabilty")
+    #표준편차
+    stdDeviation = standardDeviation(funcarr, "Understandabilty")
+    #표준화변수
+    stdDevVar = []
+    for x in funcarr:
+        stdDevVar.append(getStandardizationVar(float(x["Understandabilty"]), average, stdDeviation, x["ID"]))
+
+    print(getMinimum(stdDevVar,'stdVar'))
+    minimumVar = getMinimum(stdDevVar,'stdVar')
 
     #프로젝트 최종 점수 계산
     aveStructure = TotalMaintainabilityScore / numberOfFile
@@ -225,7 +233,36 @@ def d3test(request):
                                             'testability': aveTestability,
                                             'understandability': aveUnderstand,
                                             'maintainability':  aveMaintainability,
-                                            'projectScore': projectScore})
+                                            'projectScore': projectScore,
+                                            'minimumStdVarID': minimumVar['ID']})
+
+#표준화변수 구하기
+#(data -  평균) / 표준편차
+def getStandardizationVar(data, average, stdDeviation, id):
+    result = {} #{ 표준화변수,  'ID'}
+    result['stdVar'] = (data - average)/stdDeviation
+    result['ID'] = id
+    return result
+
+#평균 구하기
+def getAverage(data, category):
+    temp = []
+    for i in data:
+        temp.append(float(i[category]))
+    return statistics.mean(temp)
+
+#표준편차
+#딕셔너리 리스트로 받아서 표준편차 계산 표준편차값 리턴함
+def standardDeviation(data, category):
+    temp = []
+    for i in data:
+        temp.append(float(i[category]))
+    return statistics.stdev(temp)
+
+#딕셔너리 리스트 중에 특정 카테고리 가장 작은값 리턴
+def getMinimum(list, category):
+    return min(list, key=lambda x: x[category])
+
 
 
 def cal_projectScore(comp, stru, text, under, main):
@@ -276,13 +313,19 @@ def ave_complexity(complexity_list, numOfFunctions):
 def report(request):
     return render(request, 'report.html')
 
+def test(request):
+    data = ET.parse("analyze/crulechk.0.xml")
+    root = data.getroot()
+
+    for child in root:
+        words = child[0].text
+        word = words.replace('/', "\\").split("\\")
+        print(word)
+
+    return HttpResponse("Testing...")
 
 
 def convert(request):
-
-    # with open('data.txt', 'w') as f:
-    #     json.dump(data, f, ensure_ascii=False)
-
     # 초기 사전
     jsondict = {"name": "Project"}
 
@@ -306,6 +349,10 @@ def convert(request):
     csv_file2 = open('Metrics for each Function.csv', "w")
     cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
     cw2.writerow(["\"ID\"", "\"age\"", "\"value\""])
+
+    csv_file3 = open('Wtree_test.csv', "w")
+    cw3 = csv.writer(csv_file3, delimiter=',', quotechar=',')
+    cw3.writerow(["Level1", "Level2", "Level3", "Federal", "GovXFer", "State", "Local"])
 
     # 메트릭 개수는 항상 27개
     # 전체 파일 개수
@@ -350,10 +397,14 @@ def convert(request):
             fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
             funarr.append(fundict)
 
+            s = ","
+            s = locale.format_string('%s', s, True).replace(",", "")
             for child3 in child2:
                 if child3.tag == 'name':
+                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
                     continue
                 cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
+                cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
 
 
         filedict['children'] = funarr
@@ -365,6 +416,7 @@ def convert(request):
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
+    cw3.writerow([", , Level2, Level3, Level4,, , , , ,"])
     jsondict['children'] = filearr
 
     print("Average Cpnt length of each file in this project : ", totalCpntLenOfProject / numberOfFile)
@@ -373,56 +425,9 @@ def convert(request):
 
     print("\n")
 
-    # print(json.dumps(jsondict, sort_keys=True, indent=4))
-
-    # with open('data.txt', 'w') as f:
-    #     json.dumps(jsondict, sort_keys=True, indent=4)
-
-    # with open('data.txt', 'w') as outfile:
-    #     json.dump(jsondict, outfile)
-
     with open('Metrics.json', 'w') as outfile:
         json.dump(jsondict, outfile, sort_keys=True, indent=4,
                   ensure_ascii=False)
-
-    # with open('data.txt', 'w') as f:
-    #     json.dump(data, f, ensure_ascii=False)
-
-    # xmldict = XmlDictConfig(root)
-
-    # data = ET.parse("analyze/crulechk.0.xml")
-    # print(data)
-    # print(data.get("metric"))
-    # note = data.getroot()
-    # print(len(note))
-    # print(note.keys())
-    # print(note.items())
-    # print(note.get("metric"))
-    # print(xmldict)
-    # print(json.dumps(data, sort_keys=True, indent=4))
-    # print(xmldict.get('metric'))
-    # print(xmldict['metric'])
-    # print(type(xmldict))
-    # # print(dict(xmldict))
-    # # print(type(dict(xmldict)))
-
-
-
-    # xmldict = dict(xmldict)
-    # xmldict = xmldict['file']
-
-    # print(xmldict)
-    # for k in xmldict.keys():
-    #     print(k)
-
-    # for k, v in xmldict.items():
-    #     print(k,v)
-    #     print("\n")
-    #     for k2, v2 in v.items():
-    #         print(k2, v2)
-    #         print("\n")
-
-
 
     return HttpResponse("Converting...")
 
@@ -487,3 +492,73 @@ class XmlDictConfig(dict):
             # the text
             else:
                 self.update({element.tag: element.text})
+
+def Wtree_test(request):
+    return render(request, 'Wtree_test.html')
+
+class metric_controller():
+    def __init__(self):
+        self.num = 0
+        self.array = []
+
+    def append(self, dict):
+        self.array.append(dict)
+        self.num += 1
+
+    def find(self, id):
+        for elt in self.array:
+            if elt['id'] == id:
+                return elt
+
+
+#매트릭 계산기
+class calculator(dict):
+    # 매트릭의 기준 표
+    # 각 매트릭의 기준 (최소치, 최대치)
+    table = {
+        'avg_stmt' : [0, 7],
+        'cpnt_len' : [3, 250],
+        'stmt_num' : [0, 80],
+        'd_optr' : [0, 35],
+        'd_oprd' : [0, 50],
+        'ocr_optr' : [0, 140],
+        'ocr_oprd' : [0, 120],
+        'cpnt_voca' : [3, 75],
+        'voca_size' : [3, 75],
+        'dcs_stmt' : [0, 9],
+        'strc_lv' : [0, 7],
+        'entry_ptr' : [1, 1],
+        'exit_pnt' : [1, 1],
+        'uncond_num' : [0, 0],
+    }
+
+    def __init__(self, elt):
+        self.dict = elt
+
+
+    def return_score(self, name):
+        # if table[name]
+        # 최소치 이상 일 경우
+        if table[name][0] <= self.dict[name]:
+            # 최대치 이하일 경우
+            if table[name][1] >= self.dict[name]:
+                return 100  # 100점
+            # 최소치 이상 최대치 이상
+            else:
+                # 2배를 넘지 않으면 점수 계산
+                if self.dict[name] - table[name][1] >= 0:
+                    return 100 - ((self.dict[name] - table[name][1]) / table[name][1] * 100)
+                # 2배를 넘으면 0점
+                else:
+                    return 0
+        #최소치 이하일 경우
+        else:
+            # 0점
+            return 0
+
+    def complexity(self):
+        score['statement'] = 9
+
+
+
+
