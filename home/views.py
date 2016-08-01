@@ -26,14 +26,39 @@ def dashboard(request):
 def forgot_password(request):
     return render(request, 'forgot_password.html')
 
+
 def tables(request):
     return render(request, 'tables.html')
 
+
+#/visualTest.html/
 def visual(request):
-    return render(request, 'visualTest.html')
+    result = d3test()
+    outlierId = result[6]
+    return render(request, 'visualTest.html', {'outlierId': outlierId})
+
+def showScore(request):
+    result = d3test()
+    aveComplexity = result[0]
+    aveStructure = result[1]
+    aveTestability = result[2]
+    aveUnderstand = result[3]
+    aveMaintainability = result[4]
+    projectScore = result[5]
+    testID = result[6]
+
+    return render(request, 'd3_test.html', {
+                                            'aveComplexity': aveComplexity,
+                                            'structuredness': aveStructure,
+                                            'testability': aveTestability,
+                                            'understandability': aveUnderstand,
+                                            'maintainability':  aveMaintainability,
+                                            'projectScore': projectScore,
+                                            'minimumStdVarID': testID,
+                                            })
 
 
-def d3test(request):
+def d3test():
     tree = ET.parse("home/static/data/crulechk.0.xml")
     root = tree.getroot()
 
@@ -220,6 +245,9 @@ def d3test(request):
 
     print(getMinimum(stdDevVar,'stdVar'))
     minimumVar = getMinimum(stdDevVar,'stdVar')
+    print("minimumVar print: ", minimumVar['ID'])
+    testID = minimumVar['ID']
+
 
     #프로젝트 최종 점수 계산
     aveStructure = TotalMaintainabilityScore / numberOfFile
@@ -228,14 +256,20 @@ def d3test(request):
     aveMaintainability = TotalMaintainabilityScore / numberOfFile
     projectScore = cal_projectScore(aveComplexity,aveStructure, aveTestability, aveMaintainability, aveUnderstand )
 
-    return render(request, 'd3_test.html', {
-                                            'aveComplexity': aveComplexity,
-                                            'structuredness': aveStructure,
-                                            'testability': aveTestability,
-                                            'understandability': aveUnderstand,
-                                            'maintainability':  aveMaintainability,
-                                            'projectScore': projectScore,
-                                            'minimumStdVarID': minimumVar['ID']})
+    return aveComplexity, aveStructure, aveTestability, aveUnderstand, aveMaintainability, projectScore, testID
+
+    #
+    # return render(request, 'd3_test.html', {
+    #                                         'aveComplexity': aveComplexity,
+    #                                         'structuredness': aveStructure,
+    #                                         'testability': aveTestability,
+    #                                         'understandability': aveUnderstand,
+    #                                         'maintainability':  aveMaintainability,
+    #                                         'projectScore': projectScore,
+    #                                         'minimumStdVarID': minimumVar['ID'],
+    #                                         })
+
+
 
 
 
