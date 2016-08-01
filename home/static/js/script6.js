@@ -73,8 +73,8 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		bodyFont = "Merriweather Sans";
 	
 	var colorCircle = d3.scale.ordinal()
-			.domain([0,1,2,3]) //  원의 깊이 갯수
-			.range(['#bfbfbf','#838383','#4c4c4c','#1c1c1c']); //바깥에서부터 원의 색깔
+			.domain([0,1,2,3,4]) //  원의 깊이 갯수
+			.range(['#bfbfbf','#838383','#4c4c4c','#1c1c1c','#1c1c1c']); //바깥에서부터 원의 색깔
 			
 	var colorBar = d3.scale.ordinal()
 		.domain(["16 to 19","20 to 24","25 to 34","35 to 44","45 to 54","55 to 64","65+"])
@@ -112,6 +112,8 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 	var nodeByName = {};
 	nodes.forEach(function(d,i) {
 		nodeByName[d.name] = d;
+		//test print
+		//console.log(nodeByName[d.name].ID );
 	});
 
 	////////////////////////////////////////////////////////////// 
@@ -135,24 +137,31 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 	//Array to keep track of which ID belongs to which index in the array
 	var dataById = {};
 	data.forEach(function (d, i) { 
-		dataById[d.key] = i; 
+		dataById[d.key] = i;
+		/*
+		console.log("ID print: ", dataById[d.key]);
+		*/
 	});	
 	
 	var IDbyName = {};
 	//Small file to get the IDs of the non leaf circles
 	idCSV.forEach(function (d, i) { 
-		IDbyName[d.name] = d.ID; 
+		IDbyName[d.name] = d.ID;
+
+		// console.log("ID print: ", IDbyName[d.name]);
+
 	});	
-	
+
 	////////////////////////////////////////////////////////////// 
 	///////////////// Canvas draw function ///////////////////////
 	////////////////////////////////////////////////////////////// 
 		
 	var elementsPerBar = 7,
-		barChartHeight = 0.7,
+		barChartHeight = 0.3,
 		barChartHeightOffset = 0.15;
 	
 	//The draw function of the canvas that gets called on each frame
+	
 	function drawCanvas(chosenContext, hidden) {
 
 		//Clear canvas
@@ -166,18 +175,27 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		for (var i = 0; i < nodeCount; i++) {
 			node = nodes[i];
 
-			//If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
-			if(hidden) {
-				if(node.color == null) {
-					// If we have never drawn the node to the hidden canvas get a new color for it and put it in the dictionary.
-					node.color = genColor();
-					colToCircle[node.color] = node;
-				}//if
-				// On the hidden canvas each rectangle gets a unique color.
-				chosenContext.fillStyle = node.color;
-			} else {
-				chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
-			}//else
+			//아웃라이어 색깔바꾸기
+			console.log("node: ",node.ID);
+			if(node.ID == "1.32.15"){
+				chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
+			}else{
+				//If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
+				if(hidden) {
+					if(node.color == null) {
+						// If we have never drawn the node to the hidden canvas get a new color for it and put it in the dictionary.
+						node.color = genColor();
+						colToCircle[node.color] = node;
+					}//if
+					// On the hidden canvas each rectangle gets a unique color.
+					chosenContext.fillStyle = node.color;
+				} else {
+						console.log("data_print: ",data[0].key);
+						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
+					//test print
+					// console.log("dataById: ", dataById);
+				}//else
+			}
 	
 			var nodeX = ((node.x - zoomInfo.centerX) * zoomInfo.scale) + centerX,
 				nodeY = ((node.y - zoomInfo.centerY) * zoomInfo.scale) + centerY,
@@ -196,8 +214,8 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 			if(node.ID in dataById) {
 				//Only draw the bars that are in the same parent ID as the clicked on node
 				if(node.ID.lastIndexOf(currentID, 0) === 0  & !hidden) {
-					//if(node.ID === "1.1.1.30") console.log(currentID);
-														
+					// if(node.ID === "1.1.1.30") console.log("currentID : ", currentID);
+
 					//Variables for the bar title
 					var drawTitle = true;
 					var fontSizeTitle = Math.round(nodeR / 10);
@@ -526,6 +544,9 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 				//to make sure it is in the same state as the visible canvas
 				//This way the tooltip and click work correctly
 				drawCanvas(hiddenContext, true);
+
+				//여기에서 특정 함수는 색깔 다른 함수로 칠해
+				
 				
 				//Update the texts in the legend
 				d3.select(".legendWrapper").selectAll(".legendText")

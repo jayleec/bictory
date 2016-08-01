@@ -8,7 +8,7 @@ import locale
 locale.setlocale(locale.LC_ALL, '')
 
 import statistics
-
+from .models import functionScore
 
 # import cElementTree as ElementTree
 
@@ -31,6 +31,7 @@ def tables(request):
 
 def visual(request):
     return render(request, 'visualTest.html')
+
 
 def d3test(request):
     tree = ET.parse("home/static/data/crulechk.0.xml")
@@ -236,6 +237,9 @@ def d3test(request):
                                             'projectScore': projectScore,
                                             'minimumStdVarID': minimumVar['ID']})
 
+
+
+
 #표준화변수 구하기
 #(data -  평균) / 표준편차
 def getStandardizationVar(data, average, stdDeviation, id):
@@ -262,7 +266,6 @@ def standardDeviation(data, category):
 #딕셔너리 리스트 중에 특정 카테고리 가장 작은값 리턴
 def getMinimum(list, category):
     return min(list, key=lambda x: x[category])
-
 
 
 def cal_projectScore(comp, stru, text, under, main):
@@ -323,7 +326,6 @@ def test(request):
         print(word)
 
     return HttpResponse("Testing...")
-
 
 def convert(request):
     # 초기 사전
@@ -392,9 +394,11 @@ def convert(request):
             print(child2[5].text)  # component length 출력
             cpntLenOfFunction = float(child2[5].text)
             totalCpntLenOfFunction += cpntLenOfFunction
-            fundict['name'] = child2[0].text
-            fundict['size'] = str(int(child2[5].text) * 3)
+
+            fundict['size'] = int(child2[5].text) * 3
             fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
+            fundict['name'] = child2[0].text
+
             funarr.append(fundict)
 
             s = ","
@@ -426,7 +430,7 @@ def convert(request):
     print("\n")
 
     with open('Metrics.json', 'w') as outfile:
-        json.dump(jsondict, outfile, sort_keys=True, indent=4,
+        json.dump(jsondict, outfile, sort_keys=False, indent=4,
                   ensure_ascii=False)
 
     return HttpResponse("Converting...")
@@ -496,7 +500,37 @@ class XmlDictConfig(dict):
 def Wtree_test(request):
     return render(request, 'Wtree_test.html')
 
-class metric_controller():
+def convert2(request):
+    data = ET.parse("analyze/crulechk.0.xml")
+    root = data.getroot()
+    metrics = MetricController()
+
+    # child = File
+    for child in root:
+        print("File Path : ", child[0].text)  # 파일 경로 출력
+        print("Number of functions: ", len(child[1]))  # function의 개수
+
+        # child2 = function
+        for child2 in child[1]:  # 소스파일 단위로 for loop
+            tmpdict = {}
+            # function안에 모든 메트릭을 Dictionary타입으로 변환하여 저장하는 for문
+            for child3 in child2:
+                if child3.tag == 'name':
+                    tmpdict['name'] = child3.text
+                    continue
+                tmpdict[child3.tag] = int(child3.text)
+
+            # 메트릭 컨트롤러에 저장
+            metrics.append(tmpdict)
+            print("Metrics : ", metrics.array)
+            cal = Calculator(tmpdict)
+            print("Complexity : ", cal.complexity())
+
+
+
+    return HttpResponse("Testing...")
+
+class MetricController():
     def __init__(self):
         self.num = 0
         self.array = []
@@ -509,10 +543,8 @@ class metric_controller():
         for elt in self.array:
             if elt['id'] == id:
                 return elt
-
-
 #매트릭 계산기
-class calculator(dict):
+class Calculator(dict):
     # 매트릭의 기준 표
     # 각 매트릭의 기준 (최소치, 최대치)
     table = {
@@ -530,24 +562,24 @@ class calculator(dict):
         'entry_ptr' : [1, 1],
         'exit_pnt' : [1, 1],
         'uncond_num' : [0, 0],
+        'cylomatic' : [0, 15],
     }
 
     def __init__(self, elt):
         self.dict = elt
 
-
     def return_score(self, name):
         # if table[name]
         # 최소치 이상 일 경우
-        if table[name][0] <= self.dict[name]:
+        if self.table[name][0] <= self.dict[name]:
             # 최대치 이하일 경우
-            if table[name][1] >= self.dict[name]:
+            if self.table[name][1] >= self.dict[name]:
                 return 100  # 100점
             # 최소치 이상 최대치 이상
             else:
                 # 2배를 넘지 않으면 점수 계산
-                if self.dict[name] - table[name][1] >= 0:
-                    return 100 - ((self.dict[name] - table[name][1]) / table[name][1] * 100)
+                if self.dict[name] - self.table[name][1] >= 0:
+                    return 100 - ((self.dict[name] - self.table[name][1]) / self.table[name][1] * 100)
                 # 2배를 넘으면 0점
                 else:
                     return 0
@@ -557,4 +589,30 @@ class calculator(dict):
             return 0
 
     def complexity(self):
+<<<<<<< HEAD
         score['statement'] = 9
+=======
+        scores = {
+            'stmt_num' : 9,
+            'd_oprd' : 9,
+            'd_optr' : 9,
+            'ocr_oprd' : 9,
+            'ocr_optr' : 9,
+            'cpnt_voca' : 9,
+            'cpnt_len' : 10,
+            'avg_stmt' : 9,
+            'cyclomatic' : 9,
+            'dcs_stmt' : 9,
+            'strc_lv' : 9,
+        }
+        names = ['stmt_num', 'd_oprd', 'd_optr', 'ocr_oprd', 'ocr_optr', 'cpnt_voca', 'cpnt_len', 'avg_stmt', 'cyclomatic', 'dcs_stmt', 'strc_lv']
+        score = 0
+        for x in names:
+            print("x : ", x)
+            score += self.return_score(x) * scores[x]
+        return score / 1000
+
+
+
+
+>>>>>>> 2ac5b3022c3e3dc2b646c6c54a2e35bb5dc55da5
