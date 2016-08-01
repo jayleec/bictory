@@ -1,5 +1,6 @@
 from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
+import csv
 # Create your views here.
 
 def index(request):
@@ -12,6 +13,18 @@ def calculate(request):
 
     data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
+
+    csv_file = open('tmp_csv', "w")
+    cw = csv.writer(csv_file, delimiter=',', quotechar='|')
+    cw.writerow(["\"name\"", "\"ID\""])
+    cw.writerow(["\"project\"", "\"\""])
+    cw.writerow(["\"directory\"", "\"1\""])
+
+    csv_file2 = open('Reduced Metric for Function.csv', "w")
+    cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
+    cw2.writerow(["\"ID\"", "\"ID\""])
+    cw2.writerow(["\"age\"", "\"\""])
+    cw2.writerow(["\"value\"", "\"1\""])
 
     # 메트릭 개수는 항상 27개
     # 전체 파일 개수
@@ -36,14 +49,21 @@ def calculate(request):
         numberOfFile += 1
         sumOfTheNumberOfFunctions += len(child[1])
         print("File Path : ", child[0].text) # 파일 경로 출력
+
+        # 파일 경로 + number of file
+        cw.writerow(["\"" + child[0].text + "\"", "\"1." + str(numberOfFile) + "\""])
+
         print("Number of functions: ", len(child[1])) # function의 개수
         numberOfFunction = len(child[1])
         function_number = 0
         for child2 in child[1]: # 소스파일 단위로 for loop , child[1] = <functions>, child2 = <function>
+
             function_number += 1
             funcdict = {}
             cpntLenOfFunction = float(child2[5].text)
+
             totalCpntLenOfFunction += cpntLenOfFunction
+            cw.writerow(["\"" + child2[0].text + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
 
             # MARK : Complexity 계산 안되있음
 
@@ -149,12 +169,31 @@ def calculate(request):
 
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
 
+
+            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Complexity\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
+            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Maintainability\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
+            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Complexity\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
+            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Complexity\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
+            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Complexity\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
             funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
             funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
             funcdict['Complexity'] = str(ComplexityScoreOfFunction)
             funcdict['Testability'] = str(TestabilityScoreOfFunction)
             funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
+
+            print(funcdict)
+            id_ = funcdict['ID']
+            for k, v in funcdict.items():
+                if k == 'ID':
+                    continue
+                if k == 'Complexity' or k == 'Structuredness' or k == 'Testability' or k == 'Understandabilty' or k == 'Maintainability':
+                    cw2.writerow(["\"" + id_ + "\"", "\"" + str(k) + "\"", "\"" + str(v) + "\""])
+
+                print(k)
+                print(v)
+
+
             funcarr.append(funcdict)
             funcdict = {}
 
@@ -187,8 +226,6 @@ def calculate(request):
             if function_number == numberOfFunction:
                 AverageUnderstandabilityOfFile /= function_number
                 TotalUnderstandabilityScore += AverageUnderstandabilityOfFile
-
-
 
         averageCpntLenOfFile = totalCpntLenOfFunction / numberOfFunction
         totalCpntLenOfProject += averageCpntLenOfFile
@@ -228,18 +265,19 @@ def getAbnormal(array):
         print("This file`s function length: ", len(file))
 
         for function in file:
-            function["Dagen"] = "sohn"
+            lv = getFunctionLevel(function)
+            print(lv)
 
         for function in file:
             print(function)
 
         # 레벨로 표시 5단계 메트릭
-        # lv5 : 1~5
-        # lv4 : 6~10
-        # lv3 : 11~15
-        # lv2 : 16~20
-        # lv1 : 21~
-
+        # normal : 0
+        # lv5 : 1~3
+        # lv4 : 4~6
+        # lv3 : 7~9
+        # lv2 : 10~12
+        # lv1 : 13~
 
     # for child in bigArray:
     #     print(child[1])
@@ -251,26 +289,72 @@ def getFunctionLevel(function):
     if badMetric == 0:
         return "normal"
 
-    elif badMetric < 6:
+    elif badMetric < 3:
         return "lv5"
 
-    elif badMetric < 11:
+    elif badMetric < 6:
         return "lv4"
 
-    elif badMetric < 16:
+    elif badMetric < 9:
         return "lv3"
 
-    elif badMetric < 21:
+    elif badMetric < 12:
         return "lv2"
 
     else:
         return "lv1"
 
+# 14개 메트릭 검사
 def countBadMetric(function):
     badMetric = 0
 
-    if function["stmt_num"] > 30:
+    # average statement size가 8이상이면 복잡하다.
+    if float(function["avg_stmt"]) > 7:
         badMetric += 1
+
+    if float(function["cpnt_len"]) < 3 or float(function["cpnt_len"]) > 250:
+        badMetric += 1
+
+    # 공식으로 cyclomatic complexity를 계산해서 그 값이 15를 넘지 않아야 한다.(수정)
+    if float(function["cyclomatic"]) > 15:
+        badMetric += 1
+
+    if float(function["stmt_num"]) > 80:
+        badMetric += 1
+
+    if float(function["d_oprd"]) > 50:
+        badMetric += 1
+
+    if float(function["d_optr"]) > 35:
+        badMetric += 1
+
+    if float(function["ocr_oprd"]) > 120:
+        badMetric += 1
+
+    if float(function["ocr_optr"]) > 140:
+        badMetric += 1
+
+    if float(function["cpnt_voca"]) < 3 or float(function["cpnt_voca"]) > 250:
+        badMetric += 1
+
+    if float(function["dcs_stmt"]) > 8:
+        badMetric += 1
+
+    if float(function["strc_lv"]) > 6:
+        badMetric += 1
+
+    if float(function["entry_ptr"]) != 1:
+        badMetric += 1
+
+    if float(function["exit_pnt"]) != 1:
+        badMetric += 1
+
+    if float(function["uncond_num"]) != 0:
+        badMetric += 1
+
+
+
+
 
 
 

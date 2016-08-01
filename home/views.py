@@ -558,7 +558,3 @@ class calculator(dict):
 
     def complexity(self):
         score['statement'] = 9
-
-
-
-
