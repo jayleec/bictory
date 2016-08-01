@@ -7,7 +7,7 @@ import locale
 locale.setlocale(locale.LC_ALL, '')
 
 import statistics
-
+from .models import functionScore
 
 # import cElementTree as ElementTree
 
@@ -30,6 +30,7 @@ def tables(request):
 
 def visual(request):
     return render(request, 'visualTest.html')
+
 
 def d3test(request):
     tree = ET.parse("home/static/data/crulechk.0.xml")
@@ -235,6 +236,9 @@ def d3test(request):
                                             'projectScore': projectScore,
                                             'minimumStdVarID': minimumVar['ID']})
 
+
+
+
 #표준화변수 구하기
 #(data -  평균) / 표준편차
 def getStandardizationVar(data, average, stdDeviation, id):
@@ -261,7 +265,6 @@ def standardDeviation(data, category):
 #딕셔너리 리스트 중에 특정 카테고리 가장 작은값 리턴
 def getMinimum(list, category):
     return min(list, key=lambda x: x[category])
-
 
 
 def cal_projectScore(comp, stru, text, under, main):

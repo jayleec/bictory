@@ -84,7 +84,10 @@ a:hover {
 	stroke-width:1;
 	stroke:#757575;
 	stroke-dasharray:2 2;
+
 	fill:none;
+
+
 }
 
 .legendLine {

@@ -4,5 +4,5 @@ from django.db import models
 
 
 class functionScore(models.Model):
-    funcID = models.CharField( max_length=5)
+    funcID = models.CharField(max_length=5)
     score = models.FloatField(max_length=10)
