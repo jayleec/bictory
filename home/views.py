@@ -323,10 +323,6 @@ def test(request):
         print(word)
 
     return HttpResponse("Testing...")
-<<<<<<< HEAD
-
-=======
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
 
 def convert(request):
     # 초기 사전
@@ -501,9 +497,6 @@ class XmlDictConfig(dict):
 def Wtree_test(request):
     return render(request, 'Wtree_test.html')
 
-<<<<<<< HEAD
-class metric_controller():
-=======
 def convert2(request):
     data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
@@ -535,7 +528,6 @@ def convert2(request):
     return HttpResponse("Testing...")
 
 class MetricController():
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
     def __init__(self):
         self.num = 0
         self.array = []
@@ -548,18 +540,8 @@ class MetricController():
         for elt in self.array:
             if elt['id'] == id:
                 return elt
-<<<<<<< HEAD
-
-
-#매트릭 계산기
-class calculator(dict):
-=======
-        return false
-
-
 #매트릭 계산기
 class Calculator(dict):
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
     # 매트릭의 기준 표
     # 각 매트릭의 기준 (최소치, 최대치)
     table = {
@@ -577,40 +559,12 @@ class Calculator(dict):
         'entry_ptr' : [1, 1],
         'exit_pnt' : [1, 1],
         'uncond_num' : [0, 0],
-<<<<<<< HEAD
-=======
         'cylomatic' : [0, 15],
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
     }
 
     def __init__(self, elt):
         self.dict = elt
 
-
-<<<<<<< HEAD
-    # def return_score(self, name):
-    #     # if table[name]
-    #     # 최소치 이상 일 경우
-    #     if table[name][0] <= self.dict[name]:
-    #         # 최대치 이하일 경우
-    #         if table[name][1] >= self.dict[name]:
-    #             return 100  # 100점
-    #         # 최소치 이상 최대치 이상
-    #         else:
-    #             # 2배를 넘지 않으면 점수 계산
-    #             if self.dict[name] - table[name][1] >= 0:
-    #                 return 100 - ((self.dict[name] - table[name][1]) / table[name][1] * 100)
-    #             # 2배를 넘으면 0점
-    #             else:
-    #                 return 0
-    #     #최소치 이하일 경우
-    #     else:
-    #         # 0점
-    #         return 0
-    #
-    # def complexity(self):
-    #     score['statement'] = 9
-=======
     def return_score(self, name):
         # if table[name]
         # 최소치 이상 일 경우
@@ -651,7 +605,6 @@ class Calculator(dict):
             print("x : ", x)
             score += self.return_score(x) * scores[x]
         return score / 1000
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
 
 
 
