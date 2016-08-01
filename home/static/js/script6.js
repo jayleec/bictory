@@ -178,7 +178,21 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 			//아웃라이어 색깔바꾸기
 			console.log("node: ",node.ID);
 			if(node.ID == "1.32.15"){
-				chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
+				// chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
+				if(hidden) {
+					if(node.color == null) {
+						// If we have never drawn the node to the hidden canvas get a new color for it and put it in the dictionary.
+						node.color = genColor();
+						colToCircle[node.color] = node;
+					}//if
+					// On the hidden canvas each rectangle gets a unique color.
+					chosenContext.fillStyle = node.color;
+				} else {
+						console.log("data_print: ",data[0].key);
+						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
+					//test print
+					// console.log("dataById: ", dataById);
+				}//else
 			}else{
 				//If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
 				if(hidden) {

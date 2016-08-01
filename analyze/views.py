@@ -22,9 +22,9 @@ def calculate(request):
 
     csv_file2 = open('Reduced Metric for Function.csv', "w")
     cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
-    cw2.writerow(["\"ID\"", "\"ID\""])
-    cw2.writerow(["\"age\"", "\"\""])
-    cw2.writerow(["\"value\"", "\"1\""])
+    cw2.writerow(["\"ID\"","\"age\"", "\"value\""])
+    # cw2.writerow(["\"age\"", "\"\""])
+    # cw2.writerow(["\"value\"", "\"1\""])
 
     # 메트릭 개수는 항상 27개
     # 전체 파일 개수
