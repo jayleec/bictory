@@ -29,6 +29,7 @@ def calculate(request):
     TotalTestabilityScore = 0
 
     funcarr = []
+    totalFunctionArray = []
     funcdict = {}
 
     for child in root: # child = file
@@ -75,6 +76,7 @@ def calculate(request):
                 AverageUnderstandabilityOfFile = 0
 
             for child3 in child2: # function 단위로 for loop, child3는 각 메트릭
+                funcdict[child3.tag] = child3.text
                 if child3.tag == 'stmt_num':
                     if int(child3.text) > 80: # 80이하여야 한다.
                         UnderstandabilityScoreOfFunction -= 15
@@ -161,9 +163,13 @@ def calculate(request):
             if function_number == numberOfFunction:
                 AverageComplexityOfFile /= function_number
                 TotalComplexityScore += AverageComplexityOfFile
+                # totalFunctionArray 에 각 파일별로 점수를 저장한다.
+                totalFunctionArray.append(funcarr)
+
 
             AverageTestabilityOfFile += TestabilityScoreOfFunction
             if function_number == numberOfFunction:
+                funcarr = []
                 AverageTestabilityOfFile /= function_number
                 TotalTestabilityScore += AverageTestabilityOfFile
 
@@ -181,6 +187,8 @@ def calculate(request):
             if function_number == numberOfFunction:
                 AverageUnderstandabilityOfFile /= function_number
                 TotalUnderstandabilityScore += AverageUnderstandabilityOfFile
+
+
 
         averageCpntLenOfFile = totalCpntLenOfFunction / numberOfFunction
         totalCpntLenOfProject += averageCpntLenOfFile
@@ -202,11 +210,68 @@ def calculate(request):
                'maintainability_score': TotalMaintainabilityScore / numberOfFile,
                'structuredness_score': TotalStructurednessScore / numberOfFile,}
 
-    # 터미널에 출력
-    for i in funcarr:
-        print(i)
+    # totalFunctionArray가 각 파일별 함수의 점수를 가지고 있다.
+    getAbnormal(totalFunctionArray)
 
     return render(request, 'dashboard.html', context)
 
 def visualize(request):
     return render(request, 'analyze/visualize.html')
+
+def getAbnormal(array):
+    # array 는 각 파일의 함수를 담고있는 배열의 배열이다. 배열의 크기는 프로젝트의 파일 개수가 된다.
+    fileInfoDictionary = {}
+    result = []
+
+    for index, file in enumerate(array): # file은 function 1개 이상 가지고 있는 파일이다.
+        print(index+1) # 0번 부터 시작
+        print("This file`s function length: ", len(file))
+
+        for function in file:
+            function["Dagen"] = "sohn"
+
+        for function in file:
+            print(function)
+
+        # 레벨로 표시 5단계 메트릭
+        # lv5 : 1~5
+        # lv4 : 6~10
+        # lv3 : 11~15
+        # lv2 : 16~20
+        # lv1 : 21~
+
+
+    # for child in bigArray:
+    #     print(child[1])
+
+def getFunctionLevel(function):
+
+    badMetric = countBadMetric(function)
+
+    if badMetric == 0:
+        return "normal"
+
+    elif badMetric < 6:
+        return "lv5"
+
+    elif badMetric < 11:
+        return "lv4"
+
+    elif badMetric < 16:
+        return "lv3"
+
+    elif badMetric < 21:
+        return "lv2"
+
+    else:
+        return "lv1"
+
+def countBadMetric(function):
+    badMetric = 0
+
+    if function["stmt_num"] > 30:
+        badMetric += 1
+
+
+
+    return badMetric
