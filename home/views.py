@@ -589,9 +589,6 @@ class Calculator(dict):
             return 0
 
     def complexity(self):
-<<<<<<< HEAD
-        score['statement'] = 9
-=======
         scores = {
             'stmt_num' : 9,
             'd_oprd' : 9,
@@ -611,8 +608,3 @@ class Calculator(dict):
             print("x : ", x)
             score += self.return_score(x) * scores[x]
         return score / 1000
-
-
-
-
->>>>>>> 2ac5b3022c3e3dc2b646c6c54a2e35bb5dc55da5
