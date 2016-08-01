@@ -169,12 +169,6 @@ def calculate(request):
 
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
 
-
-            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Complexity\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
-            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Maintainability\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
-            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Complexity\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
-            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Complexity\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
-            # cw2.writerow(["\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\"", "\"Complexity\"", "\"" + str(ComplexityScoreOfFunction) + "\""])
             funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
             funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
             funcdict['Complexity'] = str(ComplexityScoreOfFunction)
