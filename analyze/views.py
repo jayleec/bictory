@@ -1,6 +1,8 @@
 from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
+from analyze.models import File, Function, ScoreCard
 import csv
+import os
 # Create your views here.
 
 def index(request):
@@ -347,9 +349,58 @@ def countBadMetric(function):
         badMetric += 1
 
 
-
-
-
-
-
     return badMetric
+
+def save(request):
+    data = ET.parse("analyze/crulechk.0.xml")
+    root = data.getroot()
+    numoffunction = 0
+    totaloffunction = len(root)
+    for c in root:
+        totaloffunction += len(c[1])
+
+    # child = File
+    for child in root:
+
+        file = File(
+            path = child[0].text,
+            name = child[0].text.replace('/', "\\").split("\\")[-1],
+            numberoffunctions = len(child[1]),
+        )
+
+        # 5가지 점수를 for문을 통하여 입력
+        for x in child[2]:
+            # worst_function은 입력받지않음
+            if x.tag == 'worst_functions':
+                continue
+            # print("file." + x.tag + "=" + str(x.text))
+            exec("file." + x.tag + "=" + str(x.text))
+
+        # file모델 객체를 저장
+        file.save()
+
+        numoffunction += 1
+        print("(", str(int(numoffunction / totaloffunction * 100)), "%) saving file <", file.name, "> ...")
+
+        # child2 = function
+        for child2 in child[1]:  # 소스파일 단위로 for loop
+            # 해당 File에 속하는 Function 객체 생성
+            function = Function(
+                file = file,
+            )
+            # function안에 모든 메트릭을 저장하는 for문
+            for child3 in child2:
+                if child3.tag == 'name':
+                    exec("function." + child3.tag + "=\"" + str(child3.text) + "\"")
+                else:
+                    exec("function." + child3.tag + "=" + str(child3.text))
+
+            #저장
+            function.save()
+
+            numoffunction += 1
+            print("(", str(int(numoffunction / totaloffunction * 100)), "%) saving function <", function.name, "> of", file.name, "...")
+
+    print("( 100 %) Done !")
+
+    return HttpResponse("Done...")
