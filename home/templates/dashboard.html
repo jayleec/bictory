@@ -32,6 +32,53 @@
           </div>
 {% endblock %}
 {% block content %}
+<!--UPLOAD FILE -->
+
+<!-- Upload form. Note enctype attribute!-->
+<form action="{% url "home:dashboard" %}" method="post" enctype="multipart/form-data">
+    <div class="form-group" id="two">
+        {% csrf_token %}
+        <p>
+        {{ form.non_field_errors }}
+
+        {{ form.Lddfile.label_tag }} {{ form.Lddfile.help_text }}
+
+        {{ form.Lddfile.errors }}
+        {{ form.Lddfile }}
+        </p>
+
+        <P>
+            <input class="form-control input-lg" type="text" placeholder="input">
+            <input class="btn btn-default" type="button" value="Load From Git">
+        </P>
+
+        <p><input type="submit" value="Upload"/></p>
+    </div>
+</form>
+
+<!--END OF UPLOAD FILE-->
+
+
+    <div>
+
+    <form action="/index/" method="get" enctype="multipart/form-data">
+
+        <input type='hidden' name='csrfmiddlewaretoken' value='xfyofexzNawRuLUzUDJ66DIT76oh5yKA' />
+
+        <p></p>
+
+        <p><label for="id_gitFile">git url:</label> </p>
+
+        <p>
+
+            <input id="id_gitFile" name="gitFile" type="url" />
+        </p>
+
+        <p><input type="submit" value="Git Upload"/></p>
+    </form>
+
+</div>
+
         <div class='panel panel-default'>
           <div class='panel-heading'>
             <i class='glyphicon glyphicon-fire'></i>

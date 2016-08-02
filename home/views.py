@@ -8,7 +8,17 @@ import locale
 locale.setlocale(locale.LC_ALL, '')
 
 import statistics
-from .models import functionScore
+
+# UPLOAD FILE
+from .forms import GitFileForm
+import git
+from datetime import datetime
+from .models import Upload
+from .forms import UploadFileForm
+from django.shortcuts import render_to_response
+from django.http import HttpResponseRedirect
+from django.template import RequestContext
+from django.core.urlresolvers import reverse
 
 # import cElementTree as ElementTree
 
@@ -29,6 +39,41 @@ def forgot_password(request):
 
 def tables(request):
     return render(request, 'tables.html')
+
+
+#git file loader
+def gitLoader(request):
+    if request.method == 'GET':
+        #form generated
+        form_git = GitFileForm(request.GET, request.FILES)
+        if form_git.is_valid():
+            gitUrl = form_git.cleaned_data['gitFile']
+            dirname = datetime.now().strftime('%Y-%m-%d-%H-%M')
+            g = git.Repo.clone_from(gitUrl, dirname)
+
+            # Redirect to the document list after POST
+            return HttpResponseRedirect(reverse("home.views.gitLoader"))
+
+    if request.method == 'POST':
+        form = UploadFileForm(request.POST, request.FILES)
+        if form.is_valid():
+            newdoc = Upload(Lddfile=request.FILES['Lddfile'])
+            newdoc.save()
+
+            # Redirect to the document list after POST
+            return HttpResponseRedirect(reverse("home.views.gitLoader"))
+
+    else:
+        form_git = GitFileForm()  # A empty, unbound form
+        form = UploadFileForm()
+        files = Upload.objects.all()
+    return render_to_response(
+            'torch/index.html',
+            {'files': files, 'form': form, 'form_git': form_git},
+            context_instance=RequestContext(request)
+    )
+
+
 
 
 #/visualTest.html/
