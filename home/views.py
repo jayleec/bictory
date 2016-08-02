@@ -390,6 +390,21 @@ def ave_complexity(complexity_list, numOfFunctions):
     return sumtemp/numOfFunctions
 
 
+def sign_up(request):
+    if request.method == 'POST':
+        form = SignUpForm(request.POST)
+
+        if form.is_valid():
+            u = User(
+                email=cleaned_data['email'],
+                password=cleaned_data['password'],
+            )
+            u.save()
+            return HttpResponseRedirect('/')
+    else:
+        form = SignUpForm()
+
+    return render(request, 'sign_up.html')
 
 
 def report(request):

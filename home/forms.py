@@ -2,6 +2,9 @@ from django import forms
 
 from .models import GitFile
 
+class SignUpForm(forms.Form):
+    email = forms.CharField(max_length=100)
+    password = forms.CharField(max_length=100)
 
 class FileForm(forms.Form):
     docfile = forms.FileField(
