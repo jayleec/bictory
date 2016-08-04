@@ -445,21 +445,19 @@ def convert(request):
     funarr = []
     fundict = {}
 
-    csv_file = open('IDofParents.csv', "w")
+    csv_file = open('home/static/data/IDofParents.csv', "w")
     cw = csv.writer(csv_file, delimiter=',', quotechar='|')
     cw.writerow(["\"name\"", "\"ID\""])
     cw.writerow(["\"project\"", "\"\""])
     cw.writerow(["\"directory\"", "\"1\""])
 
-
-    csv_file2 = open('Metrics for each Function.csv', "w")
+    csv_file2 = open('home/static/data/Metrics for each Function.csv', "w")
     cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
     cw2.writerow(["\"ID\"", "\"age\"", "\"value\""])
 
     numberOfFile = 0
     numoffunction = 0
     totaloffunction = len(File.objects.all()) + len(Function.objects.all())
-    print(totaloffunction)
 
     project = Project.objects.first()
     # for file in project.file_set.all():
