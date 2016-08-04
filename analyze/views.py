@@ -1,8 +1,9 @@
 from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
-from analyze.models import File, Function, ScoreCard
+from analyze.models import Project, File, Function, ScoreCard
 import csv
 import os
+
 # Create your views here.
 
 def index(request):
@@ -359,7 +360,10 @@ def save(request):
     for c in root:
         totaloffunction += len(c[1])
 
-    project = Project(name="default").save()
+    project = Project()
+    project.name = "default"
+    project.save()
+    # print(project)
     # child = File
     for child in root:
 
@@ -406,3 +410,74 @@ def save(request):
     print("( 100 %) Done !")
 
     return HttpResponse("Done...")
+
+
+def convert(request):
+    # 초기 사전
+    jsondict = {"name": "Project"}
+
+    filearr = []
+    filedict = {}
+    funarr = []
+    fundict = {}
+
+    csv_file = open('IDofParents.csv', "w")
+    cw = csv.writer(csv_file, delimiter=',', quotechar='|')
+    cw.writerow(["\"name\"", "\"ID\""])
+    cw.writerow(["\"project\"", "\"\""])
+    cw.writerow(["\"directory\"", "\"1\""])
+
+
+    csv_file2 = open('Metrics for each Function.csv', "w")
+    cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
+    cw2.writerow(["\"ID\"", "\"age\"", "\"value\""])
+
+    # 메트릭 개수는 항상 27개
+    # 전체 파일 개수
+    sumOfTheNumberOfFunctions = 0
+    numberOfFile = 0
+    totalCpntLenOfFunction = 0
+    averageCpntLenOfFile = 0
+    cpntLenOfFunction = 0
+    numberOfFunction = 0
+    totalCpntLenOfProject = 0
+
+    project = Project.objects.first()
+    for file in project.files:
+        filedict = {}
+
+        filedict['name'] = file.name
+        numberOfFile+=1
+        numberOfFunction = 0
+        cw.writerow(["\"" + file.name + "\"", "\"1." + str(numberOfFile) + "\""])
+        funarr = []
+        fundict = {}
+
+        for function in file.functions:  # 소스파일 단위로 for loop
+            fundict = {}
+            numberOfFunction += 1
+            cw.writerow(["\"" + child2[0].text + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
+
+            for k, v in function:
+                fundict[k] = v
+
+            fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
+
+            funarr.append(fundict)
+
+        filedict['children'] = funarr
+
+        filearr.append(filedict)
+
+        averageCpntLenOfFile = totalCpntLenOfFunction / sumOfnumberOfFunction
+        totalCpntLenOfProject += averageCpntLenOfFile
+        cpntLenOfFuntion = 0
+        totalCpntLenOfFunction = 0
+
+    jsondict['children'] = filearr
+
+    with open('Metrics2.json', 'w') as outfile:
+        json.dump(jsondict, outfile, sort_keys=False, indent=4,
+                  ensure_ascii=False)
+
+    return HttpResponse("Converting...")
