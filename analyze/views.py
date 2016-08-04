@@ -440,7 +440,6 @@ def save(request):
 def convert(request):
     # 초기 사전
     jsondict = {"name": "Project"}
-
     filearr = []
     filedict = {}
     funarr = []
@@ -457,15 +456,10 @@ def convert(request):
     cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
     cw2.writerow(["\"ID\"", "\"age\"", "\"value\""])
 
-    # 메트릭 개수는 항상 27개
-    # 전체 파일 개수
-    sumOfTheNumberOfFunctions = 0
     numberOfFile = 0
-    totalCpntLenOfFunction = 0
-    averageCpntLenOfFile = 0
-    cpntLenOfFunction = 0
-    numberOfFunction = 0
-    totalCpntLenOfProject = 0
+    numoffunction = 0
+    totaloffunction = len(File.objects.all()) + len(Function.objects.all())
+    print(totaloffunction)
 
     project = Project.objects.first()
     # for file in project.file_set.all():
@@ -480,7 +474,8 @@ def convert(request):
         funarr = []
         fundict = {}
 
-        # print("filename:", file.name)
+        numoffunction += 1
+        print("(", str(int(numoffunction / totaloffunction * 100)), "%) converting file <", file.name, "> ...")
 
         # Function별 loop
         for function in file.function_set.all():  # 소스파일 단위로 for loop
@@ -493,11 +488,13 @@ def convert(request):
                 if f == 'file':
                     continue
                 fundict[f] = getattr(function, str(f), None)
-                cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""),
-                              str("\"" + f + "\""), str("\"" + str(fundict[f]) + "\"")])
 
             fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
             funarr.append(fundict)
+
+            numoffunction += 1
+            print("(", str(int(numoffunction / totaloffunction * 100)), "%) converting function <", function.name, "> of",
+                  file.name, "...")
 
         filedict['children'] = funarr
         filearr.append(filedict)
@@ -506,11 +503,12 @@ def convert(request):
 
     # print(jsondict)
 
-    with open('Metrics2.json', 'w') as outfile:
+    with open('home/static/data/Metrics.json', 'w') as outfile:
         json.dump(jsondict, outfile, sort_keys=False, indent=4,
                   ensure_ascii=False)
 
-    return HttpResponse("Converting...")
+    print("( 100 %) Done !")
+    return HttpResponse("Done !...")
 
 def visual(request):
 
