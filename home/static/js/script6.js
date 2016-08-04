@@ -5,16 +5,18 @@
 // 	.await(drawAll);
 
 queue()
-	.defer(d3.csv, "/static/data/Reduced Metric for Function.csv")
+	.defer(d3.csv, "/static/data/Metrics for each Function.csv")
 	.defer(d3.csv, "/static/data/IDofParents.csv")
 	.defer(d3.json, "/static/data/Metrics.json")
 	.await(drawAll);
 
 //Initiates practically everything
 function drawAll(error, ageCSV, idCSV, occupations) {
+
 	//////////////////////////////////////////////////////////////
 	////////////////// Create Set-up variables  //////////////////
 	//////////////////////////////////////////////////////////////
+
 
 	//Trying to figure out how to detect touch devices (exept for laptops with touch screens)
 	//Since there's no need to have a mouseover function for touch
@@ -174,11 +176,10 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		for (var i = 0; i < nodeCount; i++) {
 			node = nodes[i];
 
+
 			//아웃라이어 색깔바꾸기
 			// Metrics.json 에 칼라를 red로 설정하면 된다.
-			console.log("node: ",node.ID);
-			console.log("node color: ", node.color);
-			console.log(node);
+			// console.log(node);
 			if(node.TotalScore <= 83){
 				// chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
 				if(hidden) {
@@ -213,6 +214,31 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 				}//else
 			}
 
+			// ==========================================누가한거?
+			//If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
+			if(hidden) {
+				if(node.color == null) {
+					// If we have never drawn the node to the hidden canvas get a new color for it and put it in the dictionary.
+					node.color = genColor();
+					colToCircle[node.color] = node;
+				}//if
+				// On the hidden canvas each rectangle gets a unique color.
+				chosenContext.fillStyle = node.color;
+			} else {
+				//아웃라이어 색깔바꾸기
+					if(node.ID == outlierId ) {
+						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
+					}else {
+						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
+					}
+				//test print
+				// console.log("dataById: ", dataById);
+
+
+			}//else
+			// =========================================여기까지
+
+
 			var nodeX = ((node.x - zoomInfo.centerX) * zoomInfo.scale) + centerX,
 				nodeY = ((node.y - zoomInfo.centerY) * zoomInfo.scale) + centerY,
 				nodeR = node.r * zoomInfo.scale;
@@ -244,10 +270,11 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 						chosenContext.fillStyle = "rgba(191,191,191," + textAlpha +")" //"#BFBFBF";
 						chosenContext.textAlign = "center";
 						chosenContext.textBaseline = "middle";
-						chosenContext.fillText("Total "+commaFormat(node.size)+" (in thousands)", nodeX, nodeY + -0.75 * nodeR);
+						chosenContext.fillText("Total "+commaFormat(node.size)+" functions", nodeX, nodeY + -0.75 * nodeR);
 
 						//Get the text back in pieces that will fit inside the node
 						var titleText = getLines(chosenContext, node.name, nodeR*2*0.7, fontSizeTitle, titleFont);
+
 						//Loop over all the pieces and draw each line
 						titleText.forEach(function(txt, iterator) {
 							chosenContext.font = fontSizeTitle + "px " + titleFont;

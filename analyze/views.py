@@ -1,6 +1,8 @@
 from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
+from analyze.models import Project, File, Function, ScoreCard
 import csv
+import os
 import json
 
 # Create your views here.
@@ -373,9 +375,132 @@ def countBadMetric(function):
         badMetric += 1
 
 
-
-
-
-
-
     return badMetric
+
+def save(request):
+    data = ET.parse("analyze/crulechk.0.xml")
+    root = data.getroot()
+    numoffunction = 0
+    totaloffunction = len(root)
+    for c in root:
+        totaloffunction += len(c[1])
+
+    project = Project()
+    project.name = "default"
+    project.save()
+    # print(project)
+    # child = File
+    for child in root:
+
+        file = File(
+            project = project,
+            path = child[0].text,
+            name = child[0].text.replace('/', "\\").split("\\")[-1],
+            numberoffunctions = len(child[1]),
+        )
+
+        # 5가지 점수를 for문을 통하여 입력
+        for x in child[2]:
+            # worst_function은 입력받지않음
+            if x.tag == 'worst_functions':
+                continue
+            # print("file." + x.tag + "=" + str(x.text))
+            exec("file." + x.tag + "=" + str(x.text))
+
+        # file모델 객체를 저장
+        file.save()
+
+        numoffunction += 1
+        print("(", str(int(numoffunction / totaloffunction * 100)), "%) saving file <", file.name, "> ...")
+
+        # child2 = function
+        for child2 in child[1]:  # 소스파일 단위로 for loop
+            # 해당 File에 속하는 Function 객체 생성
+            function = Function(
+                file = file,
+            )
+            # function안에 모든 메트릭을 저장하는 for문
+            for child3 in child2:
+                if child3.tag == 'name':
+                    exec("function." + child3.tag + "=\"" + str(child3.text) + "\"")
+                else:
+                    exec("function." + child3.tag + "=" + str(child3.text))
+
+            #저장
+            function.save()
+
+            numoffunction += 1
+            print("(", str(int(numoffunction / totaloffunction * 100)), "%) saving function <", function.name, "> of", file.name, "...")
+
+    print("( 100 %) Done !")
+
+    return HttpResponse("Done...")
+
+
+def convert(request):
+    # 초기 사전
+    jsondict = {"name": "Project"}
+
+    filearr = []
+    filedict = {}
+    funarr = []
+    fundict = {}
+
+    csv_file = open('IDofParents.csv', "w")
+    cw = csv.writer(csv_file, delimiter=',', quotechar='|')
+    cw.writerow(["\"name\"", "\"ID\""])
+    cw.writerow(["\"project\"", "\"\""])
+    cw.writerow(["\"directory\"", "\"1\""])
+
+
+    csv_file2 = open('Metrics for each Function.csv', "w")
+    cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
+    cw2.writerow(["\"ID\"", "\"age\"", "\"value\""])
+
+    # 메트릭 개수는 항상 27개
+    # 전체 파일 개수
+    sumOfTheNumberOfFunctions = 0
+    numberOfFile = 0
+    totalCpntLenOfFunction = 0
+    averageCpntLenOfFile = 0
+    cpntLenOfFunction = 0
+    numberOfFunction = 0
+    totalCpntLenOfProject = 0
+
+    project = Project.objects.first()
+    # for file in project.file_set.all():
+    for file in File.objects.all():
+        filedict = {}
+
+        filedict['name'] = file.name
+        numberOfFile+=1
+        numberOfFunction = 0
+        cw.writerow(["\"" + file.name + "\"", "\"1." + str(numberOfFile) + "\""])
+        funarr = []
+        fundict = {}
+
+        for function in file.function_set.all():  # 소스파일 단위로 for loop
+            fundict = {}
+            numberOfFunction += 1
+            cw.writerow(["\"" + function.name + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
+
+            # for k, v in function:
+            #     fundict[k] = v
+            for f in Function._meta.get_all_field_names():
+                fundict[f] = getattr(function, str(f), None)
+
+            fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
+
+            funarr.append(fundict)
+
+        filedict['children'] = funarr
+
+        filearr.append(filedict)
+
+    jsondict['children'] = filearr
+
+    with open('Metrics2.json', 'w') as outfile:
+        json.dump(jsondict, outfile, sort_keys=False, indent=4,
+                  ensure_ascii=False)
+
+    return HttpResponse("Converting...")
