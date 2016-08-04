@@ -12,7 +12,6 @@ queue()
 
 //Initiates practically everything
 function drawAll(error, ageCSV, idCSV, occupations) {
-
 	//////////////////////////////////////////////////////////////
 	////////////////// Create Set-up variables  //////////////////
 	//////////////////////////////////////////////////////////////
@@ -113,7 +112,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 	nodes.forEach(function(d,i) {
 		nodeByName[d.name] = d;
 		//test print
-		//console.log(nodeByName[d.name].ID );
+		console.log(nodeByName[d.name].ID );
 	});
 
 	//////////////////////////////////////////////////////////////
@@ -176,8 +175,11 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 			node = nodes[i];
 
 			//아웃라이어 색깔바꾸기
+			// Metrics.json 에 칼라를 red로 설정하면 된다.
 			console.log("node: ",node.ID);
-			if(node.ID == "1.32.15"){
+			console.log("node color: ", node.color);
+			console.log(node);
+			if(node.TotalScore <= 83){
 				// chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
 				if(hidden) {
 					if(node.color == null) {
@@ -189,7 +191,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 					chosenContext.fillStyle = node.color;
 				} else {
 						console.log("data_print: ",data[0].key);
-						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
+						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red"
 					//test print
 					// console.log("dataById: ", dataById);
 				}//else
@@ -205,7 +207,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 					chosenContext.fillStyle = node.color;
 				} else {
 						console.log("data_print: ",data[0].key);
-						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
+						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white"
 					//test print
 					// console.log("dataById: ", dataById);
 				}//else

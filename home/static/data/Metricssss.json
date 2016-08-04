@@ -5,14 +5,10 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API47.c",
             "children": [
                 {
-                    "name": "badParam",
-                    "ID": "1.1.1",
-                    "size": 3
-                },
+                    "name": "badParam", "ID": "1.1.1", "size": 3, "color": "red"
+                }
                 {
-                    "name": "goodParam",
-                    "ID": "1.1.2",
-                    "size": 3
+                    "name": "goodParam", "ID": "1.1.2", "size": 3
                 }
             ]
         },
@@ -20,10 +16,7 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MULTIPLE_BINDS_TO_SAME_PORT.c",
             "children": [
                 {
-                    "name": "bind_socket",
-                    "ID": "1.2.1",
-                    "size": 195
-                }
+                    "name": "bind_socket", "ID": "1.2.1", "size": 195}
             ]
         },
         {

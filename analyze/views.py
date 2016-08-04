@@ -1,6 +1,8 @@
 from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
 import csv
+import json
+
 # Create your views here.
 
 def index(request):
@@ -10,6 +12,10 @@ def index(request):
 def calculate(request):
     print("Calculatings...")
     print("...")
+
+
+    # json file 생성
+    jsondict = {"name": "Project"}
 
     data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
@@ -44,11 +50,14 @@ def calculate(request):
     funcarr = []
     totalFunctionArray = []
     funcdict = {}
+    filearr = []
+    filedict = {}
 
     for child in root: # child = file
         numberOfFile += 1
         sumOfTheNumberOfFunctions += len(child[1])
         print("File Path : ", child[0].text) # 파일 경로 출력
+        filedict['name'] = child[0].text
 
         # 파일 경로 + number of file
         cw.writerow(["\"" + child[0].text + "\"", "\"1." + str(numberOfFile) + "\""])
@@ -95,8 +104,11 @@ def calculate(request):
                 AverageTestabilityOfFile = 0
                 AverageUnderstandabilityOfFile = 0
 
+            tmpdict = {}
             for child3 in child2: # function 단위로 for loop, child3는 각 메트릭
-                funcdict[child3.tag] = child3.text
+                if(child3.tag == "name"):
+                    funcdict['name'] = child3.text
+                tmpdict[child3.tag] = child3.text
                 if child3.tag == 'stmt_num':
                     if int(child3.text) > 80: # 80이하여야 한다.
                         UnderstandabilityScoreOfFunction -= 15
@@ -168,13 +180,20 @@ def calculate(request):
                         ComplexityScoreOfFunction -= 9
 
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
-
+            TotalScore = (StructurednessScoreOfFunction + ComplexityScoreOfFunction + TestabilityScoreOfFunction + UnderstandabilityScoreOfFunction + MaintainabilityScoreOfFunction) / 5
             funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
             funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
             funcdict['Complexity'] = str(ComplexityScoreOfFunction)
             funcdict['Testability'] = str(TestabilityScoreOfFunction)
             funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
+            funcdict['TotalScore'] = TotalScore
+            funcdict['size'] = int(tmpdict['stmt_num'])*3
+            # if(int(funcdict['TotalScore']) < 83):
+            #     funcdict['color'] = "red"
+
+
+
 
             print(funcdict)
             id_ = funcdict['ID']
@@ -198,7 +217,9 @@ def calculate(request):
                 TotalComplexityScore += AverageComplexityOfFile
                 # totalFunctionArray 에 각 파일별로 점수를 저장한다.
                 totalFunctionArray.append(funcarr)
-
+                filedict['children'] = funcarr
+                filearr.append(filedict)
+                filedict = {}
 
             AverageTestabilityOfFile += TestabilityScoreOfFunction
             if function_number == numberOfFunction:
@@ -242,7 +263,12 @@ def calculate(request):
                'structuredness_score': TotalStructurednessScore / numberOfFile,}
 
     # totalFunctionArray가 각 파일별 함수의 점수를 가지고 있다.
-    getAbnormal(totalFunctionArray)
+    # getAbnormal(totalFunctionArray)
+    jsondict['children'] = filearr
+    with open('Metrics.json', 'w') as outfile:
+        json.dump(jsondict, outfile, sort_keys=False, indent=4,
+                  ensure_ascii=False)
+    print(totalFunctionArray[0])
 
     return render(request, 'dashboard.html', context)
 
