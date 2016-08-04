@@ -6,6 +6,7 @@ app_name = 'home'
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^sign_up/$', views.sign_up, name='sign_up'),
+    # url(r'^test/$', views.sign_up, name='sign_up'),
     url(r'^dashboard/$', views.dashboard, name='dashboard'),
     url(r'^tables/$', views.tables, name='tables'),
     url(r'^forms/$', views.forms, name='forms'),

@@ -1,8 +1,10 @@
 from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
-from analyze.models import File, Function, ScoreCard
+from analyze.models import Project, File, Function, ScoreCard
 import csv
 import os
+import json
+
 # Create your views here.
 
 def index(request):
@@ -12,6 +14,10 @@ def index(request):
 def calculate(request):
     print("Calculatings...")
     print("...")
+
+
+    # json file 생성
+    jsondict = {"name": "Project"}
 
     data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
@@ -46,11 +52,14 @@ def calculate(request):
     funcarr = []
     totalFunctionArray = []
     funcdict = {}
+    filearr = []
+    filedict = {}
 
     for child in root: # child = file
         numberOfFile += 1
         sumOfTheNumberOfFunctions += len(child[1])
         print("File Path : ", child[0].text) # 파일 경로 출력
+        filedict['name'] = child[0].text
 
         # 파일 경로 + number of file
         cw.writerow(["\"" + child[0].text + "\"", "\"1." + str(numberOfFile) + "\""])
@@ -97,8 +106,11 @@ def calculate(request):
                 AverageTestabilityOfFile = 0
                 AverageUnderstandabilityOfFile = 0
 
+            tmpdict = {}
             for child3 in child2: # function 단위로 for loop, child3는 각 메트릭
-                funcdict[child3.tag] = child3.text
+                if(child3.tag == "name"):
+                    funcdict['name'] = child3.text
+                tmpdict[child3.tag] = child3.text
                 if child3.tag == 'stmt_num':
                     if int(child3.text) > 80: # 80이하여야 한다.
                         UnderstandabilityScoreOfFunction -= 15
@@ -170,13 +182,20 @@ def calculate(request):
                         ComplexityScoreOfFunction -= 9
 
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
-
+            TotalScore = (StructurednessScoreOfFunction + ComplexityScoreOfFunction + TestabilityScoreOfFunction + UnderstandabilityScoreOfFunction + MaintainabilityScoreOfFunction) / 5
             funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
             funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
             funcdict['Complexity'] = str(ComplexityScoreOfFunction)
             funcdict['Testability'] = str(TestabilityScoreOfFunction)
             funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
+            funcdict['TotalScore'] = TotalScore
+            funcdict['size'] = int(tmpdict['stmt_num'])*3
+            # if(int(funcdict['TotalScore']) < 83):
+            #     funcdict['color'] = "red"
+
+
+
 
             print(funcdict)
             id_ = funcdict['ID']
@@ -200,7 +219,9 @@ def calculate(request):
                 TotalComplexityScore += AverageComplexityOfFile
                 # totalFunctionArray 에 각 파일별로 점수를 저장한다.
                 totalFunctionArray.append(funcarr)
-
+                filedict['children'] = funcarr
+                filearr.append(filedict)
+                filedict = {}
 
             AverageTestabilityOfFile += TestabilityScoreOfFunction
             if function_number == numberOfFunction:
@@ -244,7 +265,12 @@ def calculate(request):
                'structuredness_score': TotalStructurednessScore / numberOfFile,}
 
     # totalFunctionArray가 각 파일별 함수의 점수를 가지고 있다.
-    getAbnormal(totalFunctionArray)
+    # getAbnormal(totalFunctionArray)
+    jsondict['children'] = filearr
+    with open('Metrics.json', 'w') as outfile:
+        json.dump(jsondict, outfile, sort_keys=False, indent=4,
+                  ensure_ascii=False)
+    print(totalFunctionArray[0])
 
     return render(request, 'dashboard.html', context)
 
@@ -359,7 +385,10 @@ def save(request):
     for c in root:
         totaloffunction += len(c[1])
 
-    project = Project(name="default").save()
+    project = Project()
+    project.name = "default"
+    project.save()
+    # print(project)
     # child = File
     for child in root:
 
@@ -406,3 +435,76 @@ def save(request):
     print("( 100 %) Done !")
 
     return HttpResponse("Done...")
+
+
+def convert(request):
+    # 초기 사전
+    jsondict = {"name": "Project"}
+
+    filearr = []
+    filedict = {}
+    funarr = []
+    fundict = {}
+
+    csv_file = open('IDofParents.csv', "w")
+    cw = csv.writer(csv_file, delimiter=',', quotechar='|')
+    cw.writerow(["\"name\"", "\"ID\""])
+    cw.writerow(["\"project\"", "\"\""])
+    cw.writerow(["\"directory\"", "\"1\""])
+
+
+    csv_file2 = open('Metrics for each Function.csv', "w")
+    cw2 = csv.writer(csv_file2, delimiter=',', quotechar='|')
+    cw2.writerow(["\"ID\"", "\"age\"", "\"value\""])
+
+    # 메트릭 개수는 항상 27개
+    # 전체 파일 개수
+    sumOfTheNumberOfFunctions = 0
+    numberOfFile = 0
+    totalCpntLenOfFunction = 0
+    averageCpntLenOfFile = 0
+    cpntLenOfFunction = 0
+    numberOfFunction = 0
+    totalCpntLenOfProject = 0
+
+    project = Project.objects.first()
+    # for file in project.file_set.all():
+    for file in File.objects.all():
+        filedict = {}
+
+        filedict['name'] = file.name
+        numberOfFile+=1
+        numberOfFunction = 0
+        cw.writerow(["\"" + file.name + "\"", "\"1." + str(numberOfFile) + "\""])
+        funarr = []
+        fundict = {}
+
+        for function in file.function_set.all():  # 소스파일 단위로 for loop
+            fundict = {}
+            numberOfFunction += 1
+            cw.writerow(["\"" + function.name + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
+
+            # for k, v in function:
+            #     fundict[k] = v
+            for f in Function._meta.get_all_field_names():
+                fundict[f] = getattr(function, str(f), None)
+
+            fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
+
+            funarr.append(fundict)
+
+        filedict['children'] = funarr
+
+        filearr.append(filedict)
+
+    jsondict['children'] = filearr
+
+    with open('Metrics2.json', 'w') as outfile:
+        json.dump(jsondict, outfile, sort_keys=False, indent=4,
+                  ensure_ascii=False)
+
+    return HttpResponse("Converting...")
+
+def visual(request):
+
+    return render(request, 'visualTest.html')
