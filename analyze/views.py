@@ -504,3 +504,7 @@ def convert(request):
                   ensure_ascii=False)
 
     return HttpResponse("Converting...")
+
+def visual(request):
+
+    return render(request, 'visualTest.html')

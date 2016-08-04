@@ -216,26 +216,26 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 
 			// ==========================================누가한거?
 			//If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
-			if(hidden) {
-				if(node.color == null) {
-					// If we have never drawn the node to the hidden canvas get a new color for it and put it in the dictionary.
-					node.color = genColor();
-					colToCircle[node.color] = node;
-				}//if
-				// On the hidden canvas each rectangle gets a unique color.
-				chosenContext.fillStyle = node.color;
-			} else {
-				//아웃라이어 색깔바꾸기
-					if(node.ID == outlierId ) {
-						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
-					}else {
-						chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
-					}
-				//test print
-				// console.log("dataById: ", dataById);
-
-
-			}//else
+			// if(hidden) {
+			// 	if(node.color == null) {
+			// 		// If we have never drawn the node to the hidden canvas get a new color for it and put it in the dictionary.
+			// 		node.color = genColor();
+			// 		colToCircle[node.color] = node;
+			// 	}//if
+			// 	// On the hidden canvas each rectangle gets a unique color.
+			// 	chosenContext.fillStyle = node.color;
+			// } else {
+			// 	//아웃라이어 색깔바꾸기
+			// 		if(node.ID == outlierId ) {
+			// 			chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
+			// 		}else {
+			// 			chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
+			// 		}
+			// 	//test print
+			// 	// console.log("dataById: ", dataById);
+			//
+			//
+			// }//else
 			// =========================================여기까지
 
 
