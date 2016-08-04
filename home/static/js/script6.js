@@ -159,6 +159,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 	var elementsPerBar = 7,
 		barChartHeight = 0.3,
 		barChartHeightOffset = 0.15;
+
 	
 	//The draw function of the canvas that gets called on each frame
 	
@@ -232,16 +233,19 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 						chosenContext.textBaseline = "middle";
 						chosenContext.fillText("Total "+commaFormat(node.size)+" functions", nodeX, nodeY + -0.75 * nodeR);
 
+						//function별 이름
 						//Get the text back in pieces that will fit inside the node
 						var titleText = getLines(chosenContext, node.name, nodeR*2*0.7, fontSizeTitle, titleFont);
+						console.log("TITLE TEXT Print:", titleText);
 
 						//Loop over all the pieces and draw each line
 						titleText.forEach(function(txt, iterator) { 
 							chosenContext.font = fontSizeTitle + "px " + titleFont;
 							chosenContext.fillStyle = "rgba(" + mainTextColor[0] + "," + mainTextColor[1] + ","+ mainTextColor[2] + "," + textAlpha +")";
 							chosenContext.textAlign = "center";
-							chosenContext.textBaseline = "middle"; 
-							chosenContext.fillText(txt, nodeX, nodeY + (-0.65 + iterator*0.125) * nodeR);
+							chosenContext.textBaseline = "middle";
+                            //각 function의 타이틀이 쓰여지는 위치
+                            chosenContext.fillText(txt, nodeX, nodeY + (-0.65 + iterator*0.125) * nodeR);
 						})//forEach
 						
 					}//if
@@ -259,7 +263,9 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 					
 					//Variables for the labels on the bars: Age
 					var drawLabelText = true;
-					var fontSizeLabels = Math.round(nodeR / 18);
+					// var fontSizeLabels = Math.round(nodeR / 18);
+					// 메트릭 이름 크기 조절
+					var fontSizeLabels = Math.round(nodeR / 25);
 					if (fontSizeLabels < 6) drawLabelText = false;
 					
 					//Variables for the value labels on the end of each bar
@@ -273,13 +279,18 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 						for (var j = 0; j < bars.length; j++) {
 							var bar = bars[j];
 							
-							bar.width = (isNaN(bar.value) ? 0 : barScale(bar.value)); 
-							bar.barPiecePosition = nodeY + barChartHeightOffset*2*nodeR + j*eachBarHeight - barChartHeight*nodeR;
-							
+							bar.width = (isNaN(bar.value) ? 0 : barScale(bar.value));
+							// bar.barPiecePosition = nodeY + barChartHeightOffset*2*nodeR + j*eachBarHeight - barChartHeight*nodeR;
+                            //
+							//바그래프의 위치 조정
+							bar.barPiecePosition = nodeY + barChartHeightOffset*2*nodeR + j*eachBarHeight - (barChartHeight*nodeR*2.6);
+
 							//Draw the bar
 							chosenContext.beginPath();
 							chosenContext.fillStyle = colorBar(bar.age);
-							chosenContext.fillRect(nodeX + -nodeR*0.3, bar.barPiecePosition, bar.width, barHeight);
+							// 바 시작 위치
+							// chosenContext.fillRect(nodeX + - nodeR*0.30, bar.barPiecePosition, bar.width, barHeight);
+							chosenContext.fillRect(nodeX + - nodeR*0.2, bar.barPiecePosition, bar.width, barHeight);
 							chosenContext.fill();
 							
 							//Only draw the age labels if the font size is big enough
@@ -287,8 +298,10 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 								chosenContext.font = fontSizeLabels + "px " + bodyFont;
 								chosenContext.fillStyle = "rgba(" + mainTextColor[0] + "," + mainTextColor[1] + ","+ mainTextColor[2] + "," + textAlpha +")";
 								chosenContext.textAlign = "right";
-								chosenContext.textBaseline = "middle"; 
-								chosenContext.fillText(bar.age, nodeX + -nodeR*0.35, bar.barPiecePosition+0.5*barHeight);
+								chosenContext.textBaseline = "middle";
+								//메트릭 이름 시작점
+								// chosenContext.fillText(bar.age, nodeX + -nodeR*0.35, bar.barPiecePosition+0.5*barHeight);
+								chosenContext.fillText(bar.age, nodeX + -nodeR*0.25, bar.barPiecePosition+0.5*barHeight);
 							}//if
 							
 							//Only draw the value labels if the font size is big enough
@@ -301,8 +314,9 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 								var valuePos = (textWidth*1.1 > (bar.width - nodeR * 0.03) ? "left" : "right");
 								
 								//Calculate the x position of the bar value label
-								bar.valueLoc = nodeX + -nodeR*0.3 + bar.width + (valuePos === "left" ? (nodeR * 0.03) : (-nodeR * 0.03));
-								
+								// bar.valueLoc = nodeX + -nodeR*0.3 + bar.width + (valuePos === "left" ? (nodeR * 0.03) : (-nodeR * 0.03));
+								bar.valueLoc = nodeX + -nodeR*0.2 + bar.width + (valuePos === "left" ? (nodeR * 0.03) : (-nodeR * 0.03));
+
 								//Draw the text
 								chosenContext.fillStyle = (valuePos === "left" ? "rgba(51,51,51," + textAlpha +")" : "rgba(255,255,255," + textAlpha +")"); //#333333 or white
 								chosenContext.textAlign = valuePos;
@@ -548,9 +562,6 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 				//This way the tooltip and click work correctly
 				drawCanvas(hiddenContext, true);
 
-				//여기에서 특정 함수는 색깔 다른 함수로 칠해
-				
-				
 				//Update the texts in the legend
 				d3.select(".legendWrapper").selectAll(".legendText")
 					.text(function(d) { return commaFormat(Math.round(scaleFactor * d * d / 10)*10); });

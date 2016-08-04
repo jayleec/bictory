@@ -511,7 +511,8 @@ def convert(request):
                 if (child3.tag == 'Component Volume' or child3.tag == 'Program Level' or
                     child3.tag == 'Program Differences' or child3.tag == 'Effeciency' or
                     child3.tag == 'Bug' or child3.tag == 'Number of Exit Points' or
-                    child3.tag == 'Language Scope'):
+                    child3.tag == 'Language Scope' or child3.tag == 'Program Time' or
+                    child3.tag == 'Itergration'):
                     print("if child.tag = ", child3.tag)
                 else:
                     cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
