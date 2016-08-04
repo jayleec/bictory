@@ -260,7 +260,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 						totalOffset = nodeX + -nodeR*0.3, 
 						eachBarHeight = ((1 - barChartHeightOffset) * 2 * nodeR * barChartHeight)/elementsPerBar,
 						barHeight = eachBarHeight*0.8;
-					
+					//
 					//Variables for the labels on the bars: Age
 					var drawLabelText = true;
 					// var fontSizeLabels = Math.round(nodeR / 18);
