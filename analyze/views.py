@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 from analyze.models import Project, File, Function, ScoreCard
 import csv
 import os
+import json
 
 # Create your views here.
 
@@ -443,7 +444,8 @@ def convert(request):
     totalCpntLenOfProject = 0
 
     project = Project.objects.first()
-    for file in project.files:
+    # for file in project.file_set.all():
+    for file in File.objects.all():
         filedict = {}
 
         filedict['name'] = file.name
@@ -453,13 +455,15 @@ def convert(request):
         funarr = []
         fundict = {}
 
-        for function in file.functions:  # 소스파일 단위로 for loop
+        for function in file.function_set.all():  # 소스파일 단위로 for loop
             fundict = {}
             numberOfFunction += 1
-            cw.writerow(["\"" + child2[0].text + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
+            cw.writerow(["\"" + function.name + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
 
-            for k, v in function:
-                fundict[k] = v
+            # for k, v in function:
+            #     fundict[k] = v
+            for f in Function._meta.get_all_field_names():
+                fundict[f] = getattr(function, str(f), None)
 
             fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
 
@@ -468,11 +472,6 @@ def convert(request):
         filedict['children'] = funarr
 
         filearr.append(filedict)
-
-        averageCpntLenOfFile = totalCpntLenOfFunction / sumOfnumberOfFunction
-        totalCpntLenOfProject += averageCpntLenOfFile
-        cpntLenOfFuntion = 0
-        totalCpntLenOfFunction = 0
 
     jsondict['children'] = filearr
 
