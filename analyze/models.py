@@ -107,12 +107,11 @@ class Function(models.Model):
             return True
 
     def check_all(self):
-        msg = ""
+        arr = []
         for k, v in self.table.items():
             if not self.check_metric(k):
-                msg += k + ", "
-                return msg
-                # return False
+                arr.append(k)
+        return arr
 
     def return_score(self, name):
         try:

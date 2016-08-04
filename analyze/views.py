@@ -445,6 +445,7 @@ def convert(request):
 
     project = Project.objects.first()
     # for file in project.file_set.all():
+    # File별 loop
     for file in File.objects.all():
         filedict = {}
 
@@ -455,25 +456,31 @@ def convert(request):
         funarr = []
         fundict = {}
 
+        # print("filename:", file.name)
+
+        # Function별 loop
         for function in file.function_set.all():  # 소스파일 단위로 for loop
             fundict = {}
             numberOfFunction += 1
             cw.writerow(["\"" + function.name + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
 
-            # for k, v in function:
-            #     fundict[k] = v
+            # Metric별 loop
             for f in Function._meta.get_all_field_names():
+                if f == 'file':
+                    continue
                 fundict[f] = getattr(function, str(f), None)
+                cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""),
+                              str("\"" + f + "\""), str("\"" + str(fundict[f]) + "\"")])
 
             fundict['ID'] = "1." + str(numberOfFile) + "." + str(numberOfFunction)
-
             funarr.append(fundict)
 
         filedict['children'] = funarr
-
         filearr.append(filedict)
 
     jsondict['children'] = filearr
+
+    # print(jsondict)
 
     with open('Metrics2.json', 'w') as outfile:
         json.dump(jsondict, outfile, sort_keys=False, indent=4,
