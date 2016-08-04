@@ -359,10 +359,12 @@ def save(request):
     for c in root:
         totaloffunction += len(c[1])
 
+    project = Project(name="default").save()
     # child = File
     for child in root:
 
         file = File(
+            project = project,
             path = child[0].text,
             name = child[0].text.replace('/', "\\").split("\\")[-1],
             numberoffunctions = len(child[1]),
