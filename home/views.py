@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 import json
 import csv
 import re
+from analyze.models import *
 
 import locale
 locale.setlocale(locale.LC_ALL, '')
@@ -23,6 +24,15 @@ from django.core.urlresolvers import reverse
 # import cElementTree as ElementTree
 
 # Create your views here.
+
+def test(request):
+    data = Function.objects.all()
+    print(data)
+    for f in data:
+        # f.test = f.check_metric('d_optr')
+        f.test = f.check_all()
+        # print(f.name)
+    return render_to_response('function_table.html', {'functions': data})
 
 def index(request):
     return render(request, 'index.html')
@@ -409,17 +419,6 @@ def sign_up(request):
 
 def report(request):
     return render(request, 'report.html')
-
-def test(request):
-    data = ET.parse("analyze/crulechk.0.xml")
-    root = data.getroot()
-
-    for child in root:
-        words = child[0].text
-        word = words.replace('/', "\\").split("\\")
-        print(word)
-
-    return HttpResponse("Testing...")
 
 def convert(request):
     # 초기 사전
