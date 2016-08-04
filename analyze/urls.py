@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^visualize/$', views.visualize, name='visualize'),
     url(r'^save/$', views.save, name='save'),
     url(r'^convert/$', views.convert, name='convert'),
+    url(r'^visual/$', views.visual, name='visual'),
 ]
