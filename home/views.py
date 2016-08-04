@@ -482,9 +482,7 @@ def convert(request):
         for child2 in child[1]:  # 소스파일 단위로 for loop
             fundict = {}
             numberOfFunction += 1
-
             cw.writerow(["\"" + child2[0].text + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
-
             print(child2[5].text)  # component length 출력
             cpntLenOfFunction = float(child2[5].text)
             totalCpntLenOfFunction += cpntLenOfFunction
@@ -497,7 +495,15 @@ def convert(request):
 
             s = ","
             s = locale.format_string('%s', s, True).replace(",", "")
+
+            # 새로 넣을 이름
+            newMetricName = changeMetricName()
+            # print("newName = ", newName)
+            i = 0
             for child3 in child2:
+                child3.tag = newMetricName[i]
+                i += 1
+                # weighted tree 사용
                 if child3.tag == 'name':
                     cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
                     continue
@@ -528,6 +534,43 @@ def convert(request):
                   ensure_ascii=False)
 
     return HttpResponse("Converting...")
+
+# 메트릭 이름이 출력시에는 원래 이름대로 나오게
+# 리스트로 이름을 받아서 리스트로 반환
+def changeMetricName():
+    metricName = ["name",
+                  "Number of Distinct Operators",
+                  "Number of Distinct Operands",
+                  "Number of Operator Occurrences",
+                  "Number of Operand Occurrences",
+                  "Component Length",
+                  "Component Volume",
+                  "Vocabulary Size",
+                  "Program Level",
+                  "Program Differences",
+                  "Effeciency",
+                  "Program Time",
+                  "Itergration",
+                  "Bug",
+                  "Number of Exit Points",
+                  "Number of Statements",
+                  "Number of Structuring Levels",
+                  "Number of Unconditional Jumps",
+                  "Number of Go to Statements",
+                  "Number of Decision Statements",
+                  "Average Statement Size",
+                  "Language Scope",
+                  "Number of Function Parameters",
+                  "Number of Calling Functions",
+                  "Number of Called Functions",
+                  "Cyclomatic Complexity",
+                  "Number of Entry Points"]
+
+    return metricName
+
+
+
+
 
 class XmlListConfig(list):
     def __init__(self, aList):
