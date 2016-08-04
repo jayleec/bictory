@@ -507,8 +507,15 @@ def convert(request):
                 if child3.tag == 'name':
                     cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
                     continue
-                cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
-                cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
+                # #     일부 불필요한 메트릭은 사용하지 않음
+                if (child3.tag == 'Component Volume' or child3.tag == 'Program Level' or
+                    child3.tag == 'Program Differences' or child3.tag == 'Effeciency' or
+                    child3.tag == 'Bug' or child3.tag == 'Number of Exit Points' or
+                    child3.tag == 'Language Scope'):
+                    print("if child.tag = ", child3.tag)
+                else:
+                    cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
+                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
 
 
         filedict['children'] = funarr

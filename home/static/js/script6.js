@@ -229,11 +229,12 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 						chosenContext.font = (fontSizeTitle*0.5 <= 5 ? 0 : Math.round(fontSizeTitle*0.5)) + "px " + bodyFont;
 						chosenContext.fillStyle = "rgba(191,191,191," + textAlpha +")" //"#BFBFBF";
 						chosenContext.textAlign = "center";
-						chosenContext.textBaseline = "middle"; 
-						chosenContext.fillText("Total "+commaFormat(node.size)+" (in thousands)", nodeX, nodeY + -0.75 * nodeR);
-						
+						chosenContext.textBaseline = "middle";
+						chosenContext.fillText("Total "+commaFormat(node.size)+" functions", nodeX, nodeY + -0.75 * nodeR);
+
 						//Get the text back in pieces that will fit inside the node
 						var titleText = getLines(chosenContext, node.name, nodeR*2*0.7, fontSizeTitle, titleFont);
+
 						//Loop over all the pieces and draw each line
 						titleText.forEach(function(txt, iterator) { 
 							chosenContext.font = fontSizeTitle + "px " + titleFont;
