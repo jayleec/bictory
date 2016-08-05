@@ -13,7 +13,6 @@
 
     <title>A Closer Look at the Different Occupations - Visual Cinnamon</title>
 
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico and apple-touch-icon.png (72x72) in the root directory -->
@@ -42,6 +41,23 @@
         IYB_BREAKINGPOINT: 768
     };
     /* ]]> */
+
+    function destroyCanvas(){
+        var oldcanv = document.getElementById("canvas");
+        oldcanv.remove();
+        console.log("destroyCanvas loaded");
+    }
+
+// load javascript
+    function LoadMyJs(scriptName) {
+    var docHeadObj = document.getElementsByTagName("head")[0];
+    var dynamicScript = document.createElement("script");
+    dynamicScript.type = "text/javascript";
+    dynamicScript.src = scriptName;
+    docHeadObj.appendChild(dynamicScript);
+    }
+
+
 
     var outlierId = "{{ outlierId }}";
 
@@ -343,8 +359,8 @@
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.visualcinnamon.com/wp-content/themes/multicorp/wpbakery/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.visualcinnamon.com/wp-content/themes/multicorp/wpbakery/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>        <!--[if IE 8]><link rel="stylesheet" href="http://www.visualcinnamon.com/wp-content/themes/multicorp/assets/frontend/css/ie8.css"><![endif]-->
 
 </head>
-<!--<h1>여기에 보임{{ funcID }}</h1>-->
-<body class="page page-id-3779 page-template-default ish-unboxed ish-responsive_layout_on ish-sticky-on ish-header_bar-on wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive">
+
+<body onLoad="LoadMyJs('/static/js/script6.js')" class="page page-id-3779 page-template-default ish-unboxed ish-responsive_layout_on ish-sticky-on ish-header_bar-on wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive">
     <script type="text/javascript">
     // Output the preloader HTML
     document.write('<div id="ish-site-preloader-holder" class="ish-site-preloader-holder">' +
@@ -420,42 +436,51 @@
                                 <img src="/static/img/torch_50_50.png" alt="Torch" title="Torch" />
                             </span>
                         </a>
+
+                        <!-- Show Outlier button -->
+
+                        <div class="btn-group" style="float: right">
+                          <button type="button" onclick="destroyCanvas(); LoadMyJs('/static/js/outlier.js')" class="btn btn-default" style="background-color: dodgerblue ; color: white ; font-weight: bold">
+                            Outlier
+                          </button>
+                        </div>
+
                         <!-- Default WordPress tagline -->
-                        <span class="ish-ph-wp_tagline"><span>TORCH</span>
+                        <!--<span class="ish-ph-wp_tagline"><span>TORCH</span>-->
                         <!-- Main navigation -->
-                        <nav class="ish-ph-main_nav">
-                            <ul id="mainnav" class="ish-ph-mn-main_nav ish-nt-regular"><li id="menu-item-2563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2563"><a href="http://www.visualcinnamon.com/">Home</a></li>
-                                <li id="menu-item-3730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3730"><a href="http://www.visualcinnamon.com/portfolio">Projects</a></li>
-                                <li id="menu-item-4816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4816"><a href="http://www.visualcinnamon.com/print">Get a Print</a></li>
-                                <li id="menu-item-2565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2565"><a href="http://www.visualcinnamon.com/blog">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-2856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="http://www.visualcinnamon.com/blog/archive">Archive</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-3194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3194"><a href="http://www.visualcinnamon.com/resources">Resources</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-3525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3525"><a href="http://www.visualcinnamon.com/resources/learning-data-visualization/books">Books on Data Visualization</a></li>
-                                        <li id="menu-item-3195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3195"><a href="http://www.visualcinnamon.com/resources/learning-data-visualization">Learning Data Visualization</a></li>
-                                        <li id="menu-item-3262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3262"><a href="http://www.visualcinnamon.com/resources/visualization-resources">Visualization resources</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-2820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2820"><a href="http://www.visualcinnamon.com/about">About</a></li>
-                                <li id="menu-item-3546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3546"><a href="http://www.visualcinnamon.com/contact">Contact</a></li>
-                            </ul>
-                            <!-- Responsive or sidenav navigation -->
-                            <ul class="ish-ph-mn-resp_nav ish-ph-mn-hidden">
-                                <!-- Resp menu button -->
-                                <li class="ish-ph-mn-resp_menu"><a href="#respnav" class="ish-icon-menu"></a></li>
+                        <!--<nav class="ish-ph-main_nav">-->
+                            <!--<ul id="mainnav" class="ish-ph-mn-main_nav ish-nt-regular"><li id="menu-item-2563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2563"><a href="http://www.visualcinnamon.com/">Home</a></li>-->
+                                <!--<li id="menu-item-3730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3730"><a href="http://www.visualcinnamon.com/portfolio">Projects</a></li>-->
+                                <!--<li id="menu-item-4816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4816"><a href="http://www.visualcinnamon.com/print">Get a Print</a></li>-->
+                                <!--<li id="menu-item-2565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2565"><a href="http://www.visualcinnamon.com/blog">Blog</a>-->
+                                    <!--<ul class="sub-menu">-->
+                                        <!--<li id="menu-item-2856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="http://www.visualcinnamon.com/blog/archive">Archive</a></li>-->
+                                    <!--</ul>-->
+                                <!--</li>-->
+                                <!--<li id="menu-item-3194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3194"><a href="http://www.visualcinnamon.com/resources">Resources</a>-->
+                                    <!--<ul class="sub-menu">-->
+                                        <!--<li id="menu-item-3525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3525"><a href="http://www.visualcinnamon.com/resources/learning-data-visualization/books">Books on Data Visualization</a></li>-->
+                                        <!--<li id="menu-item-3195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3195"><a href="http://www.visualcinnamon.com/resources/learning-data-visualization">Learning Data Visualization</a></li>-->
+                                        <!--<li id="menu-item-3262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3262"><a href="http://www.visualcinnamon.com/resources/visualization-resources">Visualization resources</a></li>-->
+                                    <!--</ul>-->
+                                <!--</li>-->
+                                <!--<li id="menu-item-2820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2820"><a href="http://www.visualcinnamon.com/about">About</a></li>-->
+                                <!--<li id="menu-item-3546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3546"><a href="http://www.visualcinnamon.com/contact">Contact</a></li>-->
+                            <!--</ul>-->
+                            <!--&lt;!&ndash; Responsive or sidenav navigation &ndash;&gt;-->
+                            <!--<ul class="ish-ph-mn-resp_nav ish-ph-mn-hidden">-->
+                                <!--&lt;!&ndash; Resp menu button &ndash;&gt;-->
+                                <!--<li class="ish-ph-mn-resp_menu"><a href="#respnav" class="ish-icon-menu"></a></li>-->
 
-                                <!-- Search button if enabled -->
+                                <!--&lt;!&ndash; Search button if enabled &ndash;&gt;-->
 
-                                <!-- Expandable button if enabled -->
+                                <!--&lt;!&ndash; Expandable button if enabled &ndash;&gt;-->
 
-                                <!-- Cart button if enabled -->
+                                <!--&lt;!&ndash; Cart button if enabled &ndash;&gt;-->
 
-                                <!-- Language Selector button if enabled -->
-                            </ul>
-                        </nav>
+                                <!--&lt;!&ndash; Language Selector button if enabled &ndash;&gt;-->
+                            <!--</ul>-->
+                        <!--</nav>-->
                     </div>
                 </div>
             </section>
@@ -553,7 +578,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <script src="/static/js/script6.js"></script>
+                                        <!--<script src="/static/js/script6.js"></script>-->
                                     </div>
                                 </div>
                             </div>

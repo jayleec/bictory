@@ -154,8 +154,20 @@ function drawAll(error, ageCSV, idCSV, occupations) {
    });
 
    //////////////////////////////////////////////////////////////
+   /////// Change Outlier function background color /////////////
+   //////////////////////////////////////////////////////////////
+
+
+
+
+
+
+   //////////////////////////////////////////////////////////////
    ///////////////// Canvas draw function ///////////////////////
    //////////////////////////////////////////////////////////////
+
+
+
 
    var elementsPerBar = 7,
       barChartHeight = 0.3,
@@ -191,7 +203,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                // On the hidden canvas each rectangle gets a unique color.
                chosenContext.fillStyle = node.color;
             } else {
-                  console.log("data_print: ",data[0].key);
+                  // console.log("data_print: ",data[0].key);
                   chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red"
                //test print
                // console.log("dataById: ", dataById);
@@ -207,10 +219,12 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                // On the hidden canvas each rectangle gets a unique color.
                chosenContext.fillStyle = node.color;
             } else {
-                  console.log("data_print: ",data[0].key);
-                  chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white"
+
+               console.log("data_print: ",data[0].key);
+               chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white"
                //test print
                // console.log("dataById: ", dataById);
+
             }//else
          }
 
