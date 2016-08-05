@@ -27,11 +27,8 @@ from django.core.urlresolvers import reverse
 
 def test(request):
     data = Function.objects.all()
-    print(data)
     for f in data:
-        # f.test = f.check_metric('d_optr')
         f.test = f.check_all()
-        # print(f.name)
     return render_to_response('function_table.html', {'functions': data})
 
 def index(request):
