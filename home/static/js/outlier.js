@@ -1,11 +1,6 @@
 /**
  * Created by jay on 8/5/16.
  */
-// queue()
-//     .defer(d3.csv, "/static/data/occupations by age.csv")
-//     .defer(d3.csv, "/static/data/IDofParentLevels.csv")
-//     .defer(d3.json, "/static/data/occupation.json")
-//     .await(drawAll);
 
 queue()
    .defer(d3.csv, "/static/data/Metrics for each Function.csv")
@@ -206,7 +201,6 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                // On the hidden canvas each rectangle gets a unique color.
                chosenContext.fillStyle = node.color;
             } else {
-               //TODO: SHOWOUTLIER 불러오기
                // console.log("localStorage print",  localStorage.getItem("showOutlier"));
                    //아웃라이어 색깔바꾸기
                    if(node.ID == outlierId ) {
@@ -217,29 +211,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 
          }
 
-         // ==========================================누가한거?
-         //If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
-         // if(hidden) {
-         //     if(node.color == null) {
-         //        // If we have never drawn the node to the hidden canvas get a new color for it and put it in the dictionary.
-         //        node.color = genColor();
-         //        colToCircle[node.color] = node;
-         //     }//if
-         //     // On the hidden canvas each rectangle gets a unique color.
-         //     chosenContext.fillStyle = node.color;
-         // } else {
-         //     //아웃라이어 색깔바꾸기
-         //        if(node.ID == outlierId ) {
-         //           chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "red";
-         //        }else {
-         //           chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
-         //        }
-         //     //test print
-         //     // console.log("dataById: ", dataById);
-         //
-         //
-         // }//else
-         // =========================================여기까지
+
 
 
          var nodeX = ((node.x - zoomInfo.centerX) * zoomInfo.scale) + centerX,

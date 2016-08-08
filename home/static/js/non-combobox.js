@@ -1,3 +1,6 @@
+/**
+ * Created by cooljay on 8/8/16.
+ */
 /* =============================================================
  * bootstrap-combobox.js v1.1.6
  * =============================================================
@@ -180,6 +183,7 @@
       } else {
         return '<div class="combobox-container"> <input type="hidden" /> <div class="input-group"> <input type="text" autocomplete="off" /> <span class="input-group-addon dropdown-toggle" data-dropdown="dropdown"> <span class="caret" /> <span class="glyphicon glyphicon-remove" /> </span> </div> </div>'
       }
+
     }
 
   , matcher: function (item) {

@@ -42,10 +42,12 @@
     };
     /* ]]> */
 
+//   파일 지우기
+
+// 차트 부분 없애기
     function destroyCanvas(){
         var oldcanv = document.getElementById("canvas");
         oldcanv.remove();
-        console.log("destroyCanvas loaded");
     }
 
 // load javascript
@@ -57,6 +59,26 @@
     docHeadObj.appendChild(dynamicScript);
     }
 
+// load all javascript options when started
+//    맨 처음에 삭제된 자바스크립트 전부 읽기
+    function loadAllJS(){
+        LoadMyJs("/static/js/bootstrap-combobox.js");
+        LoadMyJs("/static/js/script6.js");
+    }
+    
+    function destroyPreviousPage() {
+        destroyCanvas();
+        var oldcanv = document.getElementsByClassName("combobox-container");
+        console.log("oldcanv destroy:", oldcanv);
+
+        var len = oldcanv.length;
+        for(var i = 0; i < len; i++) {
+                oldcanv[i].parentNode.removeChild(oldcanv[i]);
+        }
+
+        LoadMyJs('/static/js/non-combobox.js');
+
+    }
 
 
     var outlierId = "{{ outlierId }}";
@@ -359,8 +381,8 @@
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.visualcinnamon.com/wp-content/themes/multicorp/wpbakery/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.visualcinnamon.com/wp-content/themes/multicorp/wpbakery/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>        <!--[if IE 8]><link rel="stylesheet" href="http://www.visualcinnamon.com/wp-content/themes/multicorp/assets/frontend/css/ie8.css"><![endif]-->
 
 </head>
-
-<body onLoad="LoadMyJs('/static/js/script6.js')" class="page page-id-3779 page-template-default ish-unboxed ish-responsive_layout_on ish-sticky-on ish-header_bar-on wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive">
+<!---->
+<body onLoad="loadAllJS()"  class="page page-id-3779 page-template-default ish-unboxed ish-responsive_layout_on ish-sticky-on ish-header_bar-on wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive">
     <script type="text/javascript">
     // Output the preloader HTML
     document.write('<div id="ish-site-preloader-holder" class="ish-site-preloader-holder">' +
@@ -440,8 +462,16 @@
                         <!-- Show Outlier button -->
 
                         <div class="btn-group" style="float: right">
-                          <button type="button" onclick="destroyCanvas(); LoadMyJs('/static/js/outlier.js')" class="btn btn-default" style="background-color: dodgerblue ; color: white ; font-weight: bold">
+
+                            <!--기능별 버튼-->
+                          <!--outlier button-->
+                            <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/outlier.js')" class="btn btn-default" style="margin-right: 30px; background-color: dodgerblue ; color: white ; font-weight: bold">
                             Outlier
+                          </button>
+
+                            <!--일반기준 외 function 보여주기 button-->
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/script6.js')" class="btn btn-default" style="background-color: red ; color: white ; font-weight: bold">
+                            일반기준
                           </button>
                         </div>
 
@@ -516,7 +546,7 @@
                                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
                                     <!-- Combobox script for the search box -->
-                                    <script src="/static/js/bootstrap-combobox.js"></script>
+                                    <!--<script src="/static/js/bootstrap-combobox.js"></script>-->
                                     <link href="/static/css/bootstrap-combobox.css" rel="stylesheet">
 
                                     <!-- Stylesheet -->
@@ -537,6 +567,7 @@
                                                 <hr>
 
                                                 <div id="searchTitle" class="title">Find a Function</div>
+                                                <!--search box 있는 곳-->
                                                 <div class="form-group">
                                                     <select id="searchBox" class="combobox input-large form-control" style="display: none;" onchange="searchEvent(this.value)">
                                                         <option value="" selected="selected">Search...</option>
