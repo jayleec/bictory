@@ -352,10 +352,6 @@ def standardDeviation(data, category):
 def getMinimum(list, category):
     return min(list, key=lambda x: x[category])
 
-<<<<<<< HEAD
-=======
-
->>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
 def cal_projectScore(comp, stru, text, under, main):
     return (comp + stru + text + under + main)/5
 
@@ -414,12 +410,12 @@ def sign_up(request):
     return render(request, 'sign_up.html')
 
 
-<<<<<<< HEAD
+
     return HttpResponse("Testing...")
-=======
+
 def report(request):
     return render(request, 'report.html')
->>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
+
 
 def convert(request):
     # 초기 사전
@@ -494,7 +490,7 @@ def convert(request):
 
             funarr.append(fundict)
 
-<<<<<<< HEAD
+
             tmparr = []
             dirname = {}
             if(child[0].text[0] == '/'):
@@ -507,7 +503,7 @@ def convert(request):
                 dirname = dirname[1].split("\\c\\")
             print(tmparr[1])
             print(dirname[0])
-=======
+
             s = ","
             s = locale.format_string('%s', s, True).replace(",", "")
 
@@ -515,7 +511,7 @@ def convert(request):
             newMetricName = changeMetricName()
             # print("newName = ", newName)
             i = 0
->>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
+
             for child3 in child2:
                 child3.tag = newMetricName[i]
                 i += 1
@@ -523,10 +519,6 @@ def convert(request):
                 if child3.tag == 'name':
                     cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, str(numberOfFile) + str(numberOfFunction)])
                     continue
-<<<<<<< HEAD
-                cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
-                cw3.writerow([tmparr[1], dirname[0], tmparr[1], child2[0].text, child3.tag + ":" + child3.text, str(numberOfFile) + str(numberOfFunction), "b", s,s,s, str(numberOfFile) + str(numberOfFunction)])
-=======
                 # #     일부 불필요한 메트릭은 사용하지 않음
                 if (child3.tag == 'Component Volume' or child3.tag == 'Program Level' or
                     child3.tag == 'Program Differences' or child3.tag == 'Effeciency' or
@@ -536,8 +528,10 @@ def convert(request):
                     print("if child.tag = ", child3.tag)
                 else:
                     cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
-                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
->>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
+                    cw3.writerow([tmparr[1], dirname[0], tmparr[1], child2[0].text, child3.tag + ":" + child3.text,
+                                  str(numberOfFile) + str(numberOfFunction), "b", s, s, s,
+                                  str(numberOfFile) + str(numberOfFunction)])
+
 
 
         filedict['children'] = funarr
@@ -666,8 +660,6 @@ class XmlDictConfig(dict):
 def Wtree_test(request):
     return render(request, 'Wtree_test.html')
 
-<<<<<<< HEAD
-=======
 def convert2(request):
     data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
@@ -699,7 +691,7 @@ def convert2(request):
     return HttpResponse("Testing...")
 
 class MetricController():
->>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
+
     def __init__(self):
         self.num = 0
         self.array = []
@@ -712,9 +704,7 @@ class MetricController():
         for elt in self.array:
             if elt['id'] == id:
                 return elt
-<<<<<<< HEAD
 
-=======
 #매트릭 계산기
 class Calculator(dict):
     # 매트릭의 기준 표
@@ -736,12 +726,10 @@ class Calculator(dict):
         'uncond_num' : [0, 0],
         'cylomatic' : [0, 15],
     }
->>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
 
     def __init__(self, elt):
         self.dict = elt
 
-<<<<<<< HEAD
     # def return_score(self, name):
     #     # if table[name]
     #     # 최소치 이상 일 경우
@@ -764,8 +752,6 @@ class Calculator(dict):
     #
     # def complexity(self):
 
-=======
->>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
     def return_score(self, name):
         # if table[name]
         # 최소치 이상 일 경우
@@ -805,13 +791,6 @@ class Calculator(dict):
         for x in names:
             print("x : ", x)
             score += self.return_score(x) * scores[x]
-<<<<<<< HEAD
+
         return score / 1000
 
-
-
-
-
-=======
-        return score / 1000
->>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
