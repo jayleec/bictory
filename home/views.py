@@ -809,4 +809,3 @@ class Calculator(dict):
             score += self.return_score(x) * scores[x]
 
         return score / 1000
-
