@@ -114,6 +114,8 @@ class Function(models.Model):
                 arr.append(k)
         return arr
 
+
+
     def return_score(self, name):
         try:
             exec('value = self.' + name)

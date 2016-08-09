@@ -160,6 +160,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
    /////// Change Outlier function background color /////////////
    //////////////////////////////////////////////////////////////
 
+   var cpnt_len_list = cpnt_len_id_list;
 
 
 
@@ -185,6 +186,9 @@ function drawAll(error, ageCSV, idCSV, occupations) {
       chosenContext.rect(0,0,width,height);
       chosenContext.fill();
 
+
+
+
       //Select our dummy nodes and draw the data to canvas.
       var node = null;
       // It's slightly faster than nodes.forEach()
@@ -204,13 +208,13 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                // On the hidden canvas each rectangle gets a unique color.
                chosenContext.fillStyle = node.color;
             } else {
-               // console.log("localStorage print",  localStorage.getItem("showOutlier"));
-                  console.log("node.name:", node);
-                   if(node.ID == cpnt_lenId ) {
-                      chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "green";
-                   }else {
-                      chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
-                   }
+                  console.log("cpnt_len_list.indexOf(node.ID) :", cpnt_len_list.indexOf(node.ID) );
+
+               if (cpnt_len_list.indexOf(node.ID) > 0 ){
+                  chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "green";
+               } else {
+                  chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
+               }
 
          }
 

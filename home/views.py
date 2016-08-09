@@ -45,8 +45,20 @@ def functiontable(request):
     data = Function.objects.all()
     for f in data:
         f.test = f.check_all()
-    #
+        # print("f.test", f.test)
+        if findMetric(f.test):
+            # print("f.functionid:",f.function_id)
+            f.test2 = f.function_id
     return render_to_response('function_table.html', {'functions': data})
+
+# cpnt_len가 초과하는 function의 경우 true 리턴
+def findMetric(function):
+    for f in function:
+        if f == 'cpnt_len':
+            return True
+        else:
+            return False
+
 
 def index(request):
     return render(request, 'index.html')
@@ -104,7 +116,17 @@ def gitLoader(request):
 def visual(request):
     result = d3test()
     outlierId = result[6]
-    return render(request, 'visualTest.html', {'outlierId': outlierId})
+
+    cpntlenlist = []
+    # cpnt_len 초과 function id 뽑기
+    data = Function.objects.all()
+    for f in data:
+        f.test = f.check_all()
+        if findMetric(f.test):
+            cpntlenlist.append(f.function_id)
+    # print("cpntlenlist:", cpntlenlist)
+    return render(request, 'visualTest.html', {'outlierId': outlierId,
+                                               'cpnt_len_id_list': cpntlenlist })
 
 def showScore(request):
     result = d3test()
