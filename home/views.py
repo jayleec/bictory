@@ -56,8 +56,7 @@ def findMetric(function):
     for f in function:
         if f == 'cpnt_len':
             return True
-        else:
-            return False
+
 
 
 def index(request):

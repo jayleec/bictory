@@ -162,7 +162,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 
    var cpnt_len_list = cpnt_len_id_list;
 
-
+   console.log("cpnt_len_list",cpnt_len_list );
 
 
 
