@@ -3,6 +3,7 @@
         {
             "children": [
                 {
+<<<<<<< HEAD:Metrics.json
                     "size": 3,
                     "ID": "1.1.1",
                     "name": "badParam"
@@ -11,6 +12,12 @@
                     "size": 3,
                     "ID": "1.1.2",
                     "name": "goodParam"
+=======
+                    "name": "badParam", "ID": "1.1.1", "size": 3, "color": "red"
+                }
+                {
+                    "name": "goodParam", "ID": "1.1.2", "size": 3
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6:home/static/data/Metricssss.json
                 }
             ],
             "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API47.c"
@@ -18,12 +25,17 @@
         {
             "children": [
                 {
+<<<<<<< HEAD:Metrics.json
                     "size": 195,
                     "ID": "1.2.1",
                     "name": "bind_socket"
                 }
             ],
             "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MULTIPLE_BINDS_TO_SAME_PORT.c"
+=======
+                    "name": "bind_socket", "ID": "1.2.1", "size": 195}
+            ]
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6:home/static/data/Metricssss.json
         },
         {
             "children": [
@@ -1900,6 +1912,11 @@
             ],
             "name": "\\home\\kskyj\\sparrow4\\util\\Ecode\\c\\API31.c"
         }
+<<<<<<< HEAD:Metrics.json
     ],
     "name": "Project"
 }
+=======
+    ]
+}
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6:home/static/data/Metricssss.json

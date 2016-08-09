@@ -3,16 +3,33 @@ import xml.etree.ElementTree as ET
 import json
 import csv
 import re
+from analyze.models import *
 
 import locale
 locale.setlocale(locale.LC_ALL, '')
 
 import statistics
 
+# UPLOAD FILE
+from .forms import GitFileForm
+import git
+from datetime import datetime
+from .models import Upload
+from .forms import UploadFileForm
+from django.shortcuts import render_to_response
+from django.http import HttpResponseRedirect
+from django.template import RequestContext
+from django.core.urlresolvers import reverse
 
 # import cElementTree as ElementTree
 
 # Create your views here.
+
+def test(request):
+    data = Function.objects.all()
+    for f in data:
+        f.test = f.check_all()
+    return render_to_response('function_table.html', {'functions': data})
 
 def index(request):
     return render(request, 'index.html')
@@ -26,13 +43,74 @@ def dashboard(request):
 def forgot_password(request):
     return render(request, 'forgot_password.html')
 
+
 def tables(request):
     return render(request, 'tables.html')
 
-def visual(request):
-    return render(request, 'visualTest.html')
 
-def d3test(request):
+#git file loader
+def gitLoader(request):
+    if request.method == 'GET':
+        #form generated
+        form_git = GitFileForm(request.GET, request.FILES)
+        if form_git.is_valid():
+            gitUrl = form_git.cleaned_data['gitFile']
+            dirname = datetime.now().strftime('%Y-%m-%d-%H-%M')
+            g = git.Repo.clone_from(gitUrl, dirname)
+
+            # Redirect to the document list after POST
+            return HttpResponseRedirect(reverse("home.views.gitLoader"))
+
+    if request.method == 'POST':
+        form = UploadFileForm(request.POST, request.FILES)
+        if form.is_valid():
+            newdoc = Upload(Lddfile=request.FILES['Lddfile'])
+            newdoc.save()
+
+            # Redirect to the document list after POST
+            return HttpResponseRedirect(reverse("home.views.gitLoader"))
+
+    else:
+        form_git = GitFileForm()  # A empty, unbound form
+        form = UploadFileForm()
+        files = Upload.objects.all()
+    return render_to_response(
+            'torch/index.html',
+            {'files': files, 'form': form, 'form_git': form_git},
+            context_instance=RequestContext(request)
+    )
+
+
+
+
+#/visualTest.html/
+def visual(request):
+    result = d3test()
+    outlierId = result[6]
+    return render(request, 'visualTest.html', {'outlierId': outlierId})
+
+def showScore(request):
+    result = d3test()
+    aveComplexity = result[0]
+    aveStructure = result[1]
+    aveTestability = result[2]
+    aveUnderstand = result[3]
+    aveMaintainability = result[4]
+    projectScore = result[5]
+    testID = result[6]
+
+    return render(request, 'd3_test.html', {
+                                            'aveComplexity': aveComplexity,
+                                            'structuredness': aveStructure,
+                                            'testability': aveTestability,
+                                            'understandability': aveUnderstand,
+                                            'maintainability':  aveMaintainability,
+                                            'projectScore': projectScore,
+                                            'minimumStdVarID': testID,
+                                            })
+
+
+def d3test():
     tree = ET.parse("home/static/data/crulechk.0.xml")
     root = tree.getroot()
 
@@ -218,6 +296,9 @@ def d3test(request):
 
     print(getMinimum(stdDevVar,'stdVar'))
     minimumVar = getMinimum(stdDevVar,'stdVar')
+    print("minimumVar print: ", minimumVar['ID'])
+    testID = minimumVar['ID']
+
 
     #프로젝트 최종 점수 계산
     aveStructure = TotalMaintainabilityScore / numberOfFile
@@ -226,14 +307,23 @@ def d3test(request):
     aveMaintainability = TotalMaintainabilityScore / numberOfFile
     projectScore = cal_projectScore(aveComplexity,aveStructure, aveTestability, aveMaintainability, aveUnderstand )
 
-    return render(request, 'd3_test.html', {
-                                            'aveComplexity': aveComplexity,
-                                            'structuredness': aveStructure,
-                                            'testability': aveTestability,
-                                            'understandability': aveUnderstand,
-                                            'maintainability':  aveMaintainability,
-                                            'projectScore': projectScore,
-                                            'minimumStdVarID': minimumVar['ID']})
+    return aveComplexity, aveStructure, aveTestability, aveUnderstand, aveMaintainability, projectScore, testID
+
+    #
+    # return render(request, 'd3_test.html', {
+    #                                         'aveComplexity': aveComplexity,
+    #                                         'structuredness': aveStructure,
+    #                                         'testability': aveTestability,
+    #                                         'understandability': aveUnderstand,
+    #                                         'maintainability':  aveMaintainability,
+    #                                         'projectScore': projectScore,
+    #                                         'minimumStdVarID': minimumVar['ID'],
+    #                                         })
+
+
+
+
+
 
 #표준화변수 구하기
 #(data -  평균) / 표준편차
@@ -262,6 +352,10 @@ def standardDeviation(data, category):
 def getMinimum(list, category):
     return min(list, key=lambda x: x[category])
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
 def cal_projectScore(comp, stru, text, under, main):
     return (comp + stru + text + under + main)/5
 
@@ -303,21 +397,29 @@ def ave_complexity(complexity_list, numOfFunctions):
     return sumtemp/numOfFunctions
 
 
+def sign_up(request):
+    if request.method == 'POST':
+        form = SignUpForm(request.POST)
+
+        if form.is_valid():
+            u = User(
+                email=cleaned_data['email'],
+                password=cleaned_data['password'],
+            )
+            u.save()
+            return HttpResponseRedirect('/')
+    else:
+        form = SignUpForm()
+
+    return render(request, 'sign_up.html')
 
 
+<<<<<<< HEAD
+    return HttpResponse("Testing...")
+=======
 def report(request):
     return render(request, 'report.html')
-
-def test(request):
-    data = ET.parse("analyze/crulechk.0.xml")
-    root = data.getroot()
-
-    for child in root:
-        words = child[0].text
-        word = words.replace('/', "\\").split("\\")
-        print(word)
-
-    return HttpResponse("Testing...")
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
 
 def convert(request):
     # 초기 사전
@@ -381,9 +483,7 @@ def convert(request):
         for child2 in child[1]:  # 소스파일 단위로 for loop
             fundict = {}
             numberOfFunction += 1
-
             cw.writerow(["\"" + child2[0].text + "\"", "\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""])
-
             print(child2[5].text)  # component length 출력
             cpntLenOfFunction = float(child2[5].text)
             totalCpntLenOfFunction += cpntLenOfFunction
@@ -394,6 +494,7 @@ def convert(request):
 
             funarr.append(fundict)
 
+<<<<<<< HEAD
             tmparr = []
             dirname = {}
             if(child[0].text[0] == '/'):
@@ -406,12 +507,37 @@ def convert(request):
                 dirname = dirname[1].split("\\c\\")
             print(tmparr[1])
             print(dirname[0])
+=======
+            s = ","
+            s = locale.format_string('%s', s, True).replace(",", "")
+
+            # 새로 넣을 이름
+            newMetricName = changeMetricName()
+            # print("newName = ", newName)
+            i = 0
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
             for child3 in child2:
+                child3.tag = newMetricName[i]
+                i += 1
+                # weighted tree 사용
                 if child3.tag == 'name':
                     cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, str(numberOfFile) + str(numberOfFunction)])
                     continue
+<<<<<<< HEAD
                 cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
                 cw3.writerow([tmparr[1], dirname[0], tmparr[1], child2[0].text, child3.tag + ":" + child3.text, str(numberOfFile) + str(numberOfFunction), "b", s,s,s, str(numberOfFile) + str(numberOfFunction)])
+=======
+                # #     일부 불필요한 메트릭은 사용하지 않음
+                if (child3.tag == 'Component Volume' or child3.tag == 'Program Level' or
+                    child3.tag == 'Program Differences' or child3.tag == 'Effeciency' or
+                    child3.tag == 'Bug' or child3.tag == 'Number of Exit Points' or
+                    child3.tag == 'Language Scope' or child3.tag == 'Program Time' or
+                    child3.tag == 'Itergration'):
+                    print("if child.tag = ", child3.tag)
+                else:
+                    cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
+                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
 
 
         filedict['children'] = funarr
@@ -437,6 +563,43 @@ def convert(request):
                   ensure_ascii=False)
 
     return HttpResponse("Converting...")
+
+# 메트릭 이름이 출력시에는 원래 이름대로 나오게
+# 리스트로 이름을 받아서 리스트로 반환
+def changeMetricName():
+    metricName = ["name",
+                  "Number of Distinct Operators",
+                  "Number of Distinct Operands",
+                  "Number of Operator Occurrences",
+                  "Number of Operand Occurrences",
+                  "Component Length",
+                  "Component Volume",
+                  "Vocabulary Size",
+                  "Program Level",
+                  "Program Differences",
+                  "Effeciency",
+                  "Program Time",
+                  "Itergration",
+                  "Bug",
+                  "Number of Exit Points",
+                  "Number of Statements",
+                  "Number of Structuring Levels",
+                  "Number of Unconditional Jumps",
+                  "Number of Go to Statements",
+                  "Number of Decision Statements",
+                  "Average Statement Size",
+                  "Language Scope",
+                  "Number of Function Parameters",
+                  "Number of Calling Functions",
+                  "Number of Called Functions",
+                  "Cyclomatic Complexity",
+                  "Number of Entry Points"]
+
+    return metricName
+
+
+
+
 
 class XmlListConfig(list):
     def __init__(self, aList):
@@ -503,6 +666,40 @@ class XmlDictConfig(dict):
 def Wtree_test(request):
     return render(request, 'Wtree_test.html')
 
+<<<<<<< HEAD
+=======
+def convert2(request):
+    data = ET.parse("analyze/crulechk.0.xml")
+    root = data.getroot()
+    metrics = MetricController()
+
+    # child = File
+    for child in root:
+        print("File Path : ", child[0].text)  # 파일 경로 출력
+        print("Number of functions: ", len(child[1]))  # function의 개수
+
+        # child2 = function
+        for child2 in child[1]:  # 소스파일 단위로 for loop
+            tmpdict = {}
+            # function안에 모든 메트릭을 Dictionary타입으로 변환하여 저장하는 for문
+            for child3 in child2:
+                if child3.tag == 'name':
+                    tmpdict['name'] = child3.text
+                    continue
+                tmpdict[child3.tag] = int(child3.text)
+
+            # 메트릭 컨트롤러에 저장
+            metrics.append(tmpdict)
+            print("Metrics : ", metrics.array)
+            cal = Calculator(tmpdict)
+            print("Complexity : ", cal.complexity())
+
+
+
+    return HttpResponse("Testing...")
+
+class MetricController():
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
     def __init__(self):
         self.num = 0
         self.array = []
@@ -515,11 +712,36 @@ def Wtree_test(request):
         for elt in self.array:
             if elt['id'] == id:
                 return elt
+<<<<<<< HEAD
 
+=======
+#매트릭 계산기
+class Calculator(dict):
+    # 매트릭의 기준 표
+    # 각 매트릭의 기준 (최소치, 최대치)
+    table = {
+        'avg_stmt' : [0, 7],
+        'cpnt_len' : [3, 250],
+        'stmt_num' : [0, 80],
+        'd_optr' : [0, 35],
+        'd_oprd' : [0, 50],
+        'ocr_optr' : [0, 140],
+        'ocr_oprd' : [0, 120],
+        'cpnt_voca' : [3, 75],
+        'voca_size' : [3, 75],
+        'dcs_stmt' : [0, 9],
+        'strc_lv' : [0, 7],
+        'entry_ptr' : [1, 1],
+        'exit_pnt' : [1, 1],
+        'uncond_num' : [0, 0],
+        'cylomatic' : [0, 15],
+    }
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
 
     def __init__(self, elt):
         self.dict = elt
 
+<<<<<<< HEAD
     # def return_score(self, name):
     #     # if table[name]
     #     # 최소치 이상 일 경우
@@ -542,6 +764,8 @@ def Wtree_test(request):
     #
     # def complexity(self):
 
+=======
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
     def return_score(self, name):
         # if table[name]
         # 최소치 이상 일 경우
@@ -581,9 +805,13 @@ def Wtree_test(request):
         for x in names:
             print("x : ", x)
             score += self.return_score(x) * scores[x]
+<<<<<<< HEAD
         return score / 1000
 
 
 
 
 
+=======
+        return score / 1000
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
