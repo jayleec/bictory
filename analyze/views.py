@@ -378,19 +378,29 @@ def countBadMetric(function):
     return badMetric
 
 def save(request):
+    # xml 파싱
     data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
+
+    # 진행률을 나타내기 위한 부분 초기화
     numoffunction = 0
     totaloffunction = len(root)
     for c in root:
         totaloffunction += len(c[1])
 
+    # 끝
+
+    # 프로젝트 초기화
     project = Project()
     project.name = "default"
     project.save()
-    # print(project)
+
+    # ID값을 위한 파일 넘버 초기화
+    numberOfFile = 0
+
     # child = File
     for child in root:
+        numberOfFile += 1
 
         file = File(
             project = project,
@@ -404,34 +414,51 @@ def save(request):
             # worst_function은 입력받지않음
             if x.tag == 'worst_functions':
                 continue
-            # print("file." + x.tag + "=" + str(x.text))
             exec("file." + x.tag + "=" + str(x.text))
 
         # file모델 객체를 저장
         file.save()
 
+        # 진행률 +1 한 후 표시
         numoffunction += 1
         print("(", str(int(numoffunction / totaloffunction * 100)), "%) saving file <", file.name, "> ...")
 
+        # ID값 생성을 위한 함수 넘버
+        numberOfFunction = 0
+
         # child2 = function
-        for child2 in child[1]:  # 소스파일 단위로 for loop
+        for child2 in child[1]:  # 소스파일을 함수 단위로 for loop
+
+            # 함수 넘버 +1
+            numberOfFunction += 1
+
             # 해당 File에 속하는 Function 객체 생성
             function = Function(
                 file = file,
             )
+
             # function안에 모든 메트릭을 저장하는 for문
             for child3 in child2:
+                # name은 문자열이므로 ""를 붙여준다.
                 if child3.tag == 'name':
                     exec("function." + child3.tag + "=\"" + str(child3.text) + "\"")
                 else:
                     exec("function." + child3.tag + "=" + str(child3.text))
 
-            #저장
+
+            # 함수에 ID값 저장
+            function.function_id = "1." + str(numberOfFile) + "." + str(numberOfFunction)
+
+            # 함수 저장
             function.save()
 
+            # 진행률 +1
             numoffunction += 1
+
+            # 진행률 표시
             print("(", str(int(numoffunction / totaloffunction * 100)), "%) saving function <", function.name, "> of", file.name, "...")
 
+    # 완료 메시지
     print("( 100 %) Done !")
 
     return HttpResponse("Done...")
