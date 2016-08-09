@@ -53,6 +53,7 @@ class Function(models.Model):
     )
 
     name = models.CharField(max_length=100)
+    function_id = models.CharField(max_length=10)
     d_optr = models.IntegerField(default=0)
     d_oprd = models.IntegerField(default=0)
     ocr_optr = models.IntegerField(default=0)
