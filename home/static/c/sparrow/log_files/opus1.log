@@ -1,0 +1,1126 @@
+=== Input list ======================================================================================================
+C:\sparrow4\util\testcode\c\sparrow\gen_files\010ab1c36d9b776b778e38ca3933cb64714217dc.API47.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\024bb2db00efb377cbc28b5490a140cd84bcb83d.MULTIPLE_BINDS_TO_SAME_PORT.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\047458cf0633ff9f4ad445b17131ac47e9b1da67.BAD_MACRO.MISUSE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\05741670ae3a296c38cd1693b0a34437bc3b5a8b.FBD15.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\08f2315cdd09956e0c890bba05602b59b24ad835.BAD_CALL.IMPROPER_VARARGS.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\0aa2f60632355b5e36d7bc98e2cfdf30b8716113.BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\0b861a382047ba80fc0293c64d7c6ae2a196dca5.BAD_CALL.FORBIDDEN.LIB.PROCESS.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\0be673cba2720df1dba0b75ce9d3a4c7d1b29a56.API27.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\0e3f3c3eb3d6618392ce91cb7dd6bf2beaef471e.BAD_CALL.TYPE_MISMATCH.STRING.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\0ea7900cfc193ce776ee44b1203cdfc60cd7a805.BAD_INCLUDE.FORBIDDEN.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\113fc64b9104bfbda71f464eb4a1041ab1403b6b.API36.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\1160af5dfaa3b5fb2f9d372bf89655754e7a38e2.MIS03.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\1353f524cb7f8b3b3235d3d52302275090c32ad4.MIS15.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\19498fa23904bd8458b341835c11f3f5fe05d9a0.FORBIDDEN_CALL.BEFORE_CALL.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\1a8f580850535deac75f7d681dcb9ae2759f8ff7.API50.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\1b903b49859b6d79d9925771ac767bbaa63627c9.MIS17.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\1bfe846292d11556f4345152fbe1465cfe1ea110.API29.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\20152ccf19e88700fc56297ac352ce5f913f06b4.BAD_CALL.FORBIDDEN.LIB.TP.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\21973f8b6e4bb40eb64f7303a26c51906854a2c5.BAD_CALL.REQUIRED.PRE_CALL.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\24f4fb3f56990529c2071898b7a021a7cda6ea73.BAD_QUALIFIER.FORBIDDEN.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\25a37abd3d3cd64fd7dd764e50cac72dd71887df.BAD_CALL.REQUIRED.VARARGS.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\25d126a4beb29fca9bdba32fec6f3e7cd3c410cb.BAD_INCLUDE.INVALID_PATH.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\29cb2c63abf1c7104533ceab45a563cb298d6847.BAD_CALL.FORBIDDEN.LIB.TIMER.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\33055ec5e75adee463103914c229b01b082788f0.MIS07.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\37633966ca1d50dfba2797b58c825ebaad34c8cb.API32.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\393fe28650396a1203a12d88443729137820922d.TOO_MANY_METHODS.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\399ef3950bf07684689a069695ee14bf14668f55.target.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\39e8e3780b5d68b17fde55c876f9fd9732d5719f.BAD_CALL.FORBIDDEN.PARAM.NAME.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3bb5060d41c24cc5f5cdf673b5cf46e42d58618c.MIS14.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3c7441651bc3feaed132817bc4bab8e29e36c61d.BAD_INIT.CHAR_ARRAY.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3c785b37d82ff81447cdf68b40e6f90a13b27c53.BAD_CALL.FORBIDDEN.VARARGS.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3c846ef1468bc74524565eacae650052df759b5c.FBD01.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3cea62a02e843ead06e9117347f21a84dee92b1c.BAD_CALL.REQUIRED.PARAM.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3de28b862e58117007cb6a8d2c1bd857e3d9fae6.BAD_CALL.NOT_ALLOWED.PARAM.NAME.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3f37093b00151d3589118017e34163f2e781da86.BAD_CALL.FORBIDDEN.PARAM.LITERAL.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\40ac34245ae3d8f8e231e68ac45411b2662d1ec8.API46.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\418c3c825592cc1b626e4e8779360f54402837f6.API41.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\41a2c099d8deaf8467ee788500a8013a65574d7f.MIS06.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\45d737cf1816537689015e95e301a52d50af236c.BAD_CALL.MISSING_CALL_PARAM.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\46d73008519b7e03fb033d12682fddbde549fe5a.API24.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\475a5e66b185c57f864256775af3eb059f1c05cb.API40.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\4789f9e48ee78555c1856c711642adaf7d9fe7c8.MIS22.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\4f336cd9e4bc240ce051806dafcf43ec51c20532.API35.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\51a59d283849babf908fe25123552f5628d1dc45.BAD_INTEGER_CONST_DEFINITION.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\54ae2822ee086f96542f6faf2d6ea27c1664a03a.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\55042a8671f07a70473a90aa54f172d3bfd90bfc.PASSWORD_IN_COMMENT.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\565649f83bba965086bccb1b8ee260d59491a413.ENV32.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\58e920518236f799ac2cc404a5f04a8a5b0972a5.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\5bdc391d714c4e2263ea3cba16ca63adb12e6309.MISSING_WRAPPER_ON_VARIABLE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\5c0ec7bd62ad482982f42e9c04839f6ab50e0446.BAD_PRIVILEGE_RELINQUISHMENT.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\5c1f61b5c6d712090338b99f4368411018f2f789.INCONSISTENT_GLOBAL_VARIABLE_TYPE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\5c6bc5c85a710efe8d877a739e5587c38d869879.BAD_CALL.FORBIDDEN.PARAM.STRING.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\5eb7e94370c6b0ed3b023ed8fbb66a38289920d6.MIS18.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\5f47cdf1f7e4094a5255419fe9410b1e889e1f51.API28.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\61dac8cb97dfd0c79892203dfc62a1121539a08b.MIS20.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\6396027ddb3a423f2fba630424dcba8d01295a64.API30.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\647f8d69dad7a1488df5be1c0d297a3a03ebb287.FUNCTION_DEFINITION_TYPE_MISMATCH.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\649da37cf093a941a3f8c49b1e015c0c65829691.API45.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\6b507efeb026bda78398d2481b26cb238c503fab.API23.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\6d8e8a4ed8e0698f988dcfb8407ac15970ab927e.BAD_CALL.REQUIRED.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\742032980ba9578e1dd86dc442e3c9a5fb50a411.BAD_STRUCT_MEMBER_ACCESS.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\74e09bcd6e260e3eec8482d8397eb969ce2e15a9.BAD_CALL.REQUIRED.ARGS.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\760bd10a2cf4fa0bb443ccda9ff5fa2045370cad.PREMATURE_THREAD_TERMINATION.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\778f33f9b7619d829b4066717c21399bdf019829.MSC17.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\798f0eecbb70a61ae67e351ceff38d38a3830235.MIS11.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\7ab2a7356c3ecf930785d9fd063725a6ede833df.MIS21.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp
+C:\sparrow4\util\testcode\c\sparrow\gen_files\7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\7eb63676aab5e8aedf3d0293c78d157480ac3c0a.API38.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\7f14fd0557c74b6bdda2b70d189cf6f6be204ebe.DO_NOT_USE_SIZEOF_ON_PTR.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\8036644f0d680b65a461d0e2423409932ea05095.WEAK_ENCRYPTION.RSA_PADDING.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\83f96893bcbc7af29776a558a9f245fa64175925.BAD_CALL.REQUIRED.WRAPPER.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\8b670eaf8e4405579afd773b71c9b6a7ecc5e875.API44.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\8b9b21d54bad2ab5dd61c0cf2d021401a15026ff.API31.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\8d52774a6d46e4a00674a883d10cf9b05f2efb64.BAD_OPERATOR.LOGICAL_COMPARISON.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\93171fc7de025cb62cccff72fa5bbbde3a78f8e0.BAD_CALL.FORBIDDEN.PARAM.NUMBER.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\94f9d81fad898cf857d778ccc19c70bdf16c2bea.API37.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\9815df601bcc282c10666eadececa8f9e369c132.API48.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\9eb7df4c192c33e59e7062704fb85656451195c8.BAD_MACRO.DANGEROUS_USAGE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\9fe5ad634288f1e27fc1815fa13ea318d73b6ba5.API39.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\a2eff118f772de75431f276b9c7c583175abb774.BAD_CALL.REQUIRED.LIB_CALL.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\a9032a12d87fb0344a9dd3a6df38ae3a75f4792e.BAD_CALL.FORBIDDEN.PARAM.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\aa2bdec3c0550b8e4488a8c81828abf64c0aa308.API16.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ad860547d4e04c44bf24a1efa6afa960487efcae.MIS23.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\b69d6b4abb584f4230bcca0372df4d7921971037.BAD_CALL.NOT_ALLOWED.PARAM.STRING.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\b74a165c1aa822f77de3f5dba95a19bddfebce2b.MIS10.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\b7fa2254801634ad537ab7ccd5a573b1d4daaf5a.MIS05.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\c27708c04db566dc8adb475dfecd00353605b37b.BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\c4405c999830b41d895444cfc8907929ec23cc1a.os_con_imp_int.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\c52b51d9f9482350a90697381af642a5085a8385.main.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\c5e13bf28c56fb7bbeb4a52a49b08fd343bd6a8c.DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\c66c77d72b294ba6a3f3ad48f2e8611bc2dec7d1.BAD_QUALIFIER.REQUIRED.PARAM_PTR.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\c72e927a40f24a24f99f97f5e63be32a95eba1bb.BAD_INCLUDE.DUPLICATED.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\c82f9837cb595a7ecd74cf98813bc61894ad3118.DO_NOT_USE_HARD_CODING.USERNAME.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ca272d1a93e59648f59bd4449cd2ec0a6e1a6151.BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\cafa4fa6c7ffd65203f4dce06c14917bc0e96421.BAD_CALL.LIBRARY.MEMORY.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\cc99044c497e21cebd90c53675243f8c24d8cdf6.MIS08.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\cd2c75cbe6a883f3f0aa3639b3bbba9444684961.BAD_CALL.FORBIDDEN.LIB.TEMP.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\cf26a7be838a50b303c7d53040f97e70d9444423.BAD_CALL.MISSING_CALL_PARAM.EXTENDED.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\d0c00b805e5ad4a781b29ce451180379715969e5.MIS01.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\d181c5a21fad2c5317f10905066001a06f506613.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\d3a9934b5098871410f1f22d64eff1abbc56aa5b.API05.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\d93926954487c225ce98bc9ffb557d3c3ee85244.BAD_OPERATOR.ASSIGNMENT_IN_COND.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\d9e968f9d9b4596b2cb63a48e2e025d6db92600b.BAD_ERROR.INVALID_CODE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\dd6e93d9d323286c13b4f84cab9abb7efe015895.API33.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\e3030443c680421f76653fab89ea32b99726f6ae.BAD_CALL.TYPE_MISMATCH.SPRINTF.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\e37ed3018fcf962702f2fea8a65af546050d629e.MIS24.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\e428da448d08ce388fa1f43af220ce119ea83e03.BAD_NAME.VARIABLE.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\e95dd6f39d236b8f114700f1c5e5c90644af91b4.FORBIDDEN_CALL.LOOP.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ea37ad3c388de7632c80b9135b56cde3a54b4510.API34.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ebd57031be3b51627e3e53a79c78c3ba8a817ba2.API51.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ec23a6cd03712145e8551c42e11384fa6e9a3dd9.PRE09.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ec377a459a3722866f87ecc5a0f9c39723ef82ab.MIS16.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ef4e87dee6bc55d5ac5e4a154766173ec1e97d9f.BAD_ERROR.MISSING_INIT.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\f428b900febe1be00c6715b344d1681012b66431.MIS19.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\f79bb79a93bcc04b63bd06d8a0f3c30f2610e34c.BAD_ARGS.FORBIDDEN.AFTER_CALL.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\fda6ba0a97510f08dd295d79761d4639d72dc073.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c.i
+C:\sparrow4\util\testcode\c\sparrow\gen_files\ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c.i
+=====================================================================================================================
+
+Opus1 version 1.4.2 
+361039c53097cc9c96985125d67d12475975a211
+Step: Total: started
+Step: Transform: started
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\010ab1c36d9b776b778e38ca3933cb64714217dc.API47.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\024bb2db00efb377cbc28b5490a140cd84bcb83d.MULTIPLE_BINDS_TO_SAME_PORT.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\047458cf0633ff9f4ad445b17131ac47e9b1da67.BAD_MACRO.MISUSE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\05741670ae3a296c38cd1693b0a34437bc3b5a8b.FBD15.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\08f2315cdd09956e0c890bba05602b59b24ad835.BAD_CALL.IMPROPER_VARARGS.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\0aa2f60632355b5e36d7bc98e2cfdf30b8716113.BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\0b861a382047ba80fc0293c64d7c6ae2a196dca5.BAD_CALL.FORBIDDEN.LIB.PROCESS.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\0be673cba2720df1dba0b75ce9d3a4c7d1b29a56.API27.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\0e3f3c3eb3d6618392ce91cb7dd6bf2beaef471e.BAD_CALL.TYPE_MISMATCH.STRING.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\0ea7900cfc193ce776ee44b1203cdfc60cd7a805.BAD_INCLUDE.FORBIDDEN.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\113fc64b9104bfbda71f464eb4a1041ab1403b6b.API36.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\1160af5dfaa3b5fb2f9d372bf89655754e7a38e2.MIS03.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\1353f524cb7f8b3b3235d3d52302275090c32ad4.MIS15.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\19498fa23904bd8458b341835c11f3f5fe05d9a0.FORBIDDEN_CALL.BEFORE_CALL.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\1a8f580850535deac75f7d681dcb9ae2759f8ff7.API50.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\1b903b49859b6d79d9925771ac767bbaa63627c9.MIS17.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\1bfe846292d11556f4345152fbe1465cfe1ea110.API29.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\20152ccf19e88700fc56297ac352ce5f913f06b4.BAD_CALL.FORBIDDEN.LIB.TP.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\21973f8b6e4bb40eb64f7303a26c51906854a2c5.BAD_CALL.REQUIRED.PRE_CALL.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\24f4fb3f56990529c2071898b7a021a7cda6ea73.BAD_QUALIFIER.FORBIDDEN.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\25a37abd3d3cd64fd7dd764e50cac72dd71887df.BAD_CALL.REQUIRED.VARARGS.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\25d126a4beb29fca9bdba32fec6f3e7cd3c410cb.BAD_INCLUDE.INVALID_PATH.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\29cb2c63abf1c7104533ceab45a563cb298d6847.BAD_CALL.FORBIDDEN.LIB.TIMER.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\33055ec5e75adee463103914c229b01b082788f0.MIS07.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\37633966ca1d50dfba2797b58c825ebaad34c8cb.API32.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\393fe28650396a1203a12d88443729137820922d.TOO_MANY_METHODS.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\399ef3950bf07684689a069695ee14bf14668f55.target.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\39e8e3780b5d68b17fde55c876f9fd9732d5719f.BAD_CALL.FORBIDDEN.PARAM.NAME.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3bb5060d41c24cc5f5cdf673b5cf46e42d58618c.MIS14.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3c7441651bc3feaed132817bc4bab8e29e36c61d.BAD_INIT.CHAR_ARRAY.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3c785b37d82ff81447cdf68b40e6f90a13b27c53.BAD_CALL.FORBIDDEN.VARARGS.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3c846ef1468bc74524565eacae650052df759b5c.FBD01.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3cea62a02e843ead06e9117347f21a84dee92b1c.BAD_CALL.REQUIRED.PARAM.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3de28b862e58117007cb6a8d2c1bd857e3d9fae6.BAD_CALL.NOT_ALLOWED.PARAM.NAME.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3f37093b00151d3589118017e34163f2e781da86.BAD_CALL.FORBIDDEN.PARAM.LITERAL.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\40ac34245ae3d8f8e231e68ac45411b2662d1ec8.API46.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\418c3c825592cc1b626e4e8779360f54402837f6.API41.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\41a2c099d8deaf8467ee788500a8013a65574d7f.MIS06.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\45d737cf1816537689015e95e301a52d50af236c.BAD_CALL.MISSING_CALL_PARAM.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\46d73008519b7e03fb033d12682fddbde549fe5a.API24.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\475a5e66b185c57f864256775af3eb059f1c05cb.API40.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\4789f9e48ee78555c1856c711642adaf7d9fe7c8.MIS22.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\4f336cd9e4bc240ce051806dafcf43ec51c20532.API35.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\51a59d283849babf908fe25123552f5628d1dc45.BAD_INTEGER_CONST_DEFINITION.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\54ae2822ee086f96542f6faf2d6ea27c1664a03a.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\55042a8671f07a70473a90aa54f172d3bfd90bfc.PASSWORD_IN_COMMENT.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\565649f83bba965086bccb1b8ee260d59491a413.ENV32.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\58e920518236f799ac2cc404a5f04a8a5b0972a5.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\5bdc391d714c4e2263ea3cba16ca63adb12e6309.MISSING_WRAPPER_ON_VARIABLE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\5c0ec7bd62ad482982f42e9c04839f6ab50e0446.BAD_PRIVILEGE_RELINQUISHMENT.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\5c1f61b5c6d712090338b99f4368411018f2f789.INCONSISTENT_GLOBAL_VARIABLE_TYPE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\5c6bc5c85a710efe8d877a739e5587c38d869879.BAD_CALL.FORBIDDEN.PARAM.STRING.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\5eb7e94370c6b0ed3b023ed8fbb66a38289920d6.MIS18.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\5f47cdf1f7e4094a5255419fe9410b1e889e1f51.API28.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\61dac8cb97dfd0c79892203dfc62a1121539a08b.MIS20.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\6396027ddb3a423f2fba630424dcba8d01295a64.API30.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\647f8d69dad7a1488df5be1c0d297a3a03ebb287.FUNCTION_DEFINITION_TYPE_MISMATCH.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\649da37cf093a941a3f8c49b1e015c0c65829691.API45.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\6b507efeb026bda78398d2481b26cb238c503fab.API23.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\6d8e8a4ed8e0698f988dcfb8407ac15970ab927e.BAD_CALL.REQUIRED.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\742032980ba9578e1dd86dc442e3c9a5fb50a411.BAD_STRUCT_MEMBER_ACCESS.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\74e09bcd6e260e3eec8482d8397eb969ce2e15a9.BAD_CALL.REQUIRED.ARGS.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\760bd10a2cf4fa0bb443ccda9ff5fa2045370cad.PREMATURE_THREAD_TERMINATION.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\778f33f9b7619d829b4066717c21399bdf019829.MSC17.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\798f0eecbb70a61ae67e351ceff38d38a3830235.MIS11.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\7ab2a7356c3ecf930785d9fd063725a6ede833df.MIS21.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\7eb63676aab5e8aedf3d0293c78d157480ac3c0a.API38.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\7f14fd0557c74b6bdda2b70d189cf6f6be204ebe.DO_NOT_USE_SIZEOF_ON_PTR.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\8036644f0d680b65a461d0e2423409932ea05095.WEAK_ENCRYPTION.RSA_PADDING.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\83f96893bcbc7af29776a558a9f245fa64175925.BAD_CALL.REQUIRED.WRAPPER.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\8b670eaf8e4405579afd773b71c9b6a7ecc5e875.API44.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\8b9b21d54bad2ab5dd61c0cf2d021401a15026ff.API31.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\8d52774a6d46e4a00674a883d10cf9b05f2efb64.BAD_OPERATOR.LOGICAL_COMPARISON.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\93171fc7de025cb62cccff72fa5bbbde3a78f8e0.BAD_CALL.FORBIDDEN.PARAM.NUMBER.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\94f9d81fad898cf857d778ccc19c70bdf16c2bea.API37.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\9815df601bcc282c10666eadececa8f9e369c132.API48.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\9eb7df4c192c33e59e7062704fb85656451195c8.BAD_MACRO.DANGEROUS_USAGE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\9fe5ad634288f1e27fc1815fa13ea318d73b6ba5.API39.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\a2eff118f772de75431f276b9c7c583175abb774.BAD_CALL.REQUIRED.LIB_CALL.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\a9032a12d87fb0344a9dd3a6df38ae3a75f4792e.BAD_CALL.FORBIDDEN.PARAM.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\aa2bdec3c0550b8e4488a8c81828abf64c0aa308.API16.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ad860547d4e04c44bf24a1efa6afa960487efcae.MIS23.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\b69d6b4abb584f4230bcca0372df4d7921971037.BAD_CALL.NOT_ALLOWED.PARAM.STRING.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\b74a165c1aa822f77de3f5dba95a19bddfebce2b.MIS10.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\b7fa2254801634ad537ab7ccd5a573b1d4daaf5a.MIS05.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\c27708c04db566dc8adb475dfecd00353605b37b.BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\c4405c999830b41d895444cfc8907929ec23cc1a.os_con_imp_int.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\c52b51d9f9482350a90697381af642a5085a8385.main.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\c5e13bf28c56fb7bbeb4a52a49b08fd343bd6a8c.DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\c66c77d72b294ba6a3f3ad48f2e8611bc2dec7d1.BAD_QUALIFIER.REQUIRED.PARAM_PTR.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\c72e927a40f24a24f99f97f5e63be32a95eba1bb.BAD_INCLUDE.DUPLICATED.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\c82f9837cb595a7ecd74cf98813bc61894ad3118.DO_NOT_USE_HARD_CODING.USERNAME.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ca272d1a93e59648f59bd4449cd2ec0a6e1a6151.BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\cafa4fa6c7ffd65203f4dce06c14917bc0e96421.BAD_CALL.LIBRARY.MEMORY.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\cc99044c497e21cebd90c53675243f8c24d8cdf6.MIS08.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\cd2c75cbe6a883f3f0aa3639b3bbba9444684961.BAD_CALL.FORBIDDEN.LIB.TEMP.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\cf26a7be838a50b303c7d53040f97e70d9444423.BAD_CALL.MISSING_CALL_PARAM.EXTENDED.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\d0c00b805e5ad4a781b29ce451180379715969e5.MIS01.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\d181c5a21fad2c5317f10905066001a06f506613.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\d3a9934b5098871410f1f22d64eff1abbc56aa5b.API05.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\d93926954487c225ce98bc9ffb557d3c3ee85244.BAD_OPERATOR.ASSIGNMENT_IN_COND.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\d9e968f9d9b4596b2cb63a48e2e025d6db92600b.BAD_ERROR.INVALID_CODE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\dd6e93d9d323286c13b4f84cab9abb7efe015895.API33.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\e3030443c680421f76653fab89ea32b99726f6ae.BAD_CALL.TYPE_MISMATCH.SPRINTF.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\e37ed3018fcf962702f2fea8a65af546050d629e.MIS24.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\e428da448d08ce388fa1f43af220ce119ea83e03.BAD_NAME.VARIABLE.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\e95dd6f39d236b8f114700f1c5e5c90644af91b4.FORBIDDEN_CALL.LOOP.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ea37ad3c388de7632c80b9135b56cde3a54b4510.API34.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ebd57031be3b51627e3e53a79c78c3ba8a817ba2.API51.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ec23a6cd03712145e8551c42e11384fa6e9a3dd9.PRE09.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ec377a459a3722866f87ecc5a0f9c39723ef82ab.MIS16.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ef4e87dee6bc55d5ac5e4a154766173ec1e97d9f.BAD_ERROR.MISSING_INIT.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\f428b900febe1be00c6715b344d1681012b66431.MIS19.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\f79bb79a93bcc04b63bd06d8a0f3c30f2610e34c.BAD_ARGS.FORBIDDEN.AFTER_CALL.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\fda6ba0a97510f08dd295d79761d4639d72dc073.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c.i
+IL Generation: C:\sparrow4\util\testcode\c\sparrow\gen_files\ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c.i
+Dump symtbl
+Step: Transform: finished: (0.93s)
+Step: Callgraph: started
+[PFM_TRYNJ]; [pfmDlCall]; [API06_ALARM]; [API06_NEED_WRAPPER]; [API06_WRAPPER]; [SET_ERR]; [SET_ERR_EXT]; [API07_API08_API19_API21_ALARM]; [API07_API08_API19_API21_SAFE]; [API07_FUNC]; [ApplExmnList]; [CERT_SCS_ARR01_C]; [CERT_SCS_INT35_C]; [CERT_SCS_RRE20_C__get_0_1_n1]; [CERT_SCS_RRE20_C__get_0_negative]; [CERT_SCS_RRE20_C__get_0_positive]; [CERT_SCS_RRE20_C__get_all]; [strcmp]; [strlen]; [CERT_SCS_RRE20_C__test]; [__sparrow_malloc]; [__sparrow_unreasonable_length]; [__SPARROW_malloc]; [malloc]; [wcscmp]; [wcslen]; [CERT_SCS_STR33_C]; [__sparrow_bufacc]; [__sparrow_deref]; [__sparrow_memset]; [__sparrow_overlap]; [__SPARROW_memcpy]; [memcpy]; [DU_API01_API02_API03_API09_API11_API12_API26]; [PFM_DBG]; [PFM_ERR]; [pfmNumPrint]; [DU_API10]; [END_API22]; [EVP_CIPHER_CTX_init]; [EVP_EncryptInit]; [EVP_aes_128_cbc]; [EVP_des_ecb]; [fork]; [vfork]; [FB08_Alarm]; [getrlimit]; [setrlimit]; [FB09_Alarm]; [getenv]; [waitFor]; [FB0D04_FBOD05]; [FB0D04_FBOD05_ALARM]; [sigaction]; [signal]; [FB10_Alarm]; [tpcancel]; [tprecv]; [FB11_Alarm]; [mktemp]; [tmpnam]; [FB12_Alarm]; [alarm]; [sleep]; [FB13_Alarm]; [FBD02_ALARM]; [FBD03]; [LOG_PC]; [FBD03_ALARAM_1]; [LOG_WRITE]; [FBD03_ALARAM_2]; [__sparrow_calloc]; [__sparrow_realloc_free]; [__SPARROW_realloc]; [realloc]; [FBD06_Alarm]; [FBN_call_param]; [FCINLOOP_SUB]; [FUN_FBD17_ALARM]; [Fun_API01_API02_API03_API09_API11_API12_API26]; [__sparrow_close_socket]; [__sparrow_negative_check]; [__SPARROW_close]; [__SPARROW_connect]; [__sparrow_fopen]; [__SPARROW_fopen]; [__SPARROW_open]; [__SPARROW_wcsncpy]; [close]; [connect]; [fopen]; [getgid]; [getuid]; [open]; [setgid]; [setuid]; [__sparrow_close_file]; [__SPARROW_fclose]; [fclose]; [sfunc]; [sprintf]; [umask]; [wcsncpy]; [func]; [Fun_API04_API14_API15]; [Fun_API04_call]; [Fun_API10]; [__SPARROW_memset]; [memset]; [Fun_API13]; [Fun_API17_API18_NONE]; [Fun_API17_API18_QUAL]; [LcfApError]; [LcfSetUIMsg]; [Fun_API22]; [Fun_API22_Alarm1]; [Fun_API22_safe]; [Fun_FBD06_SAFE]; [Fun_FBD07_SAFE]; [Fun_FBD16_1]; [Fun_FBD16_2]; [Fun_FBD16_3]; [Fun_FBD16_Alarm]; [Fun_FBD18]; [LB_call_WA]; [LB_call_WLC_exit]; [PFM_ERR_API10]; [PfmNumber_API10]; [SET_ERROR_API08]; [SET_ERR_API19]; [SET_ERR_API21]; [divide]; [fopen_FBD16]; [memcpy_API01]; [memcpy_API02]; [memcpy_API03]; [memcpy_API09]; [memcpy_API11]; [memcpy_API12]; [memcpy_API14]; [memcpy_API15]; [memset_API13]; [strlen_API11]; [strlen_API12]; [umask_FBD16]; [Func]; [LcfApError_API22]; [LcfSetUIMsg_API22]; [FuncBad]; [FuncGood]; [IsAnotherBadReturn]; [IsBadReturn]; [IsGoodReturn]; [returnRealloc]; [test]; [MEM08_main]; [MSC32_main]; [__sparrow_strncpy]; [__SPARROW_strncpy]; [strncpy]; [PRE09_main]; [RSA_generate_key]; [_setjmp]; [fprintf]; [log_message]; [SIG32_main]; [SIG_main]; [SQLAllocHandle]; [SQLAllocHnadle]; [SQLConnect]; [SQLExecDirect]; [get_100]; [TEST_PRE00_B]; [TEST_PRE00_C]; [U51000089_1]; [SQLConnect(int, char *, int, char *, int, char *, int)]; [RSA_public_encrypt(int, char *, char *, int *, int)]; [RSA_new()]; [badPadding(char *, int)]; [fopen(const char *, const char *)]; [tmpnam(char *)]; [fio43_main()]; [goodPadding(char *, int)]; [base64_decode(char *)]; [do_not_use_sizeof1(int *)]; [RSA_private_decrypt(int, char *, char *, int *, int)]; [operator new (unsigned int)]; [__sparrow_free]; [__SPARROW_free]; [free]; [mismatch_new_to_free()]; [operator delete (void *)]; [mismatch_malloc_to_delete()]; [operator new[] (unsigned int)]; [mismatch_new_array_to_free()]; [mismatch_new_array_to_delete()]; [operator delete[] (void *)]; [mismatch_new_to_delete_array()]; [mismatch_malloc_to_delete_array()]; [badFoo()]; [strlen(const char *)]; [goodFoo()]; [dbaccess(char *, char *, char *, int *)]; [__sparrow_alloca]; [__SPARROW_ALLOCA]; [__SPARROW_AesOmac1_Finish]; [__SPARROW_AesOmac1_Init]; [__SPARROW_AesOmac1_Update]; [__SPARROW_CRYPTO_free]; [__SPARROW_CRYPTO_malloc]; [__sparrow_close_handle]; [__SPARROW_CloseHandle]; [__sparrow_new]; [__SPARROW_CreateBitmap]; [__SPARROW_CreateBitmapIndirect]; [__SPARROW_CreateCompatibleBitmap]; [__SPARROW_CreateCompatibleDC]; [__SPARROW_CreateDC]; [__SPARROW_CreateDIBSection]; [__SPARROW_CreateDIBitmap]; [__sparrow_open_handle]; [__SPARROW_CreateFile]; [__SPARROW_CreateFont]; [__SPARROW_CreateHatchBrush]; [__SPARROW_CreatePen]; [__SPARROW_CreatePolyPolygonRgn]; [__SPARROW_CreatePolygonRgn]; [__SPARROW_CreateRectRgn]; [__SPARROW_CreateRectRgnIndirect]; [__SPARROW_CreateRoundRectRgn]; [__SPARROW_CreateSolidBrush]; [exit]; [__SPARROW_DebugBreak]; [__sparrow_delete]; [__SPARROW_DeleteDC]; [__SPARROW_DeleteObject]; [__SPARROW_FreeAddrInfoEx]; [__SPARROW_FreeAddrInfoW]; [__SPARROW_GetAddrInfoEx]; [__SPARROW_GetAddrInfoW]; [__SPARROW_GetDC]; [__SPARROW_GetDCEx]; [__SPARROW_GetWindowDC]; [__SPARROW_GlobalAlloc]; [__SPARROW_GlobalFree]; [__SPARROW_GlobalReAlloc]; [__SPARROW_HeapAlloc]; [__SPARROW_HeapCreate]; [__SPARROW_HeapDestroy]; [__SPARROW_HeapFree]; [__SPARROW_HeapReAlloc]; [__SPARROW_LoadBitmap]; [__SPARROW_LocalAlloc]; [__SPARROW_LocalFree]; [__SPARROW_LocalReAlloc]; [__sparrow_tpreturn]; [__SPARROW_N_MCO_ERROR_RETURN]; [__SPARROW_OCIStringAssignText]; [__SPARROW_OCIStringResize]; [__SPARROW_ReleaseDC]; [__sparrow_socket]; [__SPARROW_SQLAllocHandle]; [__SPARROW_SQLFreeHandle]; [__SPARROW_SysAllocString]; [__SPARROW_SysAllocStringByteLen]; [__SPARROW_SysAllocStringLen]; [__SPARROW_SysFreeString]; [__SPARROW_SysReAllocString]; [__SPARROW_SysReAllocStringLen]; [__SPARROW_VirtualAlloc]; [__SPARROW_VirtualAllocEx]; [__SPARROW_VirtualAllocExNuma]; [__SPARROW_VirtualFree]; [__SPARROW_VirtualFreeEx]; [__SPARROW_ZZBatDone]; [__SPARROW_ZZSvcDone]; [__SPARROW__CrtDbgReport]; [__SPARROW__CrtDbgReportW]; [__SPARROW__Exit]; [__SPARROW___builtin_alloca]; [__SPARROW___fxstat]; [__sparrow_memalign]; [__SPARROW__aligned_malloc]; [__SPARROW__assert]; [__SPARROW__close]; [__SPARROW__dup]; [__SPARROW__dup2]; [__SPARROW__exit]; [__SPARROW__fstat]; [__SPARROW__fstat32]; [__SPARROW__fstat32i64]; [__SPARROW__fstat64]; [__SPARROW__fstat64i32]; [__SPARROW__fstati64]; [__SPARROW__lseek]; [__SPARROW__lseeki64]; [__SPARROW__open]; [__SPARROW__read]; [__SPARROW__snprintf]; [__SPARROW__snwprintf]; [__sparrow_isopen]; [__sparrow_open_later]; [__sparrow_unknown]; [__SPARROW__stat]; [__SPARROW__wassert]; [__SPARROW__wfdopen]; [__SPARROW__write]; [__SPARROW_abort]; [__SPARROW_accept]; [__SPARROW_access]; [__SPARROW_aligned_alloc]; [__SPARROW_alloca]; [__SPARROW_assert]; [__SPARROW_bcopy]; [__SPARROW_bind]; [__SPARROW_bzero]; [__sparrow_multiple_check]; [__SPARROW_calloc]; [__SPARROW_cfree]; [__SPARROW_chmod]; [__SPARROW_chown]; [__SPARROW_closedir]; [__SPARROW_closesocket]; [__SPARROW_creat]; [__SPARROW_delete]; [__sparrow_delete_array]; [__SPARROW_delete_array]; [__SPARROW_dup]; [__SPARROW_dup2]; [__SPARROW_fatal]; [__SPARROW_fcntl]; [__SPARROW_fdopen]; [__SPARROW_fdopendir]; [__SPARROW_fgets]; [__SPARROW_fmemopen]; [__SPARROW_fnMalloc]; [__SPARROW_fopen64]; [__SPARROW_fpathconf]; [__SPARROW_freeaddrinfo]; [__SPARROW_freopen]; [__SPARROW_freopen64]; [__SPARROW_fstat]; [__SPARROW_fstatfs]; [__SPARROW_fsync]; [__SPARROW_ftruncate]; [__SPARROW_getaddrinfo]; [__SPARROW_gethostbyaddr]; [__SPARROW_gethostbyname]; [__sparrow_close_net]; [__SPARROW_htonl]; [__SPARROW_htons]; [__SPARROW_ioctl]; [__SPARROW_ioctlsocket]; [__SPARROW_ji_tpsuccess]; [__SPARROW_ji_tpsyserr]; [__SPARROW_ji_tpusrerr]; [__SPARROW_kalloc]; [__SPARROW_kfree]; [__SPARROW_listen]; [__SPARROW_lseek]; [__SPARROW_memalign]; [__SPARROW_memccpy]; [__SPARROW_memmove]; [__SPARROW_new]; [__sparrow_new_array]; [__SPARROW_new_array]; [__SPARROW_ntohl]; [__SPARROW_ntohs]; [__SPARROW_open64]; [__SPARROW_open_memstream]; [__SPARROW_opendir]; [__SPARROW_pclose]; [__SPARROW_pfmDbioGetError]; [__SPARROW_popen]; [__SPARROW_posix_memalign]; [__SPARROW_pthread_exit]; [__sparrow_lock]; [__SPARROW_pthread_mutex_lock]; [__sparrow_trylock]; [__SPARROW_pthread_mutex_trylock]; [__sparrow_unlock]; [__SPARROW_pthread_mutex_unlock]; [__SPARROW_raise]; [__SPARROW_readv]; [__sparrow_net]; [__SPARROW_recv]; [__SPARROW_recvfrom]; [__SPARROW_recvmsg]; [__SPARROW_remove]; [__SPARROW_returnData]; [__SPARROW_returnDataLog]; [__SPARROW_returnError]; [__SPARROW_returnMsg]; [__SPARROW_returnNoData]; [__SPARROW_returnStatus]; [__SPARROW_send]; [__SPARROW_sendmsg]; [__SPARROW_sendto]; [__SPARROW_snprintf]; [__SPARROW_snwprintf]; [__SPARROW_socket]; [__SPARROW_stat]; [__sparrow_strcpy]; [__sparrow_unbounded_source]; [__SPARROW_strcat]; [__SPARROW_strcpy]; [__SPARROW_strdup]; [__SPARROW_strncat]; [__SPARROW_strndup]; [__SPARROW_strtol]; [__SPARROW_strtoll]; [__SPARROW_tpalloc]; [__SPARROW_tpfree]; [__SPARROW_tprealloc]; [__SPARROW_tpreturn]; [__SPARROW_ttyname]; [__SPARROW_unlinkat]; [__SPARROW_valloc]; [__SPARROW_vfree]; [__SPARROW_vmalloc]; [__SPARROW_wcscat]; [__SPARROW_wcscpy]; [__SPARROW_wcsncat]; [__SPARROW_wcwidth]; [__SPARROW_wmemmove]; [__SPARROW_write]; [__SPARROW_writev]; [_mbscat]; [_mbscat_s]; [_mbscpy]; [_mbscpy_s]; [access]; [add]; [aligned_alloc]; [another]; [anotherTestFunc]; [printf]; [argument_number_mismatch1]; [argument_number_mismatch2]; [atexit]; [atol]; [aux_test_extreme]; [bad3rd]; [badAlgorithm]; [pfmDbioRollback]; [badDBIOWithoutCommit]; [pfmDbioCommit]; [badDBIOWithoutRollback]; [badError]; [pfmInitError]; [badError2]; [strcpy]; [badFoo]; [badFunc]; [badKey1]; [badKey2]; [badKey3]; [badLoop]; [badParam]; [badReturn]; [rand]; [srand]; [time]; [badRoleRand]; [random]; [badRoleRandom]; [badRoleSRand]; [crypt]; [badSalt]; [badSalt2]; [badSalt3]; [badSalt4]; [badTest]; [funcOne]; [funcTwo]; [badUsage]; [bar]; [bar1]; [bar2]; [bigbuf]; [bind]; [htonl]; [setsockopt]; [socket]; [unlink]; [bind_socket]; [buffer_overrun_01_sub]; [buffer_overrun_01_main]; [buffer_overrun_02_main]; [buffer_overrun_03]; [buffer_overrun_complex_01_sub]; [buffer_overrun_complex_01_main]; [buffer_overrun_complex_02_sub]; [buffer_overrun_complex_02_main]; [buffer_overrun_complex_03_sub]; [buffer_overrun_complex_03]; [cast_alters_value]; [char_type]; [check_assign]; [fscanf]; [checked_return]; [chroot]; [fgets]; [chroot_jail_without]; [coo]; [create_FB08]; [create_FB09]; [create_FB10]; [create_FB11]; [create_FB12]; [create_FB13]; [dangerous_func_cast_main]; [dangerous_func_cast_sub]; [dangerous_macro_usage]; [dbaccess]; [gethostbyaddr]; [strncmp]; [decision]; [decision2]; [pthread_mutex_lock]; [pthread_mutex_unlock]; [defected_mutex]; [divide_by_zero_03]; [divide_by_zero_04]; [divide_by_zero_complex_03_sub]; [divide_by_zero_complex_03]; [divide_by_zero_complex_04_sub]; [divide_by_zero_complex_04]; [dlopen]; [do_not_assume_env]; [do_not_use_sizeof1]; [double_close]; [unknown]; [double_free_complex_sub]; [double_free_complex_main]; [double_free_sub]; [double_free_main]; [fread]; [some_error]; [some_error2]; [double_lock]; [empty_case]; [empty_default]; [empty_else_branch1]; [empty_else_branch2]; [empty_else_branch3]; [empty_else_branch_not_found]; [empty_else_branch_not_found2]; [seteuid]; [ensure_privilege]; [env]; [execl]; [execl_error]; [exit1]; [exit2]; [gets]; [f]; [fac]; [fac2]; [fac3]; [fac4]; [fac5]; [fchmod]; [file_operation]; [getlogin]; [getpwnam]; [isTrustedGroup]; [foo]; [foo1]; [pthread_create]; [foo2]; [getResource]; [fooBad]; [isUserAuthentic]; [fooNestedBad]; [fooParam]; [fork_FB08]; [format_string]; [free_non_heap]; [free_null_pointer_call]; [free_null_pointer_main]; [func2]; [func1]; [func3]; [function]; [fwrite]; [getBadSum]; [getGoodSumG]; [getMax]; [getSSS]; [get_pointer]; [geteuid]; [getpasswd]; [getrlimit_FB09]; [good1st]; [good2nd]; [goodAlgorithm]; [goodDBIO]; [set_err]; [goodError]; [goodError2]; [goodFoo]; [goodFunc]; [goodHeaderFunc]; [goodKey]; [goodLoop]; [goodParam]; [goodReturn]; [srandom]; [seedRandom]; [goodRoleRandom]; [goodSalt]; [goodSalt2]; [goodTest]; [goodUsage]; [longjmp]; [handler]; [hardcoded_crypt]; [ignored_return_2_sub]; [ignored_return_2_main]; [ignored_return_value]; [information_exposure]; [information_leak]; [integer_overflow]; [ldap_search_ext_s]; [ldap_injection]; [ldap_simple_bind_s]; [snprintf]; [ldap_manipulation]; [ldap_safe_manipulation]; [lstat]; [write]; [linkFile]; [push]; [macro_misuse]; [sethostid]; [strcat]; [strncat]; [system]; [main]; [mktemp_FB12]; [make_temp]; [malloc_FB06]; [memcpy_with_overlapping_regions]; [realloc_FB06]; [memory]; [release]; [memory_leak]; [memory_leak_01_sub]; [memory_leak_01_main]; [memory_leak_complex_01_sub]; [memory_leak_complex_01_sub_free]; [memory_leak_complex_01_main]; [minimal_scope]; [mis04_1]; [mis04_2]; [mis07]; [mis19]; [missing_function_return]; [missing_return]; [msc17]; [msc32]; [multiply]; [muti_stmt_without]; [negative_file_des]; [no_cases]; [no_default]; [no_else_branch]; [noneffect]; [null_check_after_dereference]; [ret_null]; [null_deref]; [null_deref_01_sub]; [null_deref_01_main]; [null_deref_02_main]; [null_deref_03_main]; [null_deref_complex_01_sub]; [null_deref_complex_01_sub2]; [null_deref_complex_01_main]; [null_deref_complex_02_sub]; [null_deref_complex_02_main]; [order]; [output]; [overrun_pf]; [strtok]; [parser]; [pass_by_value]; [perror]; [plaintext_passwd]; [process_control]; [pthread_mutex_trylock]; [pthread_setcanceltype]; [recv]; [redundant_condition1]; [redundant_condition2]; [redundant_condition3]; [resource_injection]; [resource_leak_01_sub]; [resource_leak_01_main]; [resource_leak_complex_01_sub]; [resource_leak_complex_01_sub_close]; [resource_leak_complex_01_main]; [resource_limit]; [return_pointer_to_freed]; [return_pointer_to_freed_complex_sub]; [return_pointer_to_freed_complex]; [return_pointer_to_local]; [routine_in_macro]; [rpt]; [set_step_terminate]; [run_termnate]; [safe_file_operation]; [safe_hardcoded_crypt]; [safe_integer_overflow]; [safe_mutex]; [verify]; [safe_plaintext_passwd]; [scanf]; [searchData2LDAP]; [sleep_FB13]; [set_sleep_func]; [shift_exceeds_bit_width]; [shift_negative]; [signal_FB10]; [signal_handler]; [sub_test]; [substract]; [sum]; [tar]; [terminate_process]; [tprecv_FB11]; [terminate_tp]; [testFunc]; [testFunc_A]; [testFunc_B]; [test_double_param]; [test_extreme]; [test_macro_param_sub]; [test_macro_param]; [test_strcpy]; [test_strcpy_dyn]; [try_lock_fail]; [type_underrun_bad]; [type_underrun_static]; [underrun_static]; [underrun_static_bad_condition]; [unexpected_sign_extension]; [unexpected_sign_extension2]; [uninit]; [uninit_sub]; [uninit_main]; [unlock]; [unreachable_code]; [unresonable_parameter]; [use_after_free]; [use_after_free_complex_sub]; [use_after_free_complex]; [use_correct_byte]; [useruser]; [varargs_func_cast_main]; [varargs_func_cast_sub]; [vodmain]; [worker_thread]; [xmalloc]; [xman]; [zoo]; 
+Step: Callgraph: finished: (0.07s)
+Step: Analyze: started
+
+Switches(NORMAL:ABORTED): max_path = 100:10; max_summary = 10:1; max_trigger = 1073741823
+Number of total function : 766[609]
+[ 9:52: 7] Analyzing 1 / 766 th function: PFM_TRYNJ		/home/kskyj/sparrow4/util/testcode/c/main.c:383:4:PFM_TRYNJ:l.4624:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 2 / 766 th function: pfmDlCall		/home/kskyj/sparrow4/util/testcode/c/main.c:379:4:pfmDlCall:l.4627:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 3 / 766 th function: API06_ALARM		/home/kskyj/sparrow4/util/testcode/c/main.c:387:5:API06_ALARM:l.4621:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 4 / 766 th function: API06_NEED_WRAPPER
+[ 9:52: 7] Analyzing 5 / 766 th function: API06_WRAPPER
+[ 9:52: 7] Analyzing 6 / 766 th function: SET_ERR		/home/kskyj/sparrow4/util/testcode/c/main.c:358:5:SET_ERR:l.4643:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 7 / 766 th function: SET_ERR_EXT		/home/kskyj/sparrow4/util/testcode/c/main.c:359:5:SET_ERR_EXT:l.4641:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 8 / 766 th function: API07_API08_API19_API21_ALARM		/home/kskyj/sparrow4/util/testcode/c/main.c:360:4:API07_API08_API19_API21_ALARM:l.4639:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 9 / 766 th function: API07_API08_API19_API21_SAFE		/home/kskyj/sparrow4/util/testcode/c/main.c:370:4:API07_API08_API19_API21_SAFE:l.4632:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 10 / 766 th function: API07_FUNC
+[ 9:52: 7] Analyzing 11 / 766 th function: ApplExmnList		/home/kskyj/sparrow4/util/testcode/c/main.c:397:5:ApplExmnList:l.4611:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 12 / 766 th function: CERT_SCS_ARR01_C		/home/kskyj/sparrow4/util/testcode/c/main.c:155:4:CERT_SCS_ARR01_C:l.4857:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 13 / 766 th function: CERT_SCS_INT35_C		/home/kskyj/sparrow4/util/testcode/c/main.c:171:5:CERT_SCS_INT35_C:l.4846:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 14 / 766 th function: CERT_SCS_RRE20_C__get_0_1_n1		/home/kskyj/sparrow4/util/testcode/c/main.c:217:4:CERT_SCS_RRE20_C__get_0_1_n1:l.4810:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 15 / 766 th function: CERT_SCS_RRE20_C__get_0_negative		/home/kskyj/sparrow4/util/testcode/c/main.c:198:4:CERT_SCS_RRE20_C__get_0_negative:l.4823:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 16 / 766 th function: CERT_SCS_RRE20_C__get_0_positive		/home/kskyj/sparrow4/util/testcode/c/main.c:211:4:CERT_SCS_RRE20_C__get_0_positive:l.4815:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 17 / 766 th function: CERT_SCS_RRE20_C__get_all		/home/kskyj/sparrow4/util/testcode/c/main.c:223:4:CERT_SCS_RRE20_C__get_all:l.4805:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 18 / 766 th function: strcmp		/home/kskyj/sparrow4/util/testcode/c/main.c:120:4:strcmp:l.4904:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 19 / 766 th function: strlen		/home/kskyj/sparrow4/util/testcode/c/main.c:121:4:strlen:l.4901:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 20 / 766 th function: CERT_SCS_RRE20_C__test		/home/kskyj/sparrow4/util/testcode/c/main.c:231:5:CERT_SCS_RRE20_C__test:l.4799:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 21 / 766 th function: __sparrow_malloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:313:5:__SPARROW_malloc:l.916:stdlib
+[ 9:52: 7] Analyzing 22 / 766 th function: __sparrow_unreasonable_length
+[ 9:52: 7] Analyzing 23 / 766 th function: __SPARROW_malloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:313:5:__SPARROW_malloc:l.916:stdlib
+[ 9:52: 7] Analyzing 24 / 766 th function: malloc		/home/kskyj/sparrow4/util/testcode/c/main.c:112:5:malloc:l.4922:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 25 / 766 th function: wcscmp		/home/kskyj/sparrow4/util/testcode/c/main.c:122:4:wcscmp:l.4898:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 26 / 766 th function: wcslen		/home/kskyj/sparrow4/util/testcode/c/main.c:123:4:wcslen:l.4895:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 27 / 766 th function: CERT_SCS_STR33_C		/home/kskyj/sparrow4/util/testcode/c/main.c:127:4:CERT_SCS_STR33_C:l.4892:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 28 / 766 th function: __sparrow_bufacc
+[ 9:52: 7] Analyzing 29 / 766 th function: __sparrow_deref
+[ 9:52: 7] Analyzing 30 / 766 th function: __sparrow_memset		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:82:5:__SPARROW_memset:l.1127:stdlib
+[ 9:52: 7] Analyzing 31 / 766 th function: __sparrow_overlap
+[ 9:52: 7] Analyzing 32 / 766 th function: __SPARROW_memcpy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:94:5:__SPARROW_memcpy:l.1114:stdlib
+[ 9:52: 7] Analyzing 33 / 766 th function: memcpy		/home/kskyj/sparrow4/util/testcode/c/main.c:110:4:memcpy:l.4928:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 34 / 766 th function: DU_API01_API02_API03_API09_API11_API12_API26		/home/kskyj/sparrow4/util/testcode/c/main.c:419:5:DU_API01_API02_API03_API09_API11_API12_API26:l.4589:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 35 / 766 th function: PFM_DBG		/home/kskyj/sparrow4/util/testcode/c/main.c:342:4:PFM_DBG:l.4656:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 36 / 766 th function: PFM_ERR		/home/kskyj/sparrow4/util/testcode/c/main.c:341:4:PFM_ERR:l.4659:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 37 / 766 th function: pfmNumPrint		/home/kskyj/sparrow4/util/testcode/c/main.c:340:4:pfmNumPrint:l.4662:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 38 / 766 th function: DU_API10		/home/kskyj/sparrow4/util/testcode/c/main.c:348:5:DU_API10:l.4648:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 39 / 766 th function: END_API22		/home/kskyj/sparrow4/util/testcode/c/main.c:301:5:END_API22:l.4689:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 40 / 766 th function: EVP_CIPHER_CTX_init
+[ 9:52: 7] Analyzing 41 / 766 th function: EVP_EncryptInit
+[ 9:52: 7] Analyzing 42 / 766 th function: EVP_aes_128_cbc
+[ 9:52: 7] Analyzing 43 / 766 th function: EVP_des_ecb
+[ 9:52: 7] Analyzing 44 / 766 th function: fork		/home/kskyj/sparrow4/util/testcode/c/main.c:572:4:fork:l.4449:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 45 / 766 th function: vfork		/home/kskyj/sparrow4/util/testcode/c/main.c:573:4:vfork:l.4446:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 46 / 766 th function: FB08_Alarm		/home/kskyj/sparrow4/util/testcode/c/main.c:579:5:FB08_Alarm:l.4439:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 47 / 766 th function: getrlimit		/home/kskyj/sparrow4/util/testcode/c/main.c:558:4:getrlimit:l.4463:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 48 / 766 th function: setrlimit		/home/kskyj/sparrow4/util/testcode/c/main.c:559:4:setrlimit:l.4460:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 49 / 766 th function: FB09_Alarm		/home/kskyj/sparrow4/util/testcode/c/main.c:565:5:FB09_Alarm:l.4453:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 50 / 766 th function: getenv		/home/kskyj/sparrow4/util/testcode/c/main.c:628:5:getenv:l.4408:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 51 / 766 th function: waitFor		/home/kskyj/sparrow4/util/testcode/c/main.c:629:5:waitFor:l.4406:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 52 / 766 th function: FB0D04_FBOD05		/home/kskyj/sparrow4/util/testcode/c/main.c:630:5:FB0D04_FBOD05:l.4404:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 53 / 766 th function: FB0D04_FBOD05_ALARM		/home/kskyj/sparrow4/util/testcode/c/main.c:636:5:FB0D04_FBOD05_ALARM:l.4399:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 54 / 766 th function: sigaction		/home/kskyj/sparrow4/util/testcode/c/main.c:545:4:sigaction:l.4474:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 55 / 766 th function: signal		/home/kskyj/sparrow4/util/testcode/c/main.c:544:4:signal:l.4477:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 56 / 766 th function: FB10_Alarm		/home/kskyj/sparrow4/util/testcode/c/main.c:551:5:FB10_Alarm:l.4467:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 57 / 766 th function: tpcancel		/home/kskyj/sparrow4/util/testcode/c/main.c:530:4:tpcancel:l.4491:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 58 / 766 th function: tprecv		/home/kskyj/sparrow4/util/testcode/c/main.c:531:4:tprecv:l.4488:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 59 / 766 th function: FB11_Alarm		/home/kskyj/sparrow4/util/testcode/c/main.c:537:5:FB11_Alarm:l.4481:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 60 / 766 th function: mktemp		/home/kskyj/sparrow4/util/testcode/c/main.c:517:4:mktemp:l.4502:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 61 / 766 th function: tmpnam		/home/kskyj/sparrow4/util/testcode/c/main.c:516:4:tmpnam:l.4505:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 62 / 766 th function: FB12_Alarm		/home/kskyj/sparrow4/util/testcode/c/main.c:523:5:FB12_Alarm:l.4495:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 63 / 766 th function: alarm		/home/kskyj/sparrow4/util/testcode/c/main.c:503:4:alarm:l.4516:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 64 / 766 th function: sleep		/home/kskyj/sparrow4/util/testcode/c/main.c:502:4:sleep:l.4519:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 65 / 766 th function: FB13_Alarm		/home/kskyj/sparrow4/util/testcode/c/main.c:509:5:FB13_Alarm:l.4509:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 66 / 766 th function: FBD02_ALARM		/home/kskyj/sparrow4/util/testcode/c/main.c:661:5:FBD02_ALARM:l.4383:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 67 / 766 th function: FBD03		/home/kskyj/sparrow4/util/testcode/c/main.c:646:5:FBD03:l.4391:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 68 / 766 th function: LOG_PC		/home/kskyj/sparrow4/util/testcode/c/main.c:644:5:LOG_PC:l.4395:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 69 / 766 th function: FBD03_ALARAM_1		/home/kskyj/sparrow4/util/testcode/c/main.c:651:5:FBD03_ALARAM_1:l.4389:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 70 / 766 th function: LOG_WRITE		/home/kskyj/sparrow4/util/testcode/c/main.c:645:5:LOG_WRITE:l.4393:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 71 / 766 th function: FBD03_ALARAM_2		/home/kskyj/sparrow4/util/testcode/c/main.c:655:5:FBD03_ALARAM_2:l.4386:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 72 / 766 th function: __sparrow_calloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:325:5:__SPARROW_calloc:l.903:stdlib
+[ 9:52: 7] Analyzing 73 / 766 th function: __sparrow_realloc_free
+[ 9:52: 7] Analyzing 74 / 766 th function: __SPARROW_realloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:332:5:__SPARROW_realloc:l.896:stdlib
+[ 9:52: 7] Analyzing 75 / 766 th function: realloc		/home/kskyj/sparrow4/util/testcode/c/main.c:113:5:realloc:l.4919:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 76 / 766 th function: FBD06_Alarm		/home/kskyj/sparrow4/util/testcode/c/main.c:619:5:FBD06_Alarm:l.4414:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 77 / 766 th function: FBN_call_param		/home/kskyj/sparrow4/util/testcode/c/main.c:597:5:FBN_call_param:l.4435:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 78 / 766 th function: FCINLOOP_SUB
+[ 9:52: 7] Analyzing 79 / 766 th function: FUN_FBD17_ALARM		/home/kskyj/sparrow4/util/testcode/c/main.c:451:5:FUN_FBD17_ALARM:l.4569:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 80 / 766 th function: Fun_API01_API02_API03_API09_API11_API12_API26		/home/kskyj/sparrow4/util/testcode/c/main.c:409:5:Fun_API01_API02_API03_API09_API11_API12_API26:l.4602:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 81 / 766 th function: __sparrow_close_socket
+[ 9:52: 7] Analyzing 82 / 766 th function: __sparrow_negative_check
+[ 9:52: 7] Analyzing 83 / 766 th function: __SPARROW_close		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:439:4:__SPARROW_close:l.793:stdlib
+[ 9:52: 7] Analyzing 84 / 766 th function: __SPARROW_connect		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:593:4:__SPARROW_connect:l.630:stdlib
+[ 9:52: 7] Analyzing 85 / 766 th function: __sparrow_fopen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:389:5:__SPARROW_fopen:l.847:stdlib
+[ 9:52: 7] Analyzing 86 / 766 th function: __SPARROW_fopen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:389:5:__SPARROW_fopen:l.847:stdlib
+[ 9:52: 7] Analyzing 87 / 766 th function: __SPARROW_open		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:418:4:__SPARROW_open:l.813:stdlib
+[ 9:52: 7] Analyzing 88 / 766 th function: __SPARROW_wcsncpy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:176:8:__SPARROW_wcsncpy:l.1035:stdlib
+[ 9:52: 7] Analyzing 89 / 766 th function: close
+[ 9:52: 7] Analyzing 90 / 766 th function: connect
+[ 9:52: 7] Analyzing 91 / 766 th function: fopen		/home/kskyj/sparrow4/util/testcode/c/main.c:119:5:fopen:l.4906:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 92 / 766 th function: getgid
+[ 9:52: 7] Analyzing 93 / 766 th function: getuid		/home/kskyj/sparrow4/util/testcode/c/SIZE_CALCULATION_BAD_COMPARE.c:4:4:getuid:l.1453:2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c
+[ 9:52: 7] Analyzing 94 / 766 th function: open
+[ 9:52: 7] Analyzing 95 / 766 th function: setgid
+[ 9:52: 7] Analyzing 96 / 766 th function: setuid
+[ 9:52: 7] Analyzing 97 / 766 th function: __sparrow_close_file
+[ 9:52: 7] Analyzing 98 / 766 th function: __SPARROW_fclose		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:413:4:__SPARROW_fclose:l.817:stdlib
+[ 9:52: 7] Analyzing 99 / 766 th function: fclose
+[ 9:52: 7] Analyzing 100 / 766 th function: sfunc		/home/kskyj/sparrow4/util/testcode/c/INCORRECT_PERMISSION.c:9:5:sfunc:l.1907:2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c
+[ 9:52: 7] Analyzing 101 / 766 th function: sprintf
+[ 9:52: 7] Analyzing 102 / 766 th function: umask		/home/kskyj/sparrow4/util/testcode/c/main.c:118:5:umask:l.4908:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 103 / 766 th function: wcsncpy
+[ 9:52: 7] Analyzing 104 / 766 th function: func		/home/kskyj/sparrow4/util/testcode/c/BAD_ERROR.MISSING_RETURN.c:6:38:Func:l.5281:f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c
+[ 9:52: 7] Analyzing 105 / 766 th function: Fun_API04_API14_API15		/home/kskyj/sparrow4/util/testcode/c/main.c:398:5:Fun_API04_API14_API15:l.4609:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 106 / 766 th function: Fun_API04_call
+[ 9:52: 7] Analyzing 107 / 766 th function: Fun_API10		/home/kskyj/sparrow4/util/testcode/c/main.c:343:5:Fun_API10:l.4653:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 108 / 766 th function: __SPARROW_memset		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:82:5:__SPARROW_memset:l.1127:stdlib
+[ 9:52: 7] Analyzing 109 / 766 th function: memset		/home/kskyj/sparrow4/util/testcode/c/main.c:111:4:memset:l.4925:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 110 / 766 th function: Fun_API13		/home/kskyj/sparrow4/util/testcode/c/main.c:330:5:Fun_API13:l.4670:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 111 / 766 th function: Fun_API17_API18_NONE		/home/kskyj/sparrow4/util/testcode/c/main.c:321:5:Fun_API17_API18_NONE:l.4674:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 112 / 766 th function: Fun_API17_API18_QUAL		/home/kskyj/sparrow4/util/testcode/c/main.c:324:5:Fun_API17_API18_QUAL:l.4672:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 113 / 766 th function: LcfApError		/home/kskyj/sparrow4/util/testcode/c/main.c:299:5:LcfApError:l.4693:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 114 / 766 th function: LcfSetUIMsg		/home/kskyj/sparrow4/util/testcode/c/main.c:300:5:LcfSetUIMsg:l.4691:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 115 / 766 th function: Fun_API22		/home/kskyj/sparrow4/util/testcode/c/main.c:302:5:Fun_API22:l.4687:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 116 / 766 th function: Fun_API22_Alarm1		/home/kskyj/sparrow4/util/testcode/c/main.c:308:5:Fun_API22_Alarm1:l.4682:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 117 / 766 th function: Fun_API22_safe		/home/kskyj/sparrow4/util/testcode/c/main.c:314:5:Fun_API22_safe:l.4677:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 118 / 766 th function: Fun_FBD06_SAFE		/home/kskyj/sparrow4/util/testcode/c/main.c:614:5:Fun_FBD06_SAFE:l.4420:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 119 / 766 th function: Fun_FBD07_SAFE		/home/kskyj/sparrow4/util/testcode/c/main.c:606:5:Fun_FBD07_SAFE:l.4423:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 120 / 766 th function: Fun_FBD16_1		/home/kskyj/sparrow4/util/testcode/c/main.c:482:5:Fun_FBD16_1:l.4533:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 121 / 766 th function: Fun_FBD16_2		/home/kskyj/sparrow4/util/testcode/c/main.c:486:5:Fun_FBD16_2:l.4530:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 122 / 766 th function: Fun_FBD16_3		/home/kskyj/sparrow4/util/testcode/c/main.c:490:5:Fun_FBD16_3:l.4527:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 123 / 766 th function: Fun_FBD16_Alarm		/home/kskyj/sparrow4/util/testcode/c/main.c:495:5:Fun_FBD16_Alarm:l.4523:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 124 / 766 th function: Fun_FBD18		/home/kskyj/sparrow4/util/testcode/c/main.c:440:5:Fun_FBD18:l.4576:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 125 / 766 th function: LB_call_WA
+[ 9:52: 7] Analyzing 126 / 766 th function: LB_call_WLC_exit
+[ 9:52: 7] Analyzing 127 / 766 th function: PFM_ERR_API10
+[ 9:52: 7] Analyzing 128 / 766 th function: PfmNumber_API10
+[ 9:52: 7] Analyzing 129 / 766 th function: SET_ERROR_API08
+[ 9:52: 7] Analyzing 130 / 766 th function: SET_ERR_API19
+[ 9:52: 7] Analyzing 131 / 766 th function: SET_ERR_API21
+[ 9:52: 7] Analyzing 132 / 766 th function: divide		/home/kskyj/sparrow4/util/testcode/c/sub.c:85:7:divide:l.1993:3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c
+[ 9:52: 7] Analyzing 133 / 766 th function: fopen_FBD16
+[ 9:52: 7] Analyzing 134 / 766 th function: memcpy_API01
+[ 9:52: 7] Analyzing 135 / 766 th function: memcpy_API02
+[ 9:52: 7] Analyzing 136 / 766 th function: memcpy_API03
+[ 9:52: 7] Analyzing 137 / 766 th function: memcpy_API09
+[ 9:52: 7] Analyzing 138 / 766 th function: memcpy_API11
+[ 9:52: 7] Analyzing 139 / 766 th function: memcpy_API12
+[ 9:52: 7] Analyzing 140 / 766 th function: memcpy_API14
+[ 9:52: 7] Analyzing 141 / 766 th function: memcpy_API15
+[ 9:52: 7] Analyzing 142 / 766 th function: memset_API13
+[ 9:52: 7] Analyzing 143 / 766 th function: strlen_API11
+[ 9:52: 7] Analyzing 144 / 766 th function: strlen_API12
+[ 9:52: 7] Analyzing 145 / 766 th function: umask_FBD16
+[ 9:52: 7] Analyzing 146 / 766 th function: Func		/home/kskyj/sparrow4/util/testcode/c/BAD_ERROR.MISSING_RETURN.c:6:38:Func:l.5281:f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c
+[ 9:52: 7] Analyzing 147 / 766 th function: LcfApError_API22
+[ 9:52: 7] Analyzing 148 / 766 th function: LcfSetUIMsg_API22
+[ 9:52: 7] Analyzing 149 / 766 th function: FuncBad		/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.REQUIRED.PRE_CALL.c:7:5:FuncBad:l.1422:21973f8b6e4bb40eb64f7303a26c51906854a2c5.BAD_CALL.REQUIRED.PRE_CALL.c
+[ 9:52: 7] Analyzing 150 / 766 th function: FuncGood		/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.REQUIRED.PRE_CALL.c:12:5:FuncGood:l.1418:21973f8b6e4bb40eb64f7303a26c51906854a2c5.BAD_CALL.REQUIRED.PRE_CALL.c
+[ 9:52: 7] Analyzing 151 / 766 th function: IsAnotherBadReturn		/home/kskyj/sparrow4/util/testcode/c/API48.c:9:4:IsAnotherBadReturn:l.3772:9815df601bcc282c10666eadececa8f9e369c132.API48.c
+[ 9:52: 7] Analyzing 152 / 766 th function: IsBadReturn		/home/kskyj/sparrow4/util/testcode/c/API48.c:4:4:IsBadReturn:l.3775:9815df601bcc282c10666eadececa8f9e369c132.API48.c
+[ 9:52: 7] Analyzing 153 / 766 th function: IsGoodReturn		/home/kskyj/sparrow4/util/testcode/c/API48.c:15:4:IsGoodReturn:l.3767:9815df601bcc282c10666eadececa8f9e369c132.API48.c
+[ 9:52: 7] Analyzing 154 / 766 th function: returnRealloc		/home/kskyj/sparrow4/util/testcode/c/MEM08.c:17:5:returnRealloc:l.3235:702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c
+[ 9:52: 7] Analyzing 155 / 766 th function: test		/home/kskyj/sparrow4/util/testcode/c/MEM08.c:21:5:test:l.3231:702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c
+[ 9:52: 7] Analyzing 156 / 766 th function: MEM08_main		/home/kskyj/sparrow4/util/testcode/c/MEM08.c:29:4:MEM08_main:l.3227:702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c
+[ 9:52: 7] Analyzing 157 / 766 th function: MSC32_main		/home/kskyj/sparrow4/util/testcode/c/MSC34.c:4:29:MSC32_main:l.1229:058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c
+[ 9:52: 7] Analyzing 158 / 766 th function: __sparrow_strncpy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:166:5:__SPARROW_strncpy:l.1042:stdlib
+[ 9:52: 7] Analyzing 159 / 766 th function: __SPARROW_strncpy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:166:5:__SPARROW_strncpy:l.1042:stdlib
+[ 9:52: 7] Analyzing 160 / 766 th function: strncpy
+[ 9:52: 7] Analyzing 161 / 766 th function: PRE09_main		/home/kskyj/sparrow4/util/testcode/c/PRE09.c:6:29:PRE09_main:l.5238:ec23a6cd03712145e8551c42e11384fa6e9a3dd9.PRE09.c
+[ 9:52: 7] Analyzing 162 / 766 th function: RSA_generate_key
+[ 9:52: 7] Analyzing 163 / 766 th function: _setjmp
+[ 9:52: 7] Analyzing 164 / 766 th function: fprintf		/home/kskyj/sparrow4/util/testcode/c/main.c:116:5:fprintf:l.4912:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 165 / 766 th function: log_message		/home/kskyj/sparrow4/util/testcode/c/SIG32.c:12:5:log_message:l.3846:9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c
+[ 9:52: 7] Analyzing 166 / 766 th function: SIG32_main		/home/kskyj/sparrow4/util/testcode/c/SIG32.c:34:4:SIG32_main:l.3838:9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c
+[ 9:52: 7] Analyzing 167 / 766 th function: SIG_main		/home/kskyj/sparrow4/util/testcode/c/SIG30.c:18:4:SIG_main:l.3797:9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c
+Warning: summary of function 'SIG_main' cannot be generated, because of MemSet.Error("MemSet.summarize: All paths are incomplete")
+[ 9:52: 7] Analyzing 168 / 766 th function: SQLAllocHandle
+[ 9:52: 7] Analyzing 169 / 766 th function: SQLAllocHnadle
+[ 9:52: 7] Analyzing 170 / 766 th function: SQLConnect		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:16:5:SQLConnect:l.1877:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 7] Analyzing 171 / 766 th function: SQLExecDirect		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:12:5:SQLExecDirect:l.1888:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 7] Analyzing 172 / 766 th function: get_100		/home/kskyj/sparrow4/util/testcode/c/main.c:707:4:get_100:l.4344:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 173 / 766 th function: TEST_PRE00_B		/home/kskyj/sparrow4/util/testcode/c/main.c:747:4:TEST_PRE00_B:l.4301:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 174 / 766 th function: TEST_PRE00_C		/home/kskyj/sparrow4/util/testcode/c/main.c:722:5:TEST_PRE00_C:l.4334:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 7] Analyzing 175 / 766 th function: U51000089_1		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:20:5:U51000089_1:l.1869:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 7] Analyzing 176 / 766 th function: SQLConnect(int, char *, int, char *, int, char *, int)
+[ 9:52: 7] Analyzing 177 / 766 th function: RSA_public_encrypt(int, char *, char *, int *, int)
+[ 9:52: 7] Analyzing 178 / 766 th function: RSA_new()
+[ 9:52: 7] Analyzing 179 / 766 th function: badPadding(char *, int)		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.RSA_PADDING.c:15:5:_Z10badPaddingPci:l.3421:8036644f0d680b65a461d0e2423409932ea05095.WEAK_ENCRYPTION.RSA_PADDING.c
+[ 9:52: 7] Analyzing 180 / 766 th function: fopen(const char *, const char *)
+[ 9:52: 7] Analyzing 181 / 766 th function: tmpnam(char *)
+[ 9:52: 7] Analyzing 182 / 766 th function: fio43_main()		/home/kskyj/sparrow4/util/testcode/c/FIO43.c:4:38:_Z10fio43_mainv:l.3367:7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c
+[ 9:52: 7] Analyzing 183 / 766 th function: goodPadding(char *, int)		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.RSA_PADDING.c:21:5:_Z11goodPaddingPci:l.3417:8036644f0d680b65a461d0e2423409932ea05095.WEAK_ENCRYPTION.RSA_PADDING.c
+[ 9:52: 7] Analyzing 184 / 766 th function: base64_decode(char *)
+[ 9:52: 7] Analyzing 185 / 766 th function: do_not_use_sizeof1(int *)		/home/kskyj/sparrow4/util/testcode/c/DO_NOT_USE_SIZEOF_ON_PTR.c:3:51:_Z18do_not_use_sizeof1Pi:l.3408:7f14fd0557c74b6bdda2b70d189cf6f6be204ebe.DO_NOT_USE_SIZEOF_ON_PTR.c
+[ 9:52: 7] Analyzing 186 / 766 th function: RSA_private_decrypt(int, char *, char *, int *, int)
+[ 9:52: 7] Analyzing 187 / 766 th function: operator new (unsigned int)
+[ 9:52: 7] Analyzing 188 / 766 th function: __sparrow_free		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:665:5:__SPARROW_free:l.516:stdlib
+[ 9:52: 7] Analyzing 189 / 766 th function: __SPARROW_free		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:665:5:__SPARROW_free:l.516:stdlib
+[ 9:52: 7] Analyzing 190 / 766 th function: free
+[ 9:52: 7] Analyzing 191 / 766 th function: mismatch_new_to_free()		/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp:41:5:_Z20mismatch_new_to_freev:l.3330:7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp
+[ 9:52: 7] Analyzing 192 / 766 th function: operator delete (void *)
+[ 9:52: 7] Analyzing 193 / 766 th function: mismatch_malloc_to_delete()		/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp:6:5:_Z25mismatch_malloc_to_deletev:l.3355:7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp
+[ 9:52: 7] Analyzing 194 / 766 th function: operator new[] (unsigned int)
+[ 9:52: 7] Analyzing 195 / 766 th function: mismatch_new_array_to_free()		/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp:27:5:_Z26mismatch_new_array_to_freev:l.3340:7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp
+[ 9:52: 7] Analyzing 196 / 766 th function: mismatch_new_array_to_delete()		/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp:20:5:_Z28mismatch_new_array_to_deletev:l.3345:7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp
+[ 9:52: 7] Analyzing 197 / 766 th function: operator delete[] (void *)
+[ 9:52: 7] Analyzing 198 / 766 th function: mismatch_new_to_delete_array()		/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp:34:5:_Z28mismatch_new_to_delete_arrayv:l.3335:7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp
+[ 9:52: 7] Analyzing 199 / 766 th function: mismatch_malloc_to_delete_array()		/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp:13:5:_Z31mismatch_malloc_to_delete_arrayv:l.3350:7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp
+[ 9:52: 7] Analyzing 200 / 766 th function: badFoo()		/home/kskyj/sparrow4/util/testcode/c/API38.c:1:5:_Z6badFoov:l.3394:7eb63676aab5e8aedf3d0293c78d157480ac3c0a.API38.c
+[ 9:52: 7] Analyzing 201 / 766 th function: strlen(const char *)
+[ 9:52: 7] Analyzing 202 / 766 th function: goodFoo()		/home/kskyj/sparrow4/util/testcode/c/API38.c:7:5:_Z7goodFoov:l.3392:7eb63676aab5e8aedf3d0293c78d157480ac3c0a.API38.c
+[ 9:52: 7] Analyzing 203 / 766 th function: dbaccess(char *, char *, char *, int *)		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.PASSWORD.c:18:83:_Z8dbaccessPcS_S_Pi:l.3385:7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c
+[ 9:52: 7] Analyzing 204 / 766 th function: __sparrow_alloca		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:499:5:__SPARROW_ALLOCA:l.742:stdlib
+[ 9:52: 7] Analyzing 205 / 766 th function: __SPARROW_ALLOCA		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:499:5:__SPARROW_ALLOCA:l.742:stdlib
+[ 9:52: 7] Analyzing 206 / 766 th function: __SPARROW_AesOmac1_Finish		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1083:4:__SPARROW_AesOmac1_Finish:l.223:stdlib
+[ 9:52: 7] Analyzing 207 / 766 th function: __SPARROW_AesOmac1_Init		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1076:4:__SPARROW_AesOmac1_Init:l.229:stdlib
+[ 9:52: 7] Analyzing 208 / 766 th function: __SPARROW_AesOmac1_Update		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1079:4:__SPARROW_AesOmac1_Update:l.226:stdlib
+[ 9:52: 7] Analyzing 209 / 766 th function: __SPARROW_CRYPTO_free		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1092:5:__SPARROW_CRYPTO_free:l.216:stdlib
+[ 9:52: 7] Analyzing 210 / 766 th function: __SPARROW_CRYPTO_malloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1088:5:__SPARROW_CRYPTO_malloc:l.220:stdlib
+[ 9:52: 7] Analyzing 211 / 766 th function: __sparrow_close_handle
+[ 9:52: 7] Analyzing 212 / 766 th function: __SPARROW_CloseHandle		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:643:5:__SPARROW_CloseHandle:l.535:stdlib
+[ 9:52: 7] Analyzing 213 / 766 th function: __sparrow_new		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:318:5:__SPARROW_new:l.911:stdlib
+[ 9:52: 7] Analyzing 214 / 766 th function: __SPARROW_CreateBitmap		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:821:5:__SPARROW_CreateBitmap:l.402:stdlib
+[ 9:52: 7] Analyzing 215 / 766 th function: __SPARROW_CreateBitmapIndirect		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:825:5:__SPARROW_CreateBitmapIndirect:l.398:stdlib
+[ 9:52: 7] Analyzing 216 / 766 th function: __SPARROW_CreateCompatibleBitmap		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:830:5:__SPARROW_CreateCompatibleBitmap:l.394:stdlib
+[ 9:52: 7] Analyzing 217 / 766 th function: __SPARROW_CreateCompatibleDC		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:811:5:__SPARROW_CreateCompatibleDC:l.410:stdlib
+[ 9:52: 7] Analyzing 218 / 766 th function: __SPARROW_CreateDC		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:851:5:__SPARROW_CreateDC:l.378:stdlib
+[ 9:52: 7] Analyzing 219 / 766 th function: __SPARROW_CreateDIBSection		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:840:5:__SPARROW_CreateDIBSection:l.386:stdlib
+[ 9:52: 7] Analyzing 220 / 766 th function: __SPARROW_CreateDIBitmap		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:835:5:__SPARROW_CreateDIBitmap:l.390:stdlib
+[ 9:52: 7] Analyzing 221 / 766 th function: __sparrow_open_handle
+[ 9:52: 7] Analyzing 222 / 766 th function: __SPARROW_CreateFile		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:639:5:__SPARROW_CreateFile:l.539:stdlib
+[ 9:52: 7] Analyzing 223 / 766 th function: __SPARROW_CreateFont		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:780:5:__SPARROW_CreateFont:l.434:stdlib
+[ 9:52: 7] Analyzing 224 / 766 th function: __SPARROW_CreateHatchBrush		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:776:5:__SPARROW_CreateHatchBrush:l.438:stdlib
+[ 9:52: 7] Analyzing 225 / 766 th function: __SPARROW_CreatePen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:768:5:__SPARROW_CreatePen:l.446:stdlib
+[ 9:52: 7] Analyzing 226 / 766 th function: __SPARROW_CreatePolyPolygonRgn		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:797:5:__SPARROW_CreatePolyPolygonRgn:l.422:stdlib
+[ 9:52: 7] Analyzing 227 / 766 th function: __SPARROW_CreatePolygonRgn		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:793:5:__SPARROW_CreatePolygonRgn:l.426:stdlib
+[ 9:52: 7] Analyzing 228 / 766 th function: __SPARROW_CreateRectRgn		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:801:5:__SPARROW_CreateRectRgn:l.418:stdlib
+[ 9:52: 7] Analyzing 229 / 766 th function: __SPARROW_CreateRectRgnIndirect		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:788:5:__SPARROW_CreateRectRgnIndirect:l.430:stdlib
+[ 9:52: 7] Analyzing 230 / 766 th function: __SPARROW_CreateRoundRectRgn		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:806:5:__SPARROW_CreateRoundRectRgn:l.414:stdlib
+[ 9:52: 7] Analyzing 231 / 766 th function: __SPARROW_CreateSolidBrush		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:772:5:__SPARROW_CreateSolidBrush:l.442:stdlib
+[ 9:52: 7] Analyzing 232 / 766 th function: exit
+[ 9:52: 7] Analyzing 233 / 766 th function: __SPARROW_DebugBreak		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:37:5:__SPARROW_DebugBreak:l.1148:stdlib
+[ 9:52: 7] Analyzing 234 / 766 th function: __sparrow_delete		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:363:5:__SPARROW_delete:l.867:stdlib
+[ 9:52: 7] Analyzing 235 / 766 th function: __SPARROW_DeleteDC		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:876:4:__SPARROW_DeleteDC:l.359:stdlib
+[ 9:52: 7] Analyzing 236 / 766 th function: __SPARROW_DeleteObject		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:846:5:__SPARROW_DeleteObject:l.381:stdlib
+[ 9:52: 7] Analyzing 237 / 766 th function: __SPARROW_FreeAddrInfoEx		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:982:5:__SPARROW_FreeAddrInfoEx:l.286:stdlib
+[ 9:52: 7] Analyzing 238 / 766 th function: __SPARROW_FreeAddrInfoW		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:997:5:__SPARROW_FreeAddrInfoW:l.277:stdlib
+[ 9:52: 7] Analyzing 239 / 766 th function: __SPARROW_GetAddrInfoEx		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:970:4:__SPARROW_GetAddrInfoEx:l.292:stdlib
+[ 9:52: 7] Analyzing 240 / 766 th function: __SPARROW_GetAddrInfoW		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:987:4:__SPARROW_GetAddrInfoW:l.283:stdlib
+[ 9:52: 7] Analyzing 241 / 766 th function: __SPARROW_GetDC		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:856:5:__SPARROW_GetDC:l.374:stdlib
+[ 9:52: 7] Analyzing 242 / 766 th function: __SPARROW_GetDCEx		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:861:5:__SPARROW_GetDCEx:l.370:stdlib
+[ 9:52: 7] Analyzing 243 / 766 th function: __SPARROW_GetWindowDC		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:866:5:__SPARROW_GetWindowDC:l.366:stdlib
+[ 9:52: 7] Analyzing 244 / 766 th function: __SPARROW_GlobalAlloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:908:5:__SPARROW_GlobalAlloc:l.336:stdlib
+[ 9:52: 7] Analyzing 245 / 766 th function: __SPARROW_GlobalFree		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:913:5:__SPARROW_GlobalFree:l.332:stdlib
+[ 9:52: 7] Analyzing 246 / 766 th function: __SPARROW_GlobalReAlloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:918:5:__SPARROW_GlobalReAlloc:l.329:stdlib
+[ 9:52: 7] Analyzing 247 / 766 th function: __SPARROW_HeapAlloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:881:5:__SPARROW_HeapAlloc:l.356:stdlib
+[ 9:52: 7] Analyzing 248 / 766 th function: __SPARROW_HeapCreate		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:898:5:__SPARROW_HeapCreate:l.343:stdlib
+[ 9:52: 7] Analyzing 249 / 766 th function: __SPARROW_HeapDestroy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:903:4:__SPARROW_HeapDestroy:l.339:stdlib
+[ 9:52: 7] Analyzing 250 / 766 th function: __SPARROW_HeapFree		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:893:4:__SPARROW_HeapFree:l.346:stdlib
+[ 9:52: 7] Analyzing 251 / 766 th function: __SPARROW_HeapReAlloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:886:5:__SPARROW_HeapReAlloc:l.352:stdlib
+[ 9:52: 7] Analyzing 252 / 766 th function: __SPARROW_LoadBitmap		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:816:5:__SPARROW_LoadBitmap:l.406:stdlib
+[ 9:52: 7] Analyzing 253 / 766 th function: __SPARROW_LocalAlloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:925:5:__SPARROW_LocalAlloc:l.323:stdlib
+[ 9:52: 7] Analyzing 254 / 766 th function: __SPARROW_LocalFree		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:930:5:__SPARROW_LocalFree:l.319:stdlib
+[ 9:52: 7] Analyzing 255 / 766 th function: __SPARROW_LocalReAlloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:935:5:__SPARROW_LocalReAlloc:l.316:stdlib
+[ 9:52: 7] Analyzing 256 / 766 th function: __sparrow_tpreturn		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:675:5:__SPARROW_tpreturn:l.510:stdlib
+[ 9:52: 7] Analyzing 257 / 766 th function: __SPARROW_N_MCO_ERROR_RETURN		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:726:5:__SPARROW_N_MCO_ERROR_RETURN:l.470:stdlib
+[ 9:52: 7] Analyzing 258 / 766 th function: __SPARROW_OCIStringAssignText		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:756:5:__SPARROW_OCIStringAssignText:l.454:stdlib
+[ 9:52: 7] Analyzing 259 / 766 th function: __SPARROW_OCIStringResize		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:751:5:__SPARROW_OCIStringResize:l.460:stdlib
+[ 9:52: 7] Analyzing 260 / 766 th function: __SPARROW_ReleaseDC		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:871:4:__SPARROW_ReleaseDC:l.362:stdlib
+[ 9:52: 7] Analyzing 261 / 766 th function: __sparrow_socket		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:435:4:__SPARROW_socket:l.797:stdlib
+[ 9:52: 7] Analyzing 262 / 766 th function: __SPARROW_SQLAllocHandle		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:463:5:__SPARROW_SQLAllocHandle:l.773:stdlib
+[ 9:52: 7] Analyzing 263 / 766 th function: __SPARROW_SQLFreeHandle		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:467:5:__SPARROW_SQLFreeHandle:l.770:stdlib
+[ 9:52: 7] Analyzing 264 / 766 th function: __SPARROW_SysAllocString		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1017:5:__SPARROW_SysAllocString:l.265:stdlib
+[ 9:52: 7] Analyzing 265 / 766 th function: __SPARROW_SysAllocStringByteLen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1022:5:__SPARROW_SysAllocStringByteLen:l.261:stdlib
+[ 9:52: 7] Analyzing 266 / 766 th function: __SPARROW_SysAllocStringLen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1027:5:__SPARROW_SysAllocStringLen:l.257:stdlib
+[ 9:52: 7] Analyzing 267 / 766 th function: __SPARROW_SysFreeString		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1046:5:__SPARROW_SysFreeString:l.241:stdlib
+[ 9:52: 7] Analyzing 268 / 766 th function: __SPARROW_SysReAllocString		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1033:4:__SPARROW_SysReAllocString:l.252:stdlib
+[ 9:52: 7] Analyzing 269 / 766 th function: __SPARROW_SysReAllocStringLen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1039:4:__SPARROW_SysReAllocStringLen:l.247:stdlib
+[ 9:52: 7] Analyzing 270 / 766 th function: __SPARROW_VirtualAlloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:942:5:__SPARROW_VirtualAlloc:l.310:stdlib
+[ 9:52: 7] Analyzing 271 / 766 th function: __SPARROW_VirtualAllocEx		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:947:5:__SPARROW_VirtualAllocEx:l.306:stdlib
+[ 9:52: 7] Analyzing 272 / 766 th function: __SPARROW_VirtualAllocExNuma		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:953:5:__SPARROW_VirtualAllocExNuma:l.302:stdlib
+[ 9:52: 7] Analyzing 273 / 766 th function: __SPARROW_VirtualFree		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:959:4:__SPARROW_VirtualFree:l.298:stdlib
+[ 9:52: 7] Analyzing 274 / 766 th function: __SPARROW_VirtualFreeEx		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:963:4:__SPARROW_VirtualFreeEx:l.295:stdlib
+[ 9:52: 7] Analyzing 275 / 766 th function: __SPARROW_ZZBatDone		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:734:4:__SPARROW_ZZBatDone:l.467:stdlib
+[ 9:52: 7] Analyzing 276 / 766 th function: __SPARROW_ZZSvcDone		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:745:4:__SPARROW_ZZSvcDone:l.464:stdlib
+[ 9:52: 7] Analyzing 277 / 766 th function: __SPARROW__CrtDbgReport		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:54:4:__SPARROW__CrtDbgReport:l.1139:stdlib
+[ 9:52: 7] Analyzing 278 / 766 th function: __SPARROW__CrtDbgReportW		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:57:4:__SPARROW__CrtDbgReportW:l.1136:stdlib
+[ 9:52: 7] Analyzing 279 / 766 th function: __SPARROW__Exit		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:34:5:__SPARROW__Exit:l.1151:stdlib
+[ 9:52: 7] Analyzing 280 / 766 th function: __SPARROW___builtin_alloca		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:504:5:__SPARROW___builtin_alloca:l.737:stdlib
+[ 9:52: 7] Analyzing 281 / 766 th function: __SPARROW___fxstat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:574:4:__SPARROW___fxstat:l.694:stdlib
+[ 9:52: 7] Analyzing 282 / 766 th function: __sparrow_memalign		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:350:5:__SPARROW_memalign:l.878:stdlib
+[ 9:52: 7] Analyzing 283 / 766 th function: __SPARROW__aligned_malloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:344:5:__SPARROW__aligned_malloc:l.886:stdlib
+[ 9:52: 8] Analyzing 284 / 766 th function: __SPARROW__assert		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:42:5:__SPARROW__assert:l.1145:stdlib
+[ 9:52: 8] Analyzing 285 / 766 th function: __SPARROW__close		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:445:4:__SPARROW__close:l.788:stdlib
+[ 9:52: 8] Analyzing 286 / 766 th function: __SPARROW__dup		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:578:4:__SPARROW__dup:l.690:stdlib
+[ 9:52: 8] Analyzing 287 / 766 th function: __SPARROW__dup2		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:579:4:__SPARROW__dup2:l.687:stdlib
+[ 9:52: 8] Analyzing 288 / 766 th function: __SPARROW__exit		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:34:5:__SPARROW__Exit:l.1151:stdlib
+[ 9:52: 8] Analyzing 289 / 766 th function: __SPARROW__fstat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:580:4:__SPARROW__fstat:l.684:stdlib
+[ 9:52: 8] Analyzing 290 / 766 th function: __SPARROW__fstat32		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:581:4:__SPARROW__fstat32:l.679:stdlib
+[ 9:52: 8] Analyzing 291 / 766 th function: __SPARROW__fstat32i64		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:582:4:__SPARROW__fstat32i64:l.674:stdlib
+[ 9:52: 8] Analyzing 292 / 766 th function: __SPARROW__fstat64		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:583:4:__SPARROW__fstat64:l.669:stdlib
+[ 9:52: 8] Analyzing 293 / 766 th function: __SPARROW__fstat64i32		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:584:4:__SPARROW__fstat64i32:l.664:stdlib
+[ 9:52: 8] Analyzing 294 / 766 th function: __SPARROW__fstati64		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:585:4:__SPARROW__fstati64:l.659:stdlib
+[ 9:52: 8] Analyzing 295 / 766 th function: __SPARROW__lseek		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:586:5:__SPARROW__lseek:l.654:stdlib
+[ 9:52: 8] Analyzing 296 / 766 th function: __SPARROW__lseeki64		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:587:5:__SPARROW__lseeki64:l.651:stdlib
+[ 9:52: 8] Analyzing 297 / 766 th function: __SPARROW__open		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:422:4:__SPARROW__open:l.809:stdlib
+[ 9:52: 8] Analyzing 298 / 766 th function: __SPARROW__read		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:588:4:__SPARROW__read:l.648:stdlib
+[ 9:52: 8] Analyzing 299 / 766 th function: __SPARROW__snprintf		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:231:4:__SPARROW__snprintf:l.973:stdlib
+[ 9:52: 8] Analyzing 300 / 766 th function: __SPARROW__snwprintf		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:239:4:__SPARROW__snwprintf:l.965:stdlib
+[ 9:52: 8] Analyzing 301 / 766 th function: __sparrow_isopen
+[ 9:52: 8] Analyzing 302 / 766 th function: __sparrow_open_later
+[ 9:52: 8] Analyzing 303 / 766 th function: __sparrow_unknown
+[ 9:52: 8] Analyzing 304 / 766 th function: __SPARROW__stat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:283:4:__SPARROW__stat:l.946:stdlib
+[ 9:52: 8] Analyzing 305 / 766 th function: __SPARROW__wassert		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:48:5:__SPARROW__wassert:l.1142:stdlib
+[ 9:52: 8] Analyzing 306 / 766 th function: __SPARROW__wfdopen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:590:5:__SPARROW__wfdopen:l.643:stdlib
+[ 9:52: 8] Analyzing 307 / 766 th function: __SPARROW__write		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:591:4:__SPARROW__write:l.640:stdlib
+[ 9:52: 8] Analyzing 308 / 766 th function: __SPARROW_abort		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:17:5:__SPARROW_abort:l.1166:stdlib
+[ 9:52: 8] Analyzing 309 / 766 th function: __SPARROW_accept		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:451:4:__SPARROW_accept:l.783:stdlib
+[ 9:52: 8] Analyzing 310 / 766 th function: __SPARROW_access		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:292:4:__SPARROW_access:l.938:stdlib
+[ 9:52: 8] Analyzing 311 / 766 th function: __SPARROW_aligned_alloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:347:5:__SPARROW_aligned_alloc:l.882:stdlib
+[ 9:52: 8] Analyzing 312 / 766 th function: __SPARROW_alloca		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:499:5:__SPARROW_ALLOCA:l.742:stdlib
+[ 9:52: 8] Analyzing 313 / 766 th function: __SPARROW_assert		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:77:5:__SPARROW_assert:l.1133:stdlib
+[ 9:52: 8] Analyzing 314 / 766 th function: __SPARROW_bcopy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:509:5:__SPARROW_bcopy:l.732:stdlib
+[ 9:52: 8] Analyzing 315 / 766 th function: __SPARROW_bind		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:592:4:__SPARROW_bind:l.635:stdlib
+[ 9:52: 8] Analyzing 316 / 766 th function: __SPARROW_bzero		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:88:5:__SPARROW_bzero:l.1120:stdlib
+[ 9:52: 8] Analyzing 317 / 766 th function: __sparrow_multiple_check
+[ 9:52: 8] Analyzing 318 / 766 th function: __SPARROW_calloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:325:5:__SPARROW_calloc:l.903:stdlib
+[ 9:52: 8] Analyzing 319 / 766 th function: __SPARROW_cfree		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:359:5:__SPARROW_cfree:l.870:stdlib
+[ 9:52: 8] Analyzing 320 / 766 th function: __SPARROW_chmod		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:302:4:__SPARROW_chmod:l.926:stdlib
+[ 9:52: 8] Analyzing 321 / 766 th function: __SPARROW_chown		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:307:4:__SPARROW_chown:l.921:stdlib
+[ 9:52: 8] Analyzing 322 / 766 th function: __SPARROW_closedir		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:488:4:__SPARROW_closedir:l.751:stdlib
+[ 9:52: 8] Analyzing 323 / 766 th function: __SPARROW_closesocket		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:456:4:__SPARROW_closesocket:l.778:stdlib
+[ 9:52: 8] Analyzing 324 / 766 th function: __SPARROW_creat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:426:4:__SPARROW_creat:l.805:stdlib
+[ 9:52: 8] Analyzing 325 / 766 th function: __SPARROW_delete		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:363:5:__SPARROW_delete:l.867:stdlib
+[ 9:52: 8] Analyzing 326 / 766 th function: __sparrow_delete_array		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:367:5:__SPARROW_delete_array:l.864:stdlib
+[ 9:52: 8] Analyzing 327 / 766 th function: __SPARROW_delete_array		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:367:5:__SPARROW_delete_array:l.864:stdlib
+[ 9:52: 8] Analyzing 328 / 766 th function: __SPARROW_dup		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:594:4:__SPARROW_dup:l.625:stdlib
+[ 9:52: 8] Analyzing 329 / 766 th function: __SPARROW_dup2		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:595:4:__SPARROW_dup2:l.622:stdlib
+[ 9:52: 8] Analyzing 330 / 766 th function: __SPARROW_fatal		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:21:5:__SPARROW_fatal:l.1163:stdlib
+[ 9:52: 8] Analyzing 331 / 766 th function: __SPARROW_fcntl		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:596:4:__SPARROW_fcntl:l.619:stdlib
+[ 9:52: 8] Analyzing 332 / 766 th function: __SPARROW_fdopen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:392:5:__SPARROW_fdopen:l.843:stdlib
+[ 9:52: 8] Analyzing 333 / 766 th function: __SPARROW_fdopendir		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:485:4:__SPARROW_fdopendir:l.755:stdlib
+[ 9:52: 8] Analyzing 334 / 766 th function: __SPARROW_fgets		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:266:5:__SPARROW_fgets:l.961:stdlib
+[ 9:52: 8] Analyzing 335 / 766 th function: __SPARROW_fmemopen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:407:5:__SPARROW_fmemopen:l.825:stdlib
+[ 9:52: 8] Analyzing 336 / 766 th function: __SPARROW_fnMalloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:648:5:__SPARROW_fnMalloc:l.532:stdlib
+[ 9:52: 8] Analyzing 337 / 766 th function: __SPARROW_fopen64		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:400:5:__SPARROW_fopen64:l.834:stdlib
+[ 9:52: 8] Analyzing 338 / 766 th function: __SPARROW_fpathconf		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:597:5:__SPARROW_fpathconf:l.616:stdlib
+[ 9:52: 8] Analyzing 339 / 766 th function: __SPARROW_freeaddrinfo		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1012:5:__SPARROW_freeaddrinfo:l.268:stdlib
+[ 9:52: 8] Analyzing 340 / 766 th function: __SPARROW_freopen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:396:5:__SPARROW_freopen:l.839:stdlib
+[ 9:52: 8] Analyzing 341 / 766 th function: __SPARROW_freopen64		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:403:5:__SPARROW_freopen64:l.830:stdlib
+[ 9:52: 8] Analyzing 342 / 766 th function: __SPARROW_fstat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:598:4:__SPARROW_fstat:l.613:stdlib
+[ 9:52: 8] Analyzing 343 / 766 th function: __SPARROW_fstatfs		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:599:4:__SPARROW_fstatfs:l.608:stdlib
+[ 9:52: 8] Analyzing 344 / 766 th function: __SPARROW_fsync		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:600:4:__SPARROW_fsync:l.603:stdlib
+[ 9:52: 8] Analyzing 345 / 766 th function: __SPARROW_ftruncate		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:601:4:__SPARROW_ftruncate:l.600:stdlib
+[ 9:52: 8] Analyzing 346 / 766 th function: __SPARROW_getaddrinfo		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1002:4:__SPARROW_getaddrinfo:l.274:stdlib
+[ 9:52: 8] Analyzing 347 / 766 th function: __SPARROW_gethostbyaddr		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:630:5:__SPARROW_gethostbyaddr:l.544:stdlib
+[ 9:52: 8] Analyzing 348 / 766 th function: __SPARROW_gethostbyname		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:623:5:__SPARROW_gethostbyname:l.549:stdlib
+[ 9:52: 8] Analyzing 349 / 766 th function: __sparrow_close_net
+[ 9:52: 8] Analyzing 350 / 766 th function: __SPARROW_htonl		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:531:4:__SPARROW_htonl:l.727:stdlib
+[ 9:52: 8] Analyzing 351 / 766 th function: __SPARROW_htons		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:535:4:__SPARROW_htons:l.724:stdlib
+[ 9:52: 8] Analyzing 352 / 766 th function: __SPARROW_ioctl		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:602:4:__SPARROW_ioctl:l.597:stdlib
+[ 9:52: 8] Analyzing 353 / 766 th function: __SPARROW_ioctlsocket		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:603:4:__SPARROW_ioctlsocket:l.594:stdlib
+[ 9:52: 8] Analyzing 354 / 766 th function: __SPARROW_ji_tpsuccess		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:680:5:__SPARROW_ji_tpsuccess:l.506:stdlib
+[ 9:52: 8] Analyzing 355 / 766 th function: __SPARROW_ji_tpsyserr		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:685:5:__SPARROW_ji_tpsyserr:l.502:stdlib
+[ 9:52: 8] Analyzing 356 / 766 th function: __SPARROW_ji_tpusrerr		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:690:5:__SPARROW_ji_tpusrerr:l.498:stdlib
+[ 9:52: 8] Analyzing 357 / 766 th function: __SPARROW_kalloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:375:5:__SPARROW_kalloc:l.861:stdlib
+[ 9:52: 8] Analyzing 358 / 766 th function: __SPARROW_kfree		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:378:5:__SPARROW_kfree:l.857:stdlib
+[ 9:52: 8] Analyzing 359 / 766 th function: __SPARROW_listen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:604:4:__SPARROW_listen:l.591:stdlib
+[ 9:52: 8] Analyzing 360 / 766 th function: __SPARROW_lseek		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:605:4:__SPARROW_lseek:l.588:stdlib
+[ 9:52: 8] Analyzing 361 / 766 th function: __SPARROW_memalign		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:350:5:__SPARROW_memalign:l.878:stdlib
+[ 9:52: 8] Analyzing 362 / 766 th function: __SPARROW_memccpy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:105:5:__SPARROW_memccpy:l.1103:stdlib
+[ 9:52: 8] Analyzing 363 / 766 th function: __SPARROW_memmove		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:110:5:__SPARROW_memmove:l.1099:stdlib
+[ 9:52: 8] Analyzing 364 / 766 th function: __SPARROW_new		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:318:5:__SPARROW_new:l.911:stdlib
+[ 9:52: 8] Analyzing 365 / 766 th function: __sparrow_new_array		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:321:5:__SPARROW_new_array:l.907:stdlib
+[ 9:52: 8] Analyzing 366 / 766 th function: __SPARROW_new_array		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:321:5:__SPARROW_new_array:l.907:stdlib
+[ 9:52: 8] Analyzing 367 / 766 th function: __SPARROW_ntohl		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:540:4:__SPARROW_ntohl:l.720:stdlib
+[ 9:52: 8] Analyzing 368 / 766 th function: __SPARROW_ntohs		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:544:4:__SPARROW_ntohs:l.717:stdlib
+[ 9:52: 8] Analyzing 369 / 766 th function: __SPARROW_open64		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:430:4:__SPARROW_open64:l.801:stdlib
+[ 9:52: 8] Analyzing 370 / 766 th function: __SPARROW_open_memstream		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:410:5:__SPARROW_open_memstream:l.821:stdlib
+[ 9:52: 8] Analyzing 371 / 766 th function: __SPARROW_opendir		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:482:4:__SPARROW_opendir:l.759:stdlib
+[ 9:52: 8] Analyzing 372 / 766 th function: __SPARROW_pclose		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:476:4:__SPARROW_pclose:l.763:stdlib
+[ 9:52: 8] Analyzing 373 / 766 th function: __SPARROW_pfmDbioGetError		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1051:4:__SPARROW_pfmDbioGetError:l.237:stdlib
+[ 9:52: 8] Analyzing 374 / 766 th function: __SPARROW_popen		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:473:5:__SPARROW_popen:l.767:stdlib
+[ 9:52: 8] Analyzing 375 / 766 th function: __SPARROW_posix_memalign		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:340:4:__SPARROW_posix_memalign:l.890:stdlib
+[ 9:52: 8] Analyzing 376 / 766 th function: __SPARROW_pthread_exit		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:28:5:__SPARROW_pthread_exit:l.1157:stdlib
+[ 9:52: 8] Analyzing 377 / 766 th function: __sparrow_lock
+[ 9:52: 8] Analyzing 378 / 766 th function: __SPARROW_pthread_mutex_lock		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:559:4:__SPARROW_pthread_mutex_lock:l.706:stdlib
+[ 9:52: 8] Analyzing 379 / 766 th function: __sparrow_trylock
+[ 9:52: 8] Analyzing 380 / 766 th function: __SPARROW_pthread_mutex_trylock		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:569:4:__SPARROW_pthread_mutex_trylock:l.698:stdlib
+[ 9:52: 8] Analyzing 381 / 766 th function: __sparrow_unlock
+[ 9:52: 8] Analyzing 382 / 766 th function: __SPARROW_pthread_mutex_unlock		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:564:4:__SPARROW_pthread_mutex_unlock:l.702:stdlib
+[ 9:52: 8] Analyzing 383 / 766 th function: __SPARROW_raise		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:25:4:__SPARROW_raise:l.1160:stdlib
+[ 9:52: 8] Analyzing 384 / 766 th function: __SPARROW_readv		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:606:4:__SPARROW_readv:l.585:stdlib
+[ 9:52: 8] Analyzing 385 / 766 th function: __sparrow_net
+[ 9:52: 8] Analyzing 386 / 766 th function: __SPARROW_recv		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:548:4:__SPARROW_recv:l.714:stdlib
+[ 9:52: 8] Analyzing 387 / 766 th function: __SPARROW_recvfrom		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:607:4:__SPARROW_recvfrom:l.582:stdlib
+[ 9:52: 8] Analyzing 388 / 766 th function: __SPARROW_recvmsg		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:611:4:__SPARROW_recvmsg:l.577:stdlib
+[ 9:52: 8] Analyzing 389 / 766 th function: __SPARROW_remove		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:297:4:__SPARROW_remove:l.931:stdlib
+[ 9:52: 8] Analyzing 390 / 766 th function: __SPARROW_returnData		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:706:5:__SPARROW_returnData:l.486:stdlib
+[ 9:52: 8] Analyzing 391 / 766 th function: __SPARROW_returnDataLog		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:701:5:__SPARROW_returnDataLog:l.490:stdlib
+[ 9:52: 8] Analyzing 392 / 766 th function: __SPARROW_returnError		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:716:5:__SPARROW_returnError:l.478:stdlib
+[ 9:52: 8] Analyzing 393 / 766 th function: __SPARROW_returnMsg		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:721:5:__SPARROW_returnMsg:l.474:stdlib
+[ 9:52: 8] Analyzing 394 / 766 th function: __SPARROW_returnNoData		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:711:5:__SPARROW_returnNoData:l.482:stdlib
+[ 9:52: 8] Analyzing 395 / 766 th function: __SPARROW_returnStatus		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:695:5:__SPARROW_returnStatus:l.494:stdlib
+[ 9:52: 8] Analyzing 396 / 766 th function: __SPARROW_send		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:612:4:__SPARROW_send:l.573:stdlib
+[ 9:52: 8] Analyzing 397 / 766 th function: __SPARROW_sendmsg		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:613:4:__SPARROW_sendmsg:l.570:stdlib
+[ 9:52: 8] Analyzing 398 / 766 th function: __SPARROW_sendto		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:614:4:__SPARROW_sendto:l.567:stdlib
+[ 9:52: 8] Analyzing 399 / 766 th function: __SPARROW_snprintf		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:227:4:__SPARROW_snprintf:l.977:stdlib
+[ 9:52: 8] Analyzing 400 / 766 th function: __SPARROW_snwprintf		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:235:4:__SPARROW_snwprintf:l.969:stdlib
+[ 9:52: 8] Analyzing 401 / 766 th function: __SPARROW_socket		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:435:4:__SPARROW_socket:l.797:stdlib
+[ 9:52: 8] Analyzing 402 / 766 th function: __SPARROW_stat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:274:4:__SPARROW_stat:l.954:stdlib
+[ 9:52: 8] Analyzing 403 / 766 th function: __sparrow_strcpy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:154:5:__SPARROW_strcpy:l.1054:stdlib
+[ 9:52: 8] Analyzing 404 / 766 th function: __sparrow_unbounded_source
+[ 9:52: 8] Analyzing 405 / 766 th function: __SPARROW_strcat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:128:5:__SPARROW_strcat:l.1079:stdlib
+[ 9:52: 8] Analyzing 406 / 766 th function: __SPARROW_strcpy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:154:5:__SPARROW_strcpy:l.1054:stdlib
+[ 9:52: 8] Analyzing 407 / 766 th function: __SPARROW_strdup		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:185:5:__SPARROW_strdup:l.1026:stdlib
+[ 9:52: 8] Analyzing 408 / 766 th function: __SPARROW_strncat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:141:5:__SPARROW_strncat:l.1067:stdlib
+[ 9:52: 8] Analyzing 409 / 766 th function: __SPARROW_strndup		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:196:5:__SPARROW_strndup:l.1007:stdlib
+[ 9:52: 8] Analyzing 410 / 766 th function: __SPARROW_strtol		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:209:5:__SPARROW_strtol:l.989:stdlib
+[ 9:52: 8] Analyzing 411 / 766 th function: __SPARROW_strtoll		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:218:5:__SPARROW_strtoll:l.983:stdlib
+[ 9:52: 8] Analyzing 412 / 766 th function: __SPARROW_tpalloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:654:5:__SPARROW_tpalloc:l.527:stdlib
+[ 9:52: 8] Analyzing 413 / 766 th function: __SPARROW_tpfree		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:669:5:__SPARROW_tpfree:l.513:stdlib
+[ 9:52: 8] Analyzing 414 / 766 th function: __SPARROW_tprealloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:659:5:__SPARROW_tprealloc:l.522:stdlib
+[ 9:52: 8] Analyzing 415 / 766 th function: __SPARROW_tpreturn		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:675:5:__SPARROW_tpreturn:l.510:stdlib
+[ 9:52: 8] Analyzing 416 / 766 th function: __SPARROW_ttyname		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:1055:5:__SPARROW_ttyname:l.234:stdlib
+[ 9:52: 8] Analyzing 417 / 766 th function: __SPARROW_unlinkat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:619:4:__SPARROW_unlinkat:l.562:stdlib
+[ 9:52: 8] Analyzing 418 / 766 th function: __SPARROW_valloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:355:5:__SPARROW_valloc:l.874:stdlib
+[ 9:52: 8] Analyzing 419 / 766 th function: __SPARROW_vfree		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:384:5:__SPARROW_vfree:l.850:stdlib
+[ 9:52: 8] Analyzing 420 / 766 th function: __SPARROW_vmalloc		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:381:5:__SPARROW_vmalloc:l.854:stdlib
+[ 9:52: 8] Analyzing 421 / 766 th function: __SPARROW_wcscat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:135:8:__SPARROW_wcscat:l.1073:stdlib
+[ 9:52: 8] Analyzing 422 / 766 th function: __SPARROW_wcscpy		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:160:8:__SPARROW_wcscpy:l.1048:stdlib
+[ 9:52: 8] Analyzing 423 / 766 th function: __SPARROW_wcsncat		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:147:8:__SPARROW_wcsncat:l.1061:stdlib
+[ 9:52: 8] Analyzing 424 / 766 th function: __SPARROW_wcwidth		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:760:4:__SPARROW_wcwidth:l.451:stdlib
+[ 9:52: 8] Analyzing 425 / 766 th function: __SPARROW_wmemmove		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:119:8:__SPARROW_wmemmove:l.1089:stdlib
+[ 9:52: 8] Analyzing 426 / 766 th function: __SPARROW_write		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:620:4:__SPARROW_write:l.557:stdlib
+[ 9:52: 8] Analyzing 427 / 766 th function: __SPARROW_writev		C:\sparrow4\util\testcode\c\sparrow\option_files\stdlib.c:621:4:__SPARROW_writev:l.553:stdlib
+[ 9:52: 8] Analyzing 428 / 766 th function: _mbscat		/home/kskyj/sparrow4/util/testcode/c/BAD_STRING_MANAGEMENT.c:6:5:_mbscat:l.2104:3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c
+[ 9:52: 8] Analyzing 429 / 766 th function: _mbscat_s		/home/kskyj/sparrow4/util/testcode/c/BAD_STRING_MANAGEMENT.c:7:5:_mbscat_s:l.2102:3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c
+[ 9:52: 8] Analyzing 430 / 766 th function: _mbscpy		/home/kskyj/sparrow4/util/testcode/c/BAD_STRING_MANAGEMENT.c:4:5:_mbscpy:l.2108:3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c
+[ 9:52: 8] Analyzing 431 / 766 th function: _mbscpy_s		/home/kskyj/sparrow4/util/testcode/c/BAD_STRING_MANAGEMENT.c:5:5:_mbscpy_s:l.2106:3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c
+[ 9:52: 8] Analyzing 432 / 766 th function: access
+[ 9:52: 8] Analyzing 433 / 766 th function: add		/home/kskyj/sparrow4/util/testcode/c/main.c:764:4:add:l.4251:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 8] Analyzing 434 / 766 th function: aligned_alloc
+[ 9:52: 8] Analyzing 435 / 766 th function: another		/home/kskyj/sparrow4/util/testcode/c/API50.c:14:5:another:l.1362:1a8f580850535deac75f7d681dcb9ae2759f8ff7.API50.c
+[ 9:52: 8] Analyzing 436 / 766 th function: anotherTestFunc		/home/kskyj/sparrow4/util/testcode/c/MIS17.h:3:5:anotherTestFunc:l.1392:1b903b49859b6d79d9925771ac767bbaa63627c9.MIS17.c
+[ 9:52: 8] Analyzing 437 / 766 th function: printf		/home/kskyj/sparrow4/util/testcode/c/FBD14.c:2:5:printf:l.5050:cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c
+[ 9:52: 8] Analyzing 438 / 766 th function: argument_number_mismatch1		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:586:5:argument_number_mismatch1:l.2458:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 439 / 766 th function: argument_number_mismatch2		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:589:5:argument_number_mismatch2:l.2455:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 440 / 766 th function: atexit
+[ 9:52: 8] Analyzing 441 / 766 th function: atol
+[ 9:52: 8] Analyzing 442 / 766 th function: aux_test_extreme		/home/kskyj/sparrow4/util/testcode/c/UCTS-028.c:5:5:aux_test_extreme:l.3207:6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c
+[ 9:52: 8] Analyzing 443 / 766 th function: bad3rd		/home/kskyj/sparrow4/util/testcode/c/MIS09.c:9:5:bad3rd:l.3866:a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c
+[ 9:52: 8] Analyzing 444 / 766 th function: badAlgorithm		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.RISKY_ALGORITHM.c:15:5:badAlgorithm:l.5264:ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c
+[ 9:52: 8] Analyzing 445 / 766 th function: pfmDbioRollback
+[ 9:52: 8] Analyzing 446 / 766 th function: badDBIOWithoutCommit		/home/kskyj/sparrow4/util/testcode/c/API43.c:12:5:badDBIOWithoutCommit:l.3136:66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c
+[ 9:52: 8] Analyzing 447 / 766 th function: pfmDbioCommit
+[ 9:52: 8] Analyzing 448 / 766 th function: badDBIOWithoutRollback		/home/kskyj/sparrow4/util/testcode/c/API43.c:5:5:badDBIOWithoutRollback:l.3139:66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c
+[ 9:52: 8] Analyzing 449 / 766 th function: badError		/home/kskyj/sparrow4/util/testcode/c/API20.c:9:5:badError:l.3755:980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c
+[ 9:52: 8] Analyzing 450 / 766 th function: pfmInitError		/home/kskyj/sparrow4/util/testcode/c/API20.c:5:5:pfmInitError:l.3758:980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c
+[ 9:52: 8] Analyzing 451 / 766 th function: badError2		/home/kskyj/sparrow4/util/testcode/c/API20.c:26:5:badError2:l.3742:980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c
+[ 9:52: 8] Analyzing 452 / 766 th function: strcpy		/home/kskyj/sparrow4/util/testcode/c/API16.c:6:5:strcpy:l.3916:aa2bdec3c0550b8e4488a8c81828abf64c0aa308.API16.c
+[ 9:52: 8] Analyzing 453 / 766 th function: badFoo		/home/kskyj/sparrow4/util/testcode/c/API25.c:6:5:badFoo:l.5172:dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c
+[ 9:52: 8] Analyzing 454 / 766 th function: badFunc		/home/kskyj/sparrow4/util/testcode/c/FBD14.c:6:5:badFunc:l.5047:cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c
+[ 9:52: 8] Analyzing 455 / 766 th function: badKey1		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.INSUFFICIENT_KEY.c:11:5:badKey1:l.5440:ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c
+[ 9:52: 8] Analyzing 456 / 766 th function: badKey2		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.INSUFFICIENT_KEY.c:19:5:badKey2:l.5435:ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c
+[ 9:52: 8] Analyzing 457 / 766 th function: badKey3		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.INSUFFICIENT_KEY.c:28:5:badKey3:l.5428:ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c
+[ 9:52: 8] Analyzing 458 / 766 th function: badLoop		/home/kskyj/sparrow4/util/testcode/c/API44.c:1:5:badLoop:l.3541:8b670eaf8e4405579afd773b71c9b6a7ecc5e875.API44.c
+[ 9:52: 8] Analyzing 459 / 766 th function: badParam		/home/kskyj/sparrow4/util/testcode/c/API47.c:6:5:badParam:l.1175:010ab1c36d9b776b778e38ca3933cb64714217dc.API47.c
+[ 9:52: 8] Analyzing 460 / 766 th function: badReturn		/home/kskyj/sparrow4/util/testcode/c/API51.c:6:4:badReturn:l.5231:ebd57031be3b51627e3e53a79c78c3ba8a817ba2.API51.c
+[ 9:52: 8] Analyzing 461 / 766 th function: rand
+[ 9:52: 8] Analyzing 462 / 766 th function: srand
+[ 9:52: 8] Analyzing 463 / 766 th function: time
+[ 9:52: 8] Analyzing 464 / 766 th function: badRoleRand		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_RANDOM_USAGE.c:12:4:badRoleRand:l.4972:c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c
+[ 9:52: 8] Analyzing 465 / 766 th function: random
+[ 9:52: 8] Analyzing 466 / 766 th function: badRoleRandom		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_RANDOM_USAGE.c:23:4:badRoleRandom:l.4961:c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c
+[ 9:52: 8] Analyzing 467 / 766 th function: badRoleSRand		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_RANDOM_USAGE.c:5:4:badRoleSRand:l.4978:c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c
+[ 9:52: 8] Analyzing 468 / 766 th function: crypt
+[ 9:52: 8] Analyzing 469 / 766 th function: badSalt		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c:10:5:badSalt:l.2161:3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c
+[ 9:52: 8] Analyzing 470 / 766 th function: badSalt2		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c:15:5:badSalt2:l.2157:3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c
+[ 9:52: 8] Analyzing 471 / 766 th function: badSalt3		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c:21:5:badSalt3:l.2151:3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c
+[ 9:52: 8] Analyzing 472 / 766 th function: badSalt4		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c:28:5:badSalt4:l.2144:3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c
+[ 9:52: 8] Analyzing 473 / 766 th function: badTest		/home/kskyj/sparrow4/util/testcode/c/MIS18.c:4:5:badTest:l.3060:5eb7e94370c6b0ed3b023ed8fbb66a38289920d6.MIS18.c
+[ 9:52: 8] Analyzing 474 / 766 th function: funcOne
+[ 9:52: 8] Analyzing 475 / 766 th function: funcTwo
+[ 9:52: 8] Analyzing 476 / 766 th function: badUsage		/home/kskyj/sparrow4/util/testcode/c/API28.c:7:5:badUsage:l.3074:5f47cdf1f7e4094a5255419fe9410b1e889e1f51.API28.c
+[ 9:52: 8] Analyzing 477 / 766 th function: bar		/home/kskyj/sparrow4/util/testcode/c/BAD_MALLOC.c:19:5:bar:l.5103:cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c
+[ 9:52: 8] Analyzing 478 / 766 th function: bar1		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_NULL_TERMINATION.c:30:5:bar1:l.3479:87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c
+[ 9:52: 8] Analyzing 479 / 766 th function: bar2		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_NULL_TERMINATION.c:37:5:bar2:l.3473:87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c
+[ 9:52: 8] Analyzing 480 / 766 th function: bigbuf		/home/kskyj/sparrow4/util/testcode/c/EXCESSIVE_STACK_DEPTH.c:4:27:bigbuf:l.2086:3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c
+[ 9:52: 8] Analyzing 481 / 766 th function: bind
+[ 9:52: 8] Analyzing 482 / 766 th function: htonl
+[ 9:52: 8] Analyzing 483 / 766 th function: setsockopt
+[ 9:52: 8] Analyzing 484 / 766 th function: socket		/home/kskyj/sparrow4/util/testcode/c/USE_CORRECT_BYTE_ORDERING.c:7:4:socket:l.5305:f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c
+[ 9:52: 8] Analyzing 485 / 766 th function: unlink
+[ 9:52: 8] Analyzing 486 / 766 th function: bind_socket		/home/kskyj/sparrow4/util/testcode/c/MULTIPLE_BINDS_TO_SAME_PORT.c:22:5:bind_socket:l.1190:024bb2db00efb377cbc28b5490a140cd84bcb83d.MULTIPLE_BINDS_TO_SAME_PORT.c
+[ 9:52: 8] Analyzing 487 / 766 th function: buffer_overrun_01_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:25:5:buffer_overrun_01_sub:l.2905:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 488 / 766 th function: buffer_overrun_01_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:28:5:buffer_overrun_01_main:l.2901:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 489 / 766 th function: buffer_overrun_02_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:44:5:buffer_overrun_02_main:l.2891:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 490 / 766 th function: buffer_overrun_03		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:64:5:buffer_overrun_03:l.2880:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 491 / 766 th function: buffer_overrun_complex_01_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:35:4:buffer_overrun_complex_01_sub:l.2898:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 492 / 766 th function: buffer_overrun_complex_01_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:38:5:buffer_overrun_complex_01_main:l.2895:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 493 / 766 th function: buffer_overrun_complex_02_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:53:4:buffer_overrun_complex_02_sub:l.2887:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 494 / 766 th function: buffer_overrun_complex_02_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:56:5:buffer_overrun_complex_02_main:l.2884:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 495 / 766 th function: buffer_overrun_complex_03_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:74:5:buffer_overrun_complex_03_sub:l.2874:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 496 / 766 th function: buffer_overrun_complex_03		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:79:5:buffer_overrun_complex_03:l.2870:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 497 / 766 th function: cast_alters_value		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:407:4:cast_alters_value:l.2596:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 498 / 766 th function: char_type		/home/kskyj/sparrow4/util/testcode/c/crulcheck.c:55:5:char_type:l.3679:9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c
+[ 9:52: 8] Analyzing 499 / 766 th function: check_assign		/home/kskyj/sparrow4/util/testcode/c/CHECK_ALIGNMENT_OF_MEMORY.c:5:5:check_assign:l.3514:8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c
+[ 9:52: 8] Analyzing 500 / 766 th function: fscanf		/home/kskyj/sparrow4/util/testcode/c/main.c:117:5:fscanf:l.4910:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 8] Analyzing 501 / 766 th function: checked_return		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:532:5:checked_return:l.2509:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 502 / 766 th function: chroot
+[ 9:52: 8] Analyzing 503 / 766 th function: fgets
+[ 9:52: 8] Analyzing 504 / 766 th function: chroot_jail_without		/home/kskyj/sparrow4/util/testcode/c/CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c:3:5:chroot_jail_without:l.3498:88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c
+[ 9:52: 8] Analyzing 505 / 766 th function: coo		/home/kskyj/sparrow4/util/testcode/c/BAD_MALLOC.c:31:5:coo:l.5091:cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c
+[ 9:52: 8] Analyzing 506 / 766 th function: create_FB08		/home/kskyj/sparrow4/util/testcode/c/main.c:574:5:create_FB08:l.4443:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 8] Analyzing 507 / 766 th function: create_FB09		/home/kskyj/sparrow4/util/testcode/c/main.c:560:5:create_FB09:l.4457:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 8] Analyzing 508 / 766 th function: create_FB10		/home/kskyj/sparrow4/util/testcode/c/main.c:546:5:create_FB10:l.4471:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 8] Analyzing 509 / 766 th function: create_FB11		/home/kskyj/sparrow4/util/testcode/c/main.c:532:5:create_FB11:l.4485:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 8] Analyzing 510 / 766 th function: create_FB12		/home/kskyj/sparrow4/util/testcode/c/main.c:518:5:create_FB12:l.4499:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 8] Analyzing 511 / 766 th function: create_FB13		/home/kskyj/sparrow4/util/testcode/c/main.c:504:5:create_FB13:l.4513:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 8] Analyzing 512 / 766 th function: dangerous_func_cast_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:554:5:dangerous_func_cast_main:l.2486:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 513 / 766 th function: dangerous_func_cast_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:551:5:dangerous_func_cast_sub:l.2489:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 514 / 766 th function: dangerous_macro_usage		/home/kskyj/sparrow4/util/testcode/c/BAD_MACRO.DANGEROUS_USAGE.c:5:42:dangerous_macro_usage:l.3815:9eb7df4c192c33e59e7062704fb85656451195c8.BAD_MACRO.DANGEROUS_USAGE.c
+[ 9:52: 8] Analyzing 515 / 766 th function: dbaccess		/home/kskyj/sparrow4/util/testcode/c/UCTS-044.c:12:51:dbaccess:l.5408:fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c
+[ 9:52: 8] Analyzing 516 / 766 th function: gethostbyaddr
+[ 9:52: 8] Analyzing 517 / 766 th function: strncmp
+[ 9:52: 8] Analyzing 518 / 766 th function: decision		/home/kskyj/sparrow4/util/testcode/c/SECURITY_DECISION_ON_DNS_LOOKUP.c:23:4:decision:l.3005:58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c
+[ 9:52: 8] Analyzing 519 / 766 th function: decision2		/home/kskyj/sparrow4/util/testcode/c/SECURITY_DECISION_ON_DNS_LOOKUP.c:42:4:decision2:l.2977:58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c
+[ 9:52: 8] Analyzing 520 / 766 th function: pthread_mutex_lock
+[ 9:52: 8] Analyzing 521 / 766 th function: pthread_mutex_unlock
+[ 9:52: 8] Analyzing 522 / 766 th function: defected_mutex		/home/kskyj/sparrow4/util/testcode/c/RACE_CONDITION.c:36:5:defected_mutex:l.3965:b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c
+[ 9:52: 8] Analyzing 523 / 766 th function: divide_by_zero_03		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:227:5:divide_by_zero_03:l.2746:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 524 / 766 th function: divide_by_zero_04		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:247:5:divide_by_zero_04:l.2727:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 525 / 766 th function: divide_by_zero_complex_03_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:236:4:divide_by_zero_complex_03_sub:l.2736:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 526 / 766 th function: divide_by_zero_complex_03		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:239:5:divide_by_zero_complex_03:l.2733:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 527 / 766 th function: divide_by_zero_complex_04_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:254:5:divide_by_zero_complex_04_sub:l.2721:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 528 / 766 th function: divide_by_zero_complex_04		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:257:5:divide_by_zero_complex_04:l.2718:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 529 / 766 th function: dlopen		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:15:4:dlopen:l.1880:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 8] Analyzing 530 / 766 th function: do_not_assume_env		/home/kskyj/sparrow4/util/testcode/c/DO_NOT_ASSUME_ENV.c:5:38:do_not_assume_env:l.4049:bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c
+[ 9:52: 8] Analyzing 531 / 766 th function: do_not_use_sizeof1		/home/kskyj/sparrow4/util/testcode/c/DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c:3:45:do_not_use_sizeof1:l.5398:fda6ba0a97510f08dd295d79761d4639d72dc073.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c
+[ 9:52: 8] Analyzing 532 / 766 th function: double_close		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:594:5:double_close:l.2453:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 533 / 766 th function: unknown
+[ 9:52: 8] Analyzing 534 / 766 th function: double_free_complex_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:284:5:double_free_complex_sub:l.2695:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 535 / 766 th function: double_free_complex_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:290:5:double_free_complex_main:l.2689:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 536 / 766 th function: double_free_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:264:5:double_free_sub:l.2712:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 537 / 766 th function: double_free_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:268:5:double_free_main:l.2708:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 8] Analyzing 538 / 766 th function: fread
+[ 9:52: 8] Analyzing 539 / 766 th function: some_error
+[ 9:52: 8] Analyzing 540 / 766 th function: some_error2
+[ 9:52: 8] Analyzing 541 / 766 th function: double_lock		/home/kskyj/sparrow4/util/testcode/c/DOUBLE_LOCK.c:5:5:double_lock:l.1942:350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c
+[ 9:52: 9] Analyzing 542 / 766 th function: empty_case		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:53:5:empty_case:l.5355:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 543 / 766 th function: empty_default		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:74:5:empty_default:l.5335:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 544 / 766 th function: empty_else_branch1		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:7:5:empty_else_branch1:l.5381:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 545 / 766 th function: empty_else_branch2		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:14:5:empty_else_branch2:l.5378:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 546 / 766 th function: empty_else_branch3		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:19:5:empty_else_branch3:l.5375:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 547 / 766 th function: empty_else_branch_not_found		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:27:5:empty_else_branch_not_found:l.5372:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 548 / 766 th function: empty_else_branch_not_found2		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:36:5:empty_else_branch_not_found2:l.5368:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 549 / 766 th function: seteuid
+[ 9:52: 9] Analyzing 550 / 766 th function: ensure_privilege		/home/kskyj/sparrow4/util/testcode/c/crulcheck.c:39:5:ensure_privilege:l.3690:9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c
+[ 9:52: 9] Analyzing 551 / 766 th function: env		/home/kskyj/sparrow4/util/testcode/c/ENV32.c:26:4:env:l.2943:565649f83bba965086bccb1b8ee260d59491a413.ENV32.c
+[ 9:52: 9] Analyzing 552 / 766 th function: execl
+[ 9:52: 9] Analyzing 553 / 766 th function: execl_error		/home/kskyj/sparrow4/util/testcode/c/EXECL_REVEALS_DATA.c:6:32:execl_error:l.3947:ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c
+[ 9:52: 9] Analyzing 554 / 766 th function: exit1		/home/kskyj/sparrow4/util/testcode/c/ENV32.c:4:5:exit1:l.2958:565649f83bba965086bccb1b8ee260d59491a413.ENV32.c
+[ 9:52: 9] Analyzing 555 / 766 th function: exit2		/home/kskyj/sparrow4/util/testcode/c/ENV32.c:9:5:exit2:l.2955:565649f83bba965086bccb1b8ee260d59491a413.ENV32.c
+[ 9:52: 9] Analyzing 556 / 766 th function: gets
+[ 9:52: 9] Analyzing 557 / 766 th function: f		/home/kskyj/sparrow4/util/testcode/c/UCTS-041.c:9:22:f:l.3147:66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c
+[ 9:52: 9] Analyzing 558 / 766 th function: fac		/home/kskyj/sparrow4/util/testcode/c/UNCONTROLLED_RECURSION.c:2:4:fac:l.3620:925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c
+[ 9:52: 9] Analyzing 559 / 766 th function: fac2		/home/kskyj/sparrow4/util/testcode/c/UNCONTROLLED_RECURSION.c:18:4:fac2:l.3603:925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c
+[ 9:52: 9] Analyzing 560 / 766 th function: fac3		/home/kskyj/sparrow4/util/testcode/c/UNCONTROLLED_RECURSION.c:26:4:fac3:l.3597:925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c
+[ 9:52: 9] Analyzing 561 / 766 th function: fac4		/home/kskyj/sparrow4/util/testcode/c/UNCONTROLLED_RECURSION.c:30:4:fac4:l.3589:925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c
+[ 9:52: 9] Analyzing 562 / 766 th function: fac5		/home/kskyj/sparrow4/util/testcode/c/UNCONTROLLED_RECURSION.c:34:4:fac5:l.3580:925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c
+[ 9:52: 9] Analyzing 563 / 766 th function: fchmod
+[ 9:52: 9] Analyzing 564 / 766 th function: file_operation		/home/kskyj/sparrow4/util/testcode/c/RACE_CONDITION.c:10:5:file_operation:l.3981:b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c
+[ 9:52: 9] Analyzing 565 / 766 th function: getlogin
+[ 9:52: 9] Analyzing 566 / 766 th function: getpwnam
+[ 9:52: 9] Analyzing 567 / 766 th function: isTrustedGroup
+[ 9:52: 9] Analyzing 568 / 766 th function: foo		/home/kskyj/sparrow4/util/testcode/c/BAD_ERROR.MISSING_INIT.c:6:22:foo:l.5274:ef4e87dee6bc55d5ac5e4a154766173ec1e97d9f.BAD_ERROR.MISSING_INIT.c
+[ 9:52: 9] Analyzing 569 / 766 th function: foo1		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_NULL_TERMINATION.c:14:5:foo1:l.3490:87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c
+[ 9:52: 9] Analyzing 570 / 766 th function: pthread_create
+[ 9:52: 9] Analyzing 571 / 766 th function: foo2		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_NULL_TERMINATION.c:22:5:foo2:l.3484:87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c
+[ 9:52: 9] Analyzing 572 / 766 th function: getResource
+[ 9:52: 9] Analyzing 573 / 766 th function: fooBad		/home/kskyj/sparrow4/util/testcode/c/API42.c:7:5:fooBad:l.2227:42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c
+[ 9:52: 9] Analyzing 574 / 766 th function: isUserAuthentic
+[ 9:52: 9] Analyzing 575 / 766 th function: fooNestedBad		/home/kskyj/sparrow4/util/testcode/c/API42.c:14:5:fooNestedBad:l.2221:42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c
+[ 9:52: 9] Analyzing 576 / 766 th function: fooParam		/home/kskyj/sparrow4/util/testcode/c/MIS08.c:7:5:fooParam:l.5060:cc99044c497e21cebd90c53675243f8c24d8cdf6.MIS08.c
+[ 9:52: 9] Analyzing 577 / 766 th function: fork_FB08
+[ 9:52: 9] Analyzing 578 / 766 th function: format_string		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:496:5:format_string:l.2534:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 579 / 766 th function: free_non_heap		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:377:5:free_non_heap:l.2612:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 580 / 766 th function: free_null_pointer_call		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:416:5:free_null_pointer_call:l.2589:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 581 / 766 th function: free_null_pointer_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:420:5:free_null_pointer_main:l.2586:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 582 / 766 th function: func2		/home/kskyj/sparrow4/util/testcode/c/ENV32.c:17:5:func2:l.2950:565649f83bba965086bccb1b8ee260d59491a413.ENV32.c
+[ 9:52: 9] Analyzing 583 / 766 th function: func1		/home/kskyj/sparrow4/util/testcode/c/ENV32.c:22:5:func1:l.2946:565649f83bba965086bccb1b8ee260d59491a413.ENV32.c
+[ 9:52: 9] Analyzing 584 / 766 th function: func3		/home/kskyj/sparrow4/util/testcode/c/TOO_MANY_METHODS.c:11:4:func3:l.1960:393fe28650396a1203a12d88443729137820922d.TOO_MANY_METHODS.c
+[ 9:52: 9] Analyzing 585 / 766 th function: function		/home/kskyj/sparrow4/util/testcode/c/SIZE_CALCULATION_BAD_COMPARE.c:16:5:function:l.1440:2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c
+[ 9:52: 9] Analyzing 586 / 766 th function: fwrite
+[ 9:52: 9] Analyzing 587 / 766 th function: getBadSum		/home/kskyj/sparrow4/util/testcode/c/API40.c:3:4:getBadSum:l.2306:475a5e66b185c57f864256775af3eb059f1c05cb.API40.c
+[ 9:52: 9] Analyzing 588 / 766 th function: getGoodSumG		/home/kskyj/sparrow4/util/testcode/c/API40.c:16:4:getGoodSumG:l.2297:475a5e66b185c57f864256775af3eb059f1c05cb.API40.c
+[ 9:52: 9] Analyzing 589 / 766 th function: getMax		/home/kskyj/sparrow4/util/testcode/c/MIS03.c:4:29:getMax:l.1326:1160af5dfaa3b5fb2f9d372bf89655754e7a38e2.MIS03.c
+[ 9:52: 9] Analyzing 590 / 766 th function: getSSS		/home/kskyj/sparrow4/util/testcode/c/API25.c:2:5:getSSS:l.5175:dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c
+[ 9:52: 9] Analyzing 591 / 766 th function: get_pointer		/home/kskyj/sparrow4/util/testcode/c/main.c:799:4:get_pointer:l.4246:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 9] Analyzing 592 / 766 th function: geteuid		/home/kskyj/sparrow4/util/testcode/c/SIZE_CALCULATION_BAD_COMPARE.c:7:4:geteuid:l.1450:2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c
+[ 9:52: 9] Analyzing 593 / 766 th function: getpasswd		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:18:5:getpasswd:l.1872:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 594 / 766 th function: getrlimit_FB09
+[ 9:52: 9] Analyzing 595 / 766 th function: good1st		/home/kskyj/sparrow4/util/testcode/c/MIS09.c:1:5:good1st:l.3870:a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c
+[ 9:52: 9] Analyzing 596 / 766 th function: good2nd		/home/kskyj/sparrow4/util/testcode/c/MIS09.c:5:5:good2nd:l.3868:a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c
+[ 9:52: 9] Analyzing 597 / 766 th function: goodAlgorithm		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.RISKY_ALGORITHM.c:24:5:goodAlgorithm:l.5259:ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c
+[ 9:52: 9] Analyzing 598 / 766 th function: goodDBIO		/home/kskyj/sparrow4/util/testcode/c/API43.c:19:5:goodDBIO:l.3133:66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c
+[ 9:52: 9] Analyzing 599 / 766 th function: set_err		/home/kskyj/sparrow4/util/testcode/c/main.c:358:5:SET_ERR:l.4643:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 9] Analyzing 600 / 766 th function: goodError		/home/kskyj/sparrow4/util/testcode/c/API20.c:17:5:goodError:l.3749:980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c
+[ 9:52: 9] Analyzing 601 / 766 th function: goodError2		/home/kskyj/sparrow4/util/testcode/c/API20.c:39:5:goodError2:l.3733:980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c
+[ 9:52: 9] Analyzing 602 / 766 th function: goodFoo		/home/kskyj/sparrow4/util/testcode/c/API25.c:18:5:goodFoo:l.5165:dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c
+[ 9:52: 9] Analyzing 603 / 766 th function: goodFunc		/home/kskyj/sparrow4/util/testcode/c/FBD14.c:12:5:goodFunc:l.5044:cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c
+[ 9:52: 9] Analyzing 604 / 766 th function: goodHeaderFunc		/home/kskyj/sparrow4/util/testcode/c/MIS10.h:1:5:goodHeaderFunc:l.3997:b74a165c1aa822f77de3f5dba95a19bddfebce2b.MIS10.c
+[ 9:52: 9] Analyzing 605 / 766 th function: goodKey		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.INSUFFICIENT_KEY.c:42:5:goodKey:l.5420:ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c
+[ 9:52: 9] Analyzing 606 / 766 th function: goodLoop		/home/kskyj/sparrow4/util/testcode/c/API44.c:11:5:goodLoop:l.3530:8b670eaf8e4405579afd773b71c9b6a7ecc5e875.API44.c
+[ 9:52: 9] Analyzing 607 / 766 th function: goodParam		/home/kskyj/sparrow4/util/testcode/c/API47.c:11:5:goodParam:l.1173:010ab1c36d9b776b778e38ca3933cb64714217dc.API47.c
+[ 9:52: 9] Analyzing 608 / 766 th function: goodReturn		/home/kskyj/sparrow4/util/testcode/c/API51.c:11:4:goodReturn:l.5229:ebd57031be3b51627e3e53a79c78c3ba8a817ba2.API51.c
+[ 9:52: 9] Analyzing 609 / 766 th function: srandom
+[ 9:52: 9] Analyzing 610 / 766 th function: seedRandom		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_RANDOM_USAGE.c:19:5:seedRandom:l.4965:c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c
+[ 9:52: 9] Analyzing 611 / 766 th function: goodRoleRandom		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_RANDOM_USAGE.c:29:4:goodRoleRandom:l.4955:c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c
+[ 9:52: 9] Analyzing 612 / 766 th function: goodSalt		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c:37:5:goodSalt:l.2136:3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c
+[ 9:52: 9] Analyzing 613 / 766 th function: goodSalt2		/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c:42:5:goodSalt2:l.2132:3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c
+[ 9:52: 9] Analyzing 614 / 766 th function: goodTest		/home/kskyj/sparrow4/util/testcode/c/MIS18.c:11:5:goodTest:l.3056:5eb7e94370c6b0ed3b023ed8fbb66a38289920d6.MIS18.c
+[ 9:52: 9] Analyzing 615 / 766 th function: goodUsage		/home/kskyj/sparrow4/util/testcode/c/API28.c:14:5:goodUsage:l.3070:5f47cdf1f7e4094a5255419fe9410b1e889e1f51.API28.c
+[ 9:52: 9] Analyzing 616 / 766 th function: longjmp
+[ 9:52: 9] Analyzing 617 / 766 th function: handler		/home/kskyj/sparrow4/util/testcode/c/SIG32.c:8:5:handler:l.3849:9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c
+[ 9:52: 9] Analyzing 618 / 766 th function: hardcoded_crypt		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:278:4:hardcoded_crypt:l.1621:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 619 / 766 th function: ignored_return_2_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:523:4:ignored_return_2_sub:l.2516:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 620 / 766 th function: ignored_return_2_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:526:5:ignored_return_2_main:l.2513:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 621 / 766 th function: ignored_return_value		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:514:5:ignored_return_value:l.2519:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 622 / 766 th function: information_exposure		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:171:4:information_exposure:l.1734:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 623 / 766 th function: information_leak		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:581:5:information_leak:l.2462:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 624 / 766 th function: integer_overflow		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:226:5:integer_overflow:l.1683:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 625 / 766 th function: ldap_search_ext_s		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:13:4:ldap_search_ext_s:l.1886:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 626 / 766 th function: ldap_injection		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:100:4:ldap_injection:l.1796:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 627 / 766 th function: ldap_simple_bind_s		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:14:4:ldap_simple_bind_s:l.1883:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 628 / 766 th function: snprintf
+[ 9:52: 9] Analyzing 629 / 766 th function: ldap_manipulation		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:113:4:ldap_manipulation:l.1786:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 630 / 766 th function: ldap_safe_manipulation		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:135:4:ldap_safe_manipulation:l.1760:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 631 / 766 th function: lstat
+[ 9:52: 9] Analyzing 632 / 766 th function: write
+[ 9:52: 9] Analyzing 633 / 766 th function: linkFile		/home/kskyj/sparrow4/util/testcode/c/crulcheck.c:75:5:linkFile:l.3657:9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c
+[ 9:52: 9] Analyzing 634 / 766 th function: push
+[ 9:52: 9] Analyzing 635 / 766 th function: macro_misuse		/home/kskyj/sparrow4/util/testcode/c/BAD_MACRO.MISUSE.c:9:38:macro_misuse:l.1197:047458cf0633ff9f4ad445b17131ac47e9b1da67.BAD_MACRO.MISUSE.c
+[ 9:52: 9] Analyzing 636 / 766 th function: sethostid
+[ 9:52: 9] Analyzing 637 / 766 th function: strcat
+[ 9:52: 9] Analyzing 638 / 766 th function: strncat
+[ 9:52: 9] Analyzing 639 / 766 th function: system
+[ 9:52: 9] Analyzing 640 / 766 th function: main		/home/kskyj/sparrow4/util/testcode/c/UNBOUNDED_SOURCE_TO_ARRAY.c:3:44:main:l.5027:ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c
+[ 9:52: 9] Analyzing 641 / 766 th function: mktemp_FB12
+[ 9:52: 9] Analyzing 642 / 766 th function: make_temp		/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.FORBIDDEN.LIB.TEMP.c:6:41:make_temp:l.5072:cd2c75cbe6a883f3f0aa3639b3bbba9444684961.BAD_CALL.FORBIDDEN.LIB.TEMP.c
+[ 9:52: 9] Analyzing 643 / 766 th function: malloc_FB06
+[ 9:52: 9] Analyzing 644 / 766 th function: memcpy_with_overlapping_regions		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:426:5:memcpy_with_overlapping_regions:l.2580:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 645 / 766 th function: realloc_FB06
+[ 9:52: 9] Analyzing 646 / 766 th function: memory		/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.LIBRARY.MEMORY.c:10:36:memory:l.5036:cafa4fa6c7ffd65203f4dce06c14917bc0e96421.BAD_CALL.LIBRARY.MEMORY.c
+[ 9:52: 9] Analyzing 647 / 766 th function: release		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:40:5:release:l.1850:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 648 / 766 th function: memory_leak		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:46:5:memory_leak:l.1846:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 649 / 766 th function: memory_leak_01_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:87:4:memory_leak_01_sub:l.2865:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 650 / 766 th function: memory_leak_01_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:97:4:memory_leak_01_main:l.2857:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 651 / 766 th function: memory_leak_complex_01_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:111:4:memory_leak_complex_01_sub:l.2846:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 652 / 766 th function: memory_leak_complex_01_sub_free		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:121:5:memory_leak_complex_01_sub_free:l.2838:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 653 / 766 th function: memory_leak_complex_01_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:125:4:memory_leak_complex_01_main:l.2833:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 654 / 766 th function: minimal_scope		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:617:5:minimal_scope:l.2432:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 655 / 766 th function: mis04_1		/home/kskyj/sparrow4/util/testcode/c/MIS04.c:10:5:mis04_1:l.4038:b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c
+[ 9:52: 9] Analyzing 656 / 766 th function: mis04_2		/home/kskyj/sparrow4/util/testcode/c/MIS04.c:22:5:mis04_2:l.4031:b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c
+[ 9:52: 9] Analyzing 657 / 766 th function: mis07		/home/kskyj/sparrow4/util/testcode/c/MIS07.c:5:33:mis07:l.1913:33055ec5e75adee463103914c229b01b082788f0.MIS07.c
+[ 9:52: 9] Analyzing 658 / 766 th function: mis19		/home/kskyj/sparrow4/util/testcode/c/MIS19.c:14:26:mis19:l.5287:f428b900febe1be00c6715b344d1681012b66431.MIS19.c
+[ 9:52: 9] Analyzing 659 / 766 th function: missing_function_return		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:645:4:missing_function_return:l.2426:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 660 / 766 th function: missing_return		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:398:4:missing_return:l.2601:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 661 / 766 th function: msc17		/home/kskyj/sparrow4/util/testcode/c/MSC17.c:1:24:msc17:l.3305:778f33f9b7619d829b4066717c21399bdf019829.MSC17.c
+[ 9:52: 9] Analyzing 662 / 766 th function: msc32		/home/kskyj/sparrow4/util/testcode/c/MSC32.c:5:26:msc32:l.1491:2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c
+[ 9:52: 9] Analyzing 663 / 766 th function: multiply		/home/kskyj/sparrow4/util/testcode/c/sub.c:91:5:multiply:l.1988:3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c
+[ 9:52: 9] Analyzing 664 / 766 th function: muti_stmt_without		/home/kskyj/sparrow4/util/testcode/c/BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c:5:59:muti_stmt_without:l.3014:58e920518236f799ac2cc404a5f04a8a5b0972a5.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c
+[ 9:52: 9] Analyzing 665 / 766 th function: negative_file_des		/home/kskyj/sparrow4/util/testcode/c/NEGATIVE_FILE_DESCRIPTOR.c:6:4:negative_file_des:l.3435:820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c
+[ 9:52: 9] Analyzing 666 / 766 th function: no_cases		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:45:5:no_cases:l.5361:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 667 / 766 th function: no_default		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:65:5:no_default:l.5343:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 668 / 766 th function: no_else_branch		/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c:2:5:no_else_branch:l.5384:f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c
+[ 9:52: 9] Analyzing 669 / 766 th function: noneffect		/home/kskyj/sparrow4/util/testcode/c/NONEFFECTIVE_FUNCTION_CALL.c:4:30:noneffect:l.3884:a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c
+[ 9:52: 9] Analyzing 670 / 766 th function: null_check_after_dereference		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:434:5:null_check_after_dereference:l.2573:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 671 / 766 th function: ret_null		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:65:5:ret_null:l.1821:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 672 / 766 th function: null_deref		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:70:5:null_deref:l.1816:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 673 / 766 th function: null_deref_01_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:182:5:null_deref_01_sub:l.2788:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 674 / 766 th function: null_deref_01_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:185:5:null_deref_01_main:l.2785:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 675 / 766 th function: null_deref_02_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:203:5:null_deref_02_main:l.2768:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 676 / 766 th function: null_deref_03_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:219:5:null_deref_03_main:l.2753:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 677 / 766 th function: null_deref_complex_01_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:191:5:null_deref_complex_01_sub:l.2779:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 678 / 766 th function: null_deref_complex_01_sub2		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:194:5:null_deref_complex_01_sub2:l.2776:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 679 / 766 th function: null_deref_complex_01_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:197:5:null_deref_complex_01_main:l.2773:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 680 / 766 th function: null_deref_complex_02_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:210:5:null_deref_complex_02_sub:l.2761:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 681 / 766 th function: null_deref_complex_02_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:213:5:null_deref_complex_02_main:l.2758:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 682 / 766 th function: order		/home/kskyj/sparrow4/util/testcode/c/API50.c:1:4:order:l.1381:1a8f580850535deac75f7d681dcb9ae2759f8ff7.API50.c
+[ 9:52: 9] Analyzing 683 / 766 th function: output
+[ 9:52: 9] Analyzing 684 / 766 th function: overrun_pf		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:570:4:overrun_pf:l.2476:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+Warning: summary of function 'overrun_pf' cannot be generated, because of MemSet.Error("MemSet.summarize: All paths are incomplete")
+[ 9:52: 9] Analyzing 685 / 766 th function: strtok
+[ 9:52: 9] Analyzing 686 / 766 th function: parser		/home/kskyj/sparrow4/util/testcode/c/crulcheck.c:65:5:parser:l.3672:9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c
+[ 9:52: 9] Analyzing 687 / 766 th function: pass_by_value		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:393:5:pass_by_value:l.2604:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 688 / 766 th function: perror
+[ 9:52: 9] Analyzing 689 / 766 th function: plaintext_passwd		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:263:5:plaintext_passwd:l.1642:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 690 / 766 th function: process_control		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:157:4:process_control:l.1744:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 691 / 766 th function: pthread_mutex_trylock
+[ 9:52: 9] Analyzing 692 / 766 th function: pthread_setcanceltype
+[ 9:52: 9] Analyzing 693 / 766 th function: recv		/home/kskyj/sparrow4/util/testcode/c/USE_CORRECT_BYTE_ORDERING.c:11:4:recv:l.5302:f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c
+[ 9:52: 9] Analyzing 694 / 766 th function: redundant_condition1		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:603:4:redundant_condition1:l.2448:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 695 / 766 th function: redundant_condition2		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:606:4:redundant_condition2:l.2445:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 696 / 766 th function: redundant_condition3		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:609:5:redundant_condition3:l.2442:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 697 / 766 th function: resource_injection		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:145:4:resource_injection:l.1754:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 698 / 766 th function: resource_leak_01_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:137:4:resource_leak_01_sub:l.2824:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 699 / 766 th function: resource_leak_01_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:145:4:resource_leak_01_main:l.2817:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 700 / 766 th function: resource_leak_complex_01_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:155:4:resource_leak_complex_01_sub:l.2810:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 701 / 766 th function: resource_leak_complex_01_sub_close		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:163:5:resource_leak_complex_01_sub_close:l.2803:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 702 / 766 th function: resource_leak_complex_01_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:167:4:resource_leak_complex_01_main:l.2798:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 703 / 766 th function: resource_limit		/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.FORBIDDEN.LIB.RESOURCE.c:12:35:resource_limit:l.2920:54ae2822ee086f96542f6faf2d6ea27c1664a03a.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c
+[ 9:52: 9] Analyzing 704 / 766 th function: return_pointer_to_freed		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:322:5:return_pointer_to_freed:l.2663:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 705 / 766 th function: return_pointer_to_freed_complex_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:329:5:return_pointer_to_freed_complex_sub:l.2657:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 706 / 766 th function: return_pointer_to_freed_complex		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:333:5:return_pointer_to_freed_complex:l.2652:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 707 / 766 th function: return_pointer_to_local		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:371:5:return_pointer_to_local:l.2617:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 708 / 766 th function: routine_in_macro		/home/kskyj/sparrow4/util/testcode/c/main.c:694:4:routine_in_macro:l.4381:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 9] Analyzing 709 / 766 th function: rpt		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:84:5:rpt:l.1807:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 710 / 766 th function: set_step_terminate
+[ 9:52: 9] Analyzing 711 / 766 th function: run_termnate		/home/kskyj/sparrow4/util/testcode/c/BAD_ARGS.FORBIDDEN.AFTER_CALL.c:8:33:run_termnate:l.5313:f79bb79a93bcc04b63bd06d8a0f3c30f2610e34c.BAD_ARGS.FORBIDDEN.AFTER_CALL.c
+[ 9:52: 9] Analyzing 712 / 766 th function: safe_file_operation		/home/kskyj/sparrow4/util/testcode/c/RACE_CONDITION.c:23:5:safe_file_operation:l.3974:b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c
+[ 9:52: 9] Analyzing 713 / 766 th function: safe_hardcoded_crypt		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:293:4:safe_hardcoded_crypt:l.1598:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 714 / 766 th function: safe_integer_overflow		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:236:5:safe_integer_overflow:l.1674:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 715 / 766 th function: safe_mutex		/home/kskyj/sparrow4/util/testcode/c/RACE_CONDITION.c:43:4:safe_mutex:l.3961:b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c
+[ 9:52: 9] Analyzing 716 / 766 th function: verify		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:17:5:verify:l.1875:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 717 / 766 th function: safe_plaintext_passwd		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:249:5:safe_plaintext_passwd:l.1662:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 718 / 766 th function: scanf		/home/kskyj/sparrow4/util/testcode/c/main.c:115:5:scanf:l.4914:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 9] Analyzing 719 / 766 th function: searchData2LDAP		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:206:4:searchData2LDAP:l.1698:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 720 / 766 th function: sleep_FB13
+[ 9:52: 9] Analyzing 721 / 766 th function: set_sleep_func		/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.FORBIDDEN.LIB.TIMER.c:5:35:set_sleep_func:l.1473:29cb2c63abf1c7104533ceab45a563cb298d6847.BAD_CALL.FORBIDDEN.LIB.TIMER.c
+[ 9:52: 9] Analyzing 722 / 766 th function: shift_exceeds_bit_width		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:443:5:shift_exceeds_bit_width:l.2568:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 723 / 766 th function: shift_negative		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:451:5:shift_negative:l.2561:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 724 / 766 th function: signal_FB10
+[ 9:52: 9] Analyzing 725 / 766 th function: signal_handler		/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.FORBIDDEN.LIB.SIGNAL.c:8:35:signal_handler:l.1262:0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c
+[ 9:52: 9] Analyzing 726 / 766 th function: sub_test		/home/kskyj/sparrow4/util/testcode/c/sub.c:39:4:sub_test:l.2026:3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c
+[ 9:52: 9] Analyzing 727 / 766 th function: substract		/home/kskyj/sparrow4/util/testcode/c/sub.c:80:4:substract:l.1996:3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c
+[ 9:52: 9] Analyzing 728 / 766 th function: sum		/home/kskyj/sparrow4/util/testcode/c/sub.c:75:4:sum:l.1999:3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c
+[ 9:52: 9] Analyzing 729 / 766 th function: tar		/home/kskyj/sparrow4/util/testcode/c/BAD_MALLOC.c:37:5:tar:l.5085:cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c
+[ 9:52: 9] Analyzing 730 / 766 th function: terminate_process		/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.FORBIDDEN.LIB.PROCESS.c:9:5:terminate_process:l.1252:0b861a382047ba80fc0293c64d7c6ae2a196dca5.BAD_CALL.FORBIDDEN.LIB.PROCESS.c
+[ 9:52: 9] Analyzing 731 / 766 th function: tprecv_FB11
+[ 9:52: 9] Analyzing 732 / 766 th function: terminate_tp		/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.FORBIDDEN.LIB.TP.c:10:42:terminate_tp:l.1409:20152ccf19e88700fc56297ac352ce5f913f06b4.BAD_CALL.FORBIDDEN.LIB.TP.c
+[ 9:52: 9] Analyzing 733 / 766 th function: testFunc		/home/kskyj/sparrow4/util/testcode/c/MIS16.c:4:5:testFunc:l.5246:ec377a459a3722866f87ecc5a0f9c39723ef82ab.MIS16.c
+[ 9:52: 9] Analyzing 734 / 766 th function: testFunc_A		/home/kskyj/sparrow4/util/testcode/c/MIS15_A.h:3:5:testFunc_A:l.1340:1353f524cb7f8b3b3235d3d52302275090c32ad4.MIS15.c
+[ 9:52: 9] Analyzing 735 / 766 th function: testFunc_B		/home/kskyj/sparrow4/util/testcode/c/MIS16_B.h:3:5:testFunc_B:l.5249:ec377a459a3722866f87ecc5a0f9c39723ef82ab.MIS16.c
+[ 9:52: 9] Analyzing 736 / 766 th function: test_double_param		/home/kskyj/sparrow4/util/testcode/c/main.c:717:4:test_double_param:l.4337:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 9] Analyzing 737 / 766 th function: test_extreme		/home/kskyj/sparrow4/util/testcode/c/UCTS-028.c:9:5:test_extreme:l.3204:6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c
+[ 9:52: 9] Analyzing 738 / 766 th function: test_macro_param_sub		/home/kskyj/sparrow4/util/testcode/c/main.c:696:4:test_macro_param_sub:l.4354:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 9] Analyzing 739 / 766 th function: test_macro_param		/home/kskyj/sparrow4/util/testcode/c/main.c:700:4:test_macro_param:l.4351:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52: 9] Analyzing 740 / 766 th function: test_strcpy		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:345:5:test_strcpy:l.1549:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 741 / 766 th function: test_strcpy_dyn		/home/kskyj/sparrow4/util/testcode/c/UCTS-028.c:17:4:test_strcpy_dyn:l.3198:6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c
+[ 9:52: 9] Analyzing 742 / 766 th function: try_lock_fail		/home/kskyj/sparrow4/util/testcode/c/TRYLOCK_FAIL.c:4:5:try_lock_fail:l.1289:0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c
+[ 9:52: 9] Analyzing 743 / 766 th function: type_underrun_bad		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:481:5:type_underrun_bad:l.2544:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 744 / 766 th function: type_underrun_static		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:475:5:type_underrun_static:l.2547:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 745 / 766 th function: underrun_static		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:459:5:underrun_static:l.2554:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 746 / 766 th function: underrun_static_bad_condition		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:466:5:underrun_static_bad_condition:l.2551:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 747 / 766 th function: unexpected_sign_extension		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:327:5:unexpected_sign_extension:l.1563:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 748 / 766 th function: unexpected_sign_extension2		/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c:307:5:unexpected_sign_extension2:l.1577:2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c
+[ 9:52: 9] Analyzing 749 / 766 th function: uninit		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:340:4:uninit:l.2646:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 750 / 766 th function: uninit_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:354:5:uninit_sub:l.2633:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 751 / 766 th function: uninit_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:364:4:uninit_main:l.2621:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 752 / 766 th function: unlock		/home/kskyj/sparrow4/util/testcode/c/DOUBLE_UNLOCK.c:5:5:unlock:l.2254:4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c
+[ 9:52: 9] Analyzing 753 / 766 th function: unreachable_code		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:502:5:unreachable_code:l.2529:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 754 / 766 th function: unresonable_parameter		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:489:5:unresonable_parameter:l.2540:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 755 / 766 th function: use_after_free		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:306:5:use_after_free:l.2676:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 756 / 766 th function: use_after_free_complex_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:312:5:use_after_free_complex_sub:l.2672:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 757 / 766 th function: use_after_free_complex		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:316:5:use_after_free_complex:l.2667:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52: 9] Analyzing 758 / 766 th function: use_correct_byte		/home/kskyj/sparrow4/util/testcode/c/USE_CORRECT_BYTE_ORDERING.c:14:5:use_correct_byte:l.5299:f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c
+[ 9:52:10] Analyzing 759 / 766 th function: useruser		/home/kskyj/sparrow4/util/testcode/c/ENV04.c:4:27:useruser:l.3164:6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c
+[ 9:52:10] Analyzing 760 / 766 th function: varargs_func_cast_main		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:564:5:varargs_func_cast_main:l.2480:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52:10] Analyzing 761 / 766 th function: varargs_func_cast_sub		/home/kskyj/sparrow4/util/testcode/c/all_sample.c:561:5:varargs_func_cast_sub:l.2482:4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c
+[ 9:52:10] Analyzing 762 / 766 th function: vodmain		/home/kskyj/sparrow4/util/testcode/c/main.c:817:4:vodmain:l.4235:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52:10] Analyzing 763 / 766 th function: worker_thread		/home/kskyj/sparrow4/util/testcode/c/crulcheck.c:21:5:worker_thread:l.3713:9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c
+Warning: summary of function 'worker_thread' cannot be generated, because of MemSet.Error("MemSet.summarize: All paths are incomplete")
+[ 9:52:10] Analyzing 764 / 766 th function: xmalloc		/home/kskyj/sparrow4/util/testcode/c/main.c:465:5:xmalloc:l.4551:c52b51d9f9482350a90697381af642a5085a8385.main.c
+[ 9:52:10] Analyzing 765 / 766 th function: xman		/home/kskyj/sparrow4/util/testcode/c/IMPROPER_NULL_TERMINATION.c:53:5:xman:l.3466:87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c
+[ 9:52:10] Analyzing 766 / 766 th function: zoo		/home/kskyj/sparrow4/util/testcode/c/BAD_MALLOC.c:25:5:zoo:l.5097:cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c
+# Cache hit  = 275
+# Cache miss = 109
+Step: XML: finished: (0.38s)
+Step: Analyze: finished: (2.99s)
+Step: Total: finished: (9.39s)
+=== Warning Summary ===
+Duplicated functions (28 functions)
+ Func aux_test_extreme badError badError2 badFoo bar dbaccess f foo foo2 func func1 func2 getSSS goodError goodError2 goodFoo goodFunc handler log_message main malloc printf run_termnate strcpy testFunc testFunc_B test_extreme
+Skipped functions which have no definitions (91 functions))
+ API06_NEED_WRAPPER API06_WRAPPER API07_FUNC EVP_CIPHER_CTX_init EVP_EncryptInit EVP_aes_128_cbc EVP_des_ecb FCINLOOP_SUB Fun_API04_call LB_call_WA LB_call_WLC_exit LcfApError_API22 LcfSetUIMsg_API22 PFM_ERR_API10 PfmNumber_API10 RSA_generate_key RSA_new() RSA_private_decrypt(int, char *, char *, int *, int) RSA_public_encrypt(int, char *, char *, int *, int) SET_ERROR_API08 SET_ERR_API19 SET_ERR_API21 SQLAllocHnadle SQLConnect(int, char *, int, char *, int, char *, int) _setjmp atexit base64_decode(char *) chroot crypt execl fchmod fork_FB08 fread funcOne funcTwo fwrite getResource getgid getlogin getpwnam getrlimit_FB09 gets isTrustedGroup isUserAuthentic longjmp lstat malloc_FB06 memcpy_API01 memcpy_API02 memcpy_API03 memcpy_API09 memcpy_API11 memcpy_API12 memcpy_API14 memcpy_API15 memset_API13 mktemp_FB12 operator delete (void *) operator delete[] (void *) operator new (unsigned int) operator new[] (unsigned int) output perror pfmDbioCommit pfmDbioRollback pthread_create pthread_setcanceltype push realloc_FB06 set_step_terminate seteuid setgid sethostid setsockopt setuid signal_FB10 sleep_FB13 some_error some_error2 srand srandom strlen(const char *) strlen_API11 strlen_API12 strncmp system time tmpnam(char *) tprecv_FB11 umask_FBD16 unknown

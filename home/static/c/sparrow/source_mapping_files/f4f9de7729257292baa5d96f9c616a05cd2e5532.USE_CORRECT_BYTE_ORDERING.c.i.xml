@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/USE_CORRECT_BYTE_ORDERING.c">
+        <orgPrepFilename>153.USE_CORRECT_BYTE_ORDERING.c.i</orgPrepFilename>
+        <newPrepFilename>f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i</newPrepFilename>
+        <orgMetaSourceFilename>153.USE_CORRECT_BYTE_ORDERING.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>628a20570071db005e34749215f0f5e7c5769417.USE_CORRECT_BYTE_ORDERING.c</newMetaSourceFilename>
+        <compileOption text="-c USE_CORRECT_BYTE_ORDERING.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/USE_CORRECT_BYTE_ORDERING.c</sourcePath>
+                <metaSourceFilename>628a20570071db005e34749215f0f5e7c5769417.USE_CORRECT_BYTE_ORDERING.c</metaSourceFilename>
+            </source>
+            <source systemHeader="false" userHeader="true">
+                <sourcePath>/usr/include/_G_config.h</sourcePath>
+                <metaSourceFilename>3ef8102eb64714a10b5352999a914bd2393a2af9._G_config.h</metaSourceFilename>
+                <smap headerFilename="bits/types.h" metaHeaderFilename="479dff664ef27ce12674108e2ff8f812bba03347.types.h" line="9" />
+                <smap headerFilename="wchar.h" metaHeaderFilename="4fa5fcd84564709d6665299c6bd6f0b92b723b1e.wchar.h" line="20" />
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\628a20570071db005e34749215f0f5e7c5769417.USE_CORRECT_BYTE_ORDERING.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/MIS11.c">
+        <orgPrepFilename>118.MIS11.c.i</orgPrepFilename>
+        <newPrepFilename>798f0eecbb70a61ae67e351ceff38d38a3830235.MIS11.c.i</newPrepFilename>
+        <orgMetaSourceFilename>118.MIS11.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>929d08ad56a64beaf29457113200f1bb70e580b5.MIS11.c</newMetaSourceFilename>
+        <compileOption text="-c MIS11.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/MIS11.c</sourcePath>
+                <metaSourceFilename>929d08ad56a64beaf29457113200f1bb70e580b5.MIS11.c</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\929d08ad56a64beaf29457113200f1bb70e580b5.MIS11.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\798f0eecbb70a61ae67e351ceff38d38a3830235.MIS11.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

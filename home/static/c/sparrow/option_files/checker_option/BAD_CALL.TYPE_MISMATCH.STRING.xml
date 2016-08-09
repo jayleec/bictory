@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+    <category name="BAD_CALL.TYPE_MISMATCH.STRING">
+        <item name="str_function" type="string" required="true" variable="true">
+            <value>strncpy</value>
+        </item>
+        <item name="wcs_function" type="string" required="true" variable="true">
+            <value>wcsncpy</value>
+		</item>
+    </category>
+</option>

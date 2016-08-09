@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+	<category name="IMPROPER_RANDOM_USAGE">
+		<item name="targets" type="string" required="true" variable="true" regex="false">
+			<value>random,srandom</value>
+			<value>CryptGenRandom,CryptAcquireContext</value>
+			<value>CryptGenRandomW,CryptAcquireContext</value>
+		</item>
+	</category>
+</option>

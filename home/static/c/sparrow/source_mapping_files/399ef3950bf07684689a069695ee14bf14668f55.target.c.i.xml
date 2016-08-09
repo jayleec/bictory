@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/target.c">
+        <orgPrepFilename>164.target.c.i</orgPrepFilename>
+        <newPrepFilename>399ef3950bf07684689a069695ee14bf14668f55.target.c.i</newPrepFilename>
+        <orgMetaSourceFilename>164.target.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>8411c816990a6ddaaf573985ac3a30360cc1d50c.target.c</newMetaSourceFilename>
+        <compileOption text="-c target.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/target.c</sourcePath>
+                <metaSourceFilename>8411c816990a6ddaaf573985ac3a30360cc1d50c.target.c</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8411c816990a6ddaaf573985ac3a30360cc1d50c.target.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\399ef3950bf07684689a069695ee14bf14668f55.target.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

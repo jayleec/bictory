@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/BAD_MALLOC.c">
+        <orgPrepFilename>72.BAD_MALLOC.c.i</orgPrepFilename>
+        <newPrepFilename>cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c.i</newPrepFilename>
+        <orgMetaSourceFilename>72.BAD_MALLOC.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>1506e8952c53ec7ebb9c621fd5c9bcd498303290.BAD_MALLOC.c</newMetaSourceFilename>
+        <compileOption text="-c BAD_MALLOC.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/BAD_MALLOC.c</sourcePath>
+                <metaSourceFilename>1506e8952c53ec7ebb9c621fd5c9bcd498303290.BAD_MALLOC.c</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\1506e8952c53ec7ebb9c621fd5c9bcd498303290.BAD_MALLOC.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

@@ -1,0 +1,2552 @@
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3922b8d59fde6e0e08f927ff088c28836a0cd584.API47.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f33d3b247d7ce02d78ea10e721aad31c6ca57aae.MULTIPLE_BINDS_TO_SAME_PORT.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f56f40cf4baee8b57f901de33b360559936a39c6.BAD_MACRO.MISUSE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8332bc705d6a438f56012b9918138e5ba8251cd9.FBD15.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3153d56a3ac3addde88ba08d4309e3d25575db21.MSC34.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3153d56a3ac3addde88ba08d4309e3d25575db21.MSC34.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3153d56a3ac3addde88ba08d4309e3d25575db21.MSC34.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a49007d899d1c301eea69de60951cafbf0f823c9.BAD_CALL.IMPROPER_VARARGS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\87ffc3b2f9eea849789edf9e3c5a569363005d43.BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3687a8c3dd4ce928e6263b1cb0c8146055bbf15a.BAD_CALL.FORBIDDEN.LIB.PROCESS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\248f0363c0d06b4abd53ebc504fd5ac3adeeca0c.API27.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\dc38f1a453dab92c4fa36a3f927ebd008dff4c54.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7c01d252dbc26b899e3a1d39563b206f25991869.TRYLOCK_FAIL.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7c01d252dbc26b899e3a1d39563b206f25991869.TRYLOCK_FAIL.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7c01d252dbc26b899e3a1d39563b206f25991869.TRYLOCK_FAIL.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\88736dea15fa6f8974578759dd3534153dffee81.BAD_CALL.TYPE_MISMATCH.STRING.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c6db54236b5a9f03d23be2f00baf191777b545f9.BAD_INCLUDE.FORBIDDEN.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ef4caedc481dd0598e0dc8f37bb5ca907ef5ef2.API36.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\59af756e675e68bc370cb9ad549401d85030ab03.MIS03.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\74035719d9da13de82b8d5e06c6cbed00b887208.MIS15.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8b551d1e78592aa552a4ed5b4cfbcb24cb94411c.FORBIDDEN_CALL.BEFORE_CALL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b8e67b931c5b1e25f0a4ee43d06b1eaf59ec6cfa.API50.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\04a26018bec3b0059405ad31206ec9f70e3fb0dd.MIS17.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f8b6ae22fadebee73aacf2ff0ef7da7dbbb49c61.API29.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2336a8990460f192e17b6d1a8ebbc01da1dadacb.BAD_CALL.FORBIDDEN.LIB.TP.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4893af9a5e82b0a905aa5049ed7107e4c02ed697.BAD_CALL.REQUIRED.PRE_CALL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\368f27d1c4d2413e745d9ca2aae30244ead1db5d.BAD_QUALIFIER.FORBIDDEN.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\659c800feaf2f4f0b3e05f799846a78287c428f8.SIZE_CALCULATION_BAD_COMPARE.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\659c800feaf2f4f0b3e05f799846a78287c428f8.SIZE_CALCULATION_BAD_COMPARE.c", line 1: catastrophic error: cannot open source file "/usr/include/stdio.h"
+  #include </usr/include/stdio.h>
+                                 ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\659c800feaf2f4f0b3e05f799846a78287c428f8.SIZE_CALCULATION_BAD_COMPARE.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\08bdd2c85957dc75676509e556827e3f344d100d.BAD_CALL.REQUIRED.VARARGS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\97071056f5c75cca00f52b353ff1d91f7204f072.BAD_INCLUDE.INVALID_PATH.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f5062796510094299fc85f6eac080f3b4a41a84d.BAD_CALL.FORBIDDEN.LIB.TIMER.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7ad88b383294b14d94d56533c201003d291b7c3d.MSC32.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7ad88b383294b14d94d56533c201003d291b7c3d.MSC32.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7ad88b383294b14d94d56533c201003d291b7c3d.MSC32.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\1dd2fb9106a7fc5c555dd7e2adccfbcd6e48e9cf.SECURE_OPUS_COMPLEX.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\1dd2fb9106a7fc5c555dd7e2adccfbcd6e48e9cf.SECURE_OPUS_COMPLEX.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include<stdio.h>
+                   ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\1dd2fb9106a7fc5c555dd7e2adccfbcd6e48e9cf.SECURE_OPUS_COMPLEX.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7d6c311fea5546626112bd83e7a23a94e63a61fb.INCORRECT_PERMISSION.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7d6c311fea5546626112bd83e7a23a94e63a61fb.INCORRECT_PERMISSION.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7d6c311fea5546626112bd83e7a23a94e63a61fb.INCORRECT_PERMISSION.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\9fbf4c95051e7ada18676d1934e6a2cd37c0715b.MIS07.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ebfd029d992faa104308628a06314cbd3f01934.DOUBLE_LOCK.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ebfd029d992faa104308628a06314cbd3f01934.DOUBLE_LOCK.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ebfd029d992faa104308628a06314cbd3f01934.DOUBLE_LOCK.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2ef2c0909ce448942ce91d8db6cf9471e87d02e6.API32.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3e042667e50e93e8cfed31ba3de2a18d32d01fa6.TOO_MANY_METHODS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8411c816990a6ddaaf573985ac3a30360cc1d50c.target.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\695fd75a946e725927c6472935dee7bddfd04443.BAD_CALL.FORBIDDEN.PARAM.NAME.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\02f6b0606eb3f82fdb9f692cb7db836b53e82399.sub.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fdf433a2d6f051f7965f6c31fc7d64eadaeebbf5.MIS14.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b8cd937a78192df8426e5e88a5561a8311adc0e5.BAD_INIT.CHAR_ARRAY.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b5e565bbba11bdccc2dc7856e7372af39482c06b.BAD_CALL.FORBIDDEN.VARARGS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c9ea1bf9e04e1052363ddaa25deabd3cc8b8ada0.FBD01.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\dff0b44107663701f030e9a77b633e0ec8c24427.BAD_CALL.REQUIRED.PARAM.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\6d24961a2885d522ed83e35e5734c34f2f736efd.BAD_CALL.NOT_ALLOWED.PARAM.NAME.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\95b0cc897c965867ed8ca1e7b0e7ef60f17066e3.EXCESSIVE_STACK_DEPTH.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\95b0cc897c965867ed8ca1e7b0e7ef60f17066e3.EXCESSIVE_STACK_DEPTH.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\95b0cc897c965867ed8ca1e7b0e7ef60f17066e3.EXCESSIVE_STACK_DEPTH.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a641c0279d2ec71702f1fbdbae69463d99c1e57e.BAD_STRING_MANAGEMENT.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ebc514aadc9a73a01072de10c2cb060b4b1ecba4.BAD_CALL.FORBIDDEN.PARAM.LITERAL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\671a213fc45b1b2b96f6823b7fc582358dc4cb2b.WEAK_ENCRYPTION.HARDCODED_SALT.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\671a213fc45b1b2b96f6823b7fc582358dc4cb2b.WEAK_ENCRYPTION.HARDCODED_SALT.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\671a213fc45b1b2b96f6823b7fc582358dc4cb2b.WEAK_ENCRYPTION.HARDCODED_SALT.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d0df751c6e4d59548766b91b458008f0757c09c0.API46.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cbfcb364c6b0eeeeff0b09db8b44bc8c3050cd94.API41.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\52f6acb3807642b2406398414d5cecb8d765d70a.MIS06.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\232914a18617c0ab5d10bd70ade515530a595595.API42.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\232914a18617c0ab5d10bd70ade515530a595595.API42.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\232914a18617c0ab5d10bd70ade515530a595595.API42.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c74238b52d3ce1b68d31b551b5eaa31a430c0552.DOUBLE_UNLOCK.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c74238b52d3ce1b68d31b551b5eaa31a430c0552.DOUBLE_UNLOCK.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c74238b52d3ce1b68d31b551b5eaa31a430c0552.DOUBLE_UNLOCK.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\5e403105ff1d239e306e8086f9081ce891af5503.BAD_CALL.MISSING_CALL_PARAM.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\eed096e7d8c281058d3c209bf77aed8d49bc6207.API24.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\28c927ceabb131b0165132414d04847ee239d649.API40.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4d8fba94cc359fb5cc9f406411587fca9b19e4c2.MIS22.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8d9135006e0d654c2daef5f4a56aefacbf693b27.API35.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b0a8614e01e5e0b514dc2a0a696b695ca824540f.all_sample.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b0a8614e01e5e0b514dc2a0a696b695ca824540f.all_sample.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b0a8614e01e5e0b514dc2a0a696b695ca824540f.all_sample.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\277d3624cc044f06cc876976fdaf8d08e01bd05e.BAD_INTEGER_CONST_DEFINITION.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d53ff91425213d3316e10c75dc10f142417273db.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\452ea360e42e63e6ca50f67bc44b834eae98d142.PASSWORD_IN_COMMENT.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\452ea360e42e63e6ca50f67bc44b834eae98d142.PASSWORD_IN_COMMENT.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\452ea360e42e63e6ca50f67bc44b834eae98d142.PASSWORD_IN_COMMENT.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\55042a8671f07a70473a90aa54f172d3bfd90bfc.PASSWORD_IN_COMMENT.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b3d8dca7188d1e7f2089331ae2e030e1c0ada610.ENV32.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b3d8dca7188d1e7f2089331ae2e030e1c0ada610.ENV32.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b3d8dca7188d1e7f2089331ae2e030e1c0ada610.ENV32.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\565649f83bba965086bccb1b8ee260d59491a413.ENV32.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c582a9bf93afcaa7ab59fbc6f214d3fba6548f81.SECURITY_DECISION_ON_DNS_LOOKUP.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c582a9bf93afcaa7ab59fbc6f214d3fba6548f81.SECURITY_DECISION_ON_DNS_LOOKUP.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c582a9bf93afcaa7ab59fbc6f214d3fba6548f81.SECURITY_DECISION_ON_DNS_LOOKUP.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d89cc60508c3ae22c2b301a5c32a49b2f052044f.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cb71aa353ed00bc1163d06bb72f983603d860da5.MISSING_WRAPPER_ON_VARIABLE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\384a5c2900c89044aac5c2ebbf3a9a7d437a790d.BAD_PRIVILEGE_RELINQUISHMENT.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\327d428a603798db090afef488d845c526c26989.INCONSISTENT_GLOBAL_VARIABLE_TYPE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\86803c6690b205cb3b086b982c7851091ed84585.BAD_CALL.FORBIDDEN.PARAM.STRING.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\dd99fa0fcf3f05d8fb0717b6282c32c7a71a172e.MIS18.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c85a59b2a1f9e2da094d48702ea5f2bcae09b122.API28.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\12fe6c873bba409fb6d0d79d4e896478b68d5657.MIS20.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\94ddbdf87294b5ab96d6af444306da1b880497a7.API30.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3a6887866b11318f3a6a27b7fd26f3a5866b2b1b.FUNCTION_DEFINITION_TYPE_MISMATCH.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f04fd93698ca6f5b59d8f7069802b28ad799b6d8.API45.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e2235fd985fd69ae4a24275d8c29f3a00fa6f4b4.API43.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8e0a5b1f45c8daea31700bed09096db249e9b1ed.UCTS-041.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8e0a5b1f45c8daea31700bed09096db249e9b1ed.UCTS-041.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8e0a5b1f45c8daea31700bed09096db249e9b1ed.UCTS-041.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\da4c7250f4490cac0b097abb4485a3d0bdad79f1.ENV04.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\da4c7250f4490cac0b097abb4485a3d0bdad79f1.ENV04.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\da4c7250f4490cac0b097abb4485a3d0bdad79f1.ENV04.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\57d973b7abfb464d5bbc78d532d37c2cfcc3545f.API23.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f89a8cda122bd9615247b72c93db9a7172121f15.UCTS-028.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f89a8cda122bd9615247b72c93db9a7172121f15.UCTS-028.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f89a8cda122bd9615247b72c93db9a7172121f15.UCTS-028.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\05a1b2c41829718d5190527a43a334b54573910b.BAD_CALL.REQUIRED.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2f920790779bf9cab0640aa9e872010d25b0256e.MEM08.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2f920790779bf9cab0640aa9e872010d25b0256e.MEM08.c", line 1: catastrophic error: cannot open source file "stdlib.h"
+  #include <stdlib.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2f920790779bf9cab0640aa9e872010d25b0256e.MEM08.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\748710d1f49ce858ea2a7846e8380af866230841.BAD_STRUCT_MEMBER_ACCESS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b06877b269e38bc7781adc5291d63a0fddfac43b.BAD_CALL.REQUIRED.ARGS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f9c3c4791797701e57c396db7f0e78d81d3a3e6a.PREMATURE_THREAD_TERMINATION.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\5a137faa35d387b706eac3e2e4ec80308d0957eb.MSC17.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\929d08ad56a64beaf29457113200f1bb70e580b5.MIS11.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\6e29ae152db39633f027e545cc6dc073032fe481.MIS21.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ea3f4a115eb4357861f32b706dc9b85d8faa3161.mismatch.cpp
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ea3f4a115eb4357861f32b706dc9b85d8faa3161.mismatch.cpp", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ea3f4a115eb4357861f32b706dc9b85d8faa3161.mismatch.cpp".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2e1b360fe0781bb5f7b89ef415f83a82b1d51031.FIO43.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2e1b360fe0781bb5f7b89ef415f83a82b1d51031.FIO43.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2e1b360fe0781bb5f7b89ef415f83a82b1d51031.FIO43.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cf08979ae09f35d83c34359e833305e0a277189d.WEAK_ENCRYPTION.PASSWORD.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cf08979ae09f35d83c34359e833305e0a277189d.WEAK_ENCRYPTION.PASSWORD.c", line 2: catastrophic error: cannot open source file "string.h"
+  #include <string.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cf08979ae09f35d83c34359e833305e0a277189d.WEAK_ENCRYPTION.PASSWORD.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d7b04fa315bbf89414c44584b8bb56419cb19c66.API38.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4b2ce923be2fc61de95a24c880e8dcdd68b35e34.DO_NOT_USE_SIZEOF_ON_PTR.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\9218ee427ac39f14bfc68964090041f21f6be654.WEAK_ENCRYPTION.RSA_PADDING.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a30bd1b6454e4efbb652c42958fd3c3f5d0e7c18.NEGATIVE_FILE_DESCRIPTOR.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a30bd1b6454e4efbb652c42958fd3c3f5d0e7c18.NEGATIVE_FILE_DESCRIPTOR.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a30bd1b6454e4efbb652c42958fd3c3f5d0e7c18.NEGATIVE_FILE_DESCRIPTOR.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d02e24f8d86089e2bbea42558345da3cc5a42813.BAD_CALL.REQUIRED.WRAPPER.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\85109332421347066cf85514959b9304ef25bb46.IMPROPER_NULL_TERMINATION.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\85109332421347066cf85514959b9304ef25bb46.IMPROPER_NULL_TERMINATION.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\85109332421347066cf85514959b9304ef25bb46.IMPROPER_NULL_TERMINATION.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\45e9042cc2fced9a5fcf277d38d0f913bc1ae2f2.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\45e9042cc2fced9a5fcf277d38d0f913bc1ae2f2.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\45e9042cc2fced9a5fcf277d38d0f913bc1ae2f2.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\311e5f9e50954c1560d3a0e1d14928a69acff1be.CHECK_ALIGNMENT_OF_MEMORY.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\311e5f9e50954c1560d3a0e1d14928a69acff1be.CHECK_ALIGNMENT_OF_MEMORY.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\311e5f9e50954c1560d3a0e1d14928a69acff1be.CHECK_ALIGNMENT_OF_MEMORY.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\0fc05c2a5a054d2e641a94321a388965fe62b300.API44.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7755dc36c7d2129ead4a323d933d48f55031b577.API31.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b6e7616ccff328e740f502da33d853c7bfa7d1c7.BAD_OPERATOR.LOGICAL_COMPARISON.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\84928d72e5bc0348e3f84024495338619bce8040.UNCONTROLLED_RECURSION.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3a9be3f1f11aac5d1dd773c19fd9aa125ab855bd.BAD_CALL.FORBIDDEN.PARAM.NUMBER.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\41a4c01ed1054b450b0886d5d44911fbc980509a.API37.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e32f95386a4f9d625125740da073282cf152f892.crulcheck.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e32f95386a4f9d625125740da073282cf152f892.crulcheck.c", line 2: catastrophic error: cannot open source file "sys/types.h"
+  #include <sys/types.h>
+                        ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e32f95386a4f9d625125740da073282cf152f892.crulcheck.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\bd6ce69f9a8f4fc2fbc7de0d357670904775a66d.API20.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a53227d447b7e947d5a1b24792bf6540559c2640.API48.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fbd4ca36b9ba5e048abf1b1896c0ff23e2595ac8.SIG30.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fbd4ca36b9ba5e048abf1b1896c0ff23e2595ac8.SIG30.c", line 1: catastrophic error: cannot open source file "signal.h"
+  #include <signal.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fbd4ca36b9ba5e048abf1b1896c0ff23e2595ac8.SIG30.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d9ed04bd3b635c1e96f7b59733a7507b6e812d7f.BAD_MACRO.DANGEROUS_USAGE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\65357a6b29b706c4fc69d3c2974a8dbb457c1002.SIG32.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\65357a6b29b706c4fc69d3c2974a8dbb457c1002.SIG32.c", line 1: catastrophic error: cannot open source file "setjmp.h"
+  #include <setjmp.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\65357a6b29b706c4fc69d3c2974a8dbb457c1002.SIG32.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\076775a8a2cec39f8eb17f26f1379bbadfcf88e7.API39.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\bcef9df60879814365c3d52b6aee49a54a3912be.MIS09.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cb74a4f892af06ae877ae832072408e91361ecdf.BAD_CALL.REQUIRED.LIB_CALL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc0ddfbf439b9530a1642883bd42418c3b0d553b.NONEFFECTIVE_FUNCTION_CALL.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc0ddfbf439b9530a1642883bd42418c3b0d553b.NONEFFECTIVE_FUNCTION_CALL.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc0ddfbf439b9530a1642883bd42418c3b0d553b.NONEFFECTIVE_FUNCTION_CALL.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b869ce5b07ef13f282cd9870786da49efc58ba75.BAD_CALL.FORBIDDEN.PARAM.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3c8edb961d037e32f7e2aa82f84bf2c2e3a57a0f.API16.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2697a34392907a87d0aa022b546325bfed66d5b7.MIS23.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\106f1c1826240ae21e10513d22721fb32492f868.EXECL_REVEALS_DATA.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\106f1c1826240ae21e10513d22721fb32492f868.EXECL_REVEALS_DATA.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\106f1c1826240ae21e10513d22721fb32492f868.EXECL_REVEALS_DATA.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\bea0244f86baa0fa2d962e0657c0c791550d3e55.RACE_CONDITION.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\391f28d9f2726dd51fbc9413db5b15d080dbcdfa.BAD_CALL.NOT_ALLOWED.PARAM.STRING.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\90ebc4dff477c1c50daec1f717102e13929ac3b1.MIS10.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4731cb17cb9913beed1f906bfb8dc194355a42d8.MIS05.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7a22b2dbfc05e525d3f111ab4cb42d6685e21a99.MIS04.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7a22b2dbfc05e525d3f111ab4cb42d6685e21a99.MIS04.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7a22b2dbfc05e525d3f111ab4cb42d6685e21a99.MIS04.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ccfa52f9c893fb82851c07b0ba871d725a6bc88.DO_NOT_ASSUME_ENV.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ccfa52f9c893fb82851c07b0ba871d725a6bc88.DO_NOT_ASSUME_ENV.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ccfa52f9c893fb82851c07b0ba871d725a6bc88.DO_NOT_ASSUME_ENV.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\24d654582a4e9503d99f26ad30388333ca206829.BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\579c64886ec0a024bffc011ea8ae198566bb2501.os_con_imp_int.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\579c64886ec0a024bffc011ea8ae198566bb2501.os_con_imp_int.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\579c64886ec0a024bffc011ea8ae198566bb2501.os_con_imp_int.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\c4405c999830b41d895444cfc8907929ec23cc1a.os_con_imp_int.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4b818bac163ebc54985d701b4a36a9f6e299d7cb.main.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b9ece3dfdb8537d4df7c2d30d7aeaf9bd189082e.DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a9742bea27813ae41fa09e2212d934c4b80cea9a.IMPROPER_RANDOM_USAGE.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a9742bea27813ae41fa09e2212d934c4b80cea9a.IMPROPER_RANDOM_USAGE.c", line 2: catastrophic error: cannot open source file "time.h"
+  #include <time.h>
+                   ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a9742bea27813ae41fa09e2212d934c4b80cea9a.IMPROPER_RANDOM_USAGE.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7a910e9da6fd97078929bceb7f0b28f17b75e173.BAD_QUALIFIER.REQUIRED.PARAM_PTR.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\237885f0a1b3812fbaf18114a0615372dae846ab.BAD_INCLUDE.DUPLICATED.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\22910708cd482dec26de9817c7392b4a06d7fcf2.DO_NOT_USE_HARD_CODING.USERNAME.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\407b0267e5b3b69040e66b13b3a32b9d872a1928.BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b28158d1200f179d3b038a878543e12116f3490e.UNBOUNDED_SOURCE_TO_ARRAY.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b28158d1200f179d3b038a878543e12116f3490e.UNBOUNDED_SOURCE_TO_ARRAY.c", line 1: catastrophic error: cannot open source file "string.h"
+  #include <string.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b28158d1200f179d3b038a878543e12116f3490e.UNBOUNDED_SOURCE_TO_ARRAY.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\85436e9dec02c3f196816adb13b782775290e7e6.BAD_CALL.LIBRARY.MEMORY.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f31e4f31f5874392c2678ed6c0bfb967c8f4cf70.FBD14.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ab3bb428d8a41cd86e6c9f606ce3fa4234fd70fe.MIS08.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\9ee4003aab2b6934da417c93bcb85e3df561c6ad.BAD_CALL.FORBIDDEN.LIB.TEMP.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\1506e8952c53ec7ebb9c621fd5c9bcd498303290.BAD_MALLOC.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cf67bd7e3c209cf60adb66c52a8fce47f348fa68.BAD_CALL.MISSING_CALL_PARAM.EXTENDED.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e200d6369b0985974fc2fa9a6197fc0913623aac.MIS01.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d8f52698307bc0af275e9131c24b39e3109921fb.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\dc174be5d7ac8a41cfdd55002a69a9cfc4efc943.API05.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fb5229e95c2163820d06599bf23da5cc55ddcad6.BAD_OPERATOR.ASSIGNMENT_IN_COND.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f20833c6af82f1d2aa6d0e4d20bc40201f1012bc.BAD_ERROR.INVALID_CODE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\31aeb75b5f0c61534082a49c55287c8a09620643.API33.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a3910d304693d4b35eddfe09489fc3a0dc67ab21.API25.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc591ee36422bffc22e937df6cf4f5a24b9aa698.BAD_CALL.TYPE_MISMATCH.SPRINTF.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc591ee36422bffc22e937df6cf4f5a24b9aa698.BAD_CALL.TYPE_MISMATCH.SPRINTF.c", line 3: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc591ee36422bffc22e937df6cf4f5a24b9aa698.BAD_CALL.TYPE_MISMATCH.SPRINTF.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\e3030443c680421f76653fab89ea32b99726f6ae.BAD_CALL.TYPE_MISMATCH.SPRINTF.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ff33c53a6d69281abcce45b84f01760c4f1d043f.MIS24.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\6ed6ec15dec700f64bee7e2bd632f09a3219f7f4.BAD_NAME.VARIABLE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b0faeeb2ad7d9270fea38f8a662d66a00bb7d657.FORBIDDEN_CALL.LOOP.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ad9245f6ec0b49f635677c4c70e96150d32cbe7a.API34.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\56dc8b0e2fa7f387ec893d1f26de59561e79260f.API51.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3abd35af3d677ef24515ee6755473998983b2920.PRE09.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\5624522673d1f412aa39269dfa62372070ae64f5.MIS16.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\006f6149a010c99731c04c2f0caaec19e6074457.WEAK_ENCRYPTION.RISKY_ALGORITHM.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\006f6149a010c99731c04c2f0caaec19e6074457.WEAK_ENCRYPTION.RISKY_ALGORITHM.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\006f6149a010c99731c04c2f0caaec19e6074457.WEAK_ENCRYPTION.RISKY_ALGORITHM.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e19b1b169cc60c04f76ae9391720b9cb666773ca.BAD_ERROR.MISSING_INIT.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\bad4e8acbf6eb33560d90e12fb4b4fc1fb97db97.BAD_ERROR.MISSING_RETURN.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e62be86da7a735257f3ae7b0aa9db5f4a9212541.MIS19.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\628a20570071db005e34749215f0f5e7c5769417.USE_CORRECT_BYTE_ORDERING.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\628a20570071db005e34749215f0f5e7c5769417.USE_CORRECT_BYTE_ORDERING.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\628a20570071db005e34749215f0f5e7c5769417.USE_CORRECT_BYTE_ORDERING.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e4feb3b43050579314fda92c3ddfc25e98517c20.BAD_ARGS.FORBIDDEN.AFTER_CALL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\9ded058f6c386bf9f26390f2f06522d1015b6de4.EMPTY_BRANCH.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d661ee4035d9cb2de4e4ccea39a80fe156c95aee.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\0abcdc39d05cde1cf81afd559ec9240eef887dd9.UCTS-044.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\0abcdc39d05cde1cf81afd559ec9240eef887dd9.UCTS-044.c", line 2: catastrophic error: cannot open source file "string.h"
+  #include <string.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\0abcdc39d05cde1cf81afd559ec9240eef887dd9.UCTS-044.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\360895171a8eb41c968c24735e631222a7b4e9e6.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\360895171a8eb41c968c24735e631222a7b4e9e6.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\360895171a8eb41c968c24735e631222a7b4e9e6.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3922b8d59fde6e0e08f927ff088c28836a0cd584.API47.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f33d3b247d7ce02d78ea10e721aad31c6ca57aae.MULTIPLE_BINDS_TO_SAME_PORT.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f56f40cf4baee8b57f901de33b360559936a39c6.BAD_MACRO.MISUSE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8332bc705d6a438f56012b9918138e5ba8251cd9.FBD15.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3153d56a3ac3addde88ba08d4309e3d25575db21.MSC34.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3153d56a3ac3addde88ba08d4309e3d25575db21.MSC34.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3153d56a3ac3addde88ba08d4309e3d25575db21.MSC34.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a49007d899d1c301eea69de60951cafbf0f823c9.BAD_CALL.IMPROPER_VARARGS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\87ffc3b2f9eea849789edf9e3c5a569363005d43.BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3687a8c3dd4ce928e6263b1cb0c8146055bbf15a.BAD_CALL.FORBIDDEN.LIB.PROCESS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\248f0363c0d06b4abd53ebc504fd5ac3adeeca0c.API27.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\dc38f1a453dab92c4fa36a3f927ebd008dff4c54.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7c01d252dbc26b899e3a1d39563b206f25991869.TRYLOCK_FAIL.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7c01d252dbc26b899e3a1d39563b206f25991869.TRYLOCK_FAIL.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7c01d252dbc26b899e3a1d39563b206f25991869.TRYLOCK_FAIL.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\88736dea15fa6f8974578759dd3534153dffee81.BAD_CALL.TYPE_MISMATCH.STRING.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c6db54236b5a9f03d23be2f00baf191777b545f9.BAD_INCLUDE.FORBIDDEN.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ef4caedc481dd0598e0dc8f37bb5ca907ef5ef2.API36.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\59af756e675e68bc370cb9ad549401d85030ab03.MIS03.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\74035719d9da13de82b8d5e06c6cbed00b887208.MIS15.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8b551d1e78592aa552a4ed5b4cfbcb24cb94411c.FORBIDDEN_CALL.BEFORE_CALL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b8e67b931c5b1e25f0a4ee43d06b1eaf59ec6cfa.API50.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\04a26018bec3b0059405ad31206ec9f70e3fb0dd.MIS17.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f8b6ae22fadebee73aacf2ff0ef7da7dbbb49c61.API29.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2336a8990460f192e17b6d1a8ebbc01da1dadacb.BAD_CALL.FORBIDDEN.LIB.TP.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4893af9a5e82b0a905aa5049ed7107e4c02ed697.BAD_CALL.REQUIRED.PRE_CALL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\368f27d1c4d2413e745d9ca2aae30244ead1db5d.BAD_QUALIFIER.FORBIDDEN.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\659c800feaf2f4f0b3e05f799846a78287c428f8.SIZE_CALCULATION_BAD_COMPARE.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\659c800feaf2f4f0b3e05f799846a78287c428f8.SIZE_CALCULATION_BAD_COMPARE.c", line 1: catastrophic error: cannot open source file "/usr/include/stdio.h"
+  #include </usr/include/stdio.h>
+                                 ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\659c800feaf2f4f0b3e05f799846a78287c428f8.SIZE_CALCULATION_BAD_COMPARE.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\08bdd2c85957dc75676509e556827e3f344d100d.BAD_CALL.REQUIRED.VARARGS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\97071056f5c75cca00f52b353ff1d91f7204f072.BAD_INCLUDE.INVALID_PATH.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f5062796510094299fc85f6eac080f3b4a41a84d.BAD_CALL.FORBIDDEN.LIB.TIMER.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7ad88b383294b14d94d56533c201003d291b7c3d.MSC32.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7ad88b383294b14d94d56533c201003d291b7c3d.MSC32.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7ad88b383294b14d94d56533c201003d291b7c3d.MSC32.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\1dd2fb9106a7fc5c555dd7e2adccfbcd6e48e9cf.SECURE_OPUS_COMPLEX.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\1dd2fb9106a7fc5c555dd7e2adccfbcd6e48e9cf.SECURE_OPUS_COMPLEX.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include<stdio.h>
+                   ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\1dd2fb9106a7fc5c555dd7e2adccfbcd6e48e9cf.SECURE_OPUS_COMPLEX.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7d6c311fea5546626112bd83e7a23a94e63a61fb.INCORRECT_PERMISSION.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7d6c311fea5546626112bd83e7a23a94e63a61fb.INCORRECT_PERMISSION.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7d6c311fea5546626112bd83e7a23a94e63a61fb.INCORRECT_PERMISSION.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\9fbf4c95051e7ada18676d1934e6a2cd37c0715b.MIS07.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ebfd029d992faa104308628a06314cbd3f01934.DOUBLE_LOCK.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ebfd029d992faa104308628a06314cbd3f01934.DOUBLE_LOCK.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ebfd029d992faa104308628a06314cbd3f01934.DOUBLE_LOCK.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2ef2c0909ce448942ce91d8db6cf9471e87d02e6.API32.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3e042667e50e93e8cfed31ba3de2a18d32d01fa6.TOO_MANY_METHODS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8411c816990a6ddaaf573985ac3a30360cc1d50c.target.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\695fd75a946e725927c6472935dee7bddfd04443.BAD_CALL.FORBIDDEN.PARAM.NAME.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\02f6b0606eb3f82fdb9f692cb7db836b53e82399.sub.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fdf433a2d6f051f7965f6c31fc7d64eadaeebbf5.MIS14.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b8cd937a78192df8426e5e88a5561a8311adc0e5.BAD_INIT.CHAR_ARRAY.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b5e565bbba11bdccc2dc7856e7372af39482c06b.BAD_CALL.FORBIDDEN.VARARGS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c9ea1bf9e04e1052363ddaa25deabd3cc8b8ada0.FBD01.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\dff0b44107663701f030e9a77b633e0ec8c24427.BAD_CALL.REQUIRED.PARAM.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\6d24961a2885d522ed83e35e5734c34f2f736efd.BAD_CALL.NOT_ALLOWED.PARAM.NAME.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\95b0cc897c965867ed8ca1e7b0e7ef60f17066e3.EXCESSIVE_STACK_DEPTH.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\95b0cc897c965867ed8ca1e7b0e7ef60f17066e3.EXCESSIVE_STACK_DEPTH.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\95b0cc897c965867ed8ca1e7b0e7ef60f17066e3.EXCESSIVE_STACK_DEPTH.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a641c0279d2ec71702f1fbdbae69463d99c1e57e.BAD_STRING_MANAGEMENT.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ebc514aadc9a73a01072de10c2cb060b4b1ecba4.BAD_CALL.FORBIDDEN.PARAM.LITERAL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\671a213fc45b1b2b96f6823b7fc582358dc4cb2b.WEAK_ENCRYPTION.HARDCODED_SALT.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\671a213fc45b1b2b96f6823b7fc582358dc4cb2b.WEAK_ENCRYPTION.HARDCODED_SALT.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\671a213fc45b1b2b96f6823b7fc582358dc4cb2b.WEAK_ENCRYPTION.HARDCODED_SALT.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d0df751c6e4d59548766b91b458008f0757c09c0.API46.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cbfcb364c6b0eeeeff0b09db8b44bc8c3050cd94.API41.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\52f6acb3807642b2406398414d5cecb8d765d70a.MIS06.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\232914a18617c0ab5d10bd70ade515530a595595.API42.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\232914a18617c0ab5d10bd70ade515530a595595.API42.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\232914a18617c0ab5d10bd70ade515530a595595.API42.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c74238b52d3ce1b68d31b551b5eaa31a430c0552.DOUBLE_UNLOCK.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c74238b52d3ce1b68d31b551b5eaa31a430c0552.DOUBLE_UNLOCK.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c74238b52d3ce1b68d31b551b5eaa31a430c0552.DOUBLE_UNLOCK.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\5e403105ff1d239e306e8086f9081ce891af5503.BAD_CALL.MISSING_CALL_PARAM.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\eed096e7d8c281058d3c209bf77aed8d49bc6207.API24.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\28c927ceabb131b0165132414d04847ee239d649.API40.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4d8fba94cc359fb5cc9f406411587fca9b19e4c2.MIS22.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8d9135006e0d654c2daef5f4a56aefacbf693b27.API35.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b0a8614e01e5e0b514dc2a0a696b695ca824540f.all_sample.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b0a8614e01e5e0b514dc2a0a696b695ca824540f.all_sample.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b0a8614e01e5e0b514dc2a0a696b695ca824540f.all_sample.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\277d3624cc044f06cc876976fdaf8d08e01bd05e.BAD_INTEGER_CONST_DEFINITION.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d53ff91425213d3316e10c75dc10f142417273db.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\452ea360e42e63e6ca50f67bc44b834eae98d142.PASSWORD_IN_COMMENT.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\452ea360e42e63e6ca50f67bc44b834eae98d142.PASSWORD_IN_COMMENT.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\452ea360e42e63e6ca50f67bc44b834eae98d142.PASSWORD_IN_COMMENT.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\55042a8671f07a70473a90aa54f172d3bfd90bfc.PASSWORD_IN_COMMENT.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b3d8dca7188d1e7f2089331ae2e030e1c0ada610.ENV32.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b3d8dca7188d1e7f2089331ae2e030e1c0ada610.ENV32.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b3d8dca7188d1e7f2089331ae2e030e1c0ada610.ENV32.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\565649f83bba965086bccb1b8ee260d59491a413.ENV32.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c582a9bf93afcaa7ab59fbc6f214d3fba6548f81.SECURITY_DECISION_ON_DNS_LOOKUP.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c582a9bf93afcaa7ab59fbc6f214d3fba6548f81.SECURITY_DECISION_ON_DNS_LOOKUP.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c582a9bf93afcaa7ab59fbc6f214d3fba6548f81.SECURITY_DECISION_ON_DNS_LOOKUP.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d89cc60508c3ae22c2b301a5c32a49b2f052044f.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cb71aa353ed00bc1163d06bb72f983603d860da5.MISSING_WRAPPER_ON_VARIABLE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\384a5c2900c89044aac5c2ebbf3a9a7d437a790d.BAD_PRIVILEGE_RELINQUISHMENT.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\327d428a603798db090afef488d845c526c26989.INCONSISTENT_GLOBAL_VARIABLE_TYPE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\86803c6690b205cb3b086b982c7851091ed84585.BAD_CALL.FORBIDDEN.PARAM.STRING.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\dd99fa0fcf3f05d8fb0717b6282c32c7a71a172e.MIS18.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\c85a59b2a1f9e2da094d48702ea5f2bcae09b122.API28.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\12fe6c873bba409fb6d0d79d4e896478b68d5657.MIS20.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\94ddbdf87294b5ab96d6af444306da1b880497a7.API30.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3a6887866b11318f3a6a27b7fd26f3a5866b2b1b.FUNCTION_DEFINITION_TYPE_MISMATCH.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f04fd93698ca6f5b59d8f7069802b28ad799b6d8.API45.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e2235fd985fd69ae4a24275d8c29f3a00fa6f4b4.API43.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8e0a5b1f45c8daea31700bed09096db249e9b1ed.UCTS-041.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8e0a5b1f45c8daea31700bed09096db249e9b1ed.UCTS-041.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\8e0a5b1f45c8daea31700bed09096db249e9b1ed.UCTS-041.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\da4c7250f4490cac0b097abb4485a3d0bdad79f1.ENV04.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\da4c7250f4490cac0b097abb4485a3d0bdad79f1.ENV04.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\da4c7250f4490cac0b097abb4485a3d0bdad79f1.ENV04.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\57d973b7abfb464d5bbc78d532d37c2cfcc3545f.API23.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f89a8cda122bd9615247b72c93db9a7172121f15.UCTS-028.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f89a8cda122bd9615247b72c93db9a7172121f15.UCTS-028.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f89a8cda122bd9615247b72c93db9a7172121f15.UCTS-028.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\05a1b2c41829718d5190527a43a334b54573910b.BAD_CALL.REQUIRED.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2f920790779bf9cab0640aa9e872010d25b0256e.MEM08.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2f920790779bf9cab0640aa9e872010d25b0256e.MEM08.c", line 1: catastrophic error: cannot open source file "stdlib.h"
+  #include <stdlib.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2f920790779bf9cab0640aa9e872010d25b0256e.MEM08.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\748710d1f49ce858ea2a7846e8380af866230841.BAD_STRUCT_MEMBER_ACCESS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b06877b269e38bc7781adc5291d63a0fddfac43b.BAD_CALL.REQUIRED.ARGS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f9c3c4791797701e57c396db7f0e78d81d3a3e6a.PREMATURE_THREAD_TERMINATION.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\5a137faa35d387b706eac3e2e4ec80308d0957eb.MSC17.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\929d08ad56a64beaf29457113200f1bb70e580b5.MIS11.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\6e29ae152db39633f027e545cc6dc073032fe481.MIS21.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ea3f4a115eb4357861f32b706dc9b85d8faa3161.mismatch.cpp
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ea3f4a115eb4357861f32b706dc9b85d8faa3161.mismatch.cpp", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ea3f4a115eb4357861f32b706dc9b85d8faa3161.mismatch.cpp".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2e1b360fe0781bb5f7b89ef415f83a82b1d51031.FIO43.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2e1b360fe0781bb5f7b89ef415f83a82b1d51031.FIO43.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2e1b360fe0781bb5f7b89ef415f83a82b1d51031.FIO43.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cf08979ae09f35d83c34359e833305e0a277189d.WEAK_ENCRYPTION.PASSWORD.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cf08979ae09f35d83c34359e833305e0a277189d.WEAK_ENCRYPTION.PASSWORD.c", line 2: catastrophic error: cannot open source file "string.h"
+  #include <string.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cf08979ae09f35d83c34359e833305e0a277189d.WEAK_ENCRYPTION.PASSWORD.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d7b04fa315bbf89414c44584b8bb56419cb19c66.API38.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4b2ce923be2fc61de95a24c880e8dcdd68b35e34.DO_NOT_USE_SIZEOF_ON_PTR.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\9218ee427ac39f14bfc68964090041f21f6be654.WEAK_ENCRYPTION.RSA_PADDING.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a30bd1b6454e4efbb652c42958fd3c3f5d0e7c18.NEGATIVE_FILE_DESCRIPTOR.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a30bd1b6454e4efbb652c42958fd3c3f5d0e7c18.NEGATIVE_FILE_DESCRIPTOR.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a30bd1b6454e4efbb652c42958fd3c3f5d0e7c18.NEGATIVE_FILE_DESCRIPTOR.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d02e24f8d86089e2bbea42558345da3cc5a42813.BAD_CALL.REQUIRED.WRAPPER.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\85109332421347066cf85514959b9304ef25bb46.IMPROPER_NULL_TERMINATION.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\85109332421347066cf85514959b9304ef25bb46.IMPROPER_NULL_TERMINATION.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\85109332421347066cf85514959b9304ef25bb46.IMPROPER_NULL_TERMINATION.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\45e9042cc2fced9a5fcf277d38d0f913bc1ae2f2.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\45e9042cc2fced9a5fcf277d38d0f913bc1ae2f2.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\45e9042cc2fced9a5fcf277d38d0f913bc1ae2f2.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\311e5f9e50954c1560d3a0e1d14928a69acff1be.CHECK_ALIGNMENT_OF_MEMORY.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\311e5f9e50954c1560d3a0e1d14928a69acff1be.CHECK_ALIGNMENT_OF_MEMORY.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\311e5f9e50954c1560d3a0e1d14928a69acff1be.CHECK_ALIGNMENT_OF_MEMORY.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\0fc05c2a5a054d2e641a94321a388965fe62b300.API44.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7755dc36c7d2129ead4a323d933d48f55031b577.API31.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b6e7616ccff328e740f502da33d853c7bfa7d1c7.BAD_OPERATOR.LOGICAL_COMPARISON.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\84928d72e5bc0348e3f84024495338619bce8040.UNCONTROLLED_RECURSION.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3a9be3f1f11aac5d1dd773c19fd9aa125ab855bd.BAD_CALL.FORBIDDEN.PARAM.NUMBER.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\41a4c01ed1054b450b0886d5d44911fbc980509a.API37.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e32f95386a4f9d625125740da073282cf152f892.crulcheck.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e32f95386a4f9d625125740da073282cf152f892.crulcheck.c", line 2: catastrophic error: cannot open source file "sys/types.h"
+  #include <sys/types.h>
+                        ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e32f95386a4f9d625125740da073282cf152f892.crulcheck.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\bd6ce69f9a8f4fc2fbc7de0d357670904775a66d.API20.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a53227d447b7e947d5a1b24792bf6540559c2640.API48.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fbd4ca36b9ba5e048abf1b1896c0ff23e2595ac8.SIG30.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fbd4ca36b9ba5e048abf1b1896c0ff23e2595ac8.SIG30.c", line 1: catastrophic error: cannot open source file "signal.h"
+  #include <signal.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fbd4ca36b9ba5e048abf1b1896c0ff23e2595ac8.SIG30.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d9ed04bd3b635c1e96f7b59733a7507b6e812d7f.BAD_MACRO.DANGEROUS_USAGE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\65357a6b29b706c4fc69d3c2974a8dbb457c1002.SIG32.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\65357a6b29b706c4fc69d3c2974a8dbb457c1002.SIG32.c", line 1: catastrophic error: cannot open source file "setjmp.h"
+  #include <setjmp.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\65357a6b29b706c4fc69d3c2974a8dbb457c1002.SIG32.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\076775a8a2cec39f8eb17f26f1379bbadfcf88e7.API39.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\bcef9df60879814365c3d52b6aee49a54a3912be.MIS09.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cb74a4f892af06ae877ae832072408e91361ecdf.BAD_CALL.REQUIRED.LIB_CALL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc0ddfbf439b9530a1642883bd42418c3b0d553b.NONEFFECTIVE_FUNCTION_CALL.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc0ddfbf439b9530a1642883bd42418c3b0d553b.NONEFFECTIVE_FUNCTION_CALL.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc0ddfbf439b9530a1642883bd42418c3b0d553b.NONEFFECTIVE_FUNCTION_CALL.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b869ce5b07ef13f282cd9870786da49efc58ba75.BAD_CALL.FORBIDDEN.PARAM.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3c8edb961d037e32f7e2aa82f84bf2c2e3a57a0f.API16.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\2697a34392907a87d0aa022b546325bfed66d5b7.MIS23.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\106f1c1826240ae21e10513d22721fb32492f868.EXECL_REVEALS_DATA.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\106f1c1826240ae21e10513d22721fb32492f868.EXECL_REVEALS_DATA.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\106f1c1826240ae21e10513d22721fb32492f868.EXECL_REVEALS_DATA.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\bea0244f86baa0fa2d962e0657c0c791550d3e55.RACE_CONDITION.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\391f28d9f2726dd51fbc9413db5b15d080dbcdfa.BAD_CALL.NOT_ALLOWED.PARAM.STRING.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\90ebc4dff477c1c50daec1f717102e13929ac3b1.MIS10.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4731cb17cb9913beed1f906bfb8dc194355a42d8.MIS05.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7a22b2dbfc05e525d3f111ab4cb42d6685e21a99.MIS04.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7a22b2dbfc05e525d3f111ab4cb42d6685e21a99.MIS04.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7a22b2dbfc05e525d3f111ab4cb42d6685e21a99.MIS04.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ccfa52f9c893fb82851c07b0ba871d725a6bc88.DO_NOT_ASSUME_ENV.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ccfa52f9c893fb82851c07b0ba871d725a6bc88.DO_NOT_ASSUME_ENV.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4ccfa52f9c893fb82851c07b0ba871d725a6bc88.DO_NOT_ASSUME_ENV.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\24d654582a4e9503d99f26ad30388333ca206829.BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\579c64886ec0a024bffc011ea8ae198566bb2501.os_con_imp_int.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\579c64886ec0a024bffc011ea8ae198566bb2501.os_con_imp_int.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\579c64886ec0a024bffc011ea8ae198566bb2501.os_con_imp_int.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\c4405c999830b41d895444cfc8907929ec23cc1a.os_con_imp_int.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4b818bac163ebc54985d701b4a36a9f6e299d7cb.main.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b9ece3dfdb8537d4df7c2d30d7aeaf9bd189082e.DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a9742bea27813ae41fa09e2212d934c4b80cea9a.IMPROPER_RANDOM_USAGE.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a9742bea27813ae41fa09e2212d934c4b80cea9a.IMPROPER_RANDOM_USAGE.c", line 2: catastrophic error: cannot open source file "time.h"
+  #include <time.h>
+                   ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a9742bea27813ae41fa09e2212d934c4b80cea9a.IMPROPER_RANDOM_USAGE.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\7a910e9da6fd97078929bceb7f0b28f17b75e173.BAD_QUALIFIER.REQUIRED.PARAM_PTR.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\237885f0a1b3812fbaf18114a0615372dae846ab.BAD_INCLUDE.DUPLICATED.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\22910708cd482dec26de9817c7392b4a06d7fcf2.DO_NOT_USE_HARD_CODING.USERNAME.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\407b0267e5b3b69040e66b13b3a32b9d872a1928.BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b28158d1200f179d3b038a878543e12116f3490e.UNBOUNDED_SOURCE_TO_ARRAY.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b28158d1200f179d3b038a878543e12116f3490e.UNBOUNDED_SOURCE_TO_ARRAY.c", line 1: catastrophic error: cannot open source file "string.h"
+  #include <string.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b28158d1200f179d3b038a878543e12116f3490e.UNBOUNDED_SOURCE_TO_ARRAY.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\85436e9dec02c3f196816adb13b782775290e7e6.BAD_CALL.LIBRARY.MEMORY.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f31e4f31f5874392c2678ed6c0bfb967c8f4cf70.FBD14.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ab3bb428d8a41cd86e6c9f606ce3fa4234fd70fe.MIS08.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\9ee4003aab2b6934da417c93bcb85e3df561c6ad.BAD_CALL.FORBIDDEN.LIB.TEMP.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\1506e8952c53ec7ebb9c621fd5c9bcd498303290.BAD_MALLOC.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cf67bd7e3c209cf60adb66c52a8fce47f348fa68.BAD_CALL.MISSING_CALL_PARAM.EXTENDED.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e200d6369b0985974fc2fa9a6197fc0913623aac.MIS01.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d8f52698307bc0af275e9131c24b39e3109921fb.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\dc174be5d7ac8a41cfdd55002a69a9cfc4efc943.API05.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fb5229e95c2163820d06599bf23da5cc55ddcad6.BAD_OPERATOR.ASSIGNMENT_IN_COND.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\f20833c6af82f1d2aa6d0e4d20bc40201f1012bc.BAD_ERROR.INVALID_CODE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\31aeb75b5f0c61534082a49c55287c8a09620643.API33.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a3910d304693d4b35eddfe09489fc3a0dc67ab21.API25.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc591ee36422bffc22e937df6cf4f5a24b9aa698.BAD_CALL.TYPE_MISMATCH.SPRINTF.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc591ee36422bffc22e937df6cf4f5a24b9aa698.BAD_CALL.TYPE_MISMATCH.SPRINTF.c", line 3: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\cc591ee36422bffc22e937df6cf4f5a24b9aa698.BAD_CALL.TYPE_MISMATCH.SPRINTF.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\e3030443c680421f76653fab89ea32b99726f6ae.BAD_CALL.TYPE_MISMATCH.SPRINTF.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ff33c53a6d69281abcce45b84f01760c4f1d043f.MIS24.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\6ed6ec15dec700f64bee7e2bd632f09a3219f7f4.BAD_NAME.VARIABLE.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\b0faeeb2ad7d9270fea38f8a662d66a00bb7d657.FORBIDDEN_CALL.LOOP.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\ad9245f6ec0b49f635677c4c70e96150d32cbe7a.API34.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\56dc8b0e2fa7f387ec893d1f26de59561e79260f.API51.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\3abd35af3d677ef24515ee6755473998983b2920.PRE09.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\5624522673d1f412aa39269dfa62372070ae64f5.MIS16.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\006f6149a010c99731c04c2f0caaec19e6074457.WEAK_ENCRYPTION.RISKY_ALGORITHM.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\006f6149a010c99731c04c2f0caaec19e6074457.WEAK_ENCRYPTION.RISKY_ALGORITHM.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\006f6149a010c99731c04c2f0caaec19e6074457.WEAK_ENCRYPTION.RISKY_ALGORITHM.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e19b1b169cc60c04f76ae9391720b9cb666773ca.BAD_ERROR.MISSING_INIT.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\bad4e8acbf6eb33560d90e12fb4b4fc1fb97db97.BAD_ERROR.MISSING_RETURN.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e62be86da7a735257f3ae7b0aa9db5f4a9212541.MIS19.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\628a20570071db005e34749215f0f5e7c5769417.USE_CORRECT_BYTE_ORDERING.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\628a20570071db005e34749215f0f5e7c5769417.USE_CORRECT_BYTE_ORDERING.c", line 1: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\628a20570071db005e34749215f0f5e7c5769417.USE_CORRECT_BYTE_ORDERING.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e4feb3b43050579314fda92c3ddfc25e98517c20.BAD_ARGS.FORBIDDEN.AFTER_CALL.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\9ded058f6c386bf9f26390f2f06522d1015b6de4.EMPTY_BRANCH.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d661ee4035d9cb2de4e4ccea39a80fe156c95aee.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\0abcdc39d05cde1cf81afd559ec9240eef887dd9.UCTS-044.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\0abcdc39d05cde1cf81afd559ec9240eef887dd9.UCTS-044.c", line 2: catastrophic error: cannot open source file "string.h"
+  #include <string.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\0abcdc39d05cde1cf81afd559ec9240eef887dd9.UCTS-044.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c.i
+
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\360895171a8eb41c968c24735e631222a7b4e9e6.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c
+
+"C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\360895171a8eb41c968c24735e631222a7b4e9e6.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c", line 2: catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\360895171a8eb41c968c24735e631222a7b4e9e6.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c".
+Compilation terminated.
+
+<<<===
+
+===>>> EDG log for C:\sparrow4\util\testcode\c\sparrow\prep_files\ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c.i
+
+
+<<<===
+

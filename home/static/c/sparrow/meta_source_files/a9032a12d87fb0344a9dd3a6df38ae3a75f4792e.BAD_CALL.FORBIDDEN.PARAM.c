@@ -1,0 +1,9 @@
+// @checker BAD_CALL.FORBIDDEN.PARAM
+
+#define PDB_ERRORNUM_API08 0
+
+void SET_ERROR_API08(int);
+
+void Func() {
+	SET_ERROR_API08(PDB_ERRORNUM_API08); // @violation BAD_CALL.FORBIDDEN.PARAM
+}

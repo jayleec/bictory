@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+	<category name="USE_AFTER_CLOSE">
+		<item name="check_loop_pattern" type="boolean" required="true" variable="false" description="Check the specific loop pattern.">
+			<value>false</value>
+		</item>		
+	</category>
+</option>

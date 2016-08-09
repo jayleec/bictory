@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+	<category name="LDAP_INJECTION">
+		<item name="source_call" type="string" required="true" variable="true" regexp="false" description="List of functions which return sensitive information">
+			<value>getenv</value>
+		</item>
+		<item name="sink_call" type="string" required="true" variable="true" regexp="false" description="List of functions which trigger alarms when parameters contain sensitive information">
+			<value>ldap_search_ext_s</value>
+			<value>ldap_search_s</value>
+			<value>ldap_search_init_page</value>
+			<value>ldap_search_ext</value>
+			<value>ldap_search</value>
+		</item>
+	</category>
+</option>

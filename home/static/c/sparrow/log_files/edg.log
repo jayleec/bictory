@@ -1,0 +1,1476 @@
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\010ab1c36d9b776b778e38ca3933cb64714217dc.API47.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\010ab1c36d9b776b778e38ca3933cb64714217dc.API47.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\024bb2db00efb377cbc28b5490a140cd84bcb83d.MULTIPLE_BINDS_TO_SAME_PORT.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\024bb2db00efb377cbc28b5490a140cd84bcb83d.MULTIPLE_BINDS_TO_SAME_PORT.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\047458cf0633ff9f4ad445b17131ac47e9b1da67.BAD_MACRO.MISUSE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\047458cf0633ff9f4ad445b17131ac47e9b1da67.BAD_MACRO.MISUSE.c.i
+"/home/kskyj/sparrow4/util/testcode/c/FBD15.c", line 3: warning: variable "badA" was set but never used
+    int badA[5];
+        ^
+
+"/home/kskyj/sparrow4/util/testcode/c/FBD15.c", line 11: warning: variable "goodA" was set but never used
+    int goodA[5]={0,1,2,3,4};
+        ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\05741670ae3a296c38cd1693b0a34437bc3b5a8b.FBD15.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\05741670ae3a296c38cd1693b0a34437bc3b5a8b.FBD15.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\08f2315cdd09956e0c890bba05602b59b24ad835.BAD_CALL.IMPROPER_VARARGS.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\08f2315cdd09956e0c890bba05602b59b24ad835.BAD_CALL.IMPROPER_VARARGS.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\0aa2f60632355b5e36d7bc98e2cfdf30b8716113.BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\0aa2f60632355b5e36d7bc98e2cfdf30b8716113.BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c.i
+"/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.FORBIDDEN.LIB.PROCESS.c", line 11: warning: variable "pid" was set but never used
+      pid_t pid;
+            ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\0b861a382047ba80fc0293c64d7c6ae2a196dca5.BAD_CALL.FORBIDDEN.LIB.PROCESS.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\0b861a382047ba80fc0293c64d7c6ae2a196dca5.BAD_CALL.FORBIDDEN.LIB.PROCESS.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\0be673cba2720df1dba0b75ce9d3a4c7d1b29a56.API27.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\0be673cba2720df1dba0b75ce9d3a4c7d1b29a56.API27.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\0e3f3c3eb3d6618392ce91cb7dd6bf2beaef471e.BAD_CALL.TYPE_MISMATCH.STRING.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\0e3f3c3eb3d6618392ce91cb7dd6bf2beaef471e.BAD_CALL.TYPE_MISMATCH.STRING.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\0ea7900cfc193ce776ee44b1203cdfc60cd7a805.BAD_INCLUDE.FORBIDDEN.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\0ea7900cfc193ce776ee44b1203cdfc60cd7a805.BAD_INCLUDE.FORBIDDEN.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\113fc64b9104bfbda71f464eb4a1041ab1403b6b.API36.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\113fc64b9104bfbda71f464eb4a1041ab1403b6b.API36.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\1160af5dfaa3b5fb2f9d372bf89655754e7a38e2.MIS03.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\1160af5dfaa3b5fb2f9d372bf89655754e7a38e2.MIS03.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\1353f524cb7f8b3b3235d3d52302275090c32ad4.MIS15.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\1353f524cb7f8b3b3235d3d52302275090c32ad4.MIS15.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\19498fa23904bd8458b341835c11f3f5fe05d9a0.FORBIDDEN_CALL.BEFORE_CALL.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\19498fa23904bd8458b341835c11f3f5fe05d9a0.FORBIDDEN_CALL.BEFORE_CALL.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\1a8f580850535deac75f7d681dcb9ae2759f8ff7.API50.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\1a8f580850535deac75f7d681dcb9ae2759f8ff7.API50.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\1b903b49859b6d79d9925771ac767bbaa63627c9.MIS17.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\1b903b49859b6d79d9925771ac767bbaa63627c9.MIS17.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\1bfe846292d11556f4345152fbe1465cfe1ea110.API29.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\1bfe846292d11556f4345152fbe1465cfe1ea110.API29.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\20152ccf19e88700fc56297ac352ce5f913f06b4.BAD_CALL.FORBIDDEN.LIB.TP.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\20152ccf19e88700fc56297ac352ce5f913f06b4.BAD_CALL.FORBIDDEN.LIB.TP.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\21973f8b6e4bb40eb64f7303a26c51906854a2c5.BAD_CALL.REQUIRED.PRE_CALL.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\21973f8b6e4bb40eb64f7303a26c51906854a2c5.BAD_CALL.REQUIRED.PRE_CALL.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\24f4fb3f56990529c2071898b7a021a7cda6ea73.BAD_QUALIFIER.FORBIDDEN.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\24f4fb3f56990529c2071898b7a021a7cda6ea73.BAD_QUALIFIER.FORBIDDEN.c.i
+"/home/kskyj/sparrow4/util/testcode/c/SIZE_CALCULATION_BAD_COMPARE.c", line 17: warning: variable "p" was set but never used
+       double *p;
+               ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\25a37abd3d3cd64fd7dd764e50cac72dd71887df.BAD_CALL.REQUIRED.VARARGS.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\25a37abd3d3cd64fd7dd764e50cac72dd71887df.BAD_CALL.REQUIRED.VARARGS.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\25d126a4beb29fca9bdba32fec6f3e7cd3c410cb.BAD_INCLUDE.INVALID_PATH.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\25d126a4beb29fca9bdba32fec6f3e7cd3c410cb.BAD_INCLUDE.INVALID_PATH.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\29cb2c63abf1c7104533ceab45a563cb298d6847.BAD_CALL.FORBIDDEN.LIB.TIMER.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\29cb2c63abf1c7104533ceab45a563cb298d6847.BAD_CALL.FORBIDDEN.LIB.TIMER.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c.i
+"/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c", line 103: warning: variable "rc" was set but never used
+    int rc;
+        ^
+
+"/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c", line 310: warning: variable "__2357_16_x" was set but never used
+  auto unsigned __2357_16_x;
+                ^
+
+"/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c", line 330: warning: variable "x" was set but never used
+    unsigned int x;
+                 ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c.i
+"/home/kskyj/sparrow4/util/testcode/c/INCORRECT_PERMISSION.c", line 16: warning: variable "ret" was set but never used
+   int fd, ret;
+           ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\33055ec5e75adee463103914c229b01b082788f0.MIS07.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\33055ec5e75adee463103914c229b01b082788f0.MIS07.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\37633966ca1d50dfba2797b58c825ebaad34c8cb.API32.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\37633966ca1d50dfba2797b58c825ebaad34c8cb.API32.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\393fe28650396a1203a12d88443729137820922d.TOO_MANY_METHODS.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\393fe28650396a1203a12d88443729137820922d.TOO_MANY_METHODS.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\399ef3950bf07684689a069695ee14bf14668f55.target.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\399ef3950bf07684689a069695ee14bf14668f55.target.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\39e8e3780b5d68b17fde55c876f9fd9732d5719f.BAD_CALL.FORBIDDEN.PARAM.NAME.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\39e8e3780b5d68b17fde55c876f9fd9732d5719f.BAD_CALL.FORBIDDEN.PARAM.NAME.c.i
+"/home/kskyj/sparrow4/util/testcode/c/sub.c", line 41: warning: variable "member" was set but never used
+   struct _member member;
+                  ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3bb5060d41c24cc5f5cdf673b5cf46e42d58618c.MIS14.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3bb5060d41c24cc5f5cdf673b5cf46e42d58618c.MIS14.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3c7441651bc3feaed132817bc4bab8e29e36c61d.BAD_INIT.CHAR_ARRAY.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3c7441651bc3feaed132817bc4bab8e29e36c61d.BAD_INIT.CHAR_ARRAY.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3c785b37d82ff81447cdf68b40e6f90a13b27c53.BAD_CALL.FORBIDDEN.VARARGS.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3c785b37d82ff81447cdf68b40e6f90a13b27c53.BAD_CALL.FORBIDDEN.VARARGS.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3c846ef1468bc74524565eacae650052df759b5c.FBD01.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3c846ef1468bc74524565eacae650052df759b5c.FBD01.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3cea62a02e843ead06e9117347f21a84dee92b1c.BAD_CALL.REQUIRED.PARAM.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3cea62a02e843ead06e9117347f21a84dee92b1c.BAD_CALL.REQUIRED.PARAM.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3de28b862e58117007cb6a8d2c1bd857e3d9fae6.BAD_CALL.NOT_ALLOWED.PARAM.NAME.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3de28b862e58117007cb6a8d2c1bd857e3d9fae6.BAD_CALL.NOT_ALLOWED.PARAM.NAME.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3f37093b00151d3589118017e34163f2e781da86.BAD_CALL.FORBIDDEN.PARAM.LITERAL.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3f37093b00151d3589118017e34163f2e781da86.BAD_CALL.FORBIDDEN.PARAM.LITERAL.c.i
+"/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c", line 11: warning: variable "out" was set but never used
+   char * out;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c", line 16: warning: variable "out" was set but never used
+   char * out;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c", line 22: warning: variable "out" was set but never used
+   char * out;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c", line 29: warning: variable "out" was set but never used
+   char * out;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c", line 38: warning: variable "out" was set but never used
+   char * out;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c", line 43: warning: variable "out" was set but never used
+   char * out;
+          ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\40ac34245ae3d8f8e231e68ac45411b2662d1ec8.API46.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\40ac34245ae3d8f8e231e68ac45411b2662d1ec8.API46.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\418c3c825592cc1b626e4e8779360f54402837f6.API41.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\418c3c825592cc1b626e4e8779360f54402837f6.API41.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\41a2c099d8deaf8467ee788500a8013a65574d7f.MIS06.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\41a2c099d8deaf8467ee788500a8013a65574d7f.MIS06.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\45d737cf1816537689015e95e301a52d50af236c.BAD_CALL.MISSING_CALL_PARAM.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\45d737cf1816537689015e95e301a52d50af236c.BAD_CALL.MISSING_CALL_PARAM.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\46d73008519b7e03fb033d12682fddbde549fe5a.API24.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\46d73008519b7e03fb033d12682fddbde549fe5a.API24.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\475a5e66b185c57f864256775af3eb059f1c05cb.API40.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\475a5e66b185c57f864256775af3eb059f1c05cb.API40.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\4789f9e48ee78555c1856c711642adaf7d9fe7c8.MIS22.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\4789f9e48ee78555c1856c711642adaf7d9fe7c8.MIS22.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\4f336cd9e4bc240ce051806dafcf43ec51c20532.API35.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\4f336cd9e4bc240ce051806dafcf43ec51c20532.API35.c.i
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 39: warning: variable "buf" was set but never used
+      char buf[5];
+           ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 176: warning: statement is unreachable
+   if(a==1){
+   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 228: warning: variable "b" was set but never used
+      int a = 0, b;
+                 ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 240: warning: variable "b" was set but never used
+      int a, b;
+             ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 248: warning: variable "r" was set but never used
+      int r, cnt = 100;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 258: warning: variable "r" was set but never used
+      int r, cnt = 100;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 409: warning: variable "ua" was set but never used
+      unsigned int ua;
+                   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 445: warning: variable "b" was set but never used
+   int a=20,b=0;
+            ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 453: warning: variable "b" was set but never used
+   int a=20,b=0;
+            ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 460: warning: variable "b" was set but never used
+    int b[100];
+        ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 467: warning: variable "b" was set but never used
+    int b[100];
+        ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 476: warning: variable "under" was set but never used
+    Under under;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 482: warning: variable "under" was set but never used
+    Under under;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 499: warning: argument is incompatible with corresponding format string conversion
+    printf("%s",x);
+                ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 507: warning: statement is unreachable
+          printf("aa\n");
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 555: warning: variable "fp_dangerous_func_cast_main" was set but never used
+  int(*fp_dangerous_func_cast_main)();
+       ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 565: warning: variable "pt_varargs" was set but never used
+      void(*pt_varargs)(int, ...);
+            ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 572: warning: variable "buf" was set but never used
+   int buf[10];
+       ^
+
+"/home/kskyj/sparrow4/util/testcode/c/all_sample.c", line 645: remark: explicit type is missing ("int" assumed)
+  missing_function_return(float a){
+  ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\51a59d283849babf908fe25123552f5628d1dc45.BAD_INTEGER_CONST_DEFINITION.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\51a59d283849babf908fe25123552f5628d1dc45.BAD_INTEGER_CONST_DEFINITION.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\54ae2822ee086f96542f6faf2d6ea27c1664a03a.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\54ae2822ee086f96542f6faf2d6ea27c1664a03a.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\55042a8671f07a70473a90aa54f172d3bfd90bfc.PASSWORD_IN_COMMENT.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\55042a8671f07a70473a90aa54f172d3bfd90bfc.PASSWORD_IN_COMMENT.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\565649f83bba965086bccb1b8ee260d59491a413.ENV32.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\565649f83bba965086bccb1b8ee260d59491a413.ENV32.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\58e920518236f799ac2cc404a5f04a8a5b0972a5.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\58e920518236f799ac2cc404a5f04a8a5b0972a5.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\5bdc391d714c4e2263ea3cba16ca63adb12e6309.MISSING_WRAPPER_ON_VARIABLE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\5bdc391d714c4e2263ea3cba16ca63adb12e6309.MISSING_WRAPPER_ON_VARIABLE.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\5c0ec7bd62ad482982f42e9c04839f6ab50e0446.BAD_PRIVILEGE_RELINQUISHMENT.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\5c0ec7bd62ad482982f42e9c04839f6ab50e0446.BAD_PRIVILEGE_RELINQUISHMENT.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\5c1f61b5c6d712090338b99f4368411018f2f789.INCONSISTENT_GLOBAL_VARIABLE_TYPE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\5c1f61b5c6d712090338b99f4368411018f2f789.INCONSISTENT_GLOBAL_VARIABLE_TYPE.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\5c6bc5c85a710efe8d877a739e5587c38d869879.BAD_CALL.FORBIDDEN.PARAM.STRING.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\5c6bc5c85a710efe8d877a739e5587c38d869879.BAD_CALL.FORBIDDEN.PARAM.STRING.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\5eb7e94370c6b0ed3b023ed8fbb66a38289920d6.MIS18.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\5eb7e94370c6b0ed3b023ed8fbb66a38289920d6.MIS18.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\5f47cdf1f7e4094a5255419fe9410b1e889e1f51.API28.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\5f47cdf1f7e4094a5255419fe9410b1e889e1f51.API28.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\61dac8cb97dfd0c79892203dfc62a1121539a08b.MIS20.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\61dac8cb97dfd0c79892203dfc62a1121539a08b.MIS20.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\6396027ddb3a423f2fba630424dcba8d01295a64.API30.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\6396027ddb3a423f2fba630424dcba8d01295a64.API30.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\647f8d69dad7a1488df5be1c0d297a3a03ebb287.FUNCTION_DEFINITION_TYPE_MISMATCH.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\647f8d69dad7a1488df5be1c0d297a3a03ebb287.FUNCTION_DEFINITION_TYPE_MISMATCH.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\649da37cf093a941a3f8c49b1e015c0c65829691.API45.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\649da37cf093a941a3f8c49b1e015c0c65829691.API45.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\6b507efeb026bda78398d2481b26cb238c503fab.API23.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\6b507efeb026bda78398d2481b26cb238c503fab.API23.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\6d8e8a4ed8e0698f988dcfb8407ac15970ab927e.BAD_CALL.REQUIRED.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\6d8e8a4ed8e0698f988dcfb8407ac15970ab927e.BAD_CALL.REQUIRED.c.i
+"/home/kskyj/sparrow4/util/testcode/c/MEM08.c", line 23: warning: variable "wp" was set but never used
+   widget *wp;
+           ^
+
+"/home/kskyj/sparrow4/util/testcode/c/MEM08.c", line 31: warning: variable "wp" was set but never used
+   widget *wp;
+           ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c.i
+"/home/kskyj/sparrow4/util/testcode/c/BAD_STRUCT_MEMBER_ACCESS.c", line 10: warning: variable "a" was set but never used
+   int a;
+       ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\742032980ba9578e1dd86dc442e3c9a5fb50a411.BAD_STRUCT_MEMBER_ACCESS.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\742032980ba9578e1dd86dc442e3c9a5fb50a411.BAD_STRUCT_MEMBER_ACCESS.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\74e09bcd6e260e3eec8482d8397eb969ce2e15a9.BAD_CALL.REQUIRED.ARGS.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\74e09bcd6e260e3eec8482d8397eb969ce2e15a9.BAD_CALL.REQUIRED.ARGS.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\760bd10a2cf4fa0bb443ccda9ff5fa2045370cad.PREMATURE_THREAD_TERMINATION.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\760bd10a2cf4fa0bb443ccda9ff5fa2045370cad.PREMATURE_THREAD_TERMINATION.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\778f33f9b7619d829b4066717c21399bdf019829.MSC17.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\778f33f9b7619d829b4066717c21399bdf019829.MSC17.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\798f0eecbb70a61ae67e351ceff38d38a3830235.MIS11.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\798f0eecbb70a61ae67e351ceff38d38a3830235.MIS11.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\7ab2a7356c3ecf930785d9fd063725a6ede833df.MIS21.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\7ab2a7356c3ecf930785d9fd063725a6ede833df.MIS21.c.i
+"/usr/include/stdio.h", line 30: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/stdio.h", line 30: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/libio.h", line 332: error: identifier "size_t" is undefined
+    size_t __pad5;
+    ^
+
+"/usr/include/libio.h", line 336: error: identifier "size_t" is undefined
+    char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+                                                                    ^
+
+"/usr/include/libio.h", line 364: error: "size_t" is not a type name
+  typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);
+                                                               ^
+
+"/usr/include/libio.h", line 373: error: "size_t" is not a type name
+       size_t __n);
+       ^
+
+"/usr/include/libio.h", line 413: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/libio.h", line 413: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/libio.h", line 492: error: identifier "_IO_FILE" is undefined
+  extern int _IO_vfprintf (_IO_FILE *__restrict, const char *__restrict,
+                           ^
+
+"/usr/include/libio.h", line 494: error: identifier "_IO_FILE" is undefined
+  extern __ssize_t _IO_padn (_IO_FILE *, int, __ssize_t);
+                             ^
+
+"/usr/include/libio.h", line 495: error: "size_t" is not a type name
+  extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
+         ^
+
+"/usr/include/libio.h", line 495: error: identifier "_IO_FILE" is undefined
+  extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
+                           ^
+
+"/usr/include/libio.h", line 495: error: "size_t" is not a type name
+  extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
+                                               ^
+
+"/usr/include/libio.h", line 497: error: identifier "_IO_FILE" is undefined
+  extern __off64_t _IO_seekoff (_IO_FILE *, __off64_t, int, int);
+                                ^
+
+"/usr/include/libio.h", line 498: error: identifier "_IO_FILE" is undefined
+  extern __off64_t _IO_seekpos (_IO_FILE *, __off64_t, int);
+                                ^
+
+"/usr/include/libio.h", line 500: error: identifier "_IO_FILE" is undefined
+  extern void _IO_free_backup_area (_IO_FILE *) throw ();
+                                    ^
+
+"/usr/include/libio.h", line 500: error: expected a "{"
+  extern void _IO_free_backup_area (_IO_FILE *) throw ();
+                                                ^
+
+"/usr/include/stdio.h", line 155: error: expected a "{"
+  extern int remove (__const char *__filename) throw ();
+                                               ^
+
+"/usr/include/stdlib.h", line 35: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/stdlib.h", line 35: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/bits/waitstatus.h", line 90: error: expected an identifier
+   unsigned int:16;
+               ^
+
+"/usr/include/bits/waitstatus.h", line 97: error: expected a declaration
+        } __wait_stopped;
+        ^
+
+"/usr/include/bits/waitstatus.h", line 98: error: expected a declaration
+    };
+    ^
+
+"/usr/include/stdlib.h", line 140: error: "size_t" is not a type name
+  extern size_t __ctype_get_mb_cur_max (void) throw () ;
+         ^
+
+"/usr/include/stdlib.h", line 140: error: expected a "{"
+  extern size_t __ctype_get_mb_cur_max (void) throw () ;
+                                              ^
+
+"/usr/include/xlocale.h", line 43: error: variable "__locale_t" is not a type name
+  typedef __locale_t locale_t;
+          ^
+
+"/usr/include/stdlib.h", line 242: error: variable "__locale_t" is not a type name
+       __locale_t __loc) throw () __attribute__ ((__nonnull__ (1, 4))) ;
+       ^
+
+"/usr/include/stdlib.h", line 242: error: expected a "{"
+       __locale_t __loc) throw () __attribute__ ((__nonnull__ (1, 4))) ;
+                         ^
+
+"/usr/include/sys/types.h", line 35: error: identifier "__u_char" is undefined
+  typedef __u_char u_char;
+          ^
+
+"/usr/include/sys/types.h", line 36: error: identifier "__u_short" is undefined
+  typedef __u_short u_short;
+          ^
+
+"/usr/include/sys/types.h", line 37: error: identifier "__u_int" is undefined
+  typedef __u_int u_int;
+          ^
+
+"/usr/include/sys/types.h", line 38: error: identifier "__u_long" is undefined
+  typedef __u_long u_long;
+          ^
+
+"/usr/include/sys/select.h", line 99: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/sys/sysmacros.h", line 32: error: expected a ";"
+       throw ();
+       ^
+
+"/usr/include/sys/sysmacros.h", line 35: error: expected a ";"
+       throw ();
+       ^
+
+"/usr/include/sys/sysmacros.h", line 39: error: expected a ";"
+       throw ();
+       ^
+
+"/usr/include/stdlib.h", line 327: error: expected a "{"
+  extern long int random (void) throw ();
+                                ^
+
+"/usr/include/stdlib.h", line 351: error: identifier "int32_t" is undefined
+      int32_t *fptr;
+      ^
+
+"/usr/include/stdlib.h", line 351: error: identifier "fptr" is undefined
+      int32_t *fptr;
+               ^
+
+"/usr/include/stdlib.h", line 352: error: identifier "rptr" is undefined
+      int32_t *rptr;
+               ^
+
+"/usr/include/stdlib.h", line 353: error: identifier "state" is undefined
+      int32_t *state;
+               ^
+
+"/usr/include/stdlib.h", line 357: error: identifier "end_ptr" is undefined
+      int32_t *end_ptr;
+               ^
+
+"/usr/include/stdlib.h", line 361: error: identifier "int32_t" is undefined
+         int32_t *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+         ^
+
+"/usr/include/stdlib.h", line 361: error: expected a "{"
+         int32_t *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+                                       ^
+
+"/usr/include/stdlib.h", line 429: error: expected a "{"
+          double *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+                                       ^
+
+"/usr/include/alloca.h", line 33: error: "size_t" is not a type name
+  extern void *alloca (size_t __size) throw ();
+                       ^
+
+"/usr/include/alloca.h", line 33: error: expected a ";"
+  extern void *alloca (size_t __size) throw ();
+                                      ^
+
+"/usr/include/stdlib.h", line 502: error: "size_t" is not a type name
+  extern void *valloc (size_t __size) throw () __attribute__ ((__malloc__)) ;
+                       ^
+
+"/usr/include/stdlib.h", line 502: error: expected a "{"
+  extern void *valloc (size_t __size) throw () __attribute__ ((__malloc__)) ;
+                                      ^
+
+"/usr/include/string.h", line 28: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/string.h", line 28: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/string.h", line 57: error: "size_t" is not a type name
+          int __c, size_t __n)
+                   ^
+
+"/usr/include/string.h", line 58: error: expected a "{"
+       throw () __attribute__ ((__nonnull__ (1, 2)));
+       ^
+
+"/usr/include/string.h", line 74: error: "size_t" is not a type name
+  extern void *memchr (void *__s, int __c, size_t __n)
+                                           ^
+
+"/usr/include/string.h", line 75: error: expected a ";"
+        throw () __asm ("memchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+        ^
+
+"/usr/include/string.h", line 76: error: "size_t" is not a type name
+  extern __const void *memchr (__const void *__s, int __c, size_t __n)
+                                                           ^
+
+"/usr/include/string.h", line 76: error: declaration is incompatible with "void *memchr(void *, int, <error-type>)" (declared at line 74)
+  extern __const void *memchr (__const void *__s, int __c, size_t __n)
+                       ^
+
+"/usr/include/string.h", line 77: error: expected a ";"
+        throw () __asm ("memchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+        ^
+
+"/usr/include/string.h", line 103: error: expected an identifier
+  extern "C++" void *rawmemchr (void *__s, int __c)
+         ^
+
+"/usr/include/string.h", line 103: remark: explicit type is missing ("int" assumed)
+  extern "C++" void *rawmemchr (void *__s, int __c)
+         ^
+
+"/usr/include/string.h", line 104: error: expected a "{"
+       throw () __asm ("rawmemchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 214: error: expected a ";"
+       throw () __asm ("strchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 215: error: declaration is incompatible with "char *strchr(char *, int)" (declared at line 213)
+  extern __const char *strchr (__const char *__s, int __c)
+                       ^
+
+"/usr/include/string.h", line 216: error: expected a ";"
+       throw () __asm ("strchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 238: error: expected an identifier
+  extern "C++"
+         ^
+
+"/usr/include/string.h", line 239: error: expected a ";"
+  {
+  ^
+
+"/usr/include/string.h", line 271: error: expected an identifier
+  extern "C++" __const char *strchrnul (__const char *__s, int __c)
+         ^
+
+"/usr/include/string.h", line 271: remark: explicit type is missing ("int" assumed)
+  extern "C++" __const char *strchrnul (__const char *__s, int __c)
+         ^
+
+"/usr/include/string.h", line 272: error: expected a "{"
+       throw () __asm ("strchrnul") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 293: error: expected a ";"
+       throw () __asm ("strpbrk") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+       ^
+
+"/usr/include/string.h", line 294: error: declaration is incompatible with "char *strpbrk(char *, const char *)" (declared at line 292)
+  extern __const char *strpbrk (__const char *__s, __const char *__accept)
+                       ^
+
+"/usr/include/string.h", line 295: error: expected a ";"
+       throw () __asm ("strpbrk") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+       ^
+
+"/usr/include/string.h", line 317: error: expected an identifier
+  extern "C++"
+         ^
+
+"/usr/include/string.h", line 318: error: expected a ";"
+  {
+  ^
+
+"/usr/include/string.h", line 355: error: expected a "{"
+       throw () __attribute__ ((__nonnull__ (2, 3)));
+       ^
+
+"/usr/include/string.h", line 468: error: expected a ";"
+       throw () __asm ("index") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 469: error: declaration is incompatible with "char *index(char *, int)" (declared at line 467)
+  extern __const char *index (__const char *__s, int __c)
+                       ^
+
+"/usr/include/string.h", line 470: error: expected a ";"
+       throw () __asm ("index") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 493: error: expected an identifier
+  extern "C++"
+         ^
+
+"/usr/include/string.h", line 494: error: expected a ";"
+  {
+  ^
+
+"/usr/include/string.h", line 526: error: expected a "{"
+  extern int ffsl (long int __l) throw () __attribute__ ((__const__));
+                                 ^
+
+"/usr/include/malloc.h", line 48: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/malloc.h", line 48: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/malloc.h", line 72: error: "size_t" is not a type name
+  extern void *memalign (size_t __alignment, size_t __size) throw ()
+                         ^
+
+"/usr/include/malloc.h", line 72: error: "size_t" is not a type name
+  extern void *memalign (size_t __alignment, size_t __size) throw ()
+                                             ^
+
+"/usr/include/malloc.h", line 72: error: expected a "{"
+  extern void *memalign (size_t __alignment, size_t __size) throw ()
+                                                            ^
+
+"/usr/include/malloc.h", line 108: error: function "mallinfo" returns incomplete type "struct mallinfo"
+  extern struct mallinfo mallinfo (void) throw ();
+                         ^
+
+"/usr/include/malloc.h", line 108: error: expected a "{"
+  extern struct mallinfo mallinfo (void) throw ();
+                                         ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 9: error: identifier "delete" is undefined
+  delete p;
+  ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 9: error: "p" has already been declared in the current scope
+  delete p;
+         ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 16: error: identifier "delete" is undefined
+  delete []p;
+  ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 16: error: expected an expression
+  delete []p;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 16: error: expected a ";"
+  delete []p;
+           ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 21: error: identifier "new" is undefined
+  char *p = new char[8];
+            ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 21: error: expected a ";"
+  char *p = new char[8];
+                ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 23: error: identifier "delete" is undefined
+  delete p;
+  ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 23: error: "p" has already been declared in the current scope
+  delete p;
+         ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 28: error: identifier "new" is undefined
+  char *p = new char[8];
+            ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 28: error: expected a ";"
+  char *p = new char[8];
+                ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 35: error: identifier "new" is undefined
+  char *p = new char;
+            ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 35: error: expected a ";"
+  char *p = new char;
+                ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 37: error: identifier "delete" is undefined
+  delete []p;
+  ^
+
+Error limit reached.
+100 errors detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\prep_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp".
+Compilation terminated.
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp
+"/usr/include/stdio.h", line 30: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/stdio.h", line 30: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/libio.h", line 332: error: identifier "size_t" is undefined
+    size_t __pad5;
+    ^
+
+"/usr/include/libio.h", line 336: error: identifier "size_t" is undefined
+    char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+                                                                    ^
+
+"/usr/include/libio.h", line 364: error: "size_t" is not a type name
+  typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);
+                                                               ^
+
+"/usr/include/libio.h", line 373: error: "size_t" is not a type name
+       size_t __n);
+       ^
+
+"/usr/include/libio.h", line 413: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/libio.h", line 413: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/libio.h", line 492: error: identifier "_IO_FILE" is undefined
+  extern int _IO_vfprintf (_IO_FILE *__restrict, const char *__restrict,
+                           ^
+
+"/usr/include/libio.h", line 494: error: identifier "_IO_FILE" is undefined
+  extern __ssize_t _IO_padn (_IO_FILE *, int, __ssize_t);
+                             ^
+
+"/usr/include/libio.h", line 495: error: "size_t" is not a type name
+  extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
+         ^
+
+"/usr/include/libio.h", line 495: error: identifier "_IO_FILE" is undefined
+  extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
+                           ^
+
+"/usr/include/libio.h", line 495: error: "size_t" is not a type name
+  extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
+                                               ^
+
+"/usr/include/libio.h", line 497: error: identifier "_IO_FILE" is undefined
+  extern __off64_t _IO_seekoff (_IO_FILE *, __off64_t, int, int);
+                                ^
+
+"/usr/include/libio.h", line 498: error: identifier "_IO_FILE" is undefined
+  extern __off64_t _IO_seekpos (_IO_FILE *, __off64_t, int);
+                                ^
+
+"/usr/include/libio.h", line 500: error: identifier "_IO_FILE" is undefined
+  extern void _IO_free_backup_area (_IO_FILE *) throw ();
+                                    ^
+
+"/usr/include/libio.h", line 500: error: expected a "{"
+  extern void _IO_free_backup_area (_IO_FILE *) throw ();
+                                                ^
+
+"/usr/include/stdio.h", line 155: error: expected a "{"
+  extern int remove (__const char *__filename) throw ();
+                                               ^
+
+"/usr/include/stdlib.h", line 35: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/stdlib.h", line 35: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/bits/waitstatus.h", line 90: error: expected an identifier
+   unsigned int:16;
+               ^
+
+"/usr/include/bits/waitstatus.h", line 97: error: expected a declaration
+        } __wait_stopped;
+        ^
+
+"/usr/include/bits/waitstatus.h", line 98: error: expected a declaration
+    };
+    ^
+
+"/usr/include/stdlib.h", line 140: error: "size_t" is not a type name
+  extern size_t __ctype_get_mb_cur_max (void) throw () ;
+         ^
+
+"/usr/include/stdlib.h", line 140: error: expected a "{"
+  extern size_t __ctype_get_mb_cur_max (void) throw () ;
+                                              ^
+
+"/usr/include/xlocale.h", line 43: error: variable "__locale_t" is not a type name
+  typedef __locale_t locale_t;
+          ^
+
+"/usr/include/stdlib.h", line 242: error: variable "__locale_t" is not a type name
+       __locale_t __loc) throw () __attribute__ ((__nonnull__ (1, 4))) ;
+       ^
+
+"/usr/include/stdlib.h", line 242: error: expected a "{"
+       __locale_t __loc) throw () __attribute__ ((__nonnull__ (1, 4))) ;
+                         ^
+
+"/usr/include/sys/types.h", line 35: error: identifier "__u_char" is undefined
+  typedef __u_char u_char;
+          ^
+
+"/usr/include/sys/types.h", line 36: error: identifier "__u_short" is undefined
+  typedef __u_short u_short;
+          ^
+
+"/usr/include/sys/types.h", line 37: error: identifier "__u_int" is undefined
+  typedef __u_int u_int;
+          ^
+
+"/usr/include/sys/types.h", line 38: error: identifier "__u_long" is undefined
+  typedef __u_long u_long;
+          ^
+
+"/usr/include/sys/select.h", line 99: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/sys/sysmacros.h", line 32: error: expected a ";"
+       throw ();
+       ^
+
+"/usr/include/sys/sysmacros.h", line 35: error: expected a ";"
+       throw ();
+       ^
+
+"/usr/include/sys/sysmacros.h", line 39: error: expected a ";"
+       throw ();
+       ^
+
+"/usr/include/stdlib.h", line 327: error: expected a "{"
+  extern long int random (void) throw ();
+                                ^
+
+"/usr/include/stdlib.h", line 351: error: identifier "int32_t" is undefined
+      int32_t *fptr;
+      ^
+
+"/usr/include/stdlib.h", line 351: error: identifier "fptr" is undefined
+      int32_t *fptr;
+               ^
+
+"/usr/include/stdlib.h", line 352: error: identifier "rptr" is undefined
+      int32_t *rptr;
+               ^
+
+"/usr/include/stdlib.h", line 353: error: identifier "state" is undefined
+      int32_t *state;
+               ^
+
+"/usr/include/stdlib.h", line 357: error: identifier "end_ptr" is undefined
+      int32_t *end_ptr;
+               ^
+
+"/usr/include/stdlib.h", line 361: error: identifier "int32_t" is undefined
+         int32_t *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+         ^
+
+"/usr/include/stdlib.h", line 361: error: expected a "{"
+         int32_t *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+                                       ^
+
+"/usr/include/stdlib.h", line 429: error: expected a "{"
+          double *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+                                       ^
+
+"/usr/include/alloca.h", line 33: error: "size_t" is not a type name
+  extern void *alloca (size_t __size) throw ();
+                       ^
+
+"/usr/include/alloca.h", line 33: error: expected a ";"
+  extern void *alloca (size_t __size) throw ();
+                                      ^
+
+"/usr/include/stdlib.h", line 502: error: "size_t" is not a type name
+  extern void *valloc (size_t __size) throw () __attribute__ ((__malloc__)) ;
+                       ^
+
+"/usr/include/stdlib.h", line 502: error: expected a "{"
+  extern void *valloc (size_t __size) throw () __attribute__ ((__malloc__)) ;
+                                      ^
+
+"/usr/include/string.h", line 28: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/string.h", line 28: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/string.h", line 57: error: "size_t" is not a type name
+          int __c, size_t __n)
+                   ^
+
+"/usr/include/string.h", line 58: error: expected a "{"
+       throw () __attribute__ ((__nonnull__ (1, 2)));
+       ^
+
+"/usr/include/string.h", line 74: error: "size_t" is not a type name
+  extern void *memchr (void *__s, int __c, size_t __n)
+                                           ^
+
+"/usr/include/string.h", line 75: error: expected a ";"
+        throw () __asm ("memchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+        ^
+
+"/usr/include/string.h", line 76: error: "size_t" is not a type name
+  extern __const void *memchr (__const void *__s, int __c, size_t __n)
+                                                           ^
+
+"/usr/include/string.h", line 76: error: declaration is incompatible with "void *memchr(void *, int, <error-type>)" (declared at line 74)
+  extern __const void *memchr (__const void *__s, int __c, size_t __n)
+                       ^
+
+"/usr/include/string.h", line 77: error: expected a ";"
+        throw () __asm ("memchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+        ^
+
+"/usr/include/string.h", line 103: error: expected an identifier
+  extern "C++" void *rawmemchr (void *__s, int __c)
+         ^
+
+"/usr/include/string.h", line 103: remark: explicit type is missing ("int" assumed)
+  extern "C++" void *rawmemchr (void *__s, int __c)
+         ^
+
+"/usr/include/string.h", line 104: error: expected a "{"
+       throw () __asm ("rawmemchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 214: error: expected a ";"
+       throw () __asm ("strchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 215: error: declaration is incompatible with "char *strchr(char *, int)" (declared at line 213)
+  extern __const char *strchr (__const char *__s, int __c)
+                       ^
+
+"/usr/include/string.h", line 216: error: expected a ";"
+       throw () __asm ("strchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 238: error: expected an identifier
+  extern "C++"
+         ^
+
+"/usr/include/string.h", line 239: error: expected a ";"
+  {
+  ^
+
+"/usr/include/string.h", line 271: error: expected an identifier
+  extern "C++" __const char *strchrnul (__const char *__s, int __c)
+         ^
+
+"/usr/include/string.h", line 271: remark: explicit type is missing ("int" assumed)
+  extern "C++" __const char *strchrnul (__const char *__s, int __c)
+         ^
+
+"/usr/include/string.h", line 272: error: expected a "{"
+       throw () __asm ("strchrnul") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 293: error: expected a ";"
+       throw () __asm ("strpbrk") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+       ^
+
+"/usr/include/string.h", line 294: error: declaration is incompatible with "char *strpbrk(char *, const char *)" (declared at line 292)
+  extern __const char *strpbrk (__const char *__s, __const char *__accept)
+                       ^
+
+"/usr/include/string.h", line 295: error: expected a ";"
+       throw () __asm ("strpbrk") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+       ^
+
+"/usr/include/string.h", line 317: error: expected an identifier
+  extern "C++"
+         ^
+
+"/usr/include/string.h", line 318: error: expected a ";"
+  {
+  ^
+
+"/usr/include/string.h", line 355: error: expected a "{"
+       throw () __attribute__ ((__nonnull__ (2, 3)));
+       ^
+
+"/usr/include/string.h", line 468: error: expected a ";"
+       throw () __asm ("index") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 469: error: declaration is incompatible with "char *index(char *, int)" (declared at line 467)
+  extern __const char *index (__const char *__s, int __c)
+                       ^
+
+"/usr/include/string.h", line 470: error: expected a ";"
+       throw () __asm ("index") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+       ^
+
+"/usr/include/string.h", line 493: error: expected an identifier
+  extern "C++"
+         ^
+
+"/usr/include/string.h", line 494: error: expected a ";"
+  {
+  ^
+
+"/usr/include/string.h", line 526: error: expected a "{"
+  extern int ffsl (long int __l) throw () __attribute__ ((__const__));
+                                 ^
+
+"/usr/include/malloc.h", line 48: error: expected an identifier
+  extern "C" {
+         ^
+
+"/usr/include/malloc.h", line 48: error: expected a ";"
+  extern "C" {
+             ^
+
+"/usr/include/malloc.h", line 72: error: "size_t" is not a type name
+  extern void *memalign (size_t __alignment, size_t __size) throw ()
+                         ^
+
+"/usr/include/malloc.h", line 72: error: "size_t" is not a type name
+  extern void *memalign (size_t __alignment, size_t __size) throw ()
+                                             ^
+
+"/usr/include/malloc.h", line 72: error: expected a "{"
+  extern void *memalign (size_t __alignment, size_t __size) throw ()
+                                                            ^
+
+"/usr/include/malloc.h", line 108: error: function "mallinfo" returns incomplete type "struct mallinfo"
+  extern struct mallinfo mallinfo (void) throw ();
+                         ^
+
+"/usr/include/malloc.h", line 108: error: expected a "{"
+  extern struct mallinfo mallinfo (void) throw ();
+                                         ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 9: error: identifier "delete" is undefined
+  delete p;
+  ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 9: error: "p" has already been declared in the current scope
+  delete p;
+         ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 16: error: identifier "delete" is undefined
+  delete []p;
+  ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 16: error: expected an expression
+  delete []p;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 16: error: expected a ";"
+  delete []p;
+           ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 21: error: identifier "new" is undefined
+  char *p = new char[8];
+            ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 21: error: expected a ";"
+  char *p = new char[8];
+                ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 23: error: identifier "delete" is undefined
+  delete p;
+  ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 23: error: "p" has already been declared in the current scope
+  delete p;
+         ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 28: error: identifier "new" is undefined
+  char *p = new char[8];
+            ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 28: error: expected a ";"
+  char *p = new char[8];
+                ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 35: error: identifier "new" is undefined
+  char *p = new char;
+            ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 35: error: expected a ";"
+  char *p = new char;
+                ^
+
+"/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp", line 37: error: identifier "delete" is undefined
+  delete []p;
+  ^
+
+Error limit reached.
+100 errors detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\prep_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp".
+Compilation terminated.
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --g++ --suppress_vtbl --type_traits_helpers -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --g++ --suppress_vtbl --type_traits_helpers -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --g++ --suppress_vtbl --type_traits_helpers -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --g++ --suppress_vtbl --type_traits_helpers -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\7eb63676aab5e8aedf3d0293c78d157480ac3c0a.API38.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\7eb63676aab5e8aedf3d0293c78d157480ac3c0a.API38.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --g++ --suppress_vtbl --type_traits_helpers -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\7f14fd0557c74b6bdda2b70d189cf6f6be204ebe.DO_NOT_USE_SIZEOF_ON_PTR.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\7f14fd0557c74b6bdda2b70d189cf6f6be204ebe.DO_NOT_USE_SIZEOF_ON_PTR.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --g++ --suppress_vtbl --type_traits_helpers -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\8036644f0d680b65a461d0e2423409932ea05095.WEAK_ENCRYPTION.RSA_PADDING.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\8036644f0d680b65a461d0e2423409932ea05095.WEAK_ENCRYPTION.RSA_PADDING.c.i
+"/home/kskyj/sparrow4/util/testcode/c/NEGATIVE_FILE_DESCRIPTOR.c", line 10: error: identifier "strncpy" is undefined
+     strncpy(buf, rPort, 25);
+     ^
+
+1 error detected in the compilation of "C:\sparrow4\util\testcode\c\sparrow\prep_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i".
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --g++ --suppress_vtbl --type_traits_helpers -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\83f96893bcbc7af29776a558a9f245fa64175925.BAD_CALL.REQUIRED.WRAPPER.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\83f96893bcbc7af29776a558a9f245fa64175925.BAD_CALL.REQUIRED.WRAPPER.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c.i
+"/home/kskyj/sparrow4/util/testcode/c/CHECK_ALIGNMENT_OF_MEMORY.c", line 9: warning: variable "ptr1" was set but never used
+  int *ptr1;
+       ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c.i
+"/home/kskyj/sparrow4/util/testcode/c/API44.c", line 14: warning: variable "k" was set but never used
+      int k;
+          ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\8b670eaf8e4405579afd773b71c9b6a7ecc5e875.API44.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\8b670eaf8e4405579afd773b71c9b6a7ecc5e875.API44.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\8b9b21d54bad2ab5dd61c0cf2d021401a15026ff.API31.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\8b9b21d54bad2ab5dd61c0cf2d021401a15026ff.API31.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\8d52774a6d46e4a00674a883d10cf9b05f2efb64.BAD_OPERATOR.LOGICAL_COMPARISON.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\8d52774a6d46e4a00674a883d10cf9b05f2efb64.BAD_OPERATOR.LOGICAL_COMPARISON.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\93171fc7de025cb62cccff72fa5bbbde3a78f8e0.BAD_CALL.FORBIDDEN.PARAM.NUMBER.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\93171fc7de025cb62cccff72fa5bbbde3a78f8e0.BAD_CALL.FORBIDDEN.PARAM.NUMBER.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\94f9d81fad898cf857d778ccc19c70bdf16c2bea.API37.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\94f9d81fad898cf857d778ccc19c70bdf16c2bea.API37.c.i
+"/home/kskyj/sparrow4/util/testcode/c/crulcheck.c", line 36: warning: statement is unreachable
+  return ((void *)0);
+  ^
+
+"/home/kskyj/sparrow4/util/testcode/c/crulcheck.c", line 23: warning: variable "result" was set but never used
+  int result;
+      ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\9815df601bcc282c10666eadececa8f9e369c132.API48.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\9815df601bcc282c10666eadececa8f9e369c132.API48.c.i
+"/home/kskyj/sparrow4/util/testcode/c/SIG30.c", line 34: warning: statement is unreachable
+    return 0;
+    ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\9eb7df4c192c33e59e7062704fb85656451195c8.BAD_MACRO.DANGEROUS_USAGE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\9eb7df4c192c33e59e7062704fb85656451195c8.BAD_MACRO.DANGEROUS_USAGE.c.i
+"/home/kskyj/sparrow4/util/testcode/c/SIG32.c", line 14: warning: variable "bufsize" was set but never used
+    static size_t bufsize;
+                  ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\9fe5ad634288f1e27fc1815fa13ea318d73b6ba5.API39.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\9fe5ad634288f1e27fc1815fa13ea318d73b6ba5.API39.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\a2eff118f772de75431f276b9c7c583175abb774.BAD_CALL.REQUIRED.LIB_CALL.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\a2eff118f772de75431f276b9c7c583175abb774.BAD_CALL.REQUIRED.LIB_CALL.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\a9032a12d87fb0344a9dd3a6df38ae3a75f4792e.BAD_CALL.FORBIDDEN.PARAM.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\a9032a12d87fb0344a9dd3a6df38ae3a75f4792e.BAD_CALL.FORBIDDEN.PARAM.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\aa2bdec3c0550b8e4488a8c81828abf64c0aa308.API16.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\aa2bdec3c0550b8e4488a8c81828abf64c0aa308.API16.c.i
+"/home/kskyj/sparrow4/util/testcode/c/MIS23.c", line 3: warning: variable "div" was set but never used
+    int div = 0;
+        ^
+
+"/home/kskyj/sparrow4/util/testcode/c/MIS23.c", line 4: warning: variable "mod" was set but never used
+    int mod = 0;
+        ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ad860547d4e04c44bf24a1efa6afa960487efcae.MIS23.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ad860547d4e04c44bf24a1efa6afa960487efcae.MIS23.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c.i
+"/home/kskyj/sparrow4/util/testcode/c/RACE_CONDITION.c", line 12: warning: variable "f" was set but never used
+    char* f;
+          ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\b69d6b4abb584f4230bcca0372df4d7921971037.BAD_CALL.NOT_ALLOWED.PARAM.STRING.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\b69d6b4abb584f4230bcca0372df4d7921971037.BAD_CALL.NOT_ALLOWED.PARAM.STRING.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\b74a165c1aa822f77de3f5dba95a19bddfebce2b.MIS10.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\b74a165c1aa822f77de3f5dba95a19bddfebce2b.MIS10.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\b7fa2254801634ad537ab7ccd5a573b1d4daaf5a.MIS05.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\b7fa2254801634ad537ab7ccd5a573b1d4daaf5a.MIS05.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c.i
+"/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c", line 9: warning: variable "ref" was set but never used
+   int * ref = a;
+         ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\c27708c04db566dc8adb475dfecd00353605b37b.BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\c27708c04db566dc8adb475dfecd00353605b37b.BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\c4405c999830b41d895444cfc8907929ec23cc1a.os_con_imp_int.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\c4405c999830b41d895444cfc8907929ec23cc1a.os_con_imp_int.c.i
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 132: remark: variable "t_wide_str1" was set but never used
+   wchar_t * t_wide_str1 = (wchar_t *)malloc(strlen(char_str1) + 1);
+             ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 133: remark: variable "t_wide_str2" was set but never used
+   wchar_t * t_wide_str2 = (wchar_t *)malloc(wcslen(wide_str1) + 1);
+             ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 134: remark: variable "t_wide_str3" was set but never used
+   wchar_t * t_wide_str3 = (wchar_t *)malloc((wcslen(wide_str1) + 1) * sizeof(wchar_t));
+             ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 209: warning: statement is unreachable
+   return ret;
+   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 214: warning: statement is unreachable
+   return 1;
+   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 215: warning: statement is unreachable
+   return 2;
+   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 220: warning: statement is unreachable
+   return 0;
+   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 221: warning: statement is unreachable
+   return 1;
+   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 233: warning: variable "a" was set but never used
+   int a = 0;
+       ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 608: warning: variable "FBN_int_local" was set but never used
+   int FBN_int_local;
+       ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 703: warning: statement is unreachable
+   return test_macro_param_sub(10,20);
+   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 704: warning: statement is unreachable
+   return 10;
+   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 751: warning: statement is unreachable
+     break;
+     ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 754: warning: statement is unreachable
+     break;
+     ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 760: warning: statement is unreachable
+   return 10;
+   ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 749: warning: variable "test" was set but never used
+   enum _test { tt_0, tt_1 = tt_0, tt_2 } test; unsigned int aaa = 100; int bbb = 200; int ccc = 300; char * temp = "abcedf\\g ABCEDFG \n"; char ** ppoint = 0; test = tt_0; **ppoint = 0; if (0 < p1 && p1 < 10) { ccc = (int)(((aaa + 100) * bbb)*((aaa + 100) * bbb)*((aaa + 100) * bbb) + (30 + get_100() + p1) + (unsigned long)(int)(&g_struct)->value____value + g_struct.value____value); ccc = 10; } else if (p1 > 20) { switch (bbb) { case 10: ccc = 10; { int b = 3; ccc += b; } break; case 20: ccc = 20;
+                                          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/main.c", line 802: warning: variable "j" was set but never used
+   int j;
+       ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\c52b51d9f9482350a90697381af642a5085a8385.main.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\c52b51d9f9482350a90697381af642a5085a8385.main.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\c5e13bf28c56fb7bbeb4a52a49b08fd343bd6a8c.DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\c5e13bf28c56fb7bbeb4a52a49b08fd343bd6a8c.DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\c66c77d72b294ba6a3f3ad48f2e8611bc2dec7d1.BAD_QUALIFIER.REQUIRED.PARAM_PTR.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\c66c77d72b294ba6a3f3ad48f2e8611bc2dec7d1.BAD_QUALIFIER.REQUIRED.PARAM_PTR.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\c72e927a40f24a24f99f97f5e63be32a95eba1bb.BAD_INCLUDE.DUPLICATED.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\c72e927a40f24a24f99f97f5e63be32a95eba1bb.BAD_INCLUDE.DUPLICATED.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\c82f9837cb595a7ecd74cf98813bc61894ad3118.DO_NOT_USE_HARD_CODING.USERNAME.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\c82f9837cb595a7ecd74cf98813bc61894ad3118.DO_NOT_USE_HARD_CODING.USERNAME.c.i
+"/home/kskyj/sparrow4/util/testcode/c/BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c", line 11: warning: variable "a" was set but never used
+   FILE * a;
+          ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ca272d1a93e59648f59bd4449cd2ec0a6e1a6151.BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ca272d1a93e59648f59bd4449cd2ec0a6e1a6151.BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\cafa4fa6c7ffd65203f4dce06c14917bc0e96421.BAD_CALL.LIBRARY.MEMORY.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\cafa4fa6c7ffd65203f4dce06c14917bc0e96421.BAD_CALL.LIBRARY.MEMORY.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\cc99044c497e21cebd90c53675243f8c24d8cdf6.MIS08.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\cc99044c497e21cebd90c53675243f8c24d8cdf6.MIS08.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\cd2c75cbe6a883f3f0aa3639b3bbba9444684961.BAD_CALL.FORBIDDEN.LIB.TEMP.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\cd2c75cbe6a883f3f0aa3639b3bbba9444684961.BAD_CALL.FORBIDDEN.LIB.TEMP.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\cf26a7be838a50b303c7d53040f97e70d9444423.BAD_CALL.MISSING_CALL_PARAM.EXTENDED.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\cf26a7be838a50b303c7d53040f97e70d9444423.BAD_CALL.MISSING_CALL_PARAM.EXTENDED.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\d0c00b805e5ad4a781b29ce451180379715969e5.MIS01.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\d0c00b805e5ad4a781b29ce451180379715969e5.MIS01.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\d181c5a21fad2c5317f10905066001a06f506613.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\d181c5a21fad2c5317f10905066001a06f506613.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\d3a9934b5098871410f1f22d64eff1abbc56aa5b.API05.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\d3a9934b5098871410f1f22d64eff1abbc56aa5b.API05.c.i
+"/home/kskyj/sparrow4/util/testcode/c/BAD_OPERATOR.ASSIGNMENT_IN_COND.c", line 3: warning: parameter "x" was set but never used
+  void func(int x) {
+                ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\d93926954487c225ce98bc9ffb557d3c3ee85244.BAD_OPERATOR.ASSIGNMENT_IN_COND.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\d93926954487c225ce98bc9ffb557d3c3ee85244.BAD_OPERATOR.ASSIGNMENT_IN_COND.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\d9e968f9d9b4596b2cb63a48e2e025d6db92600b.BAD_ERROR.INVALID_CODE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\d9e968f9d9b4596b2cb63a48e2e025d6db92600b.BAD_ERROR.INVALID_CODE.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\dd6e93d9d323286c13b4f84cab9abb7efe015895.API33.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\dd6e93d9d323286c13b4f84cab9abb7efe015895.API33.c.i
+"/home/kskyj/sparrow4/util/testcode/c/API25.c", line 7: warning: variable "TB_Feild" was set but never used
+    char *TB_Feild;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/API25.c", line 8: warning: variable "iVar" was set but never used
+    int iVar;
+        ^
+
+"/home/kskyj/sparrow4/util/testcode/c/API25.c", line 9: warning: variable "fVar" was set but never used
+    float fVar;
+          ^
+
+"/home/kskyj/sparrow4/util/testcode/c/API25.c", line 10: warning: variable "cVar" was set but never used
+    char cVar;
+         ^
+
+"/home/kskyj/sparrow4/util/testcode/c/API25.c", line 19: warning: variable "TB_Feild" was set but never used
+    char *TB_Feild;
+          ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\e3030443c680421f76653fab89ea32b99726f6ae.BAD_CALL.TYPE_MISMATCH.SPRINTF.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\e3030443c680421f76653fab89ea32b99726f6ae.BAD_CALL.TYPE_MISMATCH.SPRINTF.c.i
+"/home/kskyj/sparrow4/util/testcode/c/MIS24.c", line 3: warning: variable "sum" was set but never used
+    int sum = 0;
+        ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\e37ed3018fcf962702f2fea8a65af546050d629e.MIS24.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\e37ed3018fcf962702f2fea8a65af546050d629e.MIS24.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\e428da448d08ce388fa1f43af220ce119ea83e03.BAD_NAME.VARIABLE.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\e428da448d08ce388fa1f43af220ce119ea83e03.BAD_NAME.VARIABLE.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\e95dd6f39d236b8f114700f1c5e5c90644af91b4.FORBIDDEN_CALL.LOOP.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\e95dd6f39d236b8f114700f1c5e5c90644af91b4.FORBIDDEN_CALL.LOOP.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ea37ad3c388de7632c80b9135b56cde3a54b4510.API34.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ea37ad3c388de7632c80b9135b56cde3a54b4510.API34.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ebd57031be3b51627e3e53a79c78c3ba8a817ba2.API51.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ebd57031be3b51627e3e53a79c78c3ba8a817ba2.API51.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ec23a6cd03712145e8551c42e11384fa6e9a3dd9.PRE09.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ec23a6cd03712145e8551c42e11384fa6e9a3dd9.PRE09.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ec377a459a3722866f87ecc5a0f9c39723ef82ab.MIS16.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ec377a459a3722866f87ecc5a0f9c39723ef82ab.MIS16.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ef4e87dee6bc55d5ac5e4a154766173ec1e97d9f.BAD_ERROR.MISSING_INIT.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ef4e87dee6bc55d5ac5e4a154766173ec1e97d9f.BAD_ERROR.MISSING_INIT.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\f428b900febe1be00c6715b344d1681012b66431.MIS19.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\f428b900febe1be00c6715b344d1681012b66431.MIS19.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\f79bb79a93bcc04b63bd06d8a0f3c30f2610e34c.BAD_ARGS.FORBIDDEN.AFTER_CALL.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\f79bb79a93bcc04b63bd06d8a0f3c30f2610e34c.BAD_ARGS.FORBIDDEN.AFTER_CALL.c.i
+"/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c", line 30: warning: variable "a" was set but never used
+            int a;
+                ^
+
+"/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c", line 46: warning: variable "a" was set but never used
+   int a;
+       ^
+
+"/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c", line 54: warning: variable "a" was set but never used
+   int a;
+       ^
+
+"/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c", line 66: warning: variable "a" was set but never used
+   int a;
+       ^
+
+"/home/kskyj/sparrow4/util/testcode/c/EMPTY_BRANCH.c", line 75: warning: variable "a" was set but never used
+   int a;
+       ^
+
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\fda6ba0a97510f08dd295d79761d4639d72dc073.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\fda6ba0a97510f08dd295d79761d4639d72dc073.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c.i
+process command : C:\sparrow4\whistle\engine\windows\libexec\sparrow\edgcpfe48.gnu --gcc -w --no_inlining --pack_alignment 1 -D__builtin_offsetof(t,memb)=((size_t)&(((t *)0)->memb)) -D__deprecated__(X)= -D__int128=int -D__builtin_types_compatible_p(x,y)=1 --gen_c_file_name C:\sparrow4\util\testcode\c\sparrow\gen_files\ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c.i --edg_base_dir C:\sparrow4\whistle\engine\windows\libexec\sparrow --temp_dir C:\sparrow4\data\temp\etc C:\sparrow4\util\testcode\c\sparrow\prep_files\ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c.i
+
+=== Input list ======================================================================================================
+C:\sparrow4\util\testcode\c\sparrow\prep_files\010ab1c36d9b776b778e38ca3933cb64714217dc.API47.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\024bb2db00efb377cbc28b5490a140cd84bcb83d.MULTIPLE_BINDS_TO_SAME_PORT.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\047458cf0633ff9f4ad445b17131ac47e9b1da67.BAD_MACRO.MISUSE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\05741670ae3a296c38cd1693b0a34437bc3b5a8b.FBD15.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\08f2315cdd09956e0c890bba05602b59b24ad835.BAD_CALL.IMPROPER_VARARGS.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\0aa2f60632355b5e36d7bc98e2cfdf30b8716113.BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\0b861a382047ba80fc0293c64d7c6ae2a196dca5.BAD_CALL.FORBIDDEN.LIB.PROCESS.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\0be673cba2720df1dba0b75ce9d3a4c7d1b29a56.API27.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\0e3f3c3eb3d6618392ce91cb7dd6bf2beaef471e.BAD_CALL.TYPE_MISMATCH.STRING.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\0ea7900cfc193ce776ee44b1203cdfc60cd7a805.BAD_INCLUDE.FORBIDDEN.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\113fc64b9104bfbda71f464eb4a1041ab1403b6b.API36.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\1160af5dfaa3b5fb2f9d372bf89655754e7a38e2.MIS03.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\1353f524cb7f8b3b3235d3d52302275090c32ad4.MIS15.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\19498fa23904bd8458b341835c11f3f5fe05d9a0.FORBIDDEN_CALL.BEFORE_CALL.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\1a8f580850535deac75f7d681dcb9ae2759f8ff7.API50.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\1b903b49859b6d79d9925771ac767bbaa63627c9.MIS17.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\1bfe846292d11556f4345152fbe1465cfe1ea110.API29.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\20152ccf19e88700fc56297ac352ce5f913f06b4.BAD_CALL.FORBIDDEN.LIB.TP.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\21973f8b6e4bb40eb64f7303a26c51906854a2c5.BAD_CALL.REQUIRED.PRE_CALL.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\24f4fb3f56990529c2071898b7a021a7cda6ea73.BAD_QUALIFIER.FORBIDDEN.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\25a37abd3d3cd64fd7dd764e50cac72dd71887df.BAD_CALL.REQUIRED.VARARGS.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\25d126a4beb29fca9bdba32fec6f3e7cd3c410cb.BAD_INCLUDE.INVALID_PATH.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\29cb2c63abf1c7104533ceab45a563cb298d6847.BAD_CALL.FORBIDDEN.LIB.TIMER.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\33055ec5e75adee463103914c229b01b082788f0.MIS07.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\37633966ca1d50dfba2797b58c825ebaad34c8cb.API32.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\393fe28650396a1203a12d88443729137820922d.TOO_MANY_METHODS.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\399ef3950bf07684689a069695ee14bf14668f55.target.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\39e8e3780b5d68b17fde55c876f9fd9732d5719f.BAD_CALL.FORBIDDEN.PARAM.NAME.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3bb5060d41c24cc5f5cdf673b5cf46e42d58618c.MIS14.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3c7441651bc3feaed132817bc4bab8e29e36c61d.BAD_INIT.CHAR_ARRAY.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3c785b37d82ff81447cdf68b40e6f90a13b27c53.BAD_CALL.FORBIDDEN.VARARGS.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3c846ef1468bc74524565eacae650052df759b5c.FBD01.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3cea62a02e843ead06e9117347f21a84dee92b1c.BAD_CALL.REQUIRED.PARAM.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3de28b862e58117007cb6a8d2c1bd857e3d9fae6.BAD_CALL.NOT_ALLOWED.PARAM.NAME.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3f37093b00151d3589118017e34163f2e781da86.BAD_CALL.FORBIDDEN.PARAM.LITERAL.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\40ac34245ae3d8f8e231e68ac45411b2662d1ec8.API46.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\418c3c825592cc1b626e4e8779360f54402837f6.API41.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\41a2c099d8deaf8467ee788500a8013a65574d7f.MIS06.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\45d737cf1816537689015e95e301a52d50af236c.BAD_CALL.MISSING_CALL_PARAM.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\46d73008519b7e03fb033d12682fddbde549fe5a.API24.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\475a5e66b185c57f864256775af3eb059f1c05cb.API40.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\4789f9e48ee78555c1856c711642adaf7d9fe7c8.MIS22.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\4f336cd9e4bc240ce051806dafcf43ec51c20532.API35.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\51a59d283849babf908fe25123552f5628d1dc45.BAD_INTEGER_CONST_DEFINITION.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\54ae2822ee086f96542f6faf2d6ea27c1664a03a.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\55042a8671f07a70473a90aa54f172d3bfd90bfc.PASSWORD_IN_COMMENT.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\565649f83bba965086bccb1b8ee260d59491a413.ENV32.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\58e920518236f799ac2cc404a5f04a8a5b0972a5.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\5bdc391d714c4e2263ea3cba16ca63adb12e6309.MISSING_WRAPPER_ON_VARIABLE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\5c0ec7bd62ad482982f42e9c04839f6ab50e0446.BAD_PRIVILEGE_RELINQUISHMENT.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\5c1f61b5c6d712090338b99f4368411018f2f789.INCONSISTENT_GLOBAL_VARIABLE_TYPE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\5c6bc5c85a710efe8d877a739e5587c38d869879.BAD_CALL.FORBIDDEN.PARAM.STRING.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\5eb7e94370c6b0ed3b023ed8fbb66a38289920d6.MIS18.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\5f47cdf1f7e4094a5255419fe9410b1e889e1f51.API28.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\61dac8cb97dfd0c79892203dfc62a1121539a08b.MIS20.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\6396027ddb3a423f2fba630424dcba8d01295a64.API30.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\647f8d69dad7a1488df5be1c0d297a3a03ebb287.FUNCTION_DEFINITION_TYPE_MISMATCH.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\649da37cf093a941a3f8c49b1e015c0c65829691.API45.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\6b507efeb026bda78398d2481b26cb238c503fab.API23.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\6d8e8a4ed8e0698f988dcfb8407ac15970ab927e.BAD_CALL.REQUIRED.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\742032980ba9578e1dd86dc442e3c9a5fb50a411.BAD_STRUCT_MEMBER_ACCESS.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\74e09bcd6e260e3eec8482d8397eb969ce2e15a9.BAD_CALL.REQUIRED.ARGS.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\760bd10a2cf4fa0bb443ccda9ff5fa2045370cad.PREMATURE_THREAD_TERMINATION.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\778f33f9b7619d829b4066717c21399bdf019829.MSC17.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\798f0eecbb70a61ae67e351ceff38d38a3830235.MIS11.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\7ab2a7356c3ecf930785d9fd063725a6ede833df.MIS21.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\7eb63676aab5e8aedf3d0293c78d157480ac3c0a.API38.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\7f14fd0557c74b6bdda2b70d189cf6f6be204ebe.DO_NOT_USE_SIZEOF_ON_PTR.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\8036644f0d680b65a461d0e2423409932ea05095.WEAK_ENCRYPTION.RSA_PADDING.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\83f96893bcbc7af29776a558a9f245fa64175925.BAD_CALL.REQUIRED.WRAPPER.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\8b670eaf8e4405579afd773b71c9b6a7ecc5e875.API44.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\8b9b21d54bad2ab5dd61c0cf2d021401a15026ff.API31.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\8d52774a6d46e4a00674a883d10cf9b05f2efb64.BAD_OPERATOR.LOGICAL_COMPARISON.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\93171fc7de025cb62cccff72fa5bbbde3a78f8e0.BAD_CALL.FORBIDDEN.PARAM.NUMBER.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\94f9d81fad898cf857d778ccc19c70bdf16c2bea.API37.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\9815df601bcc282c10666eadececa8f9e369c132.API48.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\9eb7df4c192c33e59e7062704fb85656451195c8.BAD_MACRO.DANGEROUS_USAGE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\9fe5ad634288f1e27fc1815fa13ea318d73b6ba5.API39.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\a2eff118f772de75431f276b9c7c583175abb774.BAD_CALL.REQUIRED.LIB_CALL.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\a9032a12d87fb0344a9dd3a6df38ae3a75f4792e.BAD_CALL.FORBIDDEN.PARAM.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\aa2bdec3c0550b8e4488a8c81828abf64c0aa308.API16.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ad860547d4e04c44bf24a1efa6afa960487efcae.MIS23.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\b69d6b4abb584f4230bcca0372df4d7921971037.BAD_CALL.NOT_ALLOWED.PARAM.STRING.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\b74a165c1aa822f77de3f5dba95a19bddfebce2b.MIS10.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\b7fa2254801634ad537ab7ccd5a573b1d4daaf5a.MIS05.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\c27708c04db566dc8adb475dfecd00353605b37b.BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\c4405c999830b41d895444cfc8907929ec23cc1a.os_con_imp_int.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\c52b51d9f9482350a90697381af642a5085a8385.main.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\c5e13bf28c56fb7bbeb4a52a49b08fd343bd6a8c.DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\c66c77d72b294ba6a3f3ad48f2e8611bc2dec7d1.BAD_QUALIFIER.REQUIRED.PARAM_PTR.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\c72e927a40f24a24f99f97f5e63be32a95eba1bb.BAD_INCLUDE.DUPLICATED.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\c82f9837cb595a7ecd74cf98813bc61894ad3118.DO_NOT_USE_HARD_CODING.USERNAME.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ca272d1a93e59648f59bd4449cd2ec0a6e1a6151.BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\cafa4fa6c7ffd65203f4dce06c14917bc0e96421.BAD_CALL.LIBRARY.MEMORY.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\cc99044c497e21cebd90c53675243f8c24d8cdf6.MIS08.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\cd2c75cbe6a883f3f0aa3639b3bbba9444684961.BAD_CALL.FORBIDDEN.LIB.TEMP.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\cf26a7be838a50b303c7d53040f97e70d9444423.BAD_CALL.MISSING_CALL_PARAM.EXTENDED.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\d0c00b805e5ad4a781b29ce451180379715969e5.MIS01.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\d181c5a21fad2c5317f10905066001a06f506613.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\d3a9934b5098871410f1f22d64eff1abbc56aa5b.API05.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\d93926954487c225ce98bc9ffb557d3c3ee85244.BAD_OPERATOR.ASSIGNMENT_IN_COND.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\d9e968f9d9b4596b2cb63a48e2e025d6db92600b.BAD_ERROR.INVALID_CODE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\dd6e93d9d323286c13b4f84cab9abb7efe015895.API33.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\e3030443c680421f76653fab89ea32b99726f6ae.BAD_CALL.TYPE_MISMATCH.SPRINTF.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\e37ed3018fcf962702f2fea8a65af546050d629e.MIS24.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\e428da448d08ce388fa1f43af220ce119ea83e03.BAD_NAME.VARIABLE.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\e95dd6f39d236b8f114700f1c5e5c90644af91b4.FORBIDDEN_CALL.LOOP.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ea37ad3c388de7632c80b9135b56cde3a54b4510.API34.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ebd57031be3b51627e3e53a79c78c3ba8a817ba2.API51.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ec23a6cd03712145e8551c42e11384fa6e9a3dd9.PRE09.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ec377a459a3722866f87ecc5a0f9c39723ef82ab.MIS16.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ef4e87dee6bc55d5ac5e4a154766173ec1e97d9f.BAD_ERROR.MISSING_INIT.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\f428b900febe1be00c6715b344d1681012b66431.MIS19.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\f79bb79a93bcc04b63bd06d8a0f3c30f2610e34c.BAD_ARGS.FORBIDDEN.AFTER_CALL.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\fda6ba0a97510f08dd295d79761d4639d72dc073.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c.i [success] [edgcpfe48.gnu]
+C:\sparrow4\util\testcode\c\sparrow\prep_files\ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c.i [success] [edgcpfe48.gnu]
+---------------------------------------------------------------------------------------------------------------------
+Process file    : 165
+Process success : 165
+Process skip    : 0
+Process failed  : 0
+=====================================================================================================================

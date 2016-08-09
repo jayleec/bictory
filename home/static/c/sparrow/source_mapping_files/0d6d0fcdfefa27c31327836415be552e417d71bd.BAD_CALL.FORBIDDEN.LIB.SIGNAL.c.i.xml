@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.FORBIDDEN.LIB.SIGNAL.c">
+        <orgPrepFilename>34.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i</orgPrepFilename>
+        <newPrepFilename>0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i</newPrepFilename>
+        <orgMetaSourceFilename>34.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>dc38f1a453dab92c4fa36a3f927ebd008dff4c54.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c</newMetaSourceFilename>
+        <compileOption text="-c BAD_CALL.FORBIDDEN.LIB.SIGNAL.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/BAD_CALL.FORBIDDEN.LIB.SIGNAL.c</sourcePath>
+                <metaSourceFilename>dc38f1a453dab92c4fa36a3f927ebd008dff4c54.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\dc38f1a453dab92c4fa36a3f927ebd008dff4c54.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

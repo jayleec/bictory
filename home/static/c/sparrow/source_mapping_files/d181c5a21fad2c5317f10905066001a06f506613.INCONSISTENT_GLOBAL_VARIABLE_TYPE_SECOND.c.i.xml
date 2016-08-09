@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c">
+        <orgPrepFilename>106.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i</orgPrepFilename>
+        <newPrepFilename>d181c5a21fad2c5317f10905066001a06f506613.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i</newPrepFilename>
+        <orgMetaSourceFilename>106.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>d8f52698307bc0af275e9131c24b39e3109921fb.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c</newMetaSourceFilename>
+        <compileOption text="-c INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c</sourcePath>
+                <metaSourceFilename>d8f52698307bc0af275e9131c24b39e3109921fb.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\d8f52698307bc0af275e9131c24b39e3109921fb.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\d181c5a21fad2c5317f10905066001a06f506613.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

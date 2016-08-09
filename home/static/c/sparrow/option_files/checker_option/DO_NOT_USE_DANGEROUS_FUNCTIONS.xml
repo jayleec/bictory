@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+    <category name="DO_NOT_USE_DANGEROUS_FUNCTIONS">
+        <item name="function_should_not_be_used" type="string" required="true" variable="true">
+            <value>gets</value>
+            <value>strcpy</value>
+            <value>strcat</value>
+            <value>fopen</value>
+            <value>atof</value>
+            <value>atoi</value>
+            <value>atol</value>
+        </item>
+    </category>
+</option>
