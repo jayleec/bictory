@@ -80,9 +80,10 @@
 
     }
 
-
-    var outlierId = "{{ outlierId }}";
-
+//outlier.js
+        var outlierId = "{{ outlierId }}";
+//cpnt_len.js
+        var cpnt_lenId = "{{ cpnt_lenId }}"
     </script>
 
     <!--<td><script type="text/javascript" src = "/static/js/script6.js">-->
@@ -459,23 +460,28 @@
                         <a class="ish-ph-logo ish-ph-logo_retina-yes" href="">
                             <span>
                                 <img src="/static/img/torch_50_50.png" alt="Torch" title="Torch" />
+                                TORCH
                             </span>
                         </a>
 
-                        <!-- Show Outlier button -->
-
-                        <div class="btn-group" style="float: right">
-
                             <!--기능별 버튼-->
+                        <div style="float: right">
+                        <!-- Show Outlier button -->
                           <!--outlier button-->
-                            <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/outlier.js')" class="btn btn-default" style="margin-right: 30px; background-color: dodgerblue ; color: white ; font-weight: bold">
+                            <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/outlier.js')" class="btn btn-primary" style="margin-right: 20px;  color: white ; font-weight: bold">
                             Outlier
                           </button>
 
                             <!--일반기준 외 function 보여주기 button-->
-                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/script7.js')" class="btn btn-default" style="background-color: red ; color: white ; font-weight: bold">
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/script7.js')" class="btn btn-danger" style=" margin-right: 20px; color: white ; font-weight: bold">
                             일반기준
                           </button>
+
+                            <!--cpnt_len 이상 function button-->
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/cpnt_len.js')" class="btn btn-success" style=" color: white ; font-weight: bold">
+                            cpnt_len
+                          </button>
+
                         </div>
 
                         <!-- Default WordPress tagline -->
@@ -586,7 +592,7 @@
                                                         </div>
                                                     </div>
                                                     <div id="legendRowWrapper" class="col-sm-6">
-                                                        <div id="legendTitle" style="text-align: center;">Number of Statements persons</div>
+                                                        <div id="legendTitle" style="text-align: center;">Number of Statements</div>
                                                         <!--<div class="legendSubTitle">in thousands</div>-->
                                                         <div id="legendCircles"></div>
                                                     </div>

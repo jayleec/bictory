@@ -45,6 +45,7 @@ def functiontable(request):
     data = Function.objects.all()
     for f in data:
         f.test = f.check_all()
+    #
     return render_to_response('function_table.html', {'functions': data})
 
 def index(request):
@@ -96,7 +97,7 @@ def gitLoader(request):
             context_instance=RequestContext(request)
     )
 
-
+# cpnt_len초과 하는 애들 ID
 
 
 #/visualTest.html/
