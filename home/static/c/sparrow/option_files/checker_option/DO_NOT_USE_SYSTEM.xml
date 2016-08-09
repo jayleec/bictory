@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+	<category name="DO_NOT_USE_SYSTEM">
+		<item name="function_should_not_be_used" type="string" required="true" variable="false">
+			<value>system</value>
+		</item>
+	</category>
+</option>

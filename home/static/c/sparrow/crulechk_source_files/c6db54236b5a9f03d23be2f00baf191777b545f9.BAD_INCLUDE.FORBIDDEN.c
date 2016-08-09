@@ -1,0 +1,7 @@
+// @checker BAD_INCLUDE.FORBIDDEN
+
+#include "da39a3ee5e6b4b0d3255bfef95601890afd80709.MIS14_A.h" // @violation BAD_INCLUDE.FORBIDDEN
+#include "da39a3ee5e6b4b0d3255bfef95601890afd80709.MIS14_B.h" // @violation BAD_INCLUDE.FORBIDDEN
+
+void func() {
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/BAD_QUALIFIER.FORBIDDEN.c">
+        <orgPrepFilename>78.BAD_QUALIFIER.FORBIDDEN.c.i</orgPrepFilename>
+        <newPrepFilename>24f4fb3f56990529c2071898b7a021a7cda6ea73.BAD_QUALIFIER.FORBIDDEN.c.i</newPrepFilename>
+        <orgMetaSourceFilename>78.BAD_QUALIFIER.FORBIDDEN.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>368f27d1c4d2413e745d9ca2aae30244ead1db5d.BAD_QUALIFIER.FORBIDDEN.c</newMetaSourceFilename>
+        <compileOption text="-c BAD_QUALIFIER.FORBIDDEN.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/BAD_QUALIFIER.FORBIDDEN.c</sourcePath>
+                <metaSourceFilename>368f27d1c4d2413e745d9ca2aae30244ead1db5d.BAD_QUALIFIER.FORBIDDEN.c</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\368f27d1c4d2413e745d9ca2aae30244ead1db5d.BAD_QUALIFIER.FORBIDDEN.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\24f4fb3f56990529c2071898b7a021a7cda6ea73.BAD_QUALIFIER.FORBIDDEN.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

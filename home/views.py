@@ -26,6 +26,22 @@ from django.core.urlresolvers import reverse
 # Create your views here.
 
 def test(request):
+    # data = Function.objects.all()
+    # for f in data:
+    #     f.test = f.check_all()
+    # return render_to_response('function_table.html', {'functions': data})
+    # q = request.GET.get('q', '')
+    # f = open("home/static/c/" + q, 'r')
+    # return HttpResponse(f, content_type='text/plain')
+    # f.close()
+    return render_to_response('test.html')
+
+def code(request):
+    q = request.GET.get('q', 'API05.c')
+    f = open("home/static/c/" + q, 'r')
+    return HttpResponse(f, content_type='text/plain')
+
+def functiontable(request):
     data = Function.objects.all()
     for f in data:
         f.test = f.check_all()

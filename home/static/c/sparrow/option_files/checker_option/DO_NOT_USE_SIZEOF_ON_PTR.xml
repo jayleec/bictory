@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+	<category name="DO_NOT_USE_SIZEOF_ON_PTR">
+		<item name="memset_function" type="string" required="false" variable="true">
+			<value>memset</value>
+			<value>memcpy</value>
+			<value>strncpy</value>			
+		</item>
+		<item name="print_function" type="string" required="false" variable="true">
+			<value>printf</value>
+			<value>fprintf</value>
+			<value>sprintf</value>
+			<value>snprintf</value>
+			<value>wsprintf</value>
+			<value>vprintf</value>
+			<value>vfprintf</value>
+			<value>vsprintf</value>
+			<value>vwsprintf</value>
+			<value>vdprintf</value>
+			<value>fnStrncpy</value>
+			<value>fnStrncat</value>
+			<value>fnSnprintf</value>
+			<value>fnVsnprintf</value>
+			<value>strcpy</value>
+			<value>strncpy</value>
+		</item>		
+		<item name="ignore_var" type="string" required="false" variable="true" regex="true">
+			<value>test</value>
+		</item>
+	</category>
+</option>

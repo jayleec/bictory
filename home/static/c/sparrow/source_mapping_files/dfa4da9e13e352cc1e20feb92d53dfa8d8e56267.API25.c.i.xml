@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/API25.c">
+        <orgPrepFilename>6.API25.c.i</orgPrepFilename>
+        <newPrepFilename>dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c.i</newPrepFilename>
+        <orgMetaSourceFilename>6.API25.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>a3910d304693d4b35eddfe09489fc3a0dc67ab21.API25.c</newMetaSourceFilename>
+        <compileOption text="-c API25.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/API25.c</sourcePath>
+                <metaSourceFilename>a3910d304693d4b35eddfe09489fc3a0dc67ab21.API25.c</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\a3910d304693d4b35eddfe09489fc3a0dc67ab21.API25.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

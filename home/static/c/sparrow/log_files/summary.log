@@ -1,0 +1,166 @@
+### SPARROW ANALYSIS SUMMARY ###
+
+PROJECT PATH       : C:\sparrow4\util\testcode\c
+SPARROW HOME       : C:\sparrow4\
+SPARROW VERSRION   : 4.6_r46
+SPARROW BUILD ID   : 7646f246f85fc274123eb8acf9e0e5b21d2e5e54
+SPARROW BUILD DATE : 2016-06-28
+REMOTE ENGINE      : false
+REMOTE ENGINE JAVA : false
+COMMAND ARGS : -U admin1 -P gcc_test -PR gnu -E analysis -S https://192.168.40.117:18080
+=====================================================
++ Analysis summary
+=====================================================
+  Project Name              : gcc_test
+  Checker Group             : all (128 / 727)
+  Elapsed time              : 0:1:7
+  Files                     : 242
+  Build lines               : 12,337
+  Total defects             : 189
+=====================================================
+ Risk  Checker                                Numbers
+-----------------------------------------------------
+   2   BAD_CALL.TYPE_MISMATCH.REALLOC             1
+   2   BAD_CALL.TYPE_MISMATCH.STRING              1
+   1   BAD_INITIALIZATION.ARRAY                   1
+   2   BAD_INTEGER_CONST_DEFINITION               7
+   2   BAD_MALLOC                                 5
+   1   BAD_OPERATOR.ASSIGNMENT_IN_COND            1
+   1   BAD_OPERATOR.LOGICAL_COMPARISON            1
+   2   BAD_PRIVILEGE_RELINQUISHMENT               1
+   2   DANGEROUS_FUNC_CAST                        2
+   2   DIV_BY_ZERO                                1
+   2   DIV_BY_ZERO.MISSING_CHECK                  1
+   1   DOUBLE_CLOSE                               1
+   1   DOUBLE_LOCK                                1
+   1   DOUBLE_UNLOCK                              3
+   1   DO_NOT_ASSUME_ENV                          1
+   2   DO_NOT_CONVERT_FLOATING_TO_INTEGRAL        1
+   2   DO_NOT_USE_DANGEROUS_FUNCTIONS            34
+   2   DO_NOT_USE_HARD_CODING.PASSWORD            1
+   2   DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM           2
+   2   DO_NOT_USE_SIZEOF_ON_PTR                  10
+   2   DO_NOT_USE_SYSTEM                          3
+   2   ENSURE_PRIVILEGE_RELINQUISHMENT            2
+   2   EXCESSIVE_STACK_DEPTH                      1
+   2   EXECL_REVEALS_DATA                         1
+   2   FREE_NON_HEAP                              1
+   2   IMPROPER_AUTHORIZATION                     1
+   1   IMPROPER_NULL_TERMINATION                  6
+   2   IMPROPER_RANDOM_USAGE                      8
+   2   INCORRECT_PERMISSION                       2
+   1   INFORMATION_LEAK                           3
+   2   INTEGER_OVERFLOW                           4
+   2   LDAP_INJECTION                             2
+   1   LEAK.MEMORY                                4
+   1   LEAK.RESOURCE                             13
+   2   MISMATCH.NEW_ARRAY_TO_DELETE               1
+   2   MISMATCH.NEW_ARRAY_TO_FREE                 1
+   2   MISMATCH.NEW_TO_DELETE_ARRAY               1
+   2   MISMATCH.NEW_TO_FREE                       1
+   2   MISSING_RETURN                            12
+   1   NULL_DEREF                                 3
+   2   NULL_DEREF.MISSING_CHECK                   1
+   1   OVERRUN.STATIC                             1
+   1   OVERRUN.STATIC.BAD_COND                    1
+   1   OVERRUN.STATIC.MEMSET                      1
+   1   OVERRUN.STATIC.MEMSET.BAD_COND             1
+   2   PROCESS_CONTROL                            1
+   1   RACE_CONDITION                             3
+   2   RESOURCE_INJECTION                         1
+   2   RETURN_LOCAL                               1
+   2   SHIFT_EXCEEDS_BIT_WIDTH                    1
+   2   SHIFT_NEGATIVE                             1
+   2   SIGNAL_HANDLER_CALLS_UNSAFE_FUNCTION       3
+   1   SQL_INJECTION                              1
+   2   STRTOK_CHANGES_STRING                      1
+   2   SYMBOLIC_LINK_RACE_CONDITION               1
+   2   TMP_FILE_IN_SHARED_DIR                     5
+   2   TRYLOCK_FAIL                               1
+   2   TYPE_UNDERRUN.BAD_COND                     1
+   2   TYPE_UNDERRUN.STATIC                       1
+   2   UNBOUNDED_SOURCE_TO_ARRAY                  1
+   2   UNCONTROLLED_RECURSION                     4
+   1   UNDERRUN.STATIC                            1
+   2   UNDERRUN.STATIC.BAD_COND                   2
+   1   UNINIT                                     6
+   1   USE_AFTER_FREE                             1
+   2   USE_CORRECT_BYTE_ORDERING                  1
+=====================================================
+
+
+### SPARROW ANALYSIS TIME ###
+
+== EDG ==
+VERSION      : (windows 8) ed75b91fca14af6b63202e452e0fb4b69973bb34
+START TIME   : 2016-07-07 09:51:51
+END TIME     : 2016-07-07 09:51:58
+ELAPSED TIME : 7660ms (0h 0m 7s)
+
+== OPUS1 ==
+VERSION      : (windows 8) 361039c53097cc9c96985125d67d12475975a211
+START TIME   : 2016-07-07 09:52:00
+END TIME     : 2016-07-07 09:52:11
+ELAPSED TIME : 10563ms (0h 0m 10s)
+EXIT VALUE   : [0]
+
+== CRULECHK ==
+VERSION      : (windows 8) bb06ffeacaeae60c801935732803b2cf470a290e
+START TIME   : 2016-07-07 09:52:00
+END TIME     : 2016-07-07 09:52:44
+ELAPSED TIME : 43897ms (0h 0m 43s)
+EXIT VALUE   : [0]
+
+== HORUS ==
+START TIME   : 2016-07-07 09:52:00
+END TIME     : 2016-07-07 09:52:00
+ELAPSED TIME : 12ms (0h 0m 0s)
+
+== SQLCHK ==
+VERSION      : 1.3.5
+START TIME   : 2016-07-07 09:52:00
+END TIME     : 2016-07-07 09:52:00
+ELAPSED TIME : 10ms (0h 0m 0s)
+
+== Engine Server IP : 192.168.40.117 ==
+START TIME   : 2016-07-07 09:52:44
+END TIME     : 2016-07-07 09:52:44
+ELAPSED TIME : 0ms (0h 0m 0s)
+
+== INSERT Project File ==
+START TIME   : 2016-07-07 09:52:46
+END TIME     : 2016-07-07 09:52:47
+ELAPSED TIME : 1352ms (0h 0m 1s)
+COUNT        : 242
+
+== CTAGS divide ==
+START TIME   : 2016-07-07 09:52:47
+END TIME     : 2016-07-07 09:52:52
+ELAPSED TIME : 4674ms (0h 0m 4s)
+
+== DB DEFECT INSERT, PARSING, CALCULATE ==
+START TIME   : 2016-07-07 09:52:52
+END TIME     : 2016-07-07 09:52:53
+ELAPSED TIME : 655ms (0h 0m 0s)
+COUNT        : 189
+
+== DB UPDATE STATUS (Existing before scan) ==
+START TIME   : 2016-07-07 09:52:53
+END TIME     : 2016-07-07 09:52:53
+ELAPSED TIME : 16ms (0h 0m 0s)
+
+== DB UPDATE SCAN ==
+START TIME   : 2016-07-07 09:52:53
+END TIME     : 2016-07-07 09:52:53
+ELAPSED TIME : 0ms (0h 0m 0s)
+
+== DB SELECT RESULT ==
+VERSION      : ProjectId : 1, CheckerGroupId : 1
+START TIME   : 2016-07-07 09:52:53
+END TIME     : 2016-07-07 09:52:53
+ELAPSED TIME : 47ms (0h 0m 0s)
+
+== TOTAL ==
+START TIME   : 2016-07-07 09:51:46
+END TIME     : 2016-07-07 09:52:54
+ELAPSED TIME : 67934ms (0h 1m 7s)

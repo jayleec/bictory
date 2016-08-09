@@ -1,0 +1,7 @@
+#########################################################
+### SQLCHK checker list.
+#########################################################
+FORBIDDEN.TABLE.SQL
+FORBIDDEN.TABLE_COLUMN.SQL
+MISMATCH.COLUMN_VALUE.INSERT.SQL
+MISSING.WHERE.DELETE_UPDATE.SQL

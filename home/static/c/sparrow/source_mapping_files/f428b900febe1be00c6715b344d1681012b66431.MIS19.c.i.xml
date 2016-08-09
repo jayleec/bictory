@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/MIS19.c">
+        <orgPrepFilename>124.MIS19.c.i</orgPrepFilename>
+        <newPrepFilename>f428b900febe1be00c6715b344d1681012b66431.MIS19.c.i</newPrepFilename>
+        <orgMetaSourceFilename>124.MIS19.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>e62be86da7a735257f3ae7b0aa9db5f4a9212541.MIS19.c</newMetaSourceFilename>
+        <compileOption text="-c MIS19.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/MIS19.c</sourcePath>
+                <metaSourceFilename>e62be86da7a735257f3ae7b0aa9db5f4a9212541.MIS19.c</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\e62be86da7a735257f3ae7b0aa9db5f4a9212541.MIS19.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\f428b900febe1be00c6715b344d1681012b66431.MIS19.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

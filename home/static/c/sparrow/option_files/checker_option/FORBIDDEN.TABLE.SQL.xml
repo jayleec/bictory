@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+    <category name="FORBIDDEN.TABLE.SQL">
+        <item name="forbidden_table" type="string" required="false" variable="true" regexp="true">
+        </item>
+    </category>
+</option>

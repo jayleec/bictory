@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/main.c">
+        <orgPrepFilename>161.main.c.i</orgPrepFilename>
+        <newPrepFilename>c52b51d9f9482350a90697381af642a5085a8385.main.c.i</newPrepFilename>
+        <orgMetaSourceFilename>161.main.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>4b818bac163ebc54985d701b4a36a9f6e299d7cb.main.c</newMetaSourceFilename>
+        <compileOption text="-c main.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/main.c</sourcePath>
+                <metaSourceFilename>4b818bac163ebc54985d701b4a36a9f6e299d7cb.main.c</metaSourceFilename>
+                <smap headerFilename="sub.h" metaHeaderFilename="0af62732faeed640032329c48304a3dceb9efa72.sub.h" line="1" />
+                <smap headerFilename="duplicate_header.h" metaHeaderFilename="37a286eda5cad37295e6d19afe761ce6aed488b3.duplicate_header.h" line="2" />
+                <smap headerFilename="main.h" metaHeaderFilename="07347c8290d0d5acbf24361ea9c394cf84ea7fb9.main.h" line="3" />
+            </source>
+            <source systemHeader="false" userHeader="true">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/duplicate_header.h</sourcePath>
+                <metaSourceFilename>37a286eda5cad37295e6d19afe761ce6aed488b3.duplicate_header.h</metaSourceFilename>
+                <smap headerFilename="duplicate_sub_1.h" metaHeaderFilename="da39a3ee5e6b4b0d3255bfef95601890afd80709.duplicate_sub_1.h" line="7" />
+                <smap headerFilename="duplicate_sub_1.h" metaHeaderFilename="da39a3ee5e6b4b0d3255bfef95601890afd80709.duplicate_sub_1.h" line="8" />
+                <smap headerFilename="duplicate_sub_2.h" metaHeaderFilename="da39a3ee5e6b4b0d3255bfef95601890afd80709.duplicate_sub_2.h" line="9" />
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\4b818bac163ebc54985d701b4a36a9f6e299d7cb.main.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\c52b51d9f9482350a90697381af642a5085a8385.main.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

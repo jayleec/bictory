@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alarms>
+	<alarm localId="0">
+		<defect>
+			<did>1.2.108.0</did>
+			<dloc>
+				<file>/home/kskyj/sparrow4/util/testcode/c/DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c</file>
+				<filehash></filehash>
+				<line_src>1</line_src>
+				<line_sink>5</line_sink>
+				<func>do_not_use_sizeof1</func>
+			</dloc>
+			<type>DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM</type>
+			<rank>
+				<path_len>0</path_len>
+				<path_num>0</path_num>
+			</rank>
+			<events>
+				<bid>2.1</bid>
+			</events>
+			<start>
+				<cid>1</cid>
+				<bid>2.1</bid>
+			</start>
+			<determinant>25e18ba511e16065448358520f364b94e95ff596</determinant>
+		</defect>
+		<ctx>
+			<cid>1</cid>
+			<cloc>
+				<file>/home/kskyj/sparrow4/util/testcode/c/DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c</file>
+				<filehash></filehash>
+				<line_start>3</line_start>
+				<line_end>7</line_end>
+				<func>do_not_use_sizeof1</func>
+			</cloc>
+			<bid>2.1</bid>
+		</ctx>
+		<box>
+			<bid>2.1</bid>
+			<bloc>
+				<file>/home/kskyj/sparrow4/util/testcode/c/DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c</file>
+				<filehash></filehash>
+				<line>5</line>
+				<func>do_not_use_sizeof1</func>
+				<exp>a</exp>
+			</bloc>
+			<event>
+				<msg>Do not use sizeof on the array type parameter.</msg>
+				<desc id="crulechk.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.msg1">
+				</desc>
+			</event>
+		</box>
+		<sca>
+			<alternative id="1">
+				<desc id="crulechk.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.sca.desc.default">
+				</desc>
+				<code type="replace" src="/home/kskyj/sparrow4/util/testcode/c/DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c" startline="3" endline="3"><![CDATA[void do_not_use_sizeof1(int* a, unsigned int variableLength){]]></code>
+				<code type="replace" src="/home/kskyj/sparrow4/util/testcode/c/DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c" startline="5" endline="5"><![CDATA[	for(i = 0; i< variableLength / sizeof(a[0]); i++)                                               ]]></code>
+				<note type="simple_message">
+					<desc id="crulechk.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.sca.note.desc.pass_size">
+					</desc>
+				</note>
+				<note type="simple_message">
+					<desc id="crulechk.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.sca.note.desc.change_interface">
+					</desc>
+				</note>
+			</alternative>
+		</sca>
+	</alarm>
+	<alarm localId="1">
+		<defect>
+			<did>1.2.109.0</did>
+			<dloc>
+				<file>/home/kskyj/sparrow4/util/testcode/c/UCTS-044.c</file>
+				<filehash></filehash>
+				<line_src>18</line_src>
+				<line_sink>18</line_sink>
+				<func>dbaccess</func>
+			</dloc>
+			<type>DO_NOT_USE_HARD_CODING.PASSWORD</type>
+			<rank>
+				<path_len>0</path_len>
+				<path_num>0</path_num>
+			</rank>
+			<events>
+				<bid>2.1</bid>
+			</events>
+			<start>
+				<cid>1</cid>
+				<bid>2.1</bid>
+			</start>
+			<determinant>ade17ede811a9cbbc19abf8316446f637ed496d5</determinant>
+		</defect>
+		<ctx>
+			<cid>1</cid>
+			<cloc>
+				<file>/home/kskyj/sparrow4/util/testcode/c/UCTS-044.c</file>
+				<filehash></filehash>
+				<line_start>12</line_start>
+				<line_end>20</line_end>
+				<func>dbaccess</func>
+			</cloc>
+			<bid>2.1</bid>
+		</ctx>
+		<box>
+			<bid>2.1</bid>
+			<bloc>
+				<file>/home/kskyj/sparrow4/util/testcode/c/UCTS-044.c</file>
+				<filehash></filehash>
+				<line>18</line>
+				<func>dbaccess</func>
+				<exp>6th parameter of SQLConnect</exp>
+			</bloc>
+			<event>
+				<msg>Password has been used as a constant within the source.</msg>
+				<desc id="crulechk.DO_NOT_USE_HARD_CODING.PASSWORD.msg2">
+				</desc>
+			</event>
+		</box>
+	</alarm>
+</alarms>

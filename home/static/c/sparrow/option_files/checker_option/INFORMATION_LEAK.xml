@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+	<category name="INFORMATION_LEAK">
+		<item name="source_call" type="string" required="true" variable="true" regexp="false" description="List of functions which return sensitive information">
+			<value>getenv</value>
+                        <value>_wgetenv</value>
+		</item>
+		<item name="sink_call" type="string" required="true" variable="true" regexp="false" description="List of functions which trigger alarms when parameters contain sensitive information">
+			<value>printf</value>
+			<value>fprintf</value>
+                        <value>fwprintf</value>
+                        <value>wprintf</value>
+			<value>vprintf</value>
+                        <value>vfprintfp</value>
+                        <value>vfwprintf</value>
+                        <value>vwprintf</value>
+                        <value>sprintf</value>
+                        <value>snprintf</value>
+                        <value>vsnprintf</value>
+                        <value>_snwprintf</value>
+                        <value>_snprintf</value>
+                        <value>_vsnwprintf</value>
+                        <value>bad_vasink</value>
+		</item>
+	</category>
+</option>

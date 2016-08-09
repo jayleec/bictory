@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow buildPath="/home/kskyj/sparrow4/util/testcode/c">
+    <file sha1Sum="010ab1c36d9b776b778e38ca3933cb64714217dc">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/010ab1c36d9b776b778e38ca3933cb64714217dc.API47.c.i</org>
+        <new>/sparrow/prep_files/010ab1c36d9b776b778e38ca3933cb64714217dc.API47.c.i</new>
+    </file>
+    <file sha1Sum="024bb2db00efb377cbc28b5490a140cd84bcb83d">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/024bb2db00efb377cbc28b5490a140cd84bcb83d.MULTIPLE_BINDS_TO_SAME_PORT.c.i</org>
+        <new>/sparrow/prep_files/024bb2db00efb377cbc28b5490a140cd84bcb83d.MULTIPLE_BINDS_TO_SAME_PORT.c.i</new>
+    </file>
+    <file sha1Sum="047458cf0633ff9f4ad445b17131ac47e9b1da67">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/047458cf0633ff9f4ad445b17131ac47e9b1da67.BAD_MACRO.MISUSE.c.i</org>
+        <new>/sparrow/prep_files/047458cf0633ff9f4ad445b17131ac47e9b1da67.BAD_MACRO.MISUSE.c.i</new>
+    </file>
+    <file sha1Sum="05741670ae3a296c38cd1693b0a34437bc3b5a8b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/05741670ae3a296c38cd1693b0a34437bc3b5a8b.FBD15.c.i</org>
+        <new>/sparrow/prep_files/05741670ae3a296c38cd1693b0a34437bc3b5a8b.FBD15.c.i</new>
+    </file>
+    <file sha1Sum="058d4936628778628ca7e145e18c09cd027cbe96">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c.i</org>
+        <new>/sparrow/prep_files/058d4936628778628ca7e145e18c09cd027cbe96.MSC34.c.i</new>
+    </file>
+    <file sha1Sum="08f2315cdd09956e0c890bba05602b59b24ad835">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/08f2315cdd09956e0c890bba05602b59b24ad835.BAD_CALL.IMPROPER_VARARGS.c.i</org>
+        <new>/sparrow/prep_files/08f2315cdd09956e0c890bba05602b59b24ad835.BAD_CALL.IMPROPER_VARARGS.c.i</new>
+    </file>
+    <file sha1Sum="0aa2f60632355b5e36d7bc98e2cfdf30b8716113">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/0aa2f60632355b5e36d7bc98e2cfdf30b8716113.BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c.i</org>
+        <new>/sparrow/prep_files/0aa2f60632355b5e36d7bc98e2cfdf30b8716113.BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c.i</new>
+    </file>
+    <file sha1Sum="0b861a382047ba80fc0293c64d7c6ae2a196dca5">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/0b861a382047ba80fc0293c64d7c6ae2a196dca5.BAD_CALL.FORBIDDEN.LIB.PROCESS.c.i</org>
+        <new>/sparrow/prep_files/0b861a382047ba80fc0293c64d7c6ae2a196dca5.BAD_CALL.FORBIDDEN.LIB.PROCESS.c.i</new>
+    </file>
+    <file sha1Sum="0be673cba2720df1dba0b75ce9d3a4c7d1b29a56">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/0be673cba2720df1dba0b75ce9d3a4c7d1b29a56.API27.c.i</org>
+        <new>/sparrow/prep_files/0be673cba2720df1dba0b75ce9d3a4c7d1b29a56.API27.c.i</new>
+    </file>
+    <file sha1Sum="0d6d0fcdfefa27c31327836415be552e417d71bd">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i</org>
+        <new>/sparrow/prep_files/0d6d0fcdfefa27c31327836415be552e417d71bd.BAD_CALL.FORBIDDEN.LIB.SIGNAL.c.i</new>
+    </file>
+    <file sha1Sum="0e2118d3d7fac107d77eb658550b68f294558696">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c.i</org>
+        <new>/sparrow/prep_files/0e2118d3d7fac107d77eb658550b68f294558696.TRYLOCK_FAIL.c.i</new>
+    </file>
+    <file sha1Sum="0e3f3c3eb3d6618392ce91cb7dd6bf2beaef471e">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/0e3f3c3eb3d6618392ce91cb7dd6bf2beaef471e.BAD_CALL.TYPE_MISMATCH.STRING.c.i</org>
+        <new>/sparrow/prep_files/0e3f3c3eb3d6618392ce91cb7dd6bf2beaef471e.BAD_CALL.TYPE_MISMATCH.STRING.c.i</new>
+    </file>
+    <file sha1Sum="0ea7900cfc193ce776ee44b1203cdfc60cd7a805">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/0ea7900cfc193ce776ee44b1203cdfc60cd7a805.BAD_INCLUDE.FORBIDDEN.c.i</org>
+        <new>/sparrow/prep_files/0ea7900cfc193ce776ee44b1203cdfc60cd7a805.BAD_INCLUDE.FORBIDDEN.c.i</new>
+    </file>
+    <file sha1Sum="113fc64b9104bfbda71f464eb4a1041ab1403b6b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/113fc64b9104bfbda71f464eb4a1041ab1403b6b.API36.c.i</org>
+        <new>/sparrow/prep_files/113fc64b9104bfbda71f464eb4a1041ab1403b6b.API36.c.i</new>
+    </file>
+    <file sha1Sum="1160af5dfaa3b5fb2f9d372bf89655754e7a38e2">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/1160af5dfaa3b5fb2f9d372bf89655754e7a38e2.MIS03.c.i</org>
+        <new>/sparrow/prep_files/1160af5dfaa3b5fb2f9d372bf89655754e7a38e2.MIS03.c.i</new>
+    </file>
+    <file sha1Sum="1353f524cb7f8b3b3235d3d52302275090c32ad4">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/1353f524cb7f8b3b3235d3d52302275090c32ad4.MIS15.c.i</org>
+        <new>/sparrow/prep_files/1353f524cb7f8b3b3235d3d52302275090c32ad4.MIS15.c.i</new>
+    </file>
+    <file sha1Sum="19498fa23904bd8458b341835c11f3f5fe05d9a0">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/19498fa23904bd8458b341835c11f3f5fe05d9a0.FORBIDDEN_CALL.BEFORE_CALL.c.i</org>
+        <new>/sparrow/prep_files/19498fa23904bd8458b341835c11f3f5fe05d9a0.FORBIDDEN_CALL.BEFORE_CALL.c.i</new>
+    </file>
+    <file sha1Sum="1a8f580850535deac75f7d681dcb9ae2759f8ff7">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/1a8f580850535deac75f7d681dcb9ae2759f8ff7.API50.c.i</org>
+        <new>/sparrow/prep_files/1a8f580850535deac75f7d681dcb9ae2759f8ff7.API50.c.i</new>
+    </file>
+    <file sha1Sum="1b903b49859b6d79d9925771ac767bbaa63627c9">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/1b903b49859b6d79d9925771ac767bbaa63627c9.MIS17.c.i</org>
+        <new>/sparrow/prep_files/1b903b49859b6d79d9925771ac767bbaa63627c9.MIS17.c.i</new>
+    </file>
+    <file sha1Sum="1bfe846292d11556f4345152fbe1465cfe1ea110">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/1bfe846292d11556f4345152fbe1465cfe1ea110.API29.c.i</org>
+        <new>/sparrow/prep_files/1bfe846292d11556f4345152fbe1465cfe1ea110.API29.c.i</new>
+    </file>
+    <file sha1Sum="20152ccf19e88700fc56297ac352ce5f913f06b4">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/20152ccf19e88700fc56297ac352ce5f913f06b4.BAD_CALL.FORBIDDEN.LIB.TP.c.i</org>
+        <new>/sparrow/prep_files/20152ccf19e88700fc56297ac352ce5f913f06b4.BAD_CALL.FORBIDDEN.LIB.TP.c.i</new>
+    </file>
+    <file sha1Sum="21973f8b6e4bb40eb64f7303a26c51906854a2c5">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/21973f8b6e4bb40eb64f7303a26c51906854a2c5.BAD_CALL.REQUIRED.PRE_CALL.c.i</org>
+        <new>/sparrow/prep_files/21973f8b6e4bb40eb64f7303a26c51906854a2c5.BAD_CALL.REQUIRED.PRE_CALL.c.i</new>
+    </file>
+    <file sha1Sum="24f4fb3f56990529c2071898b7a021a7cda6ea73">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/24f4fb3f56990529c2071898b7a021a7cda6ea73.BAD_QUALIFIER.FORBIDDEN.c.i</org>
+        <new>/sparrow/prep_files/24f4fb3f56990529c2071898b7a021a7cda6ea73.BAD_QUALIFIER.FORBIDDEN.c.i</new>
+    </file>
+    <file sha1Sum="2569f24c49bac2566eb2ba538b5eca4abd7408cf">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c.i</org>
+        <new>/sparrow/prep_files/2569f24c49bac2566eb2ba538b5eca4abd7408cf.SIZE_CALCULATION_BAD_COMPARE.c.i</new>
+    </file>
+    <file sha1Sum="25a37abd3d3cd64fd7dd764e50cac72dd71887df">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/25a37abd3d3cd64fd7dd764e50cac72dd71887df.BAD_CALL.REQUIRED.VARARGS.c.i</org>
+        <new>/sparrow/prep_files/25a37abd3d3cd64fd7dd764e50cac72dd71887df.BAD_CALL.REQUIRED.VARARGS.c.i</new>
+    </file>
+    <file sha1Sum="25d126a4beb29fca9bdba32fec6f3e7cd3c410cb">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/25d126a4beb29fca9bdba32fec6f3e7cd3c410cb.BAD_INCLUDE.INVALID_PATH.c.i</org>
+        <new>/sparrow/prep_files/25d126a4beb29fca9bdba32fec6f3e7cd3c410cb.BAD_INCLUDE.INVALID_PATH.c.i</new>
+    </file>
+    <file sha1Sum="29cb2c63abf1c7104533ceab45a563cb298d6847">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/29cb2c63abf1c7104533ceab45a563cb298d6847.BAD_CALL.FORBIDDEN.LIB.TIMER.c.i</org>
+        <new>/sparrow/prep_files/29cb2c63abf1c7104533ceab45a563cb298d6847.BAD_CALL.FORBIDDEN.LIB.TIMER.c.i</new>
+    </file>
+    <file sha1Sum="2a424b7e647d52320bd2b2a548cf7daca6b5dc89">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c.i</org>
+        <new>/sparrow/prep_files/2a424b7e647d52320bd2b2a548cf7daca6b5dc89.MSC32.c.i</new>
+    </file>
+    <file sha1Sum="2b5da94be12992cbc17e27be39b53b9d6e60c650">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c.i</org>
+        <new>/sparrow/prep_files/2b5da94be12992cbc17e27be39b53b9d6e60c650.SECURE_OPUS_COMPLEX.c.i</new>
+    </file>
+    <file sha1Sum="2c1daac851f3bd54b9e84b33edb0dc835cded60b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c.i</org>
+        <new>/sparrow/prep_files/2c1daac851f3bd54b9e84b33edb0dc835cded60b.INCORRECT_PERMISSION.c.i</new>
+    </file>
+    <file sha1Sum="33055ec5e75adee463103914c229b01b082788f0">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/33055ec5e75adee463103914c229b01b082788f0.MIS07.c.i</org>
+        <new>/sparrow/prep_files/33055ec5e75adee463103914c229b01b082788f0.MIS07.c.i</new>
+    </file>
+    <file sha1Sum="350c4f1e040ec2081f7b43aa3c6f37240e7614ee">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c.i</org>
+        <new>/sparrow/prep_files/350c4f1e040ec2081f7b43aa3c6f37240e7614ee.DOUBLE_LOCK.c.i</new>
+    </file>
+    <file sha1Sum="37633966ca1d50dfba2797b58c825ebaad34c8cb">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/37633966ca1d50dfba2797b58c825ebaad34c8cb.API32.c.i</org>
+        <new>/sparrow/prep_files/37633966ca1d50dfba2797b58c825ebaad34c8cb.API32.c.i</new>
+    </file>
+    <file sha1Sum="393fe28650396a1203a12d88443729137820922d">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/393fe28650396a1203a12d88443729137820922d.TOO_MANY_METHODS.c.i</org>
+        <new>/sparrow/prep_files/393fe28650396a1203a12d88443729137820922d.TOO_MANY_METHODS.c.i</new>
+    </file>
+    <file sha1Sum="399ef3950bf07684689a069695ee14bf14668f55">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/399ef3950bf07684689a069695ee14bf14668f55.target.c.i</org>
+        <new>/sparrow/prep_files/399ef3950bf07684689a069695ee14bf14668f55.target.c.i</new>
+    </file>
+    <file sha1Sum="39e8e3780b5d68b17fde55c876f9fd9732d5719f">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/39e8e3780b5d68b17fde55c876f9fd9732d5719f.BAD_CALL.FORBIDDEN.PARAM.NAME.c.i</org>
+        <new>/sparrow/prep_files/39e8e3780b5d68b17fde55c876f9fd9732d5719f.BAD_CALL.FORBIDDEN.PARAM.NAME.c.i</new>
+    </file>
+    <file sha1Sum="3abfda8f12d3755eb81723f7d534f3127aeb7887">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c.i</org>
+        <new>/sparrow/prep_files/3abfda8f12d3755eb81723f7d534f3127aeb7887.sub.c.i</new>
+    </file>
+    <file sha1Sum="3bb5060d41c24cc5f5cdf673b5cf46e42d58618c">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3bb5060d41c24cc5f5cdf673b5cf46e42d58618c.MIS14.c.i</org>
+        <new>/sparrow/prep_files/3bb5060d41c24cc5f5cdf673b5cf46e42d58618c.MIS14.c.i</new>
+    </file>
+    <file sha1Sum="3c7441651bc3feaed132817bc4bab8e29e36c61d">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3c7441651bc3feaed132817bc4bab8e29e36c61d.BAD_INIT.CHAR_ARRAY.c.i</org>
+        <new>/sparrow/prep_files/3c7441651bc3feaed132817bc4bab8e29e36c61d.BAD_INIT.CHAR_ARRAY.c.i</new>
+    </file>
+    <file sha1Sum="3c785b37d82ff81447cdf68b40e6f90a13b27c53">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3c785b37d82ff81447cdf68b40e6f90a13b27c53.BAD_CALL.FORBIDDEN.VARARGS.c.i</org>
+        <new>/sparrow/prep_files/3c785b37d82ff81447cdf68b40e6f90a13b27c53.BAD_CALL.FORBIDDEN.VARARGS.c.i</new>
+    </file>
+    <file sha1Sum="3c846ef1468bc74524565eacae650052df759b5c">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3c846ef1468bc74524565eacae650052df759b5c.FBD01.c.i</org>
+        <new>/sparrow/prep_files/3c846ef1468bc74524565eacae650052df759b5c.FBD01.c.i</new>
+    </file>
+    <file sha1Sum="3cea62a02e843ead06e9117347f21a84dee92b1c">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3cea62a02e843ead06e9117347f21a84dee92b1c.BAD_CALL.REQUIRED.PARAM.c.i</org>
+        <new>/sparrow/prep_files/3cea62a02e843ead06e9117347f21a84dee92b1c.BAD_CALL.REQUIRED.PARAM.c.i</new>
+    </file>
+    <file sha1Sum="3de28b862e58117007cb6a8d2c1bd857e3d9fae6">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3de28b862e58117007cb6a8d2c1bd857e3d9fae6.BAD_CALL.NOT_ALLOWED.PARAM.NAME.c.i</org>
+        <new>/sparrow/prep_files/3de28b862e58117007cb6a8d2c1bd857e3d9fae6.BAD_CALL.NOT_ALLOWED.PARAM.NAME.c.i</new>
+    </file>
+    <file sha1Sum="3de4abb1e61bbffb1a84e7ad628271fb9bf13093">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i</org>
+        <new>/sparrow/prep_files/3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i</new>
+    </file>
+    <file sha1Sum="3e08dd72bd6848d2326f766487b514f39d181e38">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c.i</org>
+        <new>/sparrow/prep_files/3e08dd72bd6848d2326f766487b514f39d181e38.BAD_STRING_MANAGEMENT.c.i</new>
+    </file>
+    <file sha1Sum="3f37093b00151d3589118017e34163f2e781da86">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3f37093b00151d3589118017e34163f2e781da86.BAD_CALL.FORBIDDEN.PARAM.LITERAL.c.i</org>
+        <new>/sparrow/prep_files/3f37093b00151d3589118017e34163f2e781da86.BAD_CALL.FORBIDDEN.PARAM.LITERAL.c.i</new>
+    </file>
+    <file sha1Sum="3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c.i</org>
+        <new>/sparrow/prep_files/3f56ab19ae7854ec8a6fc44f3d7d2fddb82b5af1.WEAK_ENCRYPTION.HARDCODED_SALT.c.i</new>
+    </file>
+    <file sha1Sum="40ac34245ae3d8f8e231e68ac45411b2662d1ec8">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/40ac34245ae3d8f8e231e68ac45411b2662d1ec8.API46.c.i</org>
+        <new>/sparrow/prep_files/40ac34245ae3d8f8e231e68ac45411b2662d1ec8.API46.c.i</new>
+    </file>
+    <file sha1Sum="418c3c825592cc1b626e4e8779360f54402837f6">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/418c3c825592cc1b626e4e8779360f54402837f6.API41.c.i</org>
+        <new>/sparrow/prep_files/418c3c825592cc1b626e4e8779360f54402837f6.API41.c.i</new>
+    </file>
+    <file sha1Sum="41a2c099d8deaf8467ee788500a8013a65574d7f">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/41a2c099d8deaf8467ee788500a8013a65574d7f.MIS06.c.i</org>
+        <new>/sparrow/prep_files/41a2c099d8deaf8467ee788500a8013a65574d7f.MIS06.c.i</new>
+    </file>
+    <file sha1Sum="42bebfdfe44c231df1cb3379ec9fd97420923036">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c.i</org>
+        <new>/sparrow/prep_files/42bebfdfe44c231df1cb3379ec9fd97420923036.API42.c.i</new>
+    </file>
+    <file sha1Sum="4479c22819093c62e07c574894af798b1c6e9111">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c.i</org>
+        <new>/sparrow/prep_files/4479c22819093c62e07c574894af798b1c6e9111.DOUBLE_UNLOCK.c.i</new>
+    </file>
+    <file sha1Sum="45d737cf1816537689015e95e301a52d50af236c">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/45d737cf1816537689015e95e301a52d50af236c.BAD_CALL.MISSING_CALL_PARAM.c.i</org>
+        <new>/sparrow/prep_files/45d737cf1816537689015e95e301a52d50af236c.BAD_CALL.MISSING_CALL_PARAM.c.i</new>
+    </file>
+    <file sha1Sum="46d73008519b7e03fb033d12682fddbde549fe5a">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/46d73008519b7e03fb033d12682fddbde549fe5a.API24.c.i</org>
+        <new>/sparrow/prep_files/46d73008519b7e03fb033d12682fddbde549fe5a.API24.c.i</new>
+    </file>
+    <file sha1Sum="475a5e66b185c57f864256775af3eb059f1c05cb">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/475a5e66b185c57f864256775af3eb059f1c05cb.API40.c.i</org>
+        <new>/sparrow/prep_files/475a5e66b185c57f864256775af3eb059f1c05cb.API40.c.i</new>
+    </file>
+    <file sha1Sum="4789f9e48ee78555c1856c711642adaf7d9fe7c8">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/4789f9e48ee78555c1856c711642adaf7d9fe7c8.MIS22.c.i</org>
+        <new>/sparrow/prep_files/4789f9e48ee78555c1856c711642adaf7d9fe7c8.MIS22.c.i</new>
+    </file>
+    <file sha1Sum="4f336cd9e4bc240ce051806dafcf43ec51c20532">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/4f336cd9e4bc240ce051806dafcf43ec51c20532.API35.c.i</org>
+        <new>/sparrow/prep_files/4f336cd9e4bc240ce051806dafcf43ec51c20532.API35.c.i</new>
+    </file>
+    <file sha1Sum="4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c.i</org>
+        <new>/sparrow/prep_files/4f4b8b2cf5a23b7a4a4bacb90c1649cc2b5b85e7.all_sample.c.i</new>
+    </file>
+    <file sha1Sum="51a59d283849babf908fe25123552f5628d1dc45">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/51a59d283849babf908fe25123552f5628d1dc45.BAD_INTEGER_CONST_DEFINITION.c.i</org>
+        <new>/sparrow/prep_files/51a59d283849babf908fe25123552f5628d1dc45.BAD_INTEGER_CONST_DEFINITION.c.i</new>
+    </file>
+    <file sha1Sum="54ae2822ee086f96542f6faf2d6ea27c1664a03a">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/54ae2822ee086f96542f6faf2d6ea27c1664a03a.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c.i</org>
+        <new>/sparrow/prep_files/54ae2822ee086f96542f6faf2d6ea27c1664a03a.BAD_CALL.FORBIDDEN.LIB.RESOURCE.c.i</new>
+    </file>
+    <file sha1Sum="55042a8671f07a70473a90aa54f172d3bfd90bfc">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/55042a8671f07a70473a90aa54f172d3bfd90bfc.PASSWORD_IN_COMMENT.c.i</org>
+        <new>/sparrow/prep_files/55042a8671f07a70473a90aa54f172d3bfd90bfc.PASSWORD_IN_COMMENT.c.i</new>
+    </file>
+    <file sha1Sum="565649f83bba965086bccb1b8ee260d59491a413">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/565649f83bba965086bccb1b8ee260d59491a413.ENV32.c.i</org>
+        <new>/sparrow/prep_files/565649f83bba965086bccb1b8ee260d59491a413.ENV32.c.i</new>
+    </file>
+    <file sha1Sum="58a0397f538878f7c84fd2215ba0be532dc49936">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c.i</org>
+        <new>/sparrow/prep_files/58a0397f538878f7c84fd2215ba0be532dc49936.SECURITY_DECISION_ON_DNS_LOOKUP.c.i</new>
+    </file>
+    <file sha1Sum="58e920518236f799ac2cc404a5f04a8a5b0972a5">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/58e920518236f799ac2cc404a5f04a8a5b0972a5.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c.i</org>
+        <new>/sparrow/prep_files/58e920518236f799ac2cc404a5f04a8a5b0972a5.BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c.i</new>
+    </file>
+    <file sha1Sum="5bdc391d714c4e2263ea3cba16ca63adb12e6309">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/5bdc391d714c4e2263ea3cba16ca63adb12e6309.MISSING_WRAPPER_ON_VARIABLE.c.i</org>
+        <new>/sparrow/prep_files/5bdc391d714c4e2263ea3cba16ca63adb12e6309.MISSING_WRAPPER_ON_VARIABLE.c.i</new>
+    </file>
+    <file sha1Sum="5c0ec7bd62ad482982f42e9c04839f6ab50e0446">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/5c0ec7bd62ad482982f42e9c04839f6ab50e0446.BAD_PRIVILEGE_RELINQUISHMENT.c.i</org>
+        <new>/sparrow/prep_files/5c0ec7bd62ad482982f42e9c04839f6ab50e0446.BAD_PRIVILEGE_RELINQUISHMENT.c.i</new>
+    </file>
+    <file sha1Sum="5c1f61b5c6d712090338b99f4368411018f2f789">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/5c1f61b5c6d712090338b99f4368411018f2f789.INCONSISTENT_GLOBAL_VARIABLE_TYPE.c.i</org>
+        <new>/sparrow/prep_files/5c1f61b5c6d712090338b99f4368411018f2f789.INCONSISTENT_GLOBAL_VARIABLE_TYPE.c.i</new>
+    </file>
+    <file sha1Sum="5c6bc5c85a710efe8d877a739e5587c38d869879">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/5c6bc5c85a710efe8d877a739e5587c38d869879.BAD_CALL.FORBIDDEN.PARAM.STRING.c.i</org>
+        <new>/sparrow/prep_files/5c6bc5c85a710efe8d877a739e5587c38d869879.BAD_CALL.FORBIDDEN.PARAM.STRING.c.i</new>
+    </file>
+    <file sha1Sum="5eb7e94370c6b0ed3b023ed8fbb66a38289920d6">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/5eb7e94370c6b0ed3b023ed8fbb66a38289920d6.MIS18.c.i</org>
+        <new>/sparrow/prep_files/5eb7e94370c6b0ed3b023ed8fbb66a38289920d6.MIS18.c.i</new>
+    </file>
+    <file sha1Sum="5f47cdf1f7e4094a5255419fe9410b1e889e1f51">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/5f47cdf1f7e4094a5255419fe9410b1e889e1f51.API28.c.i</org>
+        <new>/sparrow/prep_files/5f47cdf1f7e4094a5255419fe9410b1e889e1f51.API28.c.i</new>
+    </file>
+    <file sha1Sum="61dac8cb97dfd0c79892203dfc62a1121539a08b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/61dac8cb97dfd0c79892203dfc62a1121539a08b.MIS20.c.i</org>
+        <new>/sparrow/prep_files/61dac8cb97dfd0c79892203dfc62a1121539a08b.MIS20.c.i</new>
+    </file>
+    <file sha1Sum="6396027ddb3a423f2fba630424dcba8d01295a64">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/6396027ddb3a423f2fba630424dcba8d01295a64.API30.c.i</org>
+        <new>/sparrow/prep_files/6396027ddb3a423f2fba630424dcba8d01295a64.API30.c.i</new>
+    </file>
+    <file sha1Sum="647f8d69dad7a1488df5be1c0d297a3a03ebb287">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/647f8d69dad7a1488df5be1c0d297a3a03ebb287.FUNCTION_DEFINITION_TYPE_MISMATCH.c.i</org>
+        <new>/sparrow/prep_files/647f8d69dad7a1488df5be1c0d297a3a03ebb287.FUNCTION_DEFINITION_TYPE_MISMATCH.c.i</new>
+    </file>
+    <file sha1Sum="649da37cf093a941a3f8c49b1e015c0c65829691">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/649da37cf093a941a3f8c49b1e015c0c65829691.API45.c.i</org>
+        <new>/sparrow/prep_files/649da37cf093a941a3f8c49b1e015c0c65829691.API45.c.i</new>
+    </file>
+    <file sha1Sum="66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c.i</org>
+        <new>/sparrow/prep_files/66a15ddf62dfe6204fbcc0fc0e6ab319d80dde9b.API43.c.i</new>
+    </file>
+    <file sha1Sum="66f3017662ad9aea32fe7ccb88ef4972394a4ce4">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c.i</org>
+        <new>/sparrow/prep_files/66f3017662ad9aea32fe7ccb88ef4972394a4ce4.UCTS-041.c.i</new>
+    </file>
+    <file sha1Sum="6982282a560cf438a1122c39764ddbbff6991bf9">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c.i</org>
+        <new>/sparrow/prep_files/6982282a560cf438a1122c39764ddbbff6991bf9.ENV04.c.i</new>
+    </file>
+    <file sha1Sum="6b507efeb026bda78398d2481b26cb238c503fab">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/6b507efeb026bda78398d2481b26cb238c503fab.API23.c.i</org>
+        <new>/sparrow/prep_files/6b507efeb026bda78398d2481b26cb238c503fab.API23.c.i</new>
+    </file>
+    <file sha1Sum="6b9ee80dbe761992372118143a7088cc7d66f93e">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c.i</org>
+        <new>/sparrow/prep_files/6b9ee80dbe761992372118143a7088cc7d66f93e.UCTS-028.c.i</new>
+    </file>
+    <file sha1Sum="6d8e8a4ed8e0698f988dcfb8407ac15970ab927e">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/6d8e8a4ed8e0698f988dcfb8407ac15970ab927e.BAD_CALL.REQUIRED.c.i</org>
+        <new>/sparrow/prep_files/6d8e8a4ed8e0698f988dcfb8407ac15970ab927e.BAD_CALL.REQUIRED.c.i</new>
+    </file>
+    <file sha1Sum="702c6ae9994d73f6d4e267fb547195dd7b89f299">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c.i</org>
+        <new>/sparrow/prep_files/702c6ae9994d73f6d4e267fb547195dd7b89f299.MEM08.c.i</new>
+    </file>
+    <file sha1Sum="742032980ba9578e1dd86dc442e3c9a5fb50a411">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/742032980ba9578e1dd86dc442e3c9a5fb50a411.BAD_STRUCT_MEMBER_ACCESS.c.i</org>
+        <new>/sparrow/prep_files/742032980ba9578e1dd86dc442e3c9a5fb50a411.BAD_STRUCT_MEMBER_ACCESS.c.i</new>
+    </file>
+    <file sha1Sum="74e09bcd6e260e3eec8482d8397eb969ce2e15a9">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/74e09bcd6e260e3eec8482d8397eb969ce2e15a9.BAD_CALL.REQUIRED.ARGS.c.i</org>
+        <new>/sparrow/prep_files/74e09bcd6e260e3eec8482d8397eb969ce2e15a9.BAD_CALL.REQUIRED.ARGS.c.i</new>
+    </file>
+    <file sha1Sum="760bd10a2cf4fa0bb443ccda9ff5fa2045370cad">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/760bd10a2cf4fa0bb443ccda9ff5fa2045370cad.PREMATURE_THREAD_TERMINATION.c.i</org>
+        <new>/sparrow/prep_files/760bd10a2cf4fa0bb443ccda9ff5fa2045370cad.PREMATURE_THREAD_TERMINATION.c.i</new>
+    </file>
+    <file sha1Sum="778f33f9b7619d829b4066717c21399bdf019829">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/778f33f9b7619d829b4066717c21399bdf019829.MSC17.c.i</org>
+        <new>/sparrow/prep_files/778f33f9b7619d829b4066717c21399bdf019829.MSC17.c.i</new>
+    </file>
+    <file sha1Sum="798f0eecbb70a61ae67e351ceff38d38a3830235">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/798f0eecbb70a61ae67e351ceff38d38a3830235.MIS11.c.i</org>
+        <new>/sparrow/prep_files/798f0eecbb70a61ae67e351ceff38d38a3830235.MIS11.c.i</new>
+    </file>
+    <file sha1Sum="7ab2a7356c3ecf930785d9fd063725a6ede833df">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/7ab2a7356c3ecf930785d9fd063725a6ede833df.MIS21.c.i</org>
+        <new>/sparrow/prep_files/7ab2a7356c3ecf930785d9fd063725a6ede833df.MIS21.c.i</new>
+    </file>
+    <file sha1Sum="7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp</org>
+        <new>/sparrow/prep_files/7c5dd9597c1a425f26d8ce1d233f9d9b31d575d2.mismatch.cpp.ipp</new>
+    </file>
+    <file sha1Sum="7ca9722e99004367002ea5e30b8d2fcd87f73443">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c.i</org>
+        <new>/sparrow/prep_files/7ca9722e99004367002ea5e30b8d2fcd87f73443.FIO43.c.i</new>
+    </file>
+    <file sha1Sum="7e3fd47a7913e874d3c470b23122bebff2077c4b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c.i</org>
+        <new>/sparrow/prep_files/7e3fd47a7913e874d3c470b23122bebff2077c4b.WEAK_ENCRYPTION.PASSWORD.c.i</new>
+    </file>
+    <file sha1Sum="7eb63676aab5e8aedf3d0293c78d157480ac3c0a">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/7eb63676aab5e8aedf3d0293c78d157480ac3c0a.API38.c.i</org>
+        <new>/sparrow/prep_files/7eb63676aab5e8aedf3d0293c78d157480ac3c0a.API38.c.i</new>
+    </file>
+    <file sha1Sum="7f14fd0557c74b6bdda2b70d189cf6f6be204ebe">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/7f14fd0557c74b6bdda2b70d189cf6f6be204ebe.DO_NOT_USE_SIZEOF_ON_PTR.c.i</org>
+        <new>/sparrow/prep_files/7f14fd0557c74b6bdda2b70d189cf6f6be204ebe.DO_NOT_USE_SIZEOF_ON_PTR.c.i</new>
+    </file>
+    <file sha1Sum="8036644f0d680b65a461d0e2423409932ea05095">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/8036644f0d680b65a461d0e2423409932ea05095.WEAK_ENCRYPTION.RSA_PADDING.c.i</org>
+        <new>/sparrow/prep_files/8036644f0d680b65a461d0e2423409932ea05095.WEAK_ENCRYPTION.RSA_PADDING.c.i</new>
+    </file>
+    <file sha1Sum="820a4652742e9aaca68f7cff85a61f36bed5313b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i</org>
+        <new>/sparrow/prep_files/820a4652742e9aaca68f7cff85a61f36bed5313b.NEGATIVE_FILE_DESCRIPTOR.c.i</new>
+    </file>
+    <file sha1Sum="83f96893bcbc7af29776a558a9f245fa64175925">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/83f96893bcbc7af29776a558a9f245fa64175925.BAD_CALL.REQUIRED.WRAPPER.c.i</org>
+        <new>/sparrow/prep_files/83f96893bcbc7af29776a558a9f245fa64175925.BAD_CALL.REQUIRED.WRAPPER.c.i</new>
+    </file>
+    <file sha1Sum="87ea2033411bc30f684eb90495e6097b4e07791a">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c.i</org>
+        <new>/sparrow/prep_files/87ea2033411bc30f684eb90495e6097b4e07791a.IMPROPER_NULL_TERMINATION.c.i</new>
+    </file>
+    <file sha1Sum="88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c.i</org>
+        <new>/sparrow/prep_files/88a4d8e86a3af5364343e6f79d8aca7e2bfcb66b.CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c.i</new>
+    </file>
+    <file sha1Sum="8a229b4a29e9145260f0333fb0a6c2db56193568">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c.i</org>
+        <new>/sparrow/prep_files/8a229b4a29e9145260f0333fb0a6c2db56193568.CHECK_ALIGNMENT_OF_MEMORY.c.i</new>
+    </file>
+    <file sha1Sum="8b670eaf8e4405579afd773b71c9b6a7ecc5e875">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/8b670eaf8e4405579afd773b71c9b6a7ecc5e875.API44.c.i</org>
+        <new>/sparrow/prep_files/8b670eaf8e4405579afd773b71c9b6a7ecc5e875.API44.c.i</new>
+    </file>
+    <file sha1Sum="8b9b21d54bad2ab5dd61c0cf2d021401a15026ff">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/8b9b21d54bad2ab5dd61c0cf2d021401a15026ff.API31.c.i</org>
+        <new>/sparrow/prep_files/8b9b21d54bad2ab5dd61c0cf2d021401a15026ff.API31.c.i</new>
+    </file>
+    <file sha1Sum="8d52774a6d46e4a00674a883d10cf9b05f2efb64">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/8d52774a6d46e4a00674a883d10cf9b05f2efb64.BAD_OPERATOR.LOGICAL_COMPARISON.c.i</org>
+        <new>/sparrow/prep_files/8d52774a6d46e4a00674a883d10cf9b05f2efb64.BAD_OPERATOR.LOGICAL_COMPARISON.c.i</new>
+    </file>
+    <file sha1Sum="925604dbb05004be917479c29feb8b54cc7ca53f">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c.i</org>
+        <new>/sparrow/prep_files/925604dbb05004be917479c29feb8b54cc7ca53f.UNCONTROLLED_RECURSION.c.i</new>
+    </file>
+    <file sha1Sum="93171fc7de025cb62cccff72fa5bbbde3a78f8e0">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/93171fc7de025cb62cccff72fa5bbbde3a78f8e0.BAD_CALL.FORBIDDEN.PARAM.NUMBER.c.i</org>
+        <new>/sparrow/prep_files/93171fc7de025cb62cccff72fa5bbbde3a78f8e0.BAD_CALL.FORBIDDEN.PARAM.NUMBER.c.i</new>
+    </file>
+    <file sha1Sum="94f9d81fad898cf857d778ccc19c70bdf16c2bea">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/94f9d81fad898cf857d778ccc19c70bdf16c2bea.API37.c.i</org>
+        <new>/sparrow/prep_files/94f9d81fad898cf857d778ccc19c70bdf16c2bea.API37.c.i</new>
+    </file>
+    <file sha1Sum="9645c4e0f00d8927e213efeb78ebf035e93db1fe">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c.i</org>
+        <new>/sparrow/prep_files/9645c4e0f00d8927e213efeb78ebf035e93db1fe.crulcheck.c.i</new>
+    </file>
+    <file sha1Sum="980aa88b8edcb4512731cedbb0b5591d049b7b9b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c.i</org>
+        <new>/sparrow/prep_files/980aa88b8edcb4512731cedbb0b5591d049b7b9b.API20.c.i</new>
+    </file>
+    <file sha1Sum="9815df601bcc282c10666eadececa8f9e369c132">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/9815df601bcc282c10666eadececa8f9e369c132.API48.c.i</org>
+        <new>/sparrow/prep_files/9815df601bcc282c10666eadececa8f9e369c132.API48.c.i</new>
+    </file>
+    <file sha1Sum="9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c.i</org>
+        <new>/sparrow/prep_files/9cd396e2cfd7bb3e16d4f7cab1efca367d2df7da.SIG30.c.i</new>
+    </file>
+    <file sha1Sum="9eb7df4c192c33e59e7062704fb85656451195c8">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/9eb7df4c192c33e59e7062704fb85656451195c8.BAD_MACRO.DANGEROUS_USAGE.c.i</org>
+        <new>/sparrow/prep_files/9eb7df4c192c33e59e7062704fb85656451195c8.BAD_MACRO.DANGEROUS_USAGE.c.i</new>
+    </file>
+    <file sha1Sum="9f480e684d02019c9e36ce0b03995c99e6d818d3">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c.i</org>
+        <new>/sparrow/prep_files/9f480e684d02019c9e36ce0b03995c99e6d818d3.SIG32.c.i</new>
+    </file>
+    <file sha1Sum="9fe5ad634288f1e27fc1815fa13ea318d73b6ba5">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/9fe5ad634288f1e27fc1815fa13ea318d73b6ba5.API39.c.i</org>
+        <new>/sparrow/prep_files/9fe5ad634288f1e27fc1815fa13ea318d73b6ba5.API39.c.i</new>
+    </file>
+    <file sha1Sum="a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c.i</org>
+        <new>/sparrow/prep_files/a29d9d9061a2f5523b2b3bfe11ae1dd2f6b11191.MIS09.c.i</new>
+    </file>
+    <file sha1Sum="a2eff118f772de75431f276b9c7c583175abb774">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/a2eff118f772de75431f276b9c7c583175abb774.BAD_CALL.REQUIRED.LIB_CALL.c.i</org>
+        <new>/sparrow/prep_files/a2eff118f772de75431f276b9c7c583175abb774.BAD_CALL.REQUIRED.LIB_CALL.c.i</new>
+    </file>
+    <file sha1Sum="a8dac0ffeb33480b34a00867e9f20cff3b5f49e6">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c.i</org>
+        <new>/sparrow/prep_files/a8dac0ffeb33480b34a00867e9f20cff3b5f49e6.NONEFFECTIVE_FUNCTION_CALL.c.i</new>
+    </file>
+    <file sha1Sum="a9032a12d87fb0344a9dd3a6df38ae3a75f4792e">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/a9032a12d87fb0344a9dd3a6df38ae3a75f4792e.BAD_CALL.FORBIDDEN.PARAM.c.i</org>
+        <new>/sparrow/prep_files/a9032a12d87fb0344a9dd3a6df38ae3a75f4792e.BAD_CALL.FORBIDDEN.PARAM.c.i</new>
+    </file>
+    <file sha1Sum="aa2bdec3c0550b8e4488a8c81828abf64c0aa308">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/aa2bdec3c0550b8e4488a8c81828abf64c0aa308.API16.c.i</org>
+        <new>/sparrow/prep_files/aa2bdec3c0550b8e4488a8c81828abf64c0aa308.API16.c.i</new>
+    </file>
+    <file sha1Sum="ad860547d4e04c44bf24a1efa6afa960487efcae">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ad860547d4e04c44bf24a1efa6afa960487efcae.MIS23.c.i</org>
+        <new>/sparrow/prep_files/ad860547d4e04c44bf24a1efa6afa960487efcae.MIS23.c.i</new>
+    </file>
+    <file sha1Sum="ae455bf75baea15de6111265c0bf2cfb6c7f542c">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c.i</org>
+        <new>/sparrow/prep_files/ae455bf75baea15de6111265c0bf2cfb6c7f542c.EXECL_REVEALS_DATA.c.i</new>
+    </file>
+    <file sha1Sum="b0e5946f49809087052e788ae2dc0063907543c3">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c.i</org>
+        <new>/sparrow/prep_files/b0e5946f49809087052e788ae2dc0063907543c3.RACE_CONDITION.c.i</new>
+    </file>
+    <file sha1Sum="b69d6b4abb584f4230bcca0372df4d7921971037">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/b69d6b4abb584f4230bcca0372df4d7921971037.BAD_CALL.NOT_ALLOWED.PARAM.STRING.c.i</org>
+        <new>/sparrow/prep_files/b69d6b4abb584f4230bcca0372df4d7921971037.BAD_CALL.NOT_ALLOWED.PARAM.STRING.c.i</new>
+    </file>
+    <file sha1Sum="b74a165c1aa822f77de3f5dba95a19bddfebce2b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/b74a165c1aa822f77de3f5dba95a19bddfebce2b.MIS10.c.i</org>
+        <new>/sparrow/prep_files/b74a165c1aa822f77de3f5dba95a19bddfebce2b.MIS10.c.i</new>
+    </file>
+    <file sha1Sum="b7fa2254801634ad537ab7ccd5a573b1d4daaf5a">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/b7fa2254801634ad537ab7ccd5a573b1d4daaf5a.MIS05.c.i</org>
+        <new>/sparrow/prep_files/b7fa2254801634ad537ab7ccd5a573b1d4daaf5a.MIS05.c.i</new>
+    </file>
+    <file sha1Sum="b9736609d935d2f579ef384d647fb9fba32dc970">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c.i</org>
+        <new>/sparrow/prep_files/b9736609d935d2f579ef384d647fb9fba32dc970.MIS04.c.i</new>
+    </file>
+    <file sha1Sum="bd6e8a4ca10f3d02d381886d506523b55ef4ea62">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c.i</org>
+        <new>/sparrow/prep_files/bd6e8a4ca10f3d02d381886d506523b55ef4ea62.DO_NOT_ASSUME_ENV.c.i</new>
+    </file>
+    <file sha1Sum="c27708c04db566dc8adb475dfecd00353605b37b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/c27708c04db566dc8adb475dfecd00353605b37b.BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c.i</org>
+        <new>/sparrow/prep_files/c27708c04db566dc8adb475dfecd00353605b37b.BAD_CALL.INCORRECT_SIZEOF.MEMCPY.c.i</new>
+    </file>
+    <file sha1Sum="c4405c999830b41d895444cfc8907929ec23cc1a">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/c4405c999830b41d895444cfc8907929ec23cc1a.os_con_imp_int.c.i</org>
+        <new>/sparrow/prep_files/c4405c999830b41d895444cfc8907929ec23cc1a.os_con_imp_int.c.i</new>
+    </file>
+    <file sha1Sum="c52b51d9f9482350a90697381af642a5085a8385">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/c52b51d9f9482350a90697381af642a5085a8385.main.c.i</org>
+        <new>/sparrow/prep_files/c52b51d9f9482350a90697381af642a5085a8385.main.c.i</new>
+    </file>
+    <file sha1Sum="c5e13bf28c56fb7bbeb4a52a49b08fd343bd6a8c">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/c5e13bf28c56fb7bbeb4a52a49b08fd343bd6a8c.DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD.c.i</org>
+        <new>/sparrow/prep_files/c5e13bf28c56fb7bbeb4a52a49b08fd343bd6a8c.DO_NOT_USE_GETLOGIN_IN_MULTI_THREAD.c.i</new>
+    </file>
+    <file sha1Sum="c65a8713d9b6c4bc12bb3b438e6959564169a04a">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c.i</org>
+        <new>/sparrow/prep_files/c65a8713d9b6c4bc12bb3b438e6959564169a04a.IMPROPER_RANDOM_USAGE.c.i</new>
+    </file>
+    <file sha1Sum="c66c77d72b294ba6a3f3ad48f2e8611bc2dec7d1">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/c66c77d72b294ba6a3f3ad48f2e8611bc2dec7d1.BAD_QUALIFIER.REQUIRED.PARAM_PTR.c.i</org>
+        <new>/sparrow/prep_files/c66c77d72b294ba6a3f3ad48f2e8611bc2dec7d1.BAD_QUALIFIER.REQUIRED.PARAM_PTR.c.i</new>
+    </file>
+    <file sha1Sum="c72e927a40f24a24f99f97f5e63be32a95eba1bb">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/c72e927a40f24a24f99f97f5e63be32a95eba1bb.BAD_INCLUDE.DUPLICATED.c.i</org>
+        <new>/sparrow/prep_files/c72e927a40f24a24f99f97f5e63be32a95eba1bb.BAD_INCLUDE.DUPLICATED.c.i</new>
+    </file>
+    <file sha1Sum="c82f9837cb595a7ecd74cf98813bc61894ad3118">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/c82f9837cb595a7ecd74cf98813bc61894ad3118.DO_NOT_USE_HARD_CODING.USERNAME.c.i</org>
+        <new>/sparrow/prep_files/c82f9837cb595a7ecd74cf98813bc61894ad3118.DO_NOT_USE_HARD_CODING.USERNAME.c.i</new>
+    </file>
+    <file sha1Sum="ca272d1a93e59648f59bd4449cd2ec0a6e1a6151">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ca272d1a93e59648f59bd4449cd2ec0a6e1a6151.BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c.i</org>
+        <new>/sparrow/prep_files/ca272d1a93e59648f59bd4449cd2ec0a6e1a6151.BAD_MACRO.REPLACE_SECURE_FUNCTIONS.c.i</new>
+    </file>
+    <file sha1Sum="ca956a9991051a78d38e838e7ddfe3d7ba64dbd5">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c.i</org>
+        <new>/sparrow/prep_files/ca956a9991051a78d38e838e7ddfe3d7ba64dbd5.UNBOUNDED_SOURCE_TO_ARRAY.c.i</new>
+    </file>
+    <file sha1Sum="cafa4fa6c7ffd65203f4dce06c14917bc0e96421">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/cafa4fa6c7ffd65203f4dce06c14917bc0e96421.BAD_CALL.LIBRARY.MEMORY.c.i</org>
+        <new>/sparrow/prep_files/cafa4fa6c7ffd65203f4dce06c14917bc0e96421.BAD_CALL.LIBRARY.MEMORY.c.i</new>
+    </file>
+    <file sha1Sum="cc8e7f8adb25111a9462862503044cefdbca06a3">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c.i</org>
+        <new>/sparrow/prep_files/cc8e7f8adb25111a9462862503044cefdbca06a3.FBD14.c.i</new>
+    </file>
+    <file sha1Sum="cc99044c497e21cebd90c53675243f8c24d8cdf6">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/cc99044c497e21cebd90c53675243f8c24d8cdf6.MIS08.c.i</org>
+        <new>/sparrow/prep_files/cc99044c497e21cebd90c53675243f8c24d8cdf6.MIS08.c.i</new>
+    </file>
+    <file sha1Sum="cd2c75cbe6a883f3f0aa3639b3bbba9444684961">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/cd2c75cbe6a883f3f0aa3639b3bbba9444684961.BAD_CALL.FORBIDDEN.LIB.TEMP.c.i</org>
+        <new>/sparrow/prep_files/cd2c75cbe6a883f3f0aa3639b3bbba9444684961.BAD_CALL.FORBIDDEN.LIB.TEMP.c.i</new>
+    </file>
+    <file sha1Sum="cd3fb60f1516d55387bf12f2b45443388310b4fd">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c.i</org>
+        <new>/sparrow/prep_files/cd3fb60f1516d55387bf12f2b45443388310b4fd.BAD_MALLOC.c.i</new>
+    </file>
+    <file sha1Sum="cf26a7be838a50b303c7d53040f97e70d9444423">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/cf26a7be838a50b303c7d53040f97e70d9444423.BAD_CALL.MISSING_CALL_PARAM.EXTENDED.c.i</org>
+        <new>/sparrow/prep_files/cf26a7be838a50b303c7d53040f97e70d9444423.BAD_CALL.MISSING_CALL_PARAM.EXTENDED.c.i</new>
+    </file>
+    <file sha1Sum="d0c00b805e5ad4a781b29ce451180379715969e5">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/d0c00b805e5ad4a781b29ce451180379715969e5.MIS01.c.i</org>
+        <new>/sparrow/prep_files/d0c00b805e5ad4a781b29ce451180379715969e5.MIS01.c.i</new>
+    </file>
+    <file sha1Sum="d181c5a21fad2c5317f10905066001a06f506613">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/d181c5a21fad2c5317f10905066001a06f506613.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i</org>
+        <new>/sparrow/prep_files/d181c5a21fad2c5317f10905066001a06f506613.INCONSISTENT_GLOBAL_VARIABLE_TYPE_SECOND.c.i</new>
+    </file>
+    <file sha1Sum="d3a9934b5098871410f1f22d64eff1abbc56aa5b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/d3a9934b5098871410f1f22d64eff1abbc56aa5b.API05.c.i</org>
+        <new>/sparrow/prep_files/d3a9934b5098871410f1f22d64eff1abbc56aa5b.API05.c.i</new>
+    </file>
+    <file sha1Sum="d93926954487c225ce98bc9ffb557d3c3ee85244">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/d93926954487c225ce98bc9ffb557d3c3ee85244.BAD_OPERATOR.ASSIGNMENT_IN_COND.c.i</org>
+        <new>/sparrow/prep_files/d93926954487c225ce98bc9ffb557d3c3ee85244.BAD_OPERATOR.ASSIGNMENT_IN_COND.c.i</new>
+    </file>
+    <file sha1Sum="d9e968f9d9b4596b2cb63a48e2e025d6db92600b">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/d9e968f9d9b4596b2cb63a48e2e025d6db92600b.BAD_ERROR.INVALID_CODE.c.i</org>
+        <new>/sparrow/prep_files/d9e968f9d9b4596b2cb63a48e2e025d6db92600b.BAD_ERROR.INVALID_CODE.c.i</new>
+    </file>
+    <file sha1Sum="dd6e93d9d323286c13b4f84cab9abb7efe015895">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/dd6e93d9d323286c13b4f84cab9abb7efe015895.API33.c.i</org>
+        <new>/sparrow/prep_files/dd6e93d9d323286c13b4f84cab9abb7efe015895.API33.c.i</new>
+    </file>
+    <file sha1Sum="dfa4da9e13e352cc1e20feb92d53dfa8d8e56267">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c.i</org>
+        <new>/sparrow/prep_files/dfa4da9e13e352cc1e20feb92d53dfa8d8e56267.API25.c.i</new>
+    </file>
+    <file sha1Sum="e3030443c680421f76653fab89ea32b99726f6ae">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/e3030443c680421f76653fab89ea32b99726f6ae.BAD_CALL.TYPE_MISMATCH.SPRINTF.c.i</org>
+        <new>/sparrow/prep_files/e3030443c680421f76653fab89ea32b99726f6ae.BAD_CALL.TYPE_MISMATCH.SPRINTF.c.i</new>
+    </file>
+    <file sha1Sum="e37ed3018fcf962702f2fea8a65af546050d629e">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/e37ed3018fcf962702f2fea8a65af546050d629e.MIS24.c.i</org>
+        <new>/sparrow/prep_files/e37ed3018fcf962702f2fea8a65af546050d629e.MIS24.c.i</new>
+    </file>
+    <file sha1Sum="e428da448d08ce388fa1f43af220ce119ea83e03">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/e428da448d08ce388fa1f43af220ce119ea83e03.BAD_NAME.VARIABLE.c.i</org>
+        <new>/sparrow/prep_files/e428da448d08ce388fa1f43af220ce119ea83e03.BAD_NAME.VARIABLE.c.i</new>
+    </file>
+    <file sha1Sum="e95dd6f39d236b8f114700f1c5e5c90644af91b4">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/e95dd6f39d236b8f114700f1c5e5c90644af91b4.FORBIDDEN_CALL.LOOP.c.i</org>
+        <new>/sparrow/prep_files/e95dd6f39d236b8f114700f1c5e5c90644af91b4.FORBIDDEN_CALL.LOOP.c.i</new>
+    </file>
+    <file sha1Sum="ea37ad3c388de7632c80b9135b56cde3a54b4510">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ea37ad3c388de7632c80b9135b56cde3a54b4510.API34.c.i</org>
+        <new>/sparrow/prep_files/ea37ad3c388de7632c80b9135b56cde3a54b4510.API34.c.i</new>
+    </file>
+    <file sha1Sum="ebd57031be3b51627e3e53a79c78c3ba8a817ba2">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ebd57031be3b51627e3e53a79c78c3ba8a817ba2.API51.c.i</org>
+        <new>/sparrow/prep_files/ebd57031be3b51627e3e53a79c78c3ba8a817ba2.API51.c.i</new>
+    </file>
+    <file sha1Sum="ec23a6cd03712145e8551c42e11384fa6e9a3dd9">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ec23a6cd03712145e8551c42e11384fa6e9a3dd9.PRE09.c.i</org>
+        <new>/sparrow/prep_files/ec23a6cd03712145e8551c42e11384fa6e9a3dd9.PRE09.c.i</new>
+    </file>
+    <file sha1Sum="ec377a459a3722866f87ecc5a0f9c39723ef82ab">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ec377a459a3722866f87ecc5a0f9c39723ef82ab.MIS16.c.i</org>
+        <new>/sparrow/prep_files/ec377a459a3722866f87ecc5a0f9c39723ef82ab.MIS16.c.i</new>
+    </file>
+    <file sha1Sum="ed6caa89b647e8007e015fc06f2a760cefda3f91">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c.i</org>
+        <new>/sparrow/prep_files/ed6caa89b647e8007e015fc06f2a760cefda3f91.WEAK_ENCRYPTION.RISKY_ALGORITHM.c.i</new>
+    </file>
+    <file sha1Sum="ef4e87dee6bc55d5ac5e4a154766173ec1e97d9f">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ef4e87dee6bc55d5ac5e4a154766173ec1e97d9f.BAD_ERROR.MISSING_INIT.c.i</org>
+        <new>/sparrow/prep_files/ef4e87dee6bc55d5ac5e4a154766173ec1e97d9f.BAD_ERROR.MISSING_INIT.c.i</new>
+    </file>
+    <file sha1Sum="f001d3e16be3fff9c58b41c6800bf51fc609ce6a">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c.i</org>
+        <new>/sparrow/prep_files/f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c.i</new>
+    </file>
+    <file sha1Sum="f428b900febe1be00c6715b344d1681012b66431">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/f428b900febe1be00c6715b344d1681012b66431.MIS19.c.i</org>
+        <new>/sparrow/prep_files/f428b900febe1be00c6715b344d1681012b66431.MIS19.c.i</new>
+    </file>
+    <file sha1Sum="f4f9de7729257292baa5d96f9c616a05cd2e5532">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i</org>
+        <new>/sparrow/prep_files/f4f9de7729257292baa5d96f9c616a05cd2e5532.USE_CORRECT_BYTE_ORDERING.c.i</new>
+    </file>
+    <file sha1Sum="f79bb79a93bcc04b63bd06d8a0f3c30f2610e34c">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/f79bb79a93bcc04b63bd06d8a0f3c30f2610e34c.BAD_ARGS.FORBIDDEN.AFTER_CALL.c.i</org>
+        <new>/sparrow/prep_files/f79bb79a93bcc04b63bd06d8a0f3c30f2610e34c.BAD_ARGS.FORBIDDEN.AFTER_CALL.c.i</new>
+    </file>
+    <file sha1Sum="f89a20a19e756a83fc5ef2deeef3aeafd0fb5443">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c.i</org>
+        <new>/sparrow/prep_files/f89a20a19e756a83fc5ef2deeef3aeafd0fb5443.EMPTY_BRANCH.c.i</new>
+    </file>
+    <file sha1Sum="fda6ba0a97510f08dd295d79761d4639d72dc073">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/fda6ba0a97510f08dd295d79761d4639d72dc073.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c.i</org>
+        <new>/sparrow/prep_files/fda6ba0a97510f08dd295d79761d4639d72dc073.DO_NOT_USE_SIZEOF_ON_ARRAY_PARAM.c.i</new>
+    </file>
+    <file sha1Sum="fee9a5572c1e3ff5c4826767688492a931943879">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c.i</org>
+        <new>/sparrow/prep_files/fee9a5572c1e3ff5c4826767688492a931943879.UCTS-044.c.i</new>
+    </file>
+    <file sha1Sum="ff9c0170ff4b597c364263b3bd7bd4b35ee313da">
+        <org>/home/kskyj/sparrow4/util/testcode/c/sparrow/prep_files/ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c.i</org>
+        <new>/sparrow/prep_files/ff9c0170ff4b597c364263b3bd7bd4b35ee313da.WEAK_ENCRYPTION.INSUFFICIENT_KEY.c.i</new>
+    </file>
+</sparrow>
+

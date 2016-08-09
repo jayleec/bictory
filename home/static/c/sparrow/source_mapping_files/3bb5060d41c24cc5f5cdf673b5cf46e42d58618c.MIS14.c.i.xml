@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/MIS14.c">
+        <orgPrepFilename>119.MIS14.c.i</orgPrepFilename>
+        <newPrepFilename>3bb5060d41c24cc5f5cdf673b5cf46e42d58618c.MIS14.c.i</newPrepFilename>
+        <orgMetaSourceFilename>119.MIS14.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>fdf433a2d6f051f7965f6c31fc7d64eadaeebbf5.MIS14.c</newMetaSourceFilename>
+        <compileOption text="-c MIS14.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/MIS14.c</sourcePath>
+                <metaSourceFilename>fdf433a2d6f051f7965f6c31fc7d64eadaeebbf5.MIS14.c</metaSourceFilename>
+                <smap headerFilename="MIS14_A.h" metaHeaderFilename="da39a3ee5e6b4b0d3255bfef95601890afd80709.MIS14_A.h" line="1" />
+                <smap headerFilename="MIS14_B.h" metaHeaderFilename="da39a3ee5e6b4b0d3255bfef95601890afd80709.MIS14_B.h" line="2" />
+            </source>
+            <source systemHeader="false" userHeader="true">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/MIS14_A.h</sourcePath>
+                <metaSourceFilename>da39a3ee5e6b4b0d3255bfef95601890afd80709.MIS14_A.h</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\fdf433a2d6f051f7965f6c31fc7d64eadaeebbf5.MIS14.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\3bb5060d41c24cc5f5cdf673b5cf46e42d58618c.MIS14.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

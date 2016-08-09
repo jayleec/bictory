@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+	<category name="NULL_DEREF.MISSING_CHECK">
+		<item name="source_call" type="string" required="true" variable="true" regexp="false" description="List of functions which return sensitive information">
+			<value>receiveInterfaceData</value>
+		</item>
+	</category>
+</option>

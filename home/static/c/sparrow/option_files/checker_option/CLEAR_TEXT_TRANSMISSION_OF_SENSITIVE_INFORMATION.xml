@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<option>
+	<category name="CLEAR_TEXT_TRANSMISSION_OF_SENSITIVE_INFORMATION">
+		<item name="source_variable" type="string" required="true" variable="true" regexp="true" description="List of functions which return sensitive information">
+			<value>velocityData*</value>
+		</item>
+		<item name="sink_call" type="string" required="true" variable="true" regexp="false" description="List of functions which trigger alarms when parameters contain sensitive information">
+                        <value>publishCANData</value>			
+         	</item>
+   <item name="clear_call_on_path" type="string" required="true" variable="true" regexp="true" description="List of functions which should exist on the path from the source to sink">
+      <value>AesOmac1_Init</value>			
+      <value>AesOmac1_Update</value>
+      <value>AesOmac1_Finish</value>
+    </item>
+	</category>
+</option>

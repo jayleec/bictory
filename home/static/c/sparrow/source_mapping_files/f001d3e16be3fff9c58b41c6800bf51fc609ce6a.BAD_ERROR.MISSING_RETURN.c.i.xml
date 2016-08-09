@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/BAD_ERROR.MISSING_RETURN.c">
+        <orgPrepFilename>62.BAD_ERROR.MISSING_RETURN.c.i</orgPrepFilename>
+        <newPrepFilename>f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c.i</newPrepFilename>
+        <orgMetaSourceFilename>62.BAD_ERROR.MISSING_RETURN.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>bad4e8acbf6eb33560d90e12fb4b4fc1fb97db97.BAD_ERROR.MISSING_RETURN.c</newMetaSourceFilename>
+        <compileOption text="-c BAD_ERROR.MISSING_RETURN.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/BAD_ERROR.MISSING_RETURN.c</sourcePath>
+                <metaSourceFilename>bad4e8acbf6eb33560d90e12fb4b4fc1fb97db97.BAD_ERROR.MISSING_RETURN.c</metaSourceFilename>
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\bad4e8acbf6eb33560d90e12fb4b4fc1fb97db97.BAD_ERROR.MISSING_RETURN.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\f001d3e16be3fff9c58b41c6800bf51fc609ce6a.BAD_ERROR.MISSING_RETURN.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+

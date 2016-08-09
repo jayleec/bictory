@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sparrow>
+    <source compiler="gcc" workPath="/home/kskyj/sparrow4/util/testcode/c" sourcePath="/home/kskyj/sparrow4/util/testcode/c/EXCESSIVE_STACK_DEPTH.c">
+        <orgPrepFilename>94.EXCESSIVE_STACK_DEPTH.c.i</orgPrepFilename>
+        <newPrepFilename>3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i</newPrepFilename>
+        <orgMetaSourceFilename>94.EXCESSIVE_STACK_DEPTH.c</orgMetaSourceFilename>
+        <newMetaSourceFilename>95b0cc897c965867ed8ca1e7b0e7ef60f17066e3.EXCESSIVE_STACK_DEPTH.c</newMetaSourceFilename>
+        <compileOption text="-c EXCESSIVE_STACK_DEPTH.c" />
+        <sourceFileList>
+            <source systemHeader="false" userHeader="false">
+                <sourcePath>/home/kskyj/sparrow4/util/testcode/c/EXCESSIVE_STACK_DEPTH.c</sourcePath>
+                <metaSourceFilename>95b0cc897c965867ed8ca1e7b0e7ef60f17066e3.EXCESSIVE_STACK_DEPTH.c</metaSourceFilename>
+            </source>
+            <source systemHeader="false" userHeader="true">
+                <sourcePath>/usr/include/_G_config.h</sourcePath>
+                <metaSourceFilename>3ef8102eb64714a10b5352999a914bd2393a2af9._G_config.h</metaSourceFilename>
+                <smap headerFilename="bits/types.h" metaHeaderFilename="479dff664ef27ce12674108e2ff8f812bba03347.types.h" line="9" />
+                <smap headerFilename="wchar.h" metaHeaderFilename="4fa5fcd84564709d6665299c6bd6f0b92b723b1e.wchar.h" line="20" />
+            </source>
+        </sourceFileList>
+    </source>
+    <option>
+        <srcDir>C:\sparrow4\util\testcode\c\sparrow\source_files</srcDir>
+        <csrcDir>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files</csrcDir>
+        <srcFileC>C:\sparrow4\util\testcode\c\sparrow\crulechk_source_files\95b0cc897c965867ed8ca1e7b0e7ef60f17066e3.EXCESSIVE_STACK_DEPTH.c</srcFileC>
+        <srcFileI>C:\sparrow4\util\testcode\c\sparrow\prep_files\3de4abb1e61bbffb1a84e7ad628271fb9bf13093.EXCESSIVE_STACK_DEPTH.c.i</srcFileI>
+        <edgoptList>
+            <edgopt>--gcc</edgopt>
+            <edgopt>-w</edgopt>
+            <edgopt>-D__builtin_offsetof(t,memb)=((size_t)&amp;(((t *)0)-&gt;memb))</edgopt>
+            <edgopt>-D__deprecated__(X)=</edgopt>
+            <edgopt>-D__int128=int</edgopt>
+            <edgopt>-D__builtin_types_compatible_p(x,y)=1</edgopt>
+        </edgoptList>
+    </option>
+</sparrow>
+
