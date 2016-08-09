@@ -30,6 +30,11 @@
         {
             "children": [
                 {
+<<<<<<< HEAD
+                    "name": "bind_socket", "ID": "1.2.1", "size": 195
+                }
+            ]
+=======
                     "ID": "1.2.1",
                     "Complexity": "100",
                     "size": 42,
@@ -42,6 +47,7 @@
                 }
             ],
             "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MULTIPLE_BINDS_TO_SAME_PORT.c"
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6
         },
         {
             "children": [

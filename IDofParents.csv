@@ -3,6 +3,8 @@
 "directory","1"
 "API47.c","1.1"
 "badParam","1.1.1"
+<<<<<<< HEAD
+=======
 "goodParam","1.1.2"
 "MULTIPLE_BINDS_TO_SAME_PORT.c","1.2"
 "bind_socket","1.2.1"
@@ -381,3 +383,4 @@
 "goodLoop","1.99.2"
 "API31.c","1.100"
 "foo","1.100.1"
+>>>>>>> ce2eba7dda2da75355a677c286516e86a66a2ad6

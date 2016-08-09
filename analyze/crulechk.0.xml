@@ -175,7 +175,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\FBD15.c</path>
+		<path>\home\kskyj\sparrow4\util\tmpcode\c\FBD15.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -255,7 +255,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/MSC34.c</path>
+		<path>/home/kskyj/sparrow4/util/tmpcode/c/MSC34.c</path>
 		<functions>
 			<function>
 				<name>MSC32_main</name>
@@ -302,7 +302,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.IMPROPER_VARARGS.c</path>
+		<path>\home\kskyj\sparrow4\util\tmpcode\c\BAD_CALL.IMPROPER_VARARGS.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -349,7 +349,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c</path>
+		<path>\home\kskyj\sparrow4\util\tmpcode\c\BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -396,7 +396,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.FORBIDDEN.LIB.PROCESS.c</path>
+		<path>\home\kskyj\sparrow4\util\tmpcode\c\BAD_CALL.FORBIDDEN.LIB.PROCESS.c</path>
 		<functions>
 			<function>
 				<name>terminate_process</name>
@@ -443,7 +443,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API27.c</path>
+		<path>\home\kskyj\sparrow4\util\tmpcode\c\API27.c</path>
 		<functions>
 			<function>
 				<name>staticFunc</name>
@@ -490,7 +490,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.FORBIDDEN.LIB.SIGNAL.c</path>
+		<path>\home\kskyj\sparrow4\util\tmpcode\c\BAD_CALL.FORBIDDEN.LIB.SIGNAL.c</path>
 		<functions>
 			<function>
 				<name>signal_handler</name>
@@ -537,7 +537,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/TRYLOCK_FAIL.c</path>
+		<path>/home/kskyj/sparrow4/util/tmpcode/c/TRYLOCK_FAIL.c</path>
 		<functions>
 			<function>
 				<name>try_lock_fail</name>
@@ -584,7 +584,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.TYPE_MISMATCH.STRING.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\BAD_CALL.TYPE_MISMATCH.STRING.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -631,7 +631,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_INCLUDE.FORBIDDEN.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\BAD_INCLUDE.FORBIDDEN.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -678,7 +678,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API36.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\API36.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -758,7 +758,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS03.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\MIS03.c</path>
 		<functions>
 			<function>
 				<name>getMax</name>
@@ -805,7 +805,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS15_A.h</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\MIS15_A.h</path>
 		<functions>
 			<function>
 				<name>testFunc_A</name>
@@ -852,7 +852,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS15_B.h</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\MIS15_B.h</path>
 		<functions>
 			<function>
 				<name>testFunc_B</name>
@@ -899,7 +899,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS15.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\MIS15.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -946,7 +946,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\FORBIDDEN_CALL.BEFORE_CALL.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\FORBIDDEN_CALL.BEFORE_CALL.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -993,7 +993,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API50.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\API50.c</path>
 		<functions>
 			<function>
 				<name>order</name>
@@ -1073,7 +1073,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS17.h</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\MIS17.h</path>
 		<functions>
 			<function>
 				<name>anotherTestFunc</name>
@@ -1120,7 +1120,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS17.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\MIS17.c</path>
 		<functions>
 			<function>
 				<name>testFunc</name>
@@ -1167,7 +1167,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API29.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\API29.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -1247,7 +1247,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.FORBIDDEN.LIB.TP.c</path>
+		<path>\home\kskyj\sparrow4\util\Acode\c\BAD_CALL.FORBIDDEN.LIB.TP.c</path>
 		<functions>
 			<function>
 				<name>terminate_tp</name>
@@ -1294,7 +1294,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.REQUIRED.PRE_CALL.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\BAD_CALL.REQUIRED.PRE_CALL.c</path>
 		<functions>
 			<function>
 				<name>FuncBad</name>
@@ -1374,7 +1374,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_QUALIFIER.FORBIDDEN.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\BAD_QUALIFIER.FORBIDDEN.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -1421,7 +1421,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/SIZE_CALCULATION_BAD_COMPARE.c</path>
+		<path>/home/kskyj/sparrow4/util/Bcode/c/SIZE_CALCULATION_BAD_COMPARE.c</path>
 		<functions>
 			<function>
 				<name>getuid</name>
@@ -1567,7 +1567,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.REQUIRED.VARARGS.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\BAD_CALL.REQUIRED.VARARGS.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -1614,7 +1614,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_INCLUDE.INVALID_PATH.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\BAD_INCLUDE.INVALID_PATH.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -1661,7 +1661,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.FORBIDDEN.LIB.TIMER.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\BAD_CALL.FORBIDDEN.LIB.TIMER.c</path>
 		<functions>
 			<function>
 				<name>set_sleep_func</name>
@@ -1708,7 +1708,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/MSC32.c</path>
+		<path>/home/kskyj/sparrow4/util/Bcode/c/MSC32.c</path>
 		<functions>
 			<function>
 				<name>msc32</name>
@@ -1755,7 +1755,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/SECURE_OPUS_COMPLEX.c</path>
+		<path>/home/kskyj/sparrow4/util/Bcode/c/SECURE_OPUS_COMPLEX.c</path>
 		<functions>
 			<function>
 				<name>SQLExecDirect</name>
@@ -2737,7 +2737,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/INCORRECT_PERMISSION.c</path>
+		<path>/home/kskyj/sparrow4/util/Bcode/c/INCORRECT_PERMISSION.c</path>
 		<functions>
 			<function>
 				<name>sfunc</name>
@@ -2817,7 +2817,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS07.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\MIS07.c</path>
 		<functions>
 			<function>
 				<name>mis07</name>
@@ -2864,7 +2864,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/DOUBLE_LOCK.c</path>
+		<path>/home/kskyj/sparrow4/util/Bcode/c/DOUBLE_LOCK.c</path>
 		<functions>
 			<function>
 				<name>double_lock</name>
@@ -2911,7 +2911,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API32.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\API32.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -2991,7 +2991,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\TOO_MANY_METHODS.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\TOO_MANY_METHODS.c</path>
 		<functions>
 			<function>
 				<name>func1</name>
@@ -3104,7 +3104,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.FORBIDDEN.PARAM.NAME.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\BAD_CALL.FORBIDDEN.PARAM.NAME.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -3151,7 +3151,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\sub.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\sub.c</path>
 		<functions>
 			<function>
 				<name>sub_test</name>
@@ -3330,7 +3330,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS14.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\MIS14.c</path>
 		<functions>
 			<function>
 				<name>testFunc</name>
@@ -3377,7 +3377,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_INIT.CHAR_ARRAY.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\BAD_INIT.CHAR_ARRAY.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -3424,7 +3424,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.FORBIDDEN.VARARGS.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\BAD_CALL.FORBIDDEN.VARARGS.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -3471,7 +3471,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\FBD01.c</path>
+		<path>\home\kskyj\sparrow4\util\Bcode\c\FBD01.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -3551,7 +3551,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.REQUIRED.PARAM.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\BAD_CALL.REQUIRED.PARAM.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -3598,7 +3598,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.NOT_ALLOWED.PARAM.NAME.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\BAD_CALL.NOT_ALLOWED.PARAM.NAME.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -3645,7 +3645,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/EXCESSIVE_STACK_DEPTH.c</path>
+		<path>/home/kskyj/sparrow4/util/Ccode/c/EXCESSIVE_STACK_DEPTH.c</path>
 		<functions>
 			<function>
 				<name>bigbuf</name>
@@ -3692,7 +3692,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_STRING_MANAGEMENT.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\BAD_STRING_MANAGEMENT.c</path>
 		<functions>
 			<function>
 				<name>_mbscpy</name>
@@ -3871,7 +3871,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.FORBIDDEN.PARAM.LITERAL.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\BAD_CALL.FORBIDDEN.PARAM.LITERAL.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -3918,7 +3918,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c</path>
+		<path>/home/kskyj/sparrow4/util/Ccode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c</path>
 		<functions>
 			<function>
 				<name>badSalt</name>
@@ -4130,7 +4130,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API46.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\API46.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -4210,7 +4210,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API41.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\API41.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -4290,7 +4290,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS06.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\MIS06.c</path>
 		<functions>
 			<function>
 				<name>foo</name>
@@ -4337,7 +4337,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/API42.c</path>
+		<path>/home/kskyj/sparrow4/util/Ccode/c/API42.c</path>
 		<functions>
 			<function>
 				<name>fooBad</name>
@@ -4417,7 +4417,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/DOUBLE_UNLOCK.c</path>
+		<path>/home/kskyj/sparrow4/util/Ccode/c/DOUBLE_UNLOCK.c</path>
 		<functions>
 			<function>
 				<name>unlock</name>
@@ -4464,7 +4464,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.MISSING_CALL_PARAM.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\BAD_CALL.MISSING_CALL_PARAM.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -4511,7 +4511,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API24.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\API24.c</path>
 		<functions>
 			<function>
 				<name>strcpy</name>
@@ -4657,7 +4657,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API40.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\API40.c</path>
 		<functions>
 			<function>
 				<name>getBadSum</name>
@@ -4737,7 +4737,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS22.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\MIS22.c</path>
 		<functions>
 			<function>
 				<name>foo</name>
@@ -4784,7 +4784,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API35.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\API35.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -4864,7 +4864,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/all_sample.c</path>
+		<path>/home/kskyj/sparrow4/util/Ccode/c/all_sample.c</path>
 		<functions>
 			<function>
 				<name>buffer_overrun_01_sub</name>
@@ -7354,7 +7354,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_INTEGER_CONST_DEFINITION.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\BAD_INTEGER_CONST_DEFINITION.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -7401,7 +7401,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.FORBIDDEN.LIB.RESOURCE.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\BAD_CALL.FORBIDDEN.LIB.RESOURCE.c</path>
 		<functions>
 			<function>
 				<name>resource_limit</name>
@@ -7448,7 +7448,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/PASSWORD_IN_COMMENT.c</path>
+		<path>/home/kskyj/sparrow4/util/Ccode/c/PASSWORD_IN_COMMENT.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -7495,7 +7495,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/ENV32.c</path>
+		<path>/home/kskyj/sparrow4/util/Ccode/c/ENV32.c</path>
 		<functions>
 			<function>
 				<name>exit1</name>
@@ -7674,7 +7674,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/SECURITY_DECISION_ON_DNS_LOOKUP.c</path>
+		<path>/home/kskyj/sparrow4/util/Ccode/c/SECURITY_DECISION_ON_DNS_LOOKUP.c</path>
 		<functions>
 			<function>
 				<name>decision</name>
@@ -7754,7 +7754,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c</path>
 		<functions>
 			<function>
 				<name>muti_stmt_without</name>
@@ -7801,7 +7801,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MISSING_WRAPPER_ON_VARIABLE.c</path>
+		<path>\home\kskyj\sparrow4\util\Ccode\c\MISSING_WRAPPER_ON_VARIABLE.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -7848,7 +7848,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_PRIVILEGE_RELINQUISHMENT.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\BAD_PRIVILEGE_RELINQUISHMENT.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -7895,7 +7895,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\INCONSISTENT_GLOBAL_VARIABLE_TYPE.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\INCONSISTENT_GLOBAL_VARIABLE_TYPE.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -7942,7 +7942,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.FORBIDDEN.PARAM.STRING.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\BAD_CALL.FORBIDDEN.PARAM.STRING.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -7989,7 +7989,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS18.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\MIS18.c</path>
 		<functions>
 			<function>
 				<name>badTest</name>
@@ -8069,7 +8069,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API28.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\API28.c</path>
 		<functions>
 			<function>
 				<name>badUsage</name>
@@ -8149,7 +8149,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API30.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\API30.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -8229,7 +8229,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\FUNCTION_DEFINITION_TYPE_MISMATCH.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\FUNCTION_DEFINITION_TYPE_MISMATCH.c</path>
 		<functions>
 			<function>
 				<name>func</name>
@@ -8276,7 +8276,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API45.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\API45.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -8356,7 +8356,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API43.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\API43.c</path>
 		<functions>
 			<function>
 				<name>badDBIOWithoutRollback</name>
@@ -8469,7 +8469,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/UCTS-041.c</path>
+		<path>/home/kskyj/sparrow4/util/Dcode/c/UCTS-041.c</path>
 		<functions>
 			<function>
 				<name>f</name>
@@ -8516,7 +8516,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/ENV04.c</path>
+		<path>/home/kskyj/sparrow4/util/Dcode/c/ENV04.c</path>
 		<functions>
 			<function>
 				<name>useruser</name>
@@ -8563,7 +8563,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API23.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\API23.c</path>
 		<functions>
 			<function>
 				<name>badError</name>
@@ -8709,7 +8709,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/UCTS-028.c</path>
+		<path>/home/kskyj/sparrow4/util/Dcode/c/UCTS-028.c</path>
 		<functions>
 			<function>
 				<name>aux_test_extreme</name>
@@ -8822,7 +8822,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.REQUIRED.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\BAD_CALL.REQUIRED.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -8869,7 +8869,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/MEM08.c</path>
+		<path>/home/kskyj/sparrow4/util/Dcode/c/MEM08.c</path>
 		<functions>
 			<function>
 				<name>returnRealloc</name>
@@ -8982,7 +8982,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_STRUCT_MEMBER_ACCESS.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\BAD_STRUCT_MEMBER_ACCESS.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -9029,7 +9029,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.REQUIRED.ARGS.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\BAD_CALL.REQUIRED.ARGS.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -9076,7 +9076,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\PREMATURE_THREAD_TERMINATION.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\PREMATURE_THREAD_TERMINATION.c</path>
 		<functions>
 			<function>
 				<name>foo</name>
@@ -9156,7 +9156,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MSC17.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\MSC17.c</path>
 		<functions>
 			<function>
 				<name>msc17</name>
@@ -9203,7 +9203,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\MIS11.c</path>
+		<path>\home\kskyj\sparrow4\util\Dcode\c\MIS11.c</path>
 		<functions>
 			<function>
 				<name>testFunc</name>
@@ -9250,7 +9250,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/mismatch.cpp</path>
+		<path>/home/kskyj/sparrow4/util/Ecode/c/mismatch.cpp</path>
 		<functions>
 			<function>
 				<name>mismatch_malloc_to_delete</name>
@@ -9462,7 +9462,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/FIO43.c</path>
+		<path>/home/kskyj/sparrow4/util/Ecode/c/FIO43.c</path>
 		<functions>
 			<function>
 				<name>fio43_main</name>
@@ -9509,7 +9509,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/WEAK_ENCRYPTION.PASSWORD.c</path>
+		<path>/home/kskyj/sparrow4/util/Ecode/c/WEAK_ENCRYPTION.PASSWORD.c</path>
 		<functions>
 			<function>
 				<name>dbaccess</name>
@@ -9556,7 +9556,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API38.c</path>
+		<path>\home\kskyj\sparrow4\util\Ecode\c\API38.c</path>
 		<functions>
 			<function>
 				<name>badFoo</name>
@@ -9636,7 +9636,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\DO_NOT_USE_SIZEOF_ON_PTR.c</path>
+		<path>\home\kskyj\sparrow4\util\Ecode\c\DO_NOT_USE_SIZEOF_ON_PTR.c</path>
 		<functions>
 			<function>
 				<name>do_not_use_sizeof1</name>
@@ -9683,7 +9683,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\WEAK_ENCRYPTION.RSA_PADDING.c</path>
+		<path>\home\kskyj\sparrow4\util\Ecode\c\WEAK_ENCRYPTION.RSA_PADDING.c</path>
 		<functions>
 			<function>
 				<name>badPadding</name>
@@ -9763,7 +9763,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/NEGATIVE_FILE_DESCRIPTOR.c</path>
+		<path>/home/kskyj/sparrow4/util/Ecode/c/NEGATIVE_FILE_DESCRIPTOR.c</path>
 		<functions>
 			<function>
 				<name>negative_file_des</name>
@@ -9810,7 +9810,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\BAD_CALL.REQUIRED.WRAPPER.c</path>
+		<path>\home\kskyj\sparrow4\util\Ecode\c\BAD_CALL.REQUIRED.WRAPPER.c</path>
 		<functions>
 			<function>
 				<name>Func</name>
@@ -9857,7 +9857,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/IMPROPER_NULL_TERMINATION.c</path>
+		<path>/home/kskyj/sparrow4/util/Ecode/c/IMPROPER_NULL_TERMINATION.c</path>
 		<functions>
 			<function>
 				<name>foo1</name>
@@ -10036,7 +10036,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c</path>
+		<path>/home/kskyj/sparrow4/util/Ecode/c/CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c</path>
 		<functions>
 			<function>
 				<name>chroot_jail_without</name>
@@ -10083,7 +10083,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>/home/kskyj/sparrow4/util/testcode/c/CHECK_ALIGNMENT_OF_MEMORY.c</path>
+		<path>/home/kskyj/sparrow4/util/Ecode/c/CHECK_ALIGNMENT_OF_MEMORY.c</path>
 		<functions>
 			<function>
 				<name>check_assign</name>
@@ -10130,7 +10130,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API44.c</path>
+		<path>\home\kskyj\sparrow4\util\Ecode\c\API44.c</path>
 		<functions>
 			<function>
 				<name>badLoop</name>
@@ -10210,7 +10210,7 @@
 		</metric>
 	</file>
 	<file>
-		<path>\home\kskyj\sparrow4\util\testcode\c\API31.c</path>
+		<path>\home\kskyj\sparrow4\util\Ecode\c\API31.c</path>
 		<functions>
 			<function>
 				<name>foo</name>

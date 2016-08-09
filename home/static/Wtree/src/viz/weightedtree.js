@@ -30,7 +30,7 @@ vizuly.viz.weighted_tree = function (parent) {
     var properties = {
         "data" : null,              // Expects a single numeric value
         "margin" : {                // Our marign object
-            "top": "5%",           // Top margin
+            "top": "2%",           // Top margin
             "bottom" : "5%",        // Bottom margin
             "left" : "8%",          // Left margin
             "right" : "7%"          // Right margin
@@ -83,7 +83,7 @@ vizuly.viz.weighted_tree = function (parent) {
         nodeScale.domain([minValues[node.depth],maxValues[node.depth]]);
         return nodeScale(scope.value(node));
     }
-
+    document.write(nodeScale.range() + " a");
 
     //These are all d3.selection objects we use to insert and update svg elements into
     var svg, g,background, plot, plotBackground, linkPlot, nodePlot, defs;

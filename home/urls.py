@@ -18,6 +18,5 @@ urlpatterns = [
     url(r'^d3test/$', views.showScore, name='d3'),
     url(r'^test/$', views.test, name='test'),
     url(r'^convert/$', views.convert, name='convert'),
-    url(r'^convert2/$', views.convert2, name='convert2'),
     url(r'^Wtree_test', views.Wtree_test, name='Wtree_test'),
 ]

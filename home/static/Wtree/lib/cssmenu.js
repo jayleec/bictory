@@ -1,7 +1,7 @@
 (function($) {
 
   $.fn.menumaker = function(options) {
-      
+
       var cssmenu = $(this), settings = $.extend({
         title: "Menu",
         format: "dropdown",

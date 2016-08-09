@@ -156,7 +156,6 @@ def d3test():
 
     funcarr = []
 
-
     for child in root:
         #print("File Path : ", child[0].text)  # 파일 경로 출력
         numOfFunctions += len(child[1])
@@ -369,14 +368,11 @@ def standardDeviation(data, category):
 def getMinimum(list, category):
     return min(list, key=lambda x: x[category])
 
-
 def cal_projectScore(comp, stru, text, under, main):
     return (comp + stru + text + under + main)/5
 
-
 def cal_maintainability(comp, stru, test, under):
     return comp*0.25 + stru * 0.25 + test * 0.25 + under * 0.25
-
 
 def cal_complexity(child2):
     sumofcom = 0
@@ -430,8 +426,12 @@ def sign_up(request):
     return render(request, 'sign_up.html')
 
 
+
+    return HttpResponse("Testing...")
+
 def report(request):
     return render(request, 'report.html')
+
 
 def convert(request):
     # 초기 사전
@@ -441,13 +441,14 @@ def convert(request):
     filedict = {}
     funarr = []
     fundict = {}
-
+    s = ","
+    s = locale.format_string('%s', s, True).replace(",", "")
 
     data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
     print(len(root))
 
-    csv_file = open('IDofParents.csv', "w")
+    csv_file = open('IDofParents2.csv', "w")
     cw = csv.writer(csv_file, delimiter=',', quotechar='|')
     cw.writerow(["\"name\"", "\"ID\""])
     cw.writerow(["\"project\"", "\"\""])
@@ -460,7 +461,7 @@ def convert(request):
 
     csv_file3 = open('Wtree_test.csv', "w")
     cw3 = csv.writer(csv_file3, delimiter=',', quotechar=',')
-    cw3.writerow(["Level1", "Level2", "Level3", "Federal", "GovXFer", "State", "Local"])
+    cw3.writerow(["Category", "Level1", "Level2", "Level3", "Level4", "Federal",s,"GovXFer", "State", "Local"])
 
     # 메트릭 개수는 항상 27개
     # 전체 파일 개수
@@ -505,6 +506,20 @@ def convert(request):
 
             funarr.append(fundict)
 
+
+            tmparr = []
+            dirname = {}
+            if(child[0].text[0] == '/'):
+                tmparr = child[0].text.split("/c/")
+                dirname = child[0].text.split("/util/")
+                dirname = dirname[1].split("/c/")
+            else:
+                tmparr = child[0].text.split("\\c\\")
+                dirname = child[0].text.split("\\util\\")
+                dirname = dirname[1].split("\\c\\")
+            print(tmparr[1])
+            print(dirname[0])
+
             s = ","
             s = locale.format_string('%s', s, True).replace(",", "")
 
@@ -512,12 +527,13 @@ def convert(request):
             newMetricName = changeMetricName()
             # print("newName = ", newName)
             i = 0
+
             for child3 in child2:
                 child3.tag = newMetricName[i]
                 i += 1
                 # weighted tree 사용
                 if child3.tag == 'name':
-                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
+                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, str(numberOfFile) + str(numberOfFunction)])
                     continue
                 # #     일부 불필요한 메트릭은 사용하지 않음
                 if (child3.tag == 'Component Volume' or child3.tag == 'Program Level' or
@@ -528,7 +544,10 @@ def convert(request):
                     print("if child.tag = ", child3.tag)
                 else:
                     cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
-                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
+                    cw3.writerow([tmparr[1], dirname[0], tmparr[1], child2[0].text, child3.tag + ":" + child3.text,
+                                  str(numberOfFile) + str(numberOfFunction), "b", s, s, s,
+                                  str(numberOfFile) + str(numberOfFunction)])
+
 
 
         filedict['children'] = funarr
@@ -688,6 +707,7 @@ def convert2(request):
     return HttpResponse("Testing...")
 
 class MetricController():
+
     def __init__(self):
         self.num = 0
         self.array = []
@@ -700,6 +720,7 @@ class MetricController():
         for elt in self.array:
             if elt['id'] == id:
                 return elt
+
 #매트릭 계산기
 class Calculator(dict):
     # 매트릭의 기준 표
@@ -724,6 +745,28 @@ class Calculator(dict):
 
     def __init__(self, elt):
         self.dict = elt
+
+    # def return_score(self, name):
+    #     # if table[name]
+    #     # 최소치 이상 일 경우
+    #     if table[name][0] <= self.dict[name]:
+    #         # 최대치 이하일 경우
+    #         if table[name][1] >= self.dict[name]:
+    #             return 100  # 100점
+    #         # 최소치 이상 최대치 이상
+    #         else:
+    #             # 2배를 넘지 않으면 점수 계산
+    #             if self.dict[name] - table[name][1] >= 0:
+    #                 return 100 - ((self.dict[name] - table[name][1]) / table[name][1] * 100)
+    #             # 2배를 넘으면 0점
+    #             else:
+    #                 return 0
+    #     #최소치 이하일 경우
+    #     else:
+    #         # 0점
+    #         return 0
+    #
+    # def complexity(self):
 
     def return_score(self, name):
         # if table[name]
@@ -764,4 +807,6 @@ class Calculator(dict):
         for x in names:
             print("x : ", x)
             score += self.return_score(x) * scores[x]
+
         return score / 1000
+
