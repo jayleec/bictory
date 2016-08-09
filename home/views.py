@@ -62,7 +62,6 @@ def d3test(request):
 
     funcarr = []
 
-
     for child in root:
         #print("File Path : ", child[0].text)  # 파일 경로 출력
         numOfFunctions += len(child[1])
@@ -263,15 +262,11 @@ def standardDeviation(data, category):
 def getMinimum(list, category):
     return min(list, key=lambda x: x[category])
 
-
-
 def cal_projectScore(comp, stru, text, under, main):
     return (comp + stru + text + under + main)/5
 
-
 def cal_maintainability(comp, stru, test, under):
     return comp*0.25 + stru * 0.25 + test * 0.25 + under * 0.25
-
 
 def cal_complexity(child2):
     sumofcom = 0
@@ -323,10 +318,6 @@ def test(request):
         print(word)
 
     return HttpResponse("Testing...")
-<<<<<<< HEAD
-
-=======
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
 
 def convert(request):
     # 초기 사전
@@ -336,13 +327,14 @@ def convert(request):
     filedict = {}
     funarr = []
     fundict = {}
-
+    s = ","
+    s = locale.format_string('%s', s, True).replace(",", "")
 
     data = ET.parse("analyze/crulechk.0.xml")
     root = data.getroot()
     print(len(root))
 
-    csv_file = open('IDofParents.csv', "w")
+    csv_file = open('IDofParents2.csv', "w")
     cw = csv.writer(csv_file, delimiter=',', quotechar='|')
     cw.writerow(["\"name\"", "\"ID\""])
     cw.writerow(["\"project\"", "\"\""])
@@ -355,7 +347,7 @@ def convert(request):
 
     csv_file3 = open('Wtree_test.csv', "w")
     cw3 = csv.writer(csv_file3, delimiter=',', quotechar=',')
-    cw3.writerow(["Level1", "Level2", "Level3", "Federal", "GovXFer", "State", "Local"])
+    cw3.writerow(["Category", "Level1", "Level2", "Level3", "Level4", "Federal",s,"GovXFer", "State", "Local"])
 
     # 메트릭 개수는 항상 27개
     # 전체 파일 개수
@@ -402,14 +394,24 @@ def convert(request):
 
             funarr.append(fundict)
 
-            s = ","
-            s = locale.format_string('%s', s, True).replace(",", "")
+            tmparr = []
+            dirname = {}
+            if(child[0].text[0] == '/'):
+                tmparr = child[0].text.split("/c/")
+                dirname = child[0].text.split("/util/")
+                dirname = dirname[1].split("/c/")
+            else:
+                tmparr = child[0].text.split("\\c\\")
+                dirname = child[0].text.split("\\util\\")
+                dirname = dirname[1].split("\\c\\")
+            print(tmparr[1])
+            print(dirname[0])
             for child3 in child2:
                 if child3.tag == 'name':
-                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
+                    cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, str(numberOfFile) + str(numberOfFunction)])
                     continue
                 cw2.writerow([str("\"1." + str(numberOfFile) + "." + str(numberOfFunction) + "\""), str("\"" + child3.tag + "\""), str("\"" + child3.text + "\"")])
-                cw3.writerow([child[0].text, child2[0].text, child3.tag + ":" + child3.text, "1." + str(numberOfFile) + str(numberOfFunction), "b", s,s,s, "1." + str(numberOfFile) + str(numberOfFunction)])
+                cw3.writerow([tmparr[1], dirname[0], tmparr[1], child2[0].text, child3.tag + ":" + child3.text, str(numberOfFile) + str(numberOfFunction), "b", s,s,s, str(numberOfFile) + str(numberOfFunction)])
 
 
         filedict['children'] = funarr
@@ -501,41 +503,6 @@ class XmlDictConfig(dict):
 def Wtree_test(request):
     return render(request, 'Wtree_test.html')
 
-<<<<<<< HEAD
-class metric_controller():
-=======
-def convert2(request):
-    data = ET.parse("analyze/crulechk.0.xml")
-    root = data.getroot()
-    metrics = MetricController()
-
-    # child = File
-    for child in root:
-        print("File Path : ", child[0].text)  # 파일 경로 출력
-        print("Number of functions: ", len(child[1]))  # function의 개수
-
-        # child2 = function
-        for child2 in child[1]:  # 소스파일 단위로 for loop
-            tmpdict = {}
-            # function안에 모든 메트릭을 Dictionary타입으로 변환하여 저장하는 for문
-            for child3 in child2:
-                if child3.tag == 'name':
-                    tmpdict['name'] = child3.text
-                    continue
-                tmpdict[child3.tag] = int(child3.text)
-
-            # 메트릭 컨트롤러에 저장
-            metrics.append(tmpdict)
-            print("Metrics : ", metrics.array)
-            cal = Calculator(tmpdict)
-            print("Complexity : ", cal.complexity())
-
-
-
-    return HttpResponse("Testing...")
-
-class MetricController():
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
     def __init__(self):
         self.num = 0
         self.array = []
@@ -548,46 +515,11 @@ class MetricController():
         for elt in self.array:
             if elt['id'] == id:
                 return elt
-<<<<<<< HEAD
 
-
-#매트릭 계산기
-class calculator(dict):
-=======
-        return false
-
-
-#매트릭 계산기
-class Calculator(dict):
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
-    # 매트릭의 기준 표
-    # 각 매트릭의 기준 (최소치, 최대치)
-    table = {
-        'avg_stmt' : [0, 7],
-        'cpnt_len' : [3, 250],
-        'stmt_num' : [0, 80],
-        'd_optr' : [0, 35],
-        'd_oprd' : [0, 50],
-        'ocr_optr' : [0, 140],
-        'ocr_oprd' : [0, 120],
-        'cpnt_voca' : [3, 75],
-        'voca_size' : [3, 75],
-        'dcs_stmt' : [0, 9],
-        'strc_lv' : [0, 7],
-        'entry_ptr' : [1, 1],
-        'exit_pnt' : [1, 1],
-        'uncond_num' : [0, 0],
-<<<<<<< HEAD
-=======
-        'cylomatic' : [0, 15],
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
-    }
 
     def __init__(self, elt):
         self.dict = elt
 
-
-<<<<<<< HEAD
     # def return_score(self, name):
     #     # if table[name]
     #     # 최소치 이상 일 경우
@@ -609,8 +541,7 @@ class Calculator(dict):
     #         return 0
     #
     # def complexity(self):
-    #     score['statement'] = 9
-=======
+
     def return_score(self, name):
         # if table[name]
         # 최소치 이상 일 경우
@@ -651,7 +582,7 @@ class Calculator(dict):
             print("x : ", x)
             score += self.return_score(x) * scores[x]
         return score / 1000
->>>>>>> f95e20643cf5a422f1e12e1f5e1283d025ab7aae
+
 
 
 

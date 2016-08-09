@@ -102,7 +102,7 @@ vizuly.theme.weighted_tree = function (viz) {
         // Grab the d3 **selection** from the viz so we can operate on it.
         var selection = viz.selection();
 
-        fontSize = Math.max(8, Math.round(viz.width() / 75));
+        fontSize = Math.max(1, Math.round(viz.width() / 75));
 
 
         selection.selectAll(".vz-weighted_tree-node circle")

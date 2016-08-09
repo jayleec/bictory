@@ -50,7 +50,7 @@ var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "$" + d3.format(
 
 function loadData() {
 
-    d3.csv("/static/Wtree/data/Wtree_test.csv", function (csv) {
+    d3.csv("data/weightedtree_federal_budget.csv", function (csv) {
 
         data.values=prepData(csv);
 
@@ -174,7 +174,7 @@ var datatip='<div class="tooltip" style="width: 250px; background-opacity:.5">' 
 
 // This function uses the above html template to replace values and then creates a new <div> that it appends to the
 // document.body.  This is just one way you could implement a data tip.
-function createDataTip(x,y,h1,h2,h3) { // 툴팁 생성
+function createDataTip(x,y,h1,h2,h3) {
 
     var html = datatip.replace("HEADER1", h1);
     html = html.replace("HEADER2", h2);
@@ -189,6 +189,7 @@ function createDataTip(x,y,h1,h2,h3) { // 툴팁 생성
         .style("opacity",0)
         .html(html)
         .transition().style("opacity",1);
+
 }
 
 function onMeasure() {
@@ -232,10 +233,10 @@ function changeSkin(val) {
 }
 
 //This changes the size of the component by adjusting the radius and width/height;
-function changeSize(val) { // 위치 조절 하는 코드
+function changeSize(val) {
     var s = String(val).split(",");
     viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', s[1] + 'px');
-    viz.width(s[0]).height(s[1]*.8).update(); // default : viz.width(s[0]).height(s[1]*.8).update();
+    viz.width(s[0]).height(s[1]*.8).update();
 }
 
 //This sets the same value for each radial progress

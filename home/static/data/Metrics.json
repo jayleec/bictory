@@ -17,7 +17,8 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MULTIPLE_BINDS_TO_SAME_PORT.c",
             "children": [
                 {
-                    "name": "bind_socket", "ID": "1.2.1", "size": 195}
+                    "name": "bind_socket", "ID": "1.2.1", "size": 195
+                }
             ]
         },
         {

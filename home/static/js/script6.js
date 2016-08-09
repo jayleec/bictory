@@ -114,6 +114,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		nodeByName[d.name] = d;
 	});
 
+
 	////////////////////////////////////////////////////////////// 
 	///////////////// Create Bar Chart Data //////////////////////
 	////////////////////////////////////////////////////////////// 
@@ -125,7 +126,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 	data = d3.nest()
 		.key(function(d) { return d.ID; })
 		.entries(ageCSV);
-		
+
 	//Find the max value per ID - needed for the bar scale setting per mini bar chart
 	dataMax = d3.nest()
 		.key(function(d) { return d.ID; })
@@ -136,13 +137,13 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 	var dataById = {};
 	data.forEach(function (d, i) { 
 		dataById[d.key] = i; 
-	});	
-	
+	});
+
 	var IDbyName = {};
 	//Small file to get the IDs of the non leaf circles
-	idCSV.forEach(function (d, i) { 
-		IDbyName[d.name] = d.ID; 
-	});	
+	idCSV.forEach(function (d, i) {
+		IDbyName[d.name] = d.ID;
+	});
 	
 	////////////////////////////////////////////////////////////// 
 	///////////////// Canvas draw function ///////////////////////
@@ -165,7 +166,6 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		// It's slightly faster than nodes.forEach()
 		for (var i = 0; i < nodeCount; i++) {
 			node = nodes[i];
-
 			//If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
 			if(hidden) {
 				if(node.color == null) {
@@ -176,100 +176,100 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 				// On the hidden canvas each rectangle gets a unique color.
 				chosenContext.fillStyle = node.color;
 			} else {
-				chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
+				chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "black";
 			}//else
 	
 			var nodeX = ((node.x - zoomInfo.centerX) * zoomInfo.scale) + centerX,
 				nodeY = ((node.y - zoomInfo.centerY) * zoomInfo.scale) + centerY,
 				nodeR = node.r * zoomInfo.scale;
-				
+			document.write(nodeX, nodeY, nodeR + "       a");
 			//Use one node to reset the scale factor for the legend
-			if(i === 4) scaleFactor = node.value/(nodeR * nodeR); 
+			if(i === 4) scaleFactor = node.value/(nodeR * nodeR)
+			// document.write(scaleFactor + "       a");
 						
 			//Draw each circle
 			chosenContext.beginPath();
-			chosenContext.arc(nodeX, nodeY, nodeR, 0,  2 * Math.PI, true);				
+			chosenContext.arc(nodeX, nodeY, nodeR, 0,  2 * Math.PI, true);
 			chosenContext.fill();
-		
+
 			//Draw the bars inside the circles (only in the visible canvas)
 			//Only draw bars in leaf nodes
 			if(node.ID in dataById) {
 				//Only draw the bars that are in the same parent ID as the clicked on node
 				if(node.ID.lastIndexOf(currentID, 0) === 0  & !hidden) {
 					//if(node.ID === "1.1.1.30") console.log(currentID);
-														
 					//Variables for the bar title
 					var drawTitle = true;
 					var fontSizeTitle = Math.round(nodeR / 10);
 					if (fontSizeTitle < 8) drawTitle = false;
 
 					//Only draw the title if the font size is big enough
-					if(drawTitle & showText) {	
+					if(drawTitle & showText) {
 						//First the light grey total text
 						chosenContext.font = (fontSizeTitle*0.5 <= 5 ? 0 : Math.round(fontSizeTitle*0.5)) + "px " + bodyFont;
 						chosenContext.fillStyle = "rgba(191,191,191," + textAlpha +")" //"#BFBFBF";
 						chosenContext.textAlign = "center";
-						chosenContext.textBaseline = "middle"; 
+						chosenContext.textBaseline = "middle";
 						chosenContext.fillText("Total "+commaFormat(node.size)+" (in thousands)", nodeX, nodeY + -0.75 * nodeR);
-						
+
 						//Get the text back in pieces that will fit inside the node
 						var titleText = getLines(chosenContext, node.name, nodeR*2*0.7, fontSizeTitle, titleFont);
 						//Loop over all the pieces and draw each line
-						titleText.forEach(function(txt, iterator) { 
+						titleText.forEach(function(txt, iterator) {
 							chosenContext.font = fontSizeTitle + "px " + titleFont;
 							chosenContext.fillStyle = "rgba(" + mainTextColor[0] + "," + mainTextColor[1] + ","+ mainTextColor[2] + "," + textAlpha +")";
 							chosenContext.textAlign = "center";
-							chosenContext.textBaseline = "middle"; 
+							chosenContext.textBaseline = "middle";
 							chosenContext.fillText(txt, nodeX, nodeY + (-0.65 + iterator*0.125) * nodeR);
 						})//forEach
-						
+
 					}//if
 
 					//The barscale differs per node
 					var barScale = d3.scale.linear()
 						.domain([0, dataMax[dataById[node.ID]].values]) //max value of bar charts in circle
 						.range([0, nodeR]);
-			
+
 					//Variables for the bar chart
 					var bars = data[dataById[node.ID]].values,
-						totalOffset = nodeX + -nodeR*0.3, 
+						totalOffset = nodeX + -nodeR*0.3,
 						eachBarHeight = ((1 - barChartHeightOffset) * 2 * nodeR * barChartHeight)/elementsPerBar,
 						barHeight = eachBarHeight*0.8;
-					
+
 					//Variables for the labels on the bars: Age
 					var drawLabelText = true;
 					var fontSizeLabels = Math.round(nodeR / 18);
 					if (fontSizeLabels < 6) drawLabelText = false;
-					
+
 					//Variables for the value labels on the end of each bar
 					var drawValueText = true;
 					var fontSizeValues = Math.round(nodeR / 22);
 					if (fontSizeValues < 6) drawValueText = false;
-					
+
 					//Only draw the bars and all labels of each bar has a height of at least 1 pixel
 					if (Math.round(barHeight) > 1) {
 						//Loop over each bar
 						for (var j = 0; j < bars.length; j++) {
 							var bar = bars[j];
-							
-							bar.width = (isNaN(bar.value) ? 0 : barScale(bar.value)); 
+
+							bar.width = (isNaN(bar.value) ? 0 : barScale(bar.value));
 							bar.barPiecePosition = nodeY + barChartHeightOffset*2*nodeR + j*eachBarHeight - barChartHeight*nodeR;
-							
+
 							//Draw the bar
 							chosenContext.beginPath();
 							chosenContext.fillStyle = colorBar(bar.age);
 							chosenContext.fillRect(nodeX + -nodeR*0.3, bar.barPiecePosition, bar.width, barHeight);
 							chosenContext.fill();
-							
+
 							//Only draw the age labels if the font size is big enough
 							if(drawLabelText & showText) {
 								chosenContext.font = fontSizeLabels + "px " + bodyFont;
 								chosenContext.fillStyle = "rgba(" + mainTextColor[0] + "," + mainTextColor[1] + ","+ mainTextColor[2] + "," + textAlpha +")";
 								chosenContext.textAlign = "right";
-								chosenContext.textBaseline = "middle"; 
+								chosenContext.textBaseline = "middle";
 								chosenContext.fillText(bar.age, nodeX + -nodeR*0.35, bar.barPiecePosition+0.5*barHeight);
 							}//if
-							
+
 							//Only draw the value labels if the font size is big enough
 							if(drawValueText & showText) {
 								chosenContext.font = fontSizeValues + "px " + bodyFont;
@@ -278,23 +278,23 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 								//If not, place the text outside the bar
 								var textWidth = chosenContext.measureText(txt).width;
 								var valuePos = (textWidth*1.1 > (bar.width - nodeR * 0.03) ? "left" : "right");
-								
+
 								//Calculate the x position of the bar value label
 								bar.valueLoc = nodeX + -nodeR*0.3 + bar.width + (valuePos === "left" ? (nodeR * 0.03) : (-nodeR * 0.03));
-								
+
 								//Draw the text
 								chosenContext.fillStyle = (valuePos === "left" ? "rgba(51,51,51," + textAlpha +")" : "rgba(255,255,255," + textAlpha +")"); //#333333 or white
 								chosenContext.textAlign = valuePos;
-								chosenContext.textBaseline = "middle"; 
+								chosenContext.textBaseline = "middle";
 								chosenContext.fillText(txt, bar.valueLoc, bar.barPiecePosition+0.5*barHeight);
 							}//if
-				
+
 						}//for j
 					}//if -> Math.round(barHeight) > 1
-					
+
 				}//if -> node.ID.lastIndexOf(currentID, 0) === 0 & !hidden
-			}//if -> node.ID in dataById 
-			
+			}//if -> node.ID in dataById
+
 		}//for i
 		
 		var counter = 0; //Needed for the rotation of the arc titles
@@ -302,24 +302,24 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		//Do a second loop because the arc titles always have to be drawn on top
 		for (var i = 0; i < nodeCount; i++) {
 			node = nodes[i];
-		
+
 			var nodeX = ((node.x - zoomInfo.centerX) * zoomInfo.scale) + centerX,
 				nodeY = ((node.y - zoomInfo.centerY) * zoomInfo.scale) + centerY,
 				nodeR = node.r * zoomInfo.scale;
-			
+
 			//Don't draw for leaf-nodes
 			//And don't draw the arced label for the largest outer circle
 			//And don't draw these things for the hidden layer
 			//And only draw these while showText = true (so not during a zoom)
 			//And hide those not close the the parent
-			if(typeof node.parent !== "undefined" & typeof node.children !== "undefined") {
-				if(node.name !== "occupation" & !hidden & showText & $.inArray(node.name, kids) >= 0) {
+			// if(typeof node.parent !== "undefined" & typeof node.children !== "undefined") {
+			// 	if(node.name !== "occupation" & !hidden & showText & $.inArray(node.name, kids) >= 0) {
 					//Calculate the best font size for the non-leaf nodes
 					var fontSizeTitle = Math.round(nodeR / 10);
-					if (fontSizeTitle > 4) drawCircularText(chosenContext, node.name.replace(/,? and /g, ' & '), fontSizeTitle, titleFont, nodeX, nodeY, nodeR, rotationText[counter], 0);
-				}//if
+					// if (fontSizeTitle > 4) drawCircularText(chosenContext, node.name.replace(/,? and /g, ' & '), fontSizeTitle, titleFont, nodeX, nodeY, nodeR, rotationText[counter], 0);
+				// }//if
 				counter = counter + 1;
-			}//if
+			// }//if
 
 		}//for i
 		
@@ -335,7 +335,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		kids = ["occupation"]; //needed to check which arced titles to show - only those close to the parent node
 	
 	//Setup the kids variable for the top (root) level			
-	for(var i = 0; i < root.children.length; i++) { kids.push(root.children[i].name) };	
+	for(var i = 0; i < root.children.length; i++) { kids.push(root.children[i].name) };
 	
 	//Function to run oif a user clicks on the canvas
 	var clickFunction = function(e){
@@ -354,7 +354,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		if(node) {
 			//If the same node is clicked twice, set it to the top (root) level
 			if (focus === node) node = root;
-			
+
 			//Save the names of the circle itself and first children
 			//Needed to check which arc titles to show
 			kids = [node.name];
@@ -430,7 +430,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 							trigger: 'manual',
 							html : true,
 							animation:false,
-							content: function() { 
+							content: function() {
 								return "<span class='nodeTooltip'>" + node.name + "</span>"; }
 							});
 						$(".popoverWrapper").popover('show');
@@ -491,8 +491,8 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 		
 		//Only show the circle legend when not at a leaf node
 		if(typeof focusNode.children === "undefined") {
-			d3.select("#legendRowWrapper").style("opacity", 0);
-			d3.select(".legendWrapper").transition().duration(1000).style("opacity", 0);
+			d3.select("#legendRowWrapper").style("opacity", 1);
+			d3.select(".legendWrapper").transition().duration(1000).style("opacity", 1);
 		} else {
 			d3.select("#legendRowWrapper").style("opacity", 1);
 			d3.select(".legendWrapper").transition().duration(1000).delay(duration).style("opacity", 1);
@@ -621,11 +621,11 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 	$('.combobox').combobox();
 	
 	//Function to call once the search box is filled in
-	searchEvent = function(occupation) { 
+	searchEvent = function(occupation) {
 		//If the occupation is not equal to the default
 		if (occupation !== "" & typeof occupation !== "undefined") {
 			zoomToCanvas(nodeByName[occupation]);
-		}//if 
+		}//if
 	}//searchEvent
 		
 	////////////////////////////////////////////////////////////// 
@@ -662,11 +662,11 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 	createLegend(scaleFactor);
 	//Slowly fade in so the scaleFactor is set to the correct value in the mean time :)
 	d3.select(".legendWrapper").transition().duration(1000).delay(500).style("opacity", 1);
-	
+
 	//Start the drawing loop. It will jump out of the loop once stopTimer becomes true
 	var stopTimer = false;
 	animate();
-	
+
 	//This function runs during changes in the visual - during a zoom
 	function animate() {
 		var dt = 0;
@@ -679,7 +679,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 			return stopTimer;
 		});
 	}//function animate
-		
+
 }//drawAll
 
 	
@@ -781,7 +781,7 @@ function createLegend(scaleFactor) {
 		.attr('x1', legendCenter)
 		.attr('y1', function(d) { return legendBottom-2*d; })
 		.attr('x2', legendCenter + legendLineLength)
-		.attr('y2', function(d) { return legendBottom-2*d; });	
+		.attr('y2', function(d) { return legendBottom-2*d; });
 	//Place the value next to the line
 	svg.selectAll(".legendText")
 		.data(legendSizes)
