@@ -46,15 +46,14 @@ def functiontable(request):
     for f in data:
         f.test = f.check_all()
         # print("f.test", f.test)
-        if findMetric(f.test):
-            # print("f.functionid:",f.function_id)
+        if findMetric(f.test, 'cpnt_len'):
             f.test2 = f.function_id
     return render_to_response('function_table.html', {'functions': data})
 
 # cpnt_len가 초과하는 function의 경우 true 리턴
-def findMetric(function):
+def findMetric(function, metric):
     for f in function:
-        if f == 'cpnt_len':
+        if f == metric:
             return True
 
 
@@ -116,16 +115,22 @@ def visual(request):
     result = d3test()
     outlierId = result[6]
 
-    cpntlenlist = []
     # cpnt_len 초과 function id 뽑기
+    cpntlenlist = []
+    # exit_pnt 초과 리스트 뽑기
+    exit_pnts = []
+
     data = Function.objects.all()
     for f in data:
         f.test = f.check_all()
-        if findMetric(f.test):
+        if findMetric(f.test, 'cpnt_len'):
             cpntlenlist.append(f.function_id)
+        if findMetric(f.test, 'exit_pnt'):
+            exit_pnts.append(f.function_id)
     # print("cpntlenlist:", cpntlenlist)
     return render(request, 'visualTest.html', {'outlierId': outlierId,
-                                               'cpnt_len_id_list': cpntlenlist })
+                                               'cpnt_len_id_list': cpntlenlist,
+                                               'exit_pnts': exit_pnts})
 
 def showScore(request):
     result = d3test()

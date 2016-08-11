@@ -84,6 +84,11 @@
         var outlierId = "{{ outlierId }}";
 //cpnt_len.js
         var cpnt_len_id_list = "{{ cpnt_len_id_list }}";
+//        exit_pnt.js
+//    get exit_pnt 초과 리스트
+        var exit_pnts = "{{ exit_pnts }}";
+
+
     </script>
 
     <!--<td><script type="text/javascript" src = "/static/js/script6.js">-->
@@ -478,8 +483,13 @@
                           </button>
 
                             <!--cpnt_len 이상 function button-->
-                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/cpnt_len.js')" class="btn btn-success" style=" color: white ; font-weight: bold">
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/cpnt_len.js')" class="btn btn-success" style=" margin-right: 20px; color: white ; font-weight: bold">
                             cpnt_len
+                          </button>
+
+                            <!--exit_pnt 이상 function button-->
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/exit_pnt.js')" class="btn btn-warning" style=" color: white ; font-weight: bold">
+                            exit_pnt
                           </button>
 
                         </div>
