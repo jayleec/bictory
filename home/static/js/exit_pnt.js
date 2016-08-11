@@ -158,7 +158,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
 
    var exit_pnt_list = exit_pnts;
 
-   console.log("exit_pnt_list", exit_pnt_list );
+   // console.log("exit_pnt_list", exit_pnt_list );
 
 
 

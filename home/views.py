@@ -134,12 +134,12 @@ def visual(request):
 
 def showScore(request):
     result = d3test()
-    aveComplexity = result[0]
-    aveStructure = result[1]
-    aveTestability = result[2]
-    aveUnderstand = result[3]
-    aveMaintainability = result[4]
-    projectScore = result[5]
+    aveComplexity = round(result[0],1)
+    aveStructure = round(result[1],1)
+    aveTestability = round(result[2],1)
+    aveUnderstand = round(result[3],1)
+    aveMaintainability = round(result[4],1)
+    projectScore = round(result[5],1)
     testID = result[6]
 
     return render(request, 'd3_test.html', {
