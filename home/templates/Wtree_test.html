@@ -1,8 +1,14 @@
-{% extends 'base.html' %}
-{% block content %}
-
-<head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='Torch' name='author'>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <link href="/static/assets/stylesheets/application-a07755f5.css" rel="stylesheet" type="text/css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/assets/images/favicon.ico" rel="icon" type="image/ico" />
     <title>Vizuly - Weighted Tree</title>
 
     <!-- We use google fonts for many of the examples, but they are not necessary -->
@@ -47,13 +53,119 @@
 
     <script src="/static/Wtree/weightedtree/lib/vizuly_core.min.js"></script>
 	<script src="/static/Wtree/weightedtree/lib/vizuly_weightedtree.min.js"></script>
-
     <script src="/static/Wtree/weightedtree/weightedtree_test.js"></script>
 
-</head>
 
+  </head>
 
-<div id='cssmenu'>
+  <body class='main page'>
+    <!-- Navbar -->
+    <div class='navbar navbar-default' id='navbar'>
+      <a class='navbar-brand' href='#'>
+        <i class='glyphicon glyphicon-fire'></i>
+        Torch
+      </a>
+      <ul class='nav navbar-nav pull-right'>
+        <li class='dropdown'>
+          <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+            <i class='icon-envelope'></i>
+            Messages
+            <span class='badge'>5</span>
+            <b class='caret'></b>
+          </a>
+          <ul class='dropdown-menu'>
+            <li>
+              <a href='#'>New message</a>
+            </li>
+            <li>
+              <a href='#'>Inbox</a>
+            </li>
+            <li>
+              <a href='#'>Outbox</a>
+            </li>
+            <li>
+              <a href='#'>Trash</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href='#'>
+            <i class='icon-cog'></i>
+            Settings
+          </a>
+        </li>
+        <li class='dropdown user'>
+          <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+            <i class='icon-user'></i>
+            <strong>Eric Park</strong>
+            <img class="img-rounded" src="http://placehold.it/20x20/ccc/777" />
+            <b class='caret'></b>
+          </a>
+          <ul class='dropdown-menu'>
+            <li>
+              <a href='#'>Edit Profile</a>
+            </li>
+            <li class='divider'></li>
+            <li>
+              <a href="/">Sign out</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div id='wrapper'>
+      <!-- Sidebar -->
+      <section id='sidebar'>
+        <i class='icon-align-justify icon-large' id='toggle'></i>
+        <ul id='dock'>
+          <li class='{% if request.path == "/dashboard/" %} active {% endif %} launcher'>
+            <i class='icon-dashboard'></i>
+            <a href="/dashboard">Dashboard</a>
+          </li>
+          <li class='{% if request.path == "/forms/" %} active {% endif %} launcher'>
+            <i class='icon-file-text-alt'></i>
+            <a href="/forms">Forms</a>
+          </li>
+          <li class='{% if request.path == "/test/" %} active {% endif %} launcher'>
+            <i class='icon-table'></i>
+            <a href="/functiontable">Function Table</a>
+          </li>
+          <li class='launcher dropdown hover'>
+            <i class='icon-flag'></i>
+            <a href='#'>Reports</a>
+            <ul class='dropdown-menu'>
+              <li class='dropdown-header'>D3.JS</li>
+              <li>
+                <a href='/report'>Class View</a>
+              </li>
+              <li>
+                <a href='#'>View</a>
+              </li>
+              <li>
+                <a href='#'>View</a>
+              </li>
+            </ul>
+          </li>
+          <li class='launcher'>
+            <i class='icon-bookmark'></i>
+            <a href='/visual'>Visualization</a>
+          </li>
+          <li class='launcher'>
+            <i class='icon-cloud'></i>
+            <a href='#'>Backup</a>
+          </li>
+          <li class='launcher'>
+            <i class='icon-bug'></i>
+            <a href='#'>Feedback</a>
+          </li>
+        </ul>
+        <div data-toggle='tooltip' id='beaker' title='Made by Torch'></div>
+      </section>
+    </div>
+
+      <div id='content'>
+          <div id='cssmenu'>
     <ul class="main-menu">
         <li class='active'>
             <a><span>Display</span><br><span class="setting"></span></a>
@@ -79,20 +191,16 @@
             </ul>
         </li>
     </ul>
-
-</div>
-
+          </div>
 <!-- Our main content container-->
-<div class="container" style="width:100%">
-    <div id="viz_container" class="z-depth-3">
-    </div>
+    <div class="container" style="width:100%">
+        <div id="viz_container" class="z-depth-3">
+        </div>
     <div style="margin-left:0px; height:0px; width:90%; margin:0px auto; margin-top:20px; font-family:Raleway; font-size:14px;">
         When politicians talk about “spending” have you ever wanted to know where your tax dollars actually go? This visualization shows you how congress allocates expenditures across three government levels (Federal, State, and Local.) The thicker the line, the more that is being spent.
     </div>
-</div>
 
-
-
+    </div>
 
 <script>
     //Once the document is ready we set javascript and page settings
@@ -109,7 +217,7 @@
             rect = document.body.getBoundingClientRect();
         }
 
-        //Set display size based on window size.
+        //Set display size based on window size.onMouseOut
         screenWidth = (rect.width < 960) ? Math.round(rect.width*.95) : Math.round((rect.width - 210) *.95);
 
         screenHeight=700;
@@ -132,13 +240,20 @@
         viz_container2 = d3.selectAll("#viz_container2")
                 .style("width", screenWidth + "px")
                 .style("height", screenHeight + "px");
-
-
         loadData();
-
-
     });
 
 </script>
+      </div>
+    <!-- Footer -->
+  </body>
+</html>
 
-{% endblock %}
+
+
+
+
+
+
+
+

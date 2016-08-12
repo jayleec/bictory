@@ -37,11 +37,11 @@ body {
     padding-top:0px;
     border-radius:6px;
 }
-
+/* 트리 위치 조절*/
 div.container {
     width:100%;
     position:absolute;
-    top:0px;
+    top:75px;
 }
 
 .tile {

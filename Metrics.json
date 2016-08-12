@@ -5,26 +5,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\API47.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "badParam",
-                    "Maintainability": "85.25",
                     "ID": "1.1.1",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "badParam"
                 },
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "goodParam",
-                    "Maintainability": "85.25",
                     "ID": "1.1.2",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "goodParam"
                 }
             ]
         },
@@ -32,15 +20,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\MULTIPLE_BINDS_TO_SAME_PORT.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "bind_socket",
-                    "Maintainability": "100.0",
                     "ID": "1.2.1",
-                    "TotalScore": 100.0,
-                    "size": 42,
-                    "Testability": "100"
+                    "size": 195,
+                    "name": "bind_socket"
                 }
             ]
         },
@@ -48,15 +30,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\testcode\\c\\BAD_MACRO.MISUSE.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "macro_misuse",
-                    "Maintainability": "100.0",
                     "ID": "1.3.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "macro_misuse"
                 }
             ]
         },
@@ -64,26 +40,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\tmpcode\\c\\FBD15.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.4.1",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 63,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.4.2",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 60,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -91,15 +55,9 @@
             "name": "/home/kskyj/sparrow4/util/tmpcode/c/MSC34.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "MSC32_main",
-                    "Maintainability": "100.0",
                     "ID": "1.5.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 36,
+                    "name": "MSC32_main"
                 }
             ]
         },
@@ -107,15 +65,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\tmpcode\\c\\BAD_CALL.IMPROPER_VARARGS.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.6.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "Func"
                 }
             ]
         },
@@ -123,15 +75,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\tmpcode\\c\\BAD_QUALIFIER.FORBIDDEN.PARAM_PTR.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "Func",
-                    "Maintainability": "85.25",
                     "ID": "1.7.1",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "Func"
                 }
             ]
         },
@@ -139,15 +85,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\tmpcode\\c\\BAD_CALL.FORBIDDEN.LIB.PROCESS.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "terminate_process",
-                    "Maintainability": "95.0",
                     "ID": "1.8.1",
-                    "TotalScore": 95.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 39,
+                    "name": "terminate_process"
                 }
             ]
         },
@@ -155,15 +95,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\tmpcode\\c\\API27.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "staticFunc",
-                    "Maintainability": "100.0",
                     "ID": "1.9.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "staticFunc"
                 }
             ]
         },
@@ -171,15 +105,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\tmpcode\\c\\BAD_CALL.FORBIDDEN.LIB.SIGNAL.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "signal_handler",
-                    "Maintainability": "100.0",
                     "ID": "1.10.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "signal_handler"
                 }
             ]
         },
@@ -187,15 +115,9 @@
             "name": "/home/kskyj/sparrow4/util/tmpcode/c/TRYLOCK_FAIL.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "try_lock_fail",
-                    "Maintainability": "100.0",
                     "ID": "1.11.1",
-                    "TotalScore": 100.0,
-                    "size": 39,
-                    "Testability": "100"
+                    "size": 189,
+                    "name": "try_lock_fail"
                 }
             ]
         },
@@ -203,15 +125,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\BAD_CALL.TYPE_MISMATCH.STRING.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func",
-                    "Maintainability": "100.0",
                     "ID": "1.12.1",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 51,
+                    "name": "func"
                 }
             ]
         },
@@ -219,15 +135,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\BAD_INCLUDE.FORBIDDEN.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "func",
-                    "Maintainability": "85.25",
                     "ID": "1.13.1",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "func"
                 }
             ]
         },
@@ -235,26 +145,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\API36.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.14.1",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 39,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.14.2",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -262,15 +160,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\MIS03.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "getMax",
-                    "Maintainability": "100.0",
                     "ID": "1.15.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 48,
+                    "name": "getMax"
                 }
             ]
         },
@@ -278,15 +170,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\MIS15_A.h",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "testFunc_A",
-                    "Maintainability": "100.0",
                     "ID": "1.16.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "testFunc_A"
                 }
             ]
         },
@@ -294,15 +180,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\MIS15_B.h",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "testFunc_B",
-                    "Maintainability": "100.0",
                     "ID": "1.17.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "testFunc_B"
                 }
             ]
         },
@@ -310,15 +190,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\MIS15.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "func",
-                    "Maintainability": "85.25",
                     "ID": "1.18.1",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "func"
                 }
             ]
         },
@@ -326,15 +200,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\FORBIDDEN_CALL.BEFORE_CALL.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.19.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "Func"
                 }
             ]
         },
@@ -342,26 +210,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\API50.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "60",
-                    "Complexity": "91",
-                    "name": "order",
-                    "Maintainability": "81.5",
                     "ID": "1.20.1",
-                    "TotalScore": 81.5,
-                    "size": 30,
-                    "Testability": "75"
+                    "size": 39,
+                    "name": "order"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "60",
-                    "Complexity": "91",
-                    "name": "another",
-                    "Maintainability": "81.5",
                     "ID": "1.20.2",
-                    "TotalScore": 81.5,
-                    "size": 33,
-                    "Testability": "75"
+                    "size": 126,
+                    "name": "another"
                 }
             ]
         },
@@ -369,15 +225,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\MIS17.h",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "anotherTestFunc",
-                    "Maintainability": "100.0",
                     "ID": "1.21.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "anotherTestFunc"
                 }
             ]
         },
@@ -385,15 +235,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\MIS17.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "testFunc",
-                    "Maintainability": "100.0",
                     "ID": "1.22.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "testFunc"
                 }
             ]
         },
@@ -401,26 +245,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\API29.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.23.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.23.2",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -428,15 +260,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Acode\\c\\BAD_CALL.FORBIDDEN.LIB.TP.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "terminate_tp",
-                    "Maintainability": "100.0",
                     "ID": "1.24.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 24,
+                    "name": "terminate_tp"
                 }
             ]
         },
@@ -444,26 +270,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\BAD_CALL.REQUIRED.PRE_CALL.c",
             "children": [
                 {
-                    "Understandabilty": "75",
-                    "Structuredness": "100",
-                    "Complexity": "90",
-                    "name": "FuncBad",
-                    "Maintainability": "91.25",
                     "ID": "1.25.1",
-                    "TotalScore": 91.25,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 3,
+                    "name": "FuncBad"
                 },
                 {
-                    "Understandabilty": "75",
-                    "Structuredness": "100",
-                    "Complexity": "90",
-                    "name": "FuncGood",
-                    "Maintainability": "91.25",
                     "ID": "1.25.2",
-                    "TotalScore": 91.25,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 3,
+                    "name": "FuncGood"
                 }
             ]
         },
@@ -471,15 +285,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\BAD_QUALIFIER.FORBIDDEN.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func",
-                    "Maintainability": "100.0",
                     "ID": "1.26.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 21,
+                    "name": "func"
                 }
             ]
         },
@@ -487,48 +295,24 @@
             "name": "/home/kskyj/sparrow4/util/Bcode/c/SIZE_CALCULATION_BAD_COMPARE.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "getuid",
-                    "Maintainability": "100.0",
                     "ID": "1.27.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "getuid"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "geteuid",
-                    "Maintainability": "100.0",
                     "ID": "1.27.2",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "geteuid"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func",
-                    "Maintainability": "100.0",
                     "ID": "1.27.3",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 24,
+                    "name": "func"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "function",
-                    "Maintainability": "100.0",
                     "ID": "1.27.4",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "function"
                 }
             ]
         },
@@ -536,15 +320,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\BAD_CALL.REQUIRED.VARARGS.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.28.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "Func"
                 }
             ]
         },
@@ -552,15 +330,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\BAD_INCLUDE.INVALID_PATH.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "func",
-                    "Maintainability": "85.25",
                     "ID": "1.29.1",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "func"
                 }
             ]
         },
@@ -568,15 +340,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\BAD_CALL.FORBIDDEN.LIB.TIMER.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "set_sleep_func",
-                    "Maintainability": "100.0",
                     "ID": "1.30.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "set_sleep_func"
                 }
             ]
         },
@@ -584,15 +350,9 @@
             "name": "/home/kskyj/sparrow4/util/Bcode/c/MSC32.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "msc32",
-                    "Maintainability": "100.0",
                     "ID": "1.31.1",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 72,
+                    "name": "msc32"
                 }
             ]
         },
@@ -600,356 +360,164 @@
             "name": "/home/kskyj/sparrow4/util/Bcode/c/SECURE_OPUS_COMPLEX.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "SQLExecDirect",
-                    "Maintainability": "85.25",
                     "ID": "1.32.1",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "SQLExecDirect"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "ldap_search_ext_s",
-                    "Maintainability": "100.0",
                     "ID": "1.32.2",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "ldap_search_ext_s"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "ldap_simple_bind_s",
-                    "Maintainability": "100.0",
                     "ID": "1.32.3",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "ldap_simple_bind_s"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "dlopen",
-                    "Maintainability": "100.0",
                     "ID": "1.32.4",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "dlopen"
                 },
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "SQLConnect",
-                    "Maintainability": "85.25",
                     "ID": "1.32.5",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "SQLConnect"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "verify",
-                    "Maintainability": "100.0",
                     "ID": "1.32.6",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "verify"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "getpasswd",
-                    "Maintainability": "100.0",
                     "ID": "1.32.7",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "getpasswd"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "91",
-                    "name": "U51000089_1",
-                    "Maintainability": "86.5",
                     "ID": "1.32.8",
-                    "TotalScore": 86.5,
-                    "size": 36,
-                    "Testability": "75"
+                    "size": 192,
+                    "name": "U51000089_1"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "release",
-                    "Maintainability": "100.0",
                     "ID": "1.32.9",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 24,
+                    "name": "release"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "91",
-                    "name": "memory_leak",
-                    "Maintainability": "86.5",
                     "ID": "1.32.10",
-                    "TotalScore": 86.5,
-                    "size": 39,
-                    "Testability": "75"
+                    "size": 201,
+                    "name": "memory_leak"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "ret_null",
-                    "Maintainability": "95.0",
                     "ID": "1.32.11",
-                    "TotalScore": 95.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 36,
+                    "name": "ret_null"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref",
-                    "Maintainability": "100.0",
                     "ID": "1.32.12",
-                    "TotalScore": 100.0,
-                    "size": 24,
-                    "Testability": "100"
+                    "size": 123,
+                    "name": "null_deref"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "rpt",
-                    "Maintainability": "100.0",
                     "ID": "1.32.13",
-                    "TotalScore": 100.0,
-                    "size": 36,
-                    "Testability": "100"
+                    "size": 156,
+                    "name": "rpt"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "ldap_injection",
-                    "Maintainability": "100.0",
                     "ID": "1.32.14",
-                    "TotalScore": 100.0,
-                    "size": 24,
-                    "Testability": "100"
+                    "size": 183,
+                    "name": "ldap_injection"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "60",
-                    "Complexity": "91",
-                    "name": "ldap_manipulation",
-                    "Maintainability": "81.5",
                     "ID": "1.32.15",
-                    "TotalScore": 81.5,
-                    "size": 57,
-                    "Testability": "75"
+                    "size": 372,
+                    "name": "ldap_manipulation"
                 },
                 {
-                    "Understandabilty": "85",
-                    "Structuredness": "100",
-                    "Complexity": "91",
-                    "name": "ldap_safe_manipulation",
-                    "Maintainability": "94.0",
                     "ID": "1.32.16",
-                    "TotalScore": 94.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 150,
+                    "name": "ldap_safe_manipulation"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "resource_injection",
-                    "Maintainability": "95.0",
                     "ID": "1.32.17",
-                    "TotalScore": 95.0,
-                    "size": 24,
-                    "Testability": "100"
+                    "size": 114,
+                    "name": "resource_injection"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "process_control",
-                    "Maintainability": "95.0",
                     "ID": "1.32.18",
-                    "TotalScore": 95.0,
-                    "size": 24,
-                    "Testability": "100"
+                    "size": 108,
+                    "name": "process_control"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "60",
-                    "Complexity": "91",
-                    "name": "information_exposure",
-                    "Maintainability": "81.5",
                     "ID": "1.32.19",
-                    "TotalScore": 81.5,
-                    "size": 33,
-                    "Testability": "75"
+                    "size": 171,
+                    "name": "information_exposure"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "main",
-                    "Maintainability": "95.0",
                     "ID": "1.32.20",
-                    "TotalScore": 95.0,
-                    "size": 48,
-                    "Testability": "100"
+                    "size": 216,
+                    "name": "main"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "searchData2LDAP",
-                    "Maintainability": "100.0",
                     "ID": "1.32.21",
-                    "TotalScore": 100.0,
-                    "size": 30,
-                    "Testability": "100"
+                    "size": 231,
+                    "name": "searchData2LDAP"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "integer_overflow",
-                    "Maintainability": "95.0",
                     "ID": "1.32.22",
-                    "TotalScore": 95.0,
-                    "size": 21,
-                    "Testability": "100"
+                    "size": 93,
+                    "name": "integer_overflow"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "safe_integer_overflow",
-                    "Maintainability": "95.0",
                     "ID": "1.32.23",
-                    "TotalScore": 95.0,
-                    "size": 33,
-                    "Testability": "100"
+                    "size": 138,
+                    "name": "safe_integer_overflow"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "safe_plaintext_passwd",
-                    "Maintainability": "95.0",
                     "ID": "1.32.24",
-                    "TotalScore": 95.0,
-                    "size": 36,
-                    "Testability": "100"
+                    "size": 168,
+                    "name": "safe_plaintext_passwd"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "plaintext_passwd",
-                    "Maintainability": "95.0",
                     "ID": "1.32.25",
-                    "TotalScore": 95.0,
-                    "size": 39,
-                    "Testability": "100"
+                    "size": 180,
+                    "name": "plaintext_passwd"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "hardcoded_crypt",
-                    "Maintainability": "95.0",
                     "ID": "1.32.26",
-                    "TotalScore": 95.0,
-                    "size": 30,
-                    "Testability": "100"
+                    "size": 198,
+                    "name": "hardcoded_crypt"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "safe_hardcoded_crypt",
-                    "Maintainability": "95.0",
                     "ID": "1.32.27",
-                    "TotalScore": 95.0,
-                    "size": 27,
-                    "Testability": "100"
+                    "size": 174,
+                    "name": "safe_hardcoded_crypt"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "91",
-                    "name": "unexpected_sign_extension2",
-                    "Maintainability": "86.5",
                     "ID": "1.32.28",
-                    "TotalScore": 86.5,
-                    "size": 39,
-                    "Testability": "75"
+                    "size": 162,
+                    "name": "unexpected_sign_extension2"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "91",
-                    "name": "unexpected_sign_extension",
-                    "Maintainability": "86.5",
                     "ID": "1.32.29",
-                    "TotalScore": 86.5,
-                    "size": 36,
-                    "Testability": "75"
+                    "size": 129,
+                    "name": "unexpected_sign_extension"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "test_strcpy",
-                    "Maintainability": "95.0",
                     "ID": "1.32.30",
-                    "TotalScore": 95.0,
-                    "size": 21,
-                    "Testability": "100"
+                    "size": 75,
+                    "name": "test_strcpy"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "aux_test_extreme",
-                    "Maintainability": "100.0",
                     "ID": "1.32.31",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 36,
+                    "name": "aux_test_extreme"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "test_extreme",
-                    "Maintainability": "95.0",
                     "ID": "1.32.32",
-                    "TotalScore": 95.0,
-                    "size": 24,
-                    "Testability": "100"
+                    "size": 72,
+                    "name": "test_extreme"
                 }
             ]
         },
@@ -957,26 +525,14 @@
             "name": "/home/kskyj/sparrow4/util/Bcode/c/INCORRECT_PERMISSION.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "sfunc",
-                    "Maintainability": "100.0",
                     "ID": "1.33.1",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 36,
+                    "name": "sfunc"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func",
-                    "Maintainability": "100.0",
                     "ID": "1.33.2",
-                    "TotalScore": 100.0,
-                    "size": 27,
-                    "Testability": "100"
+                    "size": 93,
+                    "name": "func"
                 }
             ]
         },
@@ -984,15 +540,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\MIS07.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "mis07",
-                    "Maintainability": "100.0",
                     "ID": "1.34.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "mis07"
                 }
             ]
         },
@@ -1000,15 +550,9 @@
             "name": "/home/kskyj/sparrow4/util/Bcode/c/DOUBLE_LOCK.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "double_lock",
-                    "Maintainability": "100.0",
                     "ID": "1.35.1",
-                    "TotalScore": 100.0,
-                    "size": 42,
-                    "Testability": "100"
+                    "size": 192,
+                    "name": "double_lock"
                 }
             ]
         },
@@ -1016,26 +560,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\API32.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.36.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.36.2",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -1043,37 +575,19 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\TOO_MANY_METHODS.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func1",
-                    "Maintainability": "100.0",
                     "ID": "1.37.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "func1"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func2",
-                    "Maintainability": "100.0",
                     "ID": "1.37.2",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "func2"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func3",
-                    "Maintainability": "100.0",
                     "ID": "1.37.3",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "func3"
                 }
             ]
         },
@@ -1081,15 +595,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\BAD_CALL.FORBIDDEN.PARAM.NAME.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.38.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "Func"
                 }
             ]
         },
@@ -1097,59 +605,29 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\sub.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "91",
-                    "name": "sub_test",
-                    "Maintainability": "86.5",
                     "ID": "1.39.1",
-                    "TotalScore": 86.5,
-                    "size": 63,
-                    "Testability": "75"
+                    "size": 216,
+                    "name": "sub_test"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "sum",
-                    "Maintainability": "100.0",
                     "ID": "1.39.2",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 18,
+                    "name": "sum"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "substract",
-                    "Maintainability": "100.0",
                     "ID": "1.39.3",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 18,
+                    "name": "substract"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "divide",
-                    "Maintainability": "95.0",
                     "ID": "1.39.4",
-                    "TotalScore": 95.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 36,
+                    "name": "divide"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "multiply",
-                    "Maintainability": "100.0",
                     "ID": "1.39.5",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 18,
+                    "name": "multiply"
                 }
             ]
         },
@@ -1157,15 +635,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\MIS14.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "testFunc",
-                    "Maintainability": "100.0",
                     "ID": "1.40.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "testFunc"
                 }
             ]
         },
@@ -1173,15 +645,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\BAD_INIT.CHAR_ARRAY.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func",
-                    "Maintainability": "100.0",
                     "ID": "1.41.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 18,
+                    "name": "func"
                 }
             ]
         },
@@ -1189,15 +655,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\BAD_CALL.FORBIDDEN.VARARGS.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.42.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "Func"
                 }
             ]
         },
@@ -1205,26 +665,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Bcode\\c\\FBD01.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "badFoo",
-                    "Maintainability": "85.25",
                     "ID": "1.43.1",
-                    "TotalScore": 85.25,
                     "size": 6,
-                    "Testability": "100"
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "goodFoo",
-                    "Maintainability": "85.25",
                     "ID": "1.43.2",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -1232,15 +680,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\BAD_CALL.REQUIRED.PARAM.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.44.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "Func"
                 }
             ]
         },
@@ -1248,15 +690,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\BAD_CALL.NOT_ALLOWED.PARAM.NAME.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.45.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "Func"
                 }
             ]
         },
@@ -1264,15 +700,9 @@
             "name": "/home/kskyj/sparrow4/util/Ccode/c/EXCESSIVE_STACK_DEPTH.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "bigbuf",
-                    "Maintainability": "100.0",
                     "ID": "1.46.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "bigbuf"
                 }
             ]
         },
@@ -1280,59 +710,29 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\BAD_STRING_MANAGEMENT.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "_mbscpy",
-                    "Maintainability": "85.25",
                     "ID": "1.47.1",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "_mbscpy"
                 },
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "_mbscpy_s",
-                    "Maintainability": "85.25",
                     "ID": "1.47.2",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "_mbscpy_s"
                 },
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "_mbscat",
-                    "Maintainability": "85.25",
                     "ID": "1.47.3",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "_mbscat"
                 },
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "_mbscat_s",
-                    "Maintainability": "85.25",
                     "ID": "1.47.4",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "_mbscat_s"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "f",
-                    "Maintainability": "100.0",
                     "ID": "1.47.5",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 57,
+                    "name": "f"
                 }
             ]
         },
@@ -1340,15 +740,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\BAD_CALL.FORBIDDEN.PARAM.LITERAL.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.48.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 21,
+                    "name": "Func"
                 }
             ]
         },
@@ -1356,70 +750,34 @@
             "name": "/home/kskyj/sparrow4/util/Ccode/c/WEAK_ENCRYPTION.HARDCODED_SALT.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badSalt",
-                    "Maintainability": "100.0",
                     "ID": "1.49.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "badSalt"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badSalt2",
-                    "Maintainability": "100.0",
                     "ID": "1.49.2",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 45,
+                    "name": "badSalt2"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badSalt3",
-                    "Maintainability": "100.0",
                     "ID": "1.49.3",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 63,
+                    "name": "badSalt3"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badSalt4",
-                    "Maintainability": "100.0",
                     "ID": "1.49.4",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 75,
+                    "name": "badSalt4"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodSalt",
-                    "Maintainability": "100.0",
                     "ID": "1.49.5",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "goodSalt"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodSalt2",
-                    "Maintainability": "100.0",
                     "ID": "1.49.6",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 81,
+                    "name": "goodSalt2"
                 }
             ]
         },
@@ -1427,26 +785,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\API46.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.50.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 33,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.50.2",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 33,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -1454,26 +800,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\API41.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.51.1",
-                    "TotalScore": 100.0,
-                    "size": 21,
-                    "Testability": "100"
+                    "size": 99,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.51.2",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 45,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -1481,15 +815,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\MIS06.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "foo",
-                    "Maintainability": "100.0",
                     "ID": "1.52.1",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 54,
+                    "name": "foo"
                 }
             ]
         },
@@ -1497,26 +825,14 @@
             "name": "/home/kskyj/sparrow4/util/Ccode/c/API42.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "fooBad",
-                    "Maintainability": "100.0",
                     "ID": "1.53.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "fooBad"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "fooNestedBad",
-                    "Maintainability": "100.0",
                     "ID": "1.53.2",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 33,
+                    "name": "fooNestedBad"
                 }
             ]
         },
@@ -1524,15 +840,9 @@
             "name": "/home/kskyj/sparrow4/util/Ccode/c/DOUBLE_UNLOCK.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "unlock",
-                    "Maintainability": "100.0",
                     "ID": "1.54.1",
-                    "TotalScore": 100.0,
-                    "size": 30,
-                    "Testability": "100"
+                    "size": 153,
+                    "name": "unlock"
                 }
             ]
         },
@@ -1540,15 +850,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\BAD_CALL.MISSING_CALL_PARAM.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.55.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 39,
+                    "name": "Func"
                 }
             ]
         },
@@ -1556,48 +860,24 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\API24.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "strcpy",
-                    "Maintainability": "100.0",
                     "ID": "1.56.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "getSSS",
-                    "Maintainability": "100.0",
-                    "ID": "1.56.2",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
-                    "ID": "1.56.3",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
-                    "ID": "1.56.4",
-                    "TotalScore": 100.0,
                     "size": 9,
-                    "Testability": "100"
+                    "name": "strcpy"
+                },
+                {
+                    "ID": "1.56.2",
+                    "size": 12,
+                    "name": "getSSS"
+                },
+                {
+                    "ID": "1.56.3",
+                    "size": 36,
+                    "name": "badFoo"
+                },
+                {
+                    "ID": "1.56.4",
+                    "size": 18,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -1605,26 +885,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\API40.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "getBadSum",
-                    "Maintainability": "95.0",
                     "ID": "1.57.1",
-                    "TotalScore": 95.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 99,
+                    "name": "getBadSum"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "getGoodSumG",
-                    "Maintainability": "95.0",
                     "ID": "1.57.2",
-                    "TotalScore": 95.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 72,
+                    "name": "getGoodSumG"
                 }
             ]
         },
@@ -1632,15 +900,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\MIS22.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "foo",
-                    "Maintainability": "100.0",
                     "ID": "1.58.1",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 93,
+                    "name": "foo"
                 }
             ]
         },
@@ -1648,26 +910,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\API35.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.59.1",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 39,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.59.2",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -1675,928 +925,424 @@
             "name": "/home/kskyj/sparrow4/util/Ccode/c/all_sample.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_01_sub",
-                    "Maintainability": "100.0",
                     "ID": "1.60.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 21,
+                    "name": "buffer_overrun_01_sub"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_01_main",
-                    "Maintainability": "100.0",
                     "ID": "1.60.2",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 33,
+                    "name": "buffer_overrun_01_main"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_complex_01_sub",
-                    "Maintainability": "100.0",
                     "ID": "1.60.3",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "buffer_overrun_complex_01_sub"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_complex_01_main",
-                    "Maintainability": "100.0",
                     "ID": "1.60.4",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 24,
+                    "name": "buffer_overrun_complex_01_main"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_02_main",
-                    "Maintainability": "100.0",
                     "ID": "1.60.5",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 66,
+                    "name": "buffer_overrun_02_main"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_complex_02_sub",
-                    "Maintainability": "100.0",
                     "ID": "1.60.6",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "buffer_overrun_complex_02_sub"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_complex_02_main",
-                    "Maintainability": "100.0",
                     "ID": "1.60.7",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_03",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.8",
-                    "TotalScore": 95.0,
-                    "size": 18,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_complex_03_sub",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.9",
-                    "TotalScore": 95.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "buffer_overrun_complex_03",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.10",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "memory_leak_01_sub",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.11",
-                    "TotalScore": 95.0,
-                    "size": 18,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "memory_leak_01_main",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.12",
-                    "TotalScore": 95.0,
-                    "size": 21,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "memory_leak_complex_01_sub",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.13",
-                    "TotalScore": 95.0,
-                    "size": 18,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "memory_leak_complex_01_sub_free",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.14",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "memory_leak_complex_01_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.15",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "resource_leak_01_sub",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.16",
-                    "TotalScore": 95.0,
-                    "size": 15,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "resource_leak_01_main",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.17",
-                    "TotalScore": 95.0,
-                    "size": 15,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "resource_leak_complex_01_sub",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.18",
-                    "TotalScore": 95.0,
-                    "size": 15,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "resource_leak_complex_01_sub_close",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.19",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "resource_leak_complex_01_main",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.20",
-                    "TotalScore": 95.0,
-                    "size": 27,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref_01_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.21",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref_01_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.22",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref_complex_01_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.23",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref_complex_01_sub2",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.24",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref_complex_01_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.25",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref_02_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.26",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref_complex_02_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.27",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref_complex_02_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.28",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "null_deref_03_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.29",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "divide_by_zero_03",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.30",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "divide_by_zero_complex_03_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.31",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "divide_by_zero_complex_03",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.32",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "divide_by_zero_04",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.33",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "divide_by_zero_complex_04_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.34",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "divide_by_zero_complex_04",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.35",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "double_free_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.36",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "double_free_main",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.37",
-                    "TotalScore": 95.0,
-                    "size": 33,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "double_free_complex_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.38",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "double_free_complex_main",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.39",
-                    "TotalScore": 95.0,
-                    "size": 33,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "use_after_free",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.40",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "use_after_free_complex_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.41",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "use_after_free_complex",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.42",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "return_pointer_to_freed",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.43",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "return_pointer_to_freed_complex_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.44",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "return_pointer_to_freed_complex",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.45",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "uninit",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.46",
-                    "TotalScore": 100.0,
-                    "size": 30,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "uninit_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.47",
-                    "TotalScore": 100.0,
-                    "size": 27,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "uninit_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.48",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "return_pointer_to_local",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.49",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "free_non_heap",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.50",
-                    "TotalScore": 100.0,
-                    "size": 21,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "pass_by_value",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.51",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "missing_return",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.52",
-                    "TotalScore": 95.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "cast_alters_value",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.53",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "free_null_pointer_call",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.54",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "free_null_pointer_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.55",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "memcpy_with_overlapping_regions",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.56",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "null_check_after_dereference",
-                    "Maintainability": "95.0",
-                    "ID": "1.60.57",
-                    "TotalScore": 95.0,
-                    "size": 15,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "shift_exceeds_bit_width",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.58",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "shift_negative",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.59",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "underrun_static",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.60",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "underrun_static_bad_condition",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.61",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "type_underrun_static",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.62",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "type_underrun_bad",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.63",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "unresonable_parameter",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.64",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "format_string",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.65",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "unreachable_code",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.66",
-                    "TotalScore": 100.0,
-                    "size": 21,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "ignored_return_value",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.67",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "ignored_return_2_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.68",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "ignored_return_2_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.69",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "82",
-                    "name": "checked_return",
-                    "Maintainability": "78.0",
-                    "ID": "1.60.70",
-                    "TotalScore": 78.0,
                     "size": 42,
-                    "Testability": "50"
+                    "name": "buffer_overrun_complex_02_main"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "dangerous_func_cast_sub",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.71",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "ID": "1.60.8",
+                    "size": 75,
+                    "name": "buffer_overrun_03"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "dangerous_func_cast_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.72",
-                    "TotalScore": 100.0,
+                    "ID": "1.60.9",
+                    "size": 24,
+                    "name": "buffer_overrun_complex_03_sub"
+                },
+                {
+                    "ID": "1.60.10",
+                    "size": 60,
+                    "name": "buffer_overrun_complex_03"
+                },
+                {
+                    "ID": "1.60.11",
+                    "size": 81,
+                    "name": "memory_leak_01_sub"
+                },
+                {
+                    "ID": "1.60.12",
+                    "size": 84,
+                    "name": "memory_leak_01_main"
+                },
+                {
+                    "ID": "1.60.13",
+                    "size": 81,
+                    "name": "memory_leak_complex_01_sub"
+                },
+                {
+                    "ID": "1.60.14",
                     "size": 9,
-                    "Testability": "100"
+                    "name": "memory_leak_complex_01_sub_free"
                 },
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "varargs_func_cast_sub",
-                    "Maintainability": "85.25",
-                    "ID": "1.60.73",
-                    "TotalScore": 85.25,
-                    "size": 3,
-                    "Testability": "100"
+                    "ID": "1.60.15",
+                    "size": 72,
+                    "name": "memory_leak_complex_01_main"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "varargs_func_cast_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.74",
-                    "TotalScore": 100.0,
+                    "ID": "1.60.16",
+                    "size": 78,
+                    "name": "resource_leak_01_sub"
+                },
+                {
+                    "ID": "1.60.17",
+                    "size": 75,
+                    "name": "resource_leak_01_main"
+                },
+                {
+                    "ID": "1.60.18",
+                    "size": 78,
+                    "name": "resource_leak_complex_01_sub"
+                },
+                {
+                    "ID": "1.60.19",
                     "size": 9,
-                    "Testability": "100"
+                    "name": "resource_leak_complex_01_sub_close"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "overrun_pf",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.75",
-                    "TotalScore": 100.0,
-                    "size": 27,
-                    "Testability": "100"
+                    "ID": "1.60.20",
+                    "size": 114,
+                    "name": "resource_leak_complex_01_main"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "information_leak",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.76",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "ID": "1.60.21",
+                    "size": 21,
+                    "name": "null_deref_01_sub"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "argument_number_mismatch1",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.77",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "ID": "1.60.22",
+                    "size": 39,
+                    "name": "null_deref_01_main"
                 },
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "argument_number_mismatch2",
-                    "Maintainability": "85.25",
-                    "ID": "1.60.78",
-                    "TotalScore": 85.25,
-                    "size": 3,
-                    "Testability": "100"
+                    "ID": "1.60.23",
+                    "size": 21,
+                    "name": "null_deref_complex_01_sub"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "double_close",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.79",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "redundant_condition1",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.80",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "redundant_condition2",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.81",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "redundant_condition3",
-                    "Maintainability": "100.0",
-                    "ID": "1.60.82",
-                    "TotalScore": 100.0,
+                    "ID": "1.60.24",
                     "size": 15,
-                    "Testability": "100"
+                    "name": "null_deref_complex_01_sub2"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "minimal_scope",
-                    "Maintainability": "100.0",
+                    "ID": "1.60.25",
+                    "size": 27,
+                    "name": "null_deref_complex_01_main"
+                },
+                {
+                    "ID": "1.60.26",
+                    "size": 54,
+                    "name": "null_deref_02_main"
+                },
+                {
+                    "ID": "1.60.27",
+                    "size": 18,
+                    "name": "null_deref_complex_02_sub"
+                },
+                {
+                    "ID": "1.60.28",
+                    "size": 27,
+                    "name": "null_deref_complex_02_main"
+                },
+                {
+                    "ID": "1.60.29",
+                    "size": 48,
+                    "name": "null_deref_03_main"
+                },
+                {
+                    "ID": "1.60.30",
+                    "size": 69,
+                    "name": "divide_by_zero_03"
+                },
+                {
+                    "ID": "1.60.31",
+                    "size": 12,
+                    "name": "divide_by_zero_complex_03_sub"
+                },
+                {
+                    "ID": "1.60.32",
+                    "size": 51,
+                    "name": "divide_by_zero_complex_03"
+                },
+                {
+                    "ID": "1.60.33",
+                    "size": 45,
+                    "name": "divide_by_zero_04"
+                },
+                {
+                    "ID": "1.60.34",
+                    "size": 12,
+                    "name": "divide_by_zero_complex_04_sub"
+                },
+                {
+                    "ID": "1.60.35",
+                    "size": 42,
+                    "name": "divide_by_zero_complex_04"
+                },
+                {
+                    "ID": "1.60.36",
+                    "size": 18,
+                    "name": "double_free_sub"
+                },
+                {
+                    "ID": "1.60.37",
+                    "size": 102,
+                    "name": "double_free_main"
+                },
+                {
+                    "ID": "1.60.38",
+                    "size": 21,
+                    "name": "double_free_complex_sub"
+                },
+                {
+                    "ID": "1.60.39",
+                    "size": 102,
+                    "name": "double_free_complex_main"
+                },
+                {
+                    "ID": "1.60.40",
+                    "size": 18,
+                    "name": "use_after_free"
+                },
+                {
+                    "ID": "1.60.41",
+                    "size": 9,
+                    "name": "use_after_free_complex_sub"
+                },
+                {
+                    "ID": "1.60.42",
+                    "size": 18,
+                    "name": "use_after_free_complex"
+                },
+                {
+                    "ID": "1.60.43",
+                    "size": 39,
+                    "name": "return_pointer_to_freed"
+                },
+                {
+                    "ID": "1.60.44",
+                    "size": 9,
+                    "name": "return_pointer_to_freed_complex_sub"
+                },
+                {
+                    "ID": "1.60.45",
+                    "size": 39,
+                    "name": "return_pointer_to_freed_complex"
+                },
+                {
+                    "ID": "1.60.46",
+                    "size": 54,
+                    "name": "uninit"
+                },
+                {
+                    "ID": "1.60.47",
+                    "size": 36,
+                    "name": "uninit_sub"
+                },
+                {
+                    "ID": "1.60.48",
+                    "size": 30,
+                    "name": "uninit_main"
+                },
+                {
+                    "ID": "1.60.49",
+                    "size": 27,
+                    "name": "return_pointer_to_local"
+                },
+                {
+                    "ID": "1.60.50",
+                    "size": 84,
+                    "name": "free_non_heap"
+                },
+                {
+                    "ID": "1.60.51",
+                    "size": 21,
+                    "name": "pass_by_value"
+                },
+                {
+                    "ID": "1.60.52",
+                    "size": 51,
+                    "name": "missing_return"
+                },
+                {
+                    "ID": "1.60.53",
+                    "size": 57,
+                    "name": "cast_alters_value"
+                },
+                {
+                    "ID": "1.60.54",
+                    "size": 9,
+                    "name": "free_null_pointer_call"
+                },
+                {
+                    "ID": "1.60.55",
+                    "size": 27,
+                    "name": "free_null_pointer_main"
+                },
+                {
+                    "ID": "1.60.56",
+                    "size": 66,
+                    "name": "memcpy_with_overlapping_regions"
+                },
+                {
+                    "ID": "1.60.57",
+                    "size": 48,
+                    "name": "null_check_after_dereference"
+                },
+                {
+                    "ID": "1.60.58",
+                    "size": 45,
+                    "name": "shift_exceeds_bit_width"
+                },
+                {
+                    "ID": "1.60.59",
+                    "size": 48,
+                    "name": "shift_negative"
+                },
+                {
+                    "ID": "1.60.60",
+                    "size": 42,
+                    "name": "underrun_static"
+                },
+                {
+                    "ID": "1.60.61",
+                    "size": 45,
+                    "name": "underrun_static_bad_condition"
+                },
+                {
+                    "ID": "1.60.62",
+                    "size": 36,
+                    "name": "type_underrun_static"
+                },
+                {
+                    "ID": "1.60.63",
+                    "size": 48,
+                    "name": "type_underrun_bad"
+                },
+                {
+                    "ID": "1.60.64",
+                    "size": 54,
+                    "name": "unresonable_parameter"
+                },
+                {
+                    "ID": "1.60.65",
+                    "size": 30,
+                    "name": "format_string"
+                },
+                {
+                    "ID": "1.60.66",
+                    "size": 33,
+                    "name": "unreachable_code"
+                },
+                {
+                    "ID": "1.60.67",
+                    "size": 45,
+                    "name": "ignored_return_value"
+                },
+                {
+                    "ID": "1.60.68",
+                    "size": 18,
+                    "name": "ignored_return_2_sub"
+                },
+                {
+                    "ID": "1.60.69",
+                    "size": 30,
+                    "name": "ignored_return_2_main"
+                },
+                {
+                    "ID": "1.60.70",
+                    "size": 243,
+                    "name": "checked_return"
+                },
+                {
+                    "ID": "1.60.71",
+                    "size": 12,
+                    "name": "dangerous_func_cast_sub"
+                },
+                {
+                    "ID": "1.60.72",
+                    "size": 21,
+                    "name": "dangerous_func_cast_main"
+                },
+                {
+                    "ID": "1.60.73",
+                    "size": 3,
+                    "name": "varargs_func_cast_sub"
+                },
+                {
+                    "ID": "1.60.74",
+                    "size": 21,
+                    "name": "varargs_func_cast_main"
+                },
+                {
+                    "ID": "1.60.75",
+                    "size": 84,
+                    "name": "overrun_pf"
+                },
+                {
+                    "ID": "1.60.76",
+                    "size": 36,
+                    "name": "information_leak"
+                },
+                {
+                    "ID": "1.60.77",
+                    "size": 15,
+                    "name": "argument_number_mismatch1"
+                },
+                {
+                    "ID": "1.60.78",
+                    "size": 3,
+                    "name": "argument_number_mismatch2"
+                },
+                {
+                    "ID": "1.60.79",
+                    "size": 42,
+                    "name": "double_close"
+                },
+                {
+                    "ID": "1.60.80",
+                    "size": 12,
+                    "name": "redundant_condition1"
+                },
+                {
+                    "ID": "1.60.81",
+                    "size": 12,
+                    "name": "redundant_condition2"
+                },
+                {
+                    "ID": "1.60.82",
+                    "size": 57,
+                    "name": "redundant_condition3"
+                },
+                {
                     "ID": "1.60.83",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "minimal_scope"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "missing_function_return",
-                    "Maintainability": "100.0",
                     "ID": "1.60.84",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 42,
+                    "name": "missing_function_return"
                 }
             ]
         },
@@ -2604,15 +1350,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\BAD_INTEGER_CONST_DEFINITION.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func",
-                    "Maintainability": "100.0",
                     "ID": "1.61.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 21,
+                    "name": "func"
                 }
             ]
         },
@@ -2620,15 +1360,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\BAD_CALL.FORBIDDEN.LIB.RESOURCE.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "resource_limit",
-                    "Maintainability": "100.0",
                     "ID": "1.62.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "resource_limit"
                 }
             ]
         },
@@ -2636,15 +1370,9 @@
             "name": "/home/kskyj/sparrow4/util/Ccode/c/PASSWORD_IN_COMMENT.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func",
-                    "Maintainability": "100.0",
                     "ID": "1.63.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 18,
+                    "name": "func"
                 }
             ]
         },
@@ -2652,59 +1380,29 @@
             "name": "/home/kskyj/sparrow4/util/Ccode/c/ENV32.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "exit1",
-                    "Maintainability": "100.0",
                     "ID": "1.64.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 9,
+                    "name": "exit1"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "exit2",
-                    "Maintainability": "95.0",
                     "ID": "1.64.2",
-                    "TotalScore": 95.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 24,
+                    "name": "exit2"
                 },
                 {
-                    "Understandabilty": "75",
-                    "Structuredness": "100",
-                    "Complexity": "90",
-                    "name": "func2",
-                    "Maintainability": "91.25",
                     "ID": "1.64.3",
-                    "TotalScore": 91.25,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 3,
+                    "name": "func2"
                 },
                 {
-                    "Understandabilty": "75",
-                    "Structuredness": "100",
-                    "Complexity": "90",
-                    "name": "func1",
-                    "Maintainability": "91.25",
                     "ID": "1.64.4",
-                    "TotalScore": 91.25,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 3,
+                    "name": "func1"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "env",
-                    "Maintainability": "95.0",
                     "ID": "1.64.5",
-                    "TotalScore": 95.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 33,
+                    "name": "env"
                 }
             ]
         },
@@ -2712,26 +1410,14 @@
             "name": "/home/kskyj/sparrow4/util/Ccode/c/SECURITY_DECISION_ON_DNS_LOOKUP.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "60",
-                    "Complexity": "91",
-                    "name": "decision",
-                    "Maintainability": "81.5",
                     "ID": "1.65.1",
-                    "TotalScore": 81.5,
-                    "size": 45,
-                    "Testability": "75"
+                    "size": 243,
+                    "name": "decision"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "decision2",
-                    "Maintainability": "95.0",
                     "ID": "1.65.2",
-                    "TotalScore": 95.0,
-                    "size": 36,
-                    "Testability": "100"
+                    "size": 180,
+                    "name": "decision2"
                 }
             ]
         },
@@ -2739,15 +1425,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\BAD_MACRO.MULTI_STMT_WITHOUT_DO_WHILE.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "muti_stmt_without",
-                    "Maintainability": "100.0",
                     "ID": "1.66.1",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 51,
+                    "name": "muti_stmt_without"
                 }
             ]
         },
@@ -2755,15 +1435,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ccode\\c\\MISSING_WRAPPER_ON_VARIABLE.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.67.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "Func"
                 }
             ]
         },
@@ -2771,15 +1445,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\BAD_PRIVILEGE_RELINQUISHMENT.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func",
-                    "Maintainability": "100.0",
                     "ID": "1.68.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "func"
                 }
             ]
         },
@@ -2787,15 +1455,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\INCONSISTENT_GLOBAL_VARIABLE_TYPE.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "Func",
-                    "Maintainability": "85.25",
                     "ID": "1.69.1",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "Func"
                 }
             ]
         },
@@ -2803,15 +1465,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\BAD_CALL.FORBIDDEN.PARAM.STRING.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.70.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "Func"
                 }
             ]
         },
@@ -2819,26 +1475,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\MIS18.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badTest",
-                    "Maintainability": "100.0",
                     "ID": "1.71.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "badTest"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodTest",
-                    "Maintainability": "100.0",
                     "ID": "1.71.2",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "goodTest"
                 }
             ]
         },
@@ -2846,26 +1490,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\API28.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badUsage",
-                    "Maintainability": "100.0",
                     "ID": "1.72.1",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "badUsage"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodUsage",
-                    "Maintainability": "100.0",
                     "ID": "1.72.2",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 21,
+                    "name": "goodUsage"
                 }
             ]
         },
@@ -2873,26 +1505,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\API30.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.73.1",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 39,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.73.2",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 39,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -2900,15 +1520,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\FUNCTION_DEFINITION_TYPE_MISMATCH.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "func",
-                    "Maintainability": "100.0",
                     "ID": "1.74.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "func"
                 }
             ]
         },
@@ -2916,26 +1530,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\API45.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.75.1",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 78,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.75.2",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 69,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -2943,37 +1545,19 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\API43.c",
             "children": [
                 {
-                    "Understandabilty": "75",
-                    "Structuredness": "100",
-                    "Complexity": "90",
-                    "name": "badDBIOWithoutRollback",
-                    "Maintainability": "91.25",
                     "ID": "1.76.1",
-                    "TotalScore": 91.25,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 3,
+                    "name": "badDBIOWithoutRollback"
                 },
                 {
-                    "Understandabilty": "75",
-                    "Structuredness": "100",
-                    "Complexity": "90",
-                    "name": "badDBIOWithoutCommit",
-                    "Maintainability": "91.25",
                     "ID": "1.76.2",
-                    "TotalScore": 91.25,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 3,
+                    "name": "badDBIOWithoutCommit"
                 },
                 {
-                    "Understandabilty": "75",
-                    "Structuredness": "100",
-                    "Complexity": "90",
-                    "name": "goodDBIO",
-                    "Maintainability": "91.25",
                     "ID": "1.76.3",
-                    "TotalScore": 91.25,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 3,
+                    "name": "goodDBIO"
                 }
             ]
         },
@@ -2981,15 +1565,9 @@
             "name": "/home/kskyj/sparrow4/util/Dcode/c/UCTS-041.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "f",
-                    "Maintainability": "100.0",
                     "ID": "1.77.1",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "f"
                 }
             ]
         },
@@ -2997,15 +1575,9 @@
             "name": "/home/kskyj/sparrow4/util/Dcode/c/ENV04.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "91",
-                    "name": "useruser",
-                    "Maintainability": "86.5",
                     "ID": "1.78.1",
-                    "TotalScore": 86.5,
-                    "size": 30,
-                    "Testability": "75"
+                    "size": 147,
+                    "name": "useruser"
                 }
             ]
         },
@@ -3013,48 +1585,24 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\API23.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badError",
-                    "Maintainability": "100.0",
                     "ID": "1.79.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "badError"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodError",
-                    "Maintainability": "100.0",
                     "ID": "1.79.2",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "goodError"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodError2",
-                    "Maintainability": "100.0",
                     "ID": "1.79.3",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "goodError2"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badError2",
-                    "Maintainability": "100.0",
                     "ID": "1.79.4",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "badError2"
                 }
             ]
         },
@@ -3062,37 +1610,19 @@
             "name": "/home/kskyj/sparrow4/util/Dcode/c/UCTS-028.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "aux_test_extreme",
-                    "Maintainability": "100.0",
                     "ID": "1.80.1",
-                    "TotalScore": 100.0,
-                    "size": 6,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "aux_test_extreme"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "test_extreme",
-                    "Maintainability": "100.0",
                     "ID": "1.80.2",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 48,
+                    "name": "test_extreme"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "test_strcpy_dyn",
-                    "Maintainability": "100.0",
                     "ID": "1.80.3",
-                    "TotalScore": 100.0,
-                    "size": 24,
-                    "Testability": "100"
+                    "size": 81,
+                    "name": "test_strcpy_dyn"
                 }
             ]
         },
@@ -3100,15 +1630,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\BAD_CALL.REQUIRED.c",
             "children": [
                 {
-                    "Understandabilty": "60",
-                    "Structuredness": "100",
-                    "Complexity": "81",
-                    "name": "Func",
-                    "Maintainability": "85.25",
                     "ID": "1.81.1",
-                    "TotalScore": 85.25,
                     "size": 3,
-                    "Testability": "100"
+                    "name": "Func"
                 }
             ]
         },
@@ -3116,37 +1640,19 @@
             "name": "/home/kskyj/sparrow4/util/Dcode/c/MEM08.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "returnRealloc",
-                    "Maintainability": "100.0",
                     "ID": "1.82.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "test",
-                    "Maintainability": "100.0",
-                    "ID": "1.82.2",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
-                },
-                {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "MEM08_main",
-                    "Maintainability": "100.0",
-                    "ID": "1.82.3",
-                    "TotalScore": 100.0,
                     "size": 18,
-                    "Testability": "100"
+                    "name": "returnRealloc"
+                },
+                {
+                    "ID": "1.82.2",
+                    "size": 33,
+                    "name": "test"
+                },
+                {
+                    "ID": "1.82.3",
+                    "size": 66,
+                    "name": "MEM08_main"
                 }
             ]
         },
@@ -3154,15 +1660,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\BAD_STRUCT_MEMBER_ACCESS.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.83.1",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 66,
+                    "name": "Func"
                 }
             ]
         },
@@ -3170,15 +1670,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\BAD_CALL.REQUIRED.ARGS.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.84.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 15,
+                    "name": "Func"
                 }
             ]
         },
@@ -3186,26 +1680,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\PREMATURE_THREAD_TERMINATION.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "foo",
-                    "Maintainability": "100.0",
                     "ID": "1.85.1",
-                    "TotalScore": 100.0,
-                    "size": 3,
-                    "Testability": "100"
+                    "size": 12,
+                    "name": "foo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "foo2",
-                    "Maintainability": "100.0",
                     "ID": "1.85.2",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 72,
+                    "name": "foo2"
                 }
             ]
         },
@@ -3213,15 +1695,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\MSC17.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "91",
-                    "name": "msc17",
-                    "Maintainability": "86.5",
                     "ID": "1.86.1",
-                    "TotalScore": 86.5,
-                    "size": 81,
-                    "Testability": "75"
+                    "size": 141,
+                    "name": "msc17"
                 }
             ]
         },
@@ -3229,15 +1705,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Dcode\\c\\MIS11.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "testFunc",
-                    "Maintainability": "100.0",
                     "ID": "1.87.1",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "testFunc"
                 }
             ]
         },
@@ -3245,70 +1715,34 @@
             "name": "/home/kskyj/sparrow4/util/Ecode/c/mismatch.cpp",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "mismatch_malloc_to_delete",
-                    "Maintainability": "100.0",
                     "ID": "1.88.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "mismatch_malloc_to_delete"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "mismatch_malloc_to_delete_array",
-                    "Maintainability": "100.0",
                     "ID": "1.88.2",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 27,
+                    "name": "mismatch_malloc_to_delete_array"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "mismatch_new_array_to_delete",
-                    "Maintainability": "100.0",
                     "ID": "1.88.3",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 18,
+                    "name": "mismatch_new_array_to_delete"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "mismatch_new_array_to_free",
-                    "Maintainability": "100.0",
                     "ID": "1.88.4",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 21,
+                    "name": "mismatch_new_array_to_free"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "mismatch_new_to_delete_array",
-                    "Maintainability": "100.0",
                     "ID": "1.88.5",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 18,
+                    "name": "mismatch_new_to_delete_array"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "mismatch_new_to_free",
-                    "Maintainability": "100.0",
                     "ID": "1.88.6",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 21,
+                    "name": "mismatch_new_to_free"
                 }
             ]
         },
@@ -3316,15 +1750,9 @@
             "name": "/home/kskyj/sparrow4/util/Ecode/c/FIO43.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "fio43_main",
-                    "Maintainability": "100.0",
                     "ID": "1.89.1",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 75,
+                    "name": "fio43_main"
                 }
             ]
         },
@@ -3332,15 +1760,9 @@
             "name": "/home/kskyj/sparrow4/util/Ecode/c/WEAK_ENCRYPTION.PASSWORD.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "dbaccess",
-                    "Maintainability": "100.0",
                     "ID": "1.90.1",
-                    "TotalScore": 100.0,
-                    "size": 24,
-                    "Testability": "100"
+                    "size": 165,
+                    "name": "dbaccess"
                 }
             ]
         },
@@ -3348,26 +1770,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ecode\\c\\API38.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.91.1",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "badFoo"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodFoo",
-                    "Maintainability": "100.0",
                     "ID": "1.91.2",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 30,
+                    "name": "goodFoo"
                 }
             ]
         },
@@ -3375,15 +1785,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ecode\\c\\DO_NOT_USE_SIZEOF_ON_PTR.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "do_not_use_sizeof1",
-                    "Maintainability": "100.0",
                     "ID": "1.92.1",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 75,
+                    "name": "do_not_use_sizeof1"
                 }
             ]
         },
@@ -3391,26 +1795,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ecode\\c\\WEAK_ENCRYPTION.RSA_PADDING.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badPadding",
-                    "Maintainability": "100.0",
                     "ID": "1.93.1",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 54,
+                    "name": "badPadding"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodPadding",
-                    "Maintainability": "100.0",
                     "ID": "1.93.2",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 54,
+                    "name": "goodPadding"
                 }
             ]
         },
@@ -3418,15 +1810,9 @@
             "name": "/home/kskyj/sparrow4/util/Ecode/c/NEGATIVE_FILE_DESCRIPTOR.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "80",
-                    "Complexity": "100",
-                    "name": "negative_file_des",
-                    "Maintainability": "95.0",
                     "ID": "1.94.1",
-                    "TotalScore": 95.0,
-                    "size": 21,
-                    "Testability": "100"
+                    "size": 120,
+                    "name": "negative_file_des"
                 }
             ]
         },
@@ -3434,15 +1820,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ecode\\c\\BAD_CALL.REQUIRED.WRAPPER.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "Func",
-                    "Maintainability": "100.0",
                     "ID": "1.95.1",
-                    "TotalScore": 100.0,
-                    "size": 9,
-                    "Testability": "100"
+                    "size": 48,
+                    "name": "Func"
                 }
             ]
         },
@@ -3450,59 +1830,29 @@
             "name": "/home/kskyj/sparrow4/util/Ecode/c/IMPROPER_NULL_TERMINATION.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "foo1",
-                    "Maintainability": "100.0",
                     "ID": "1.96.1",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 66,
+                    "name": "foo1"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "foo2",
-                    "Maintainability": "100.0",
                     "ID": "1.96.2",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 72,
+                    "name": "foo2"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "bar1",
-                    "Maintainability": "100.0",
                     "ID": "1.96.3",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 72,
+                    "name": "bar1"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "bar2",
-                    "Maintainability": "100.0",
                     "ID": "1.96.4",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 72,
+                    "name": "bar2"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "xman",
-                    "Maintainability": "100.0",
                     "ID": "1.96.5",
-                    "TotalScore": 100.0,
-                    "size": 33,
-                    "Testability": "100"
+                    "size": 87,
+                    "name": "xman"
                 }
             ]
         },
@@ -3510,15 +1860,9 @@
             "name": "/home/kskyj/sparrow4/util/Ecode/c/CHROOT_JAIL_WITHOUT_CHANGE_WORK_DIR.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "chroot_jail_without",
-                    "Maintainability": "100.0",
                     "ID": "1.97.1",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 54,
+                    "name": "chroot_jail_without"
                 }
             ]
         },
@@ -3526,15 +1870,9 @@
             "name": "/home/kskyj/sparrow4/util/Ecode/c/CHECK_ALIGNMENT_OF_MEMORY.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "check_assign",
-                    "Maintainability": "100.0",
                     "ID": "1.98.1",
-                    "TotalScore": 100.0,
-                    "size": 21,
-                    "Testability": "100"
+                    "size": 135,
+                    "name": "check_assign"
                 }
             ]
         },
@@ -3542,26 +1880,14 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ecode\\c\\API44.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "badLoop",
-                    "Maintainability": "100.0",
                     "ID": "1.99.1",
-                    "TotalScore": 100.0,
-                    "size": 12,
-                    "Testability": "100"
+                    "size": 75,
+                    "name": "badLoop"
                 },
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "goodLoop",
-                    "Maintainability": "100.0",
                     "ID": "1.99.2",
-                    "TotalScore": 100.0,
-                    "size": 15,
-                    "Testability": "100"
+                    "size": 78,
+                    "name": "goodLoop"
                 }
             ]
         },
@@ -3569,15 +1895,9 @@
             "name": "\\home\\kskyj\\sparrow4\\util\\Ecode\\c\\API31.c",
             "children": [
                 {
-                    "Understandabilty": "100",
-                    "Structuredness": "100",
-                    "Complexity": "100",
-                    "name": "foo",
-                    "Maintainability": "100.0",
                     "ID": "1.100.1",
-                    "TotalScore": 100.0,
-                    "size": 18,
-                    "Testability": "100"
+                    "size": 54,
+                    "name": "foo"
                 }
             ]
         }
