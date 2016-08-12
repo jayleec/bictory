@@ -119,6 +119,8 @@ def visual(request):
     cpntlenlist = []
     # exit_pnt 초과 리스트 뽑기
     exit_pnts = []
+    # exit_pnt 초과 리스트 뽑기
+    cpnt_voca_list = []
 
     data = Function.objects.all()
     for f in data:
@@ -127,10 +129,13 @@ def visual(request):
             cpntlenlist.append(f.function_id)
         if findMetric(f.test, 'exit_pnt'):
             exit_pnts.append(f.function_id)
+        if findMetric(f.test, 'cpnt_voca'):
+            cpnt_voca_list.append(f.function_id)
     # print("cpntlenlist:", cpntlenlist)
     return render(request, 'visualTest.html', {'outlierId': outlierId,
                                                'cpnt_len_id_list': cpntlenlist,
-                                               'exit_pnts': exit_pnts})
+                                               'exit_pnts': exit_pnts,
+                                               'cpnt_voca_list': cpnt_voca_list})
 
 def showScore(request):
     result = d3test()

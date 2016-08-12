@@ -88,6 +88,8 @@
 //    get exit_pnt 초과 리스트
         var exit_pnts = "{{ exit_pnts }}";
 
+        var cpnt_voca_list = "{{ cpnt_voca_list }}";
+
 
     </script>
 
@@ -489,8 +491,13 @@
                           </button>
 
                             <!--exit_pnt 이상 function button-->
-                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/exit_pnt.js')" class="btn btn-warning" style=" color: white ; font-weight: bold">
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/exit_pnt.js')" class="btn btn-warning" style="  margin-right: 20px; color: white ; font-weight: bold">
                             exit_pnt
+                          </button>
+
+                            <!--cpnt_voca 이상 function button-->
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/cpnt_voca.js')" class="btn btn-info" style=" color: white ; font-weight: bold">
+                            cpnt_voca
                           </button>
 
                         </div>
@@ -603,7 +610,7 @@
                                                         </div>
                                                     </div>
                                                     <div id="legendRowWrapper" class="col-sm-6">
-                                                        <div id="legendTitle" style="text-align: center;">Number of Statements</div>
+                                                        <!--<div id="legendTitle" style="text-align: center;">Number of Statements</div>-->
                                                         <!--<div class="legendSubTitle">in thousands</div>-->
                                                         <div id="legendCircles"></div>
                                                     </div>

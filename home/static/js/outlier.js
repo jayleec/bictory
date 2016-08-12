@@ -300,7 +300,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                      // chosenContext.fillRect(nodeX + -nodeR*0.3, bar.barPiecePosition, bar.width, barHeight);
                      // 바 시작 위치
                           // chosenContext.fillRect(nodeX + - nodeR*0.30, bar.barPiecePosition, bar.width, barHeight);
-                     chosenContext.fillRect(nodeX + - nodeR*0.2, bar.barPiecePosition, bar.width, barHeight);
+                     chosenContext.fillRect(nodeX + - nodeR*0.09, bar.barPiecePosition, bar.width, barHeight);
                      chosenContext.fill();
 
                      //Only draw the age labels if the font size is big enough
@@ -312,7 +312,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                         // chosenContext.fillText(bar.age, nodeX + -nodeR*0.35, bar.barPiecePosition+0.5*barHeight);
                         //메트릭 이름 시작점
                              // chosenContext.fillText(bar.age, nodeX + -nodeR*0.35, bar.barPiecePosition+0.5*barHeight);
-                              chosenContext.fillText(bar.age, nodeX + -nodeR*0.25, bar.barPiecePosition+0.5*barHeight);
+                              chosenContext.fillText(bar.age, nodeX + -nodeR*0.15, bar.barPiecePosition+0.5*barHeight);
                      }//if
 
                      //Only draw the value labels if the font size is big enough
@@ -327,7 +327,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                         //Calculate the x position of the bar value label
                         // bar.valueLoc = nodeX + -nodeR*0.3 + bar.width + (valuePos === "left" ? (nodeR * 0.03) : (-nodeR * 0.03));
                         // 밸류 값 위치 조정
-                        bar.valueLoc = nodeX + -nodeR*0.2 + bar.width + (valuePos === "left" ? (nodeR * 0.03) : (-nodeR * 0.03));
+                        bar.valueLoc = nodeX + -nodeR*0.1 + bar.width + (valuePos === "left" ? (nodeR * 0.03) : (-nodeR * 0.03));
 
                         //Draw the text
                         chosenContext.fillStyle = (valuePos === "left" ? "rgba(51,51,51," + textAlpha +")" : "rgba(255,255,255," + textAlpha +")"); //#333333 or white
@@ -816,30 +816,30 @@ function createLegend(scaleFactor) {
       .style("opacity", 0);
 
    //Draw the circles
-   svg.selectAll(".legendCircle")
-      .data(legendSizes)
-      .enter().append("circle")
-      .attr('r', function(d) { return d; })
-      .attr('class',"legendCircle")
-      .attr('cx', legendCenter)
-      .attr('cy', function(d) { return legendBottom-d; });
-   //Draw the line connecting the top of the circle to the number
-   svg.selectAll(".legendLine")
-      .data(legendSizes)
-      .enter().append("line")
-      .attr('class',"legendLine")
-      .attr('x1', legendCenter)
-      .attr('y1', function(d) { return legendBottom-2*d; })
-      .attr('x2', legendCenter + legendLineLength)
-      .attr('y2', function(d) { return legendBottom-2*d; });
-   //Place the value next to the line
-   svg.selectAll(".legendText")
-      .data(legendSizes)
-      .enter().append("text")
-      .attr('class',"legendText")
-      .attr('x', legendCenter + legendLineLength + textPadding)
-      .attr('y', function(d) { return legendBottom-2*d; })
-      .attr('dy', '0.3em')
-      .text(function(d) { return commaFormat(Math.round(scaleFactor * d * d / 10)*10); });
+   // svg.selectAll(".legendCircle")
+   //    .data(legendSizes)
+   //    .enter().append("circle")
+   //    .attr('r', function(d) { return d; })
+   //    .attr('class',"legendCircle")
+   //    .attr('cx', legendCenter)
+   //    .attr('cy', function(d) { return legendBottom-d; });
+   // //Draw the line connecting the top of the circle to the number
+   // svg.selectAll(".legendLine")
+   //    .data(legendSizes)
+   //    .enter().append("line")
+   //    .attr('class',"legendLine")
+   //    .attr('x1', legendCenter)
+   //    .attr('y1', function(d) { return legendBottom-2*d; })
+   //    .attr('x2', legendCenter + legendLineLength)
+   //    .attr('y2', function(d) { return legendBottom-2*d; });
+   // //Place the value next to the line
+   // svg.selectAll(".legendText")
+   //    .data(legendSizes)
+   //    .enter().append("text")
+   //    .attr('class',"legendText")
+   //    .attr('x', legendCenter + legendLineLength + textPadding)
+   //    .attr('y', function(d) { return legendBottom-2*d; })
+   //    .attr('dy', '0.3em')
+   //    .text(function(d) { return commaFormat(Math.round(scaleFactor * d * d / 10)*10); });
 
 }//createLegend
