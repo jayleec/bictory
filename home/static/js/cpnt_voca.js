@@ -1,5 +1,5 @@
 /**
- * Created by jay on 8/5/16.
+ * Created by cooljay on 8/12/16.
  */
 
 queue()
@@ -152,10 +152,8 @@ function drawAll(error, ageCSV, idCSV, occupations) {
    });
 
    //////////////////////////////////////////////////////////////
-   /////// Change Outlier function background color /////////////
+   /////////////////// get cpnt_voca list ////////////////////////
    //////////////////////////////////////////////////////////////
-
-
 
 
 
@@ -187,9 +185,8 @@ function drawAll(error, ageCSV, idCSV, occupations) {
          node = nodes[i];
 
 
-         //아웃라이어 색깔바꾸기
-         // Metrics.json 에 칼라를 red로 설정하면 된다.
-         // console.log(node);
+
+               //cpnt_voca 기준에 맞지않는 function skyblue 표기
 
             //If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
             if(hidden) {
@@ -201,15 +198,16 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                // On the hidden canvas each rectangle gets a unique color.
                chosenContext.fillStyle = node.color;
             } else {
-               // console.log("localStorage print",  localStorage.getItem("showOutlier"));
-                   //아웃라이어 색깔바꾸기
-                   if(node.ID == outlierId) {
-                      chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "blue";
-                   }else {
-                      chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
-                   }
+                  // console.log("cpnt_len_list.indexOf(node.ID) :", exit_pnts.indexOf(node.ID) );
+
+               if (cpnt_voca_list.indexOf(node.ID) > 0 ){
+                  chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "skyblue";
+               } else {
+                  chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
+               }
 
          }
+
 
 
 
@@ -823,7 +821,7 @@ function createLegend(scaleFactor) {
    //    .attr('class',"legendCircle")
    //    .attr('cx', legendCenter)
    //    .attr('cy', function(d) { return legendBottom-d; });
-   // //Draw the line connecting the top of the circle to the number
+   //Draw the line connecting the top of the circle to the number
    // svg.selectAll(".legendLine")
    //    .data(legendSizes)
    //    .enter().append("line")
@@ -832,7 +830,7 @@ function createLegend(scaleFactor) {
    //    .attr('y1', function(d) { return legendBottom-2*d; })
    //    .attr('x2', legendCenter + legendLineLength)
    //    .attr('y2', function(d) { return legendBottom-2*d; });
-   // //Place the value next to the line
+   //Place the value next to the line
    // svg.selectAll(".legendText")
    //    .data(legendSizes)
    //    .enter().append("text")

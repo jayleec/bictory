@@ -80,8 +80,16 @@
 
     }
 
+//outlier.js
+        var outlierId = "{{ outlierId }}";
+//cpnt_len.js
+        var cpnt_len_id_list = "{{ cpnt_len_id_list }}";
+//        exit_pnt.js
+//    get exit_pnt 초과 리스트
+        var exit_pnts = "{{ exit_pnts }}";
 
-    var outlierId = "{{ outlierId }}";
+        var cpnt_voca_list = "{{ cpnt_voca_list }}";
+
 
     </script>
 
@@ -459,23 +467,39 @@
                         <a class="ish-ph-logo ish-ph-logo_retina-yes" href="">
                             <span>
                                 <img src="/static/img/torch_50_50.png" alt="Torch" title="Torch" />
+                                TORCH
                             </span>
                         </a>
 
-                        <!-- Show Outlier button -->
-
-                        <div class="btn-group" style="float: right">
-
                             <!--기능별 버튼-->
-                          <!--outlier button-->
-                            <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/outlier.js')" class="btn btn-default" style="margin-right: 30px; background-color: dodgerblue ; color: white ; font-weight: bold">
+                        <div style="float: right">
+
+                        <!--일반기준 외 function 보여주기 button-->
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/script7.js')" class="btn btn-danger" style=" margin-right: 20px; color: white ; font-weight: bold">
+                            일반기준
+                          </button>
+
+                        <!-- Show Outlier button -->
+                            <!--outlier button-->
+                            <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/outlier.js')" class="btn btn-primary" style="margin-right: 20px;  color: white ; font-weight: bold">
                             Outlier
                           </button>
 
-                            <!--일반기준 외 function 보여주기 button-->
-                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/script7.js')" class="btn btn-default" style="background-color: red ; color: white ; font-weight: bold">
-                            일반기준
+                            <!--cpnt_len 이상 function button-->
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/cpnt_len.js')" class="btn btn-success" style=" margin-right: 20px; color: white ; font-weight: bold">
+                            cpnt_len
                           </button>
+
+                            <!--exit_pnt 이상 function button-->
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/exit_pnt.js')" class="btn btn-warning" style="  margin-right: 20px; color: white ; font-weight: bold">
+                            exit_pnt
+                          </button>
+
+                            <!--cpnt_voca 이상 function button-->
+                           <button type="button" onclick="destroyPreviousPage(); LoadMyJs('/static/js/cpnt_voca.js')" class="btn btn-info" style=" color: white ; font-weight: bold">
+                            cpnt_voca
+                          </button>
+
                         </div>
 
                         <!-- Default WordPress tagline -->
@@ -586,7 +610,7 @@
                                                         </div>
                                                     </div>
                                                     <div id="legendRowWrapper" class="col-sm-6">
-                                                        <div id="legendTitle" style="text-align: center;">Number of Statements persons</div>
+                                                        <!--<div id="legendTitle" style="text-align: center;">Number of Statements</div>-->
                                                         <!--<div class="legendSubTitle">in thousands</div>-->
                                                         <div id="legendCircles"></div>
                                                     </div>

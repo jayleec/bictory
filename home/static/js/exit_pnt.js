@@ -1,6 +1,7 @@
 /**
- * Created by jay on 8/5/16.
+ * Created by cooljay on 8/11/16.
  */
+
 
 queue()
    .defer(d3.csv, "/static/data/Metrics for each Function.csv")
@@ -152,10 +153,8 @@ function drawAll(error, ageCSV, idCSV, occupations) {
    });
 
    //////////////////////////////////////////////////////////////
-   /////// Change Outlier function background color /////////////
+   /////////////////// get exit_pnt list ////////////////////////
    //////////////////////////////////////////////////////////////
-
-
 
 
 
@@ -180,6 +179,9 @@ function drawAll(error, ageCSV, idCSV, occupations) {
       chosenContext.rect(0,0,width,height);
       chosenContext.fill();
 
+
+
+
       //Select our dummy nodes and draw the data to canvas.
       var node = null;
       // It's slightly faster than nodes.forEach()
@@ -187,9 +189,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
          node = nodes[i];
 
 
-         //아웃라이어 색깔바꾸기
-         // Metrics.json 에 칼라를 red로 설정하면 된다.
-         // console.log(node);
+            //cpnt_len의 기준에 맞지않는 function green 표기
 
             //If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
             if(hidden) {
@@ -201,13 +201,13 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                // On the hidden canvas each rectangle gets a unique color.
                chosenContext.fillStyle = node.color;
             } else {
-               // console.log("localStorage print",  localStorage.getItem("showOutlier"));
-                   //아웃라이어 색깔바꾸기
-                   if(node.ID == outlierId) {
-                      chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "blue";
-                   }else {
-                      chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
-                   }
+                  // console.log("cpnt_len_list.indexOf(node.ID) :", exit_pnts.indexOf(node.ID) );
+
+               if (exit_pnts.indexOf(node.ID) > 0 ){
+                  chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "yellow";
+               } else {
+                  chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
+               }
 
          }
 

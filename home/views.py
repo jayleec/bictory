@@ -45,7 +45,18 @@ def functiontable(request):
     data = Function.objects.all()
     for f in data:
         f.test = f.check_all()
+        # print("f.test", f.test)
+        if findMetric(f.test, 'cpnt_len'):
+            f.test2 = f.function_id
     return render_to_response('function_table.html', {'functions': data})
+
+# cpnt_len가 초과하는 function의 경우 true 리턴
+def findMetric(function, metric):
+    for f in function:
+        if f == metric:
+            return True
+
+
 
 def index(request):
     return render(request, 'index.html')
@@ -96,23 +107,44 @@ def gitLoader(request):
             context_instance=RequestContext(request)
     )
 
-
+# cpnt_len초과 하는 애들 ID
 
 
 #/visualTest.html/
 def visual(request):
     result = d3test()
     outlierId = result[6]
-    return render(request, 'visualTest.html', {'outlierId': outlierId})
+
+    # cpnt_len 초과 function id 뽑기
+    cpntlenlist = []
+    # exit_pnt 초과 리스트 뽑기
+    exit_pnts = []
+    # exit_pnt 초과 리스트 뽑기
+    cpnt_voca_list = []
+
+    data = Function.objects.all()
+    for f in data:
+        f.test = f.check_all()
+        if findMetric(f.test, 'cpnt_len'):
+            cpntlenlist.append(f.function_id)
+        if findMetric(f.test, 'exit_pnt'):
+            exit_pnts.append(f.function_id)
+        if findMetric(f.test, 'cpnt_voca'):
+            cpnt_voca_list.append(f.function_id)
+    # print("cpntlenlist:", cpntlenlist)
+    return render(request, 'visualTest.html', {'outlierId': outlierId,
+                                               'cpnt_len_id_list': cpntlenlist,
+                                               'exit_pnts': exit_pnts,
+                                               'cpnt_voca_list': cpnt_voca_list})
 
 def showScore(request):
     result = d3test()
-    aveComplexity = result[0]
-    aveStructure = result[1]
-    aveTestability = result[2]
-    aveUnderstand = result[3]
-    aveMaintainability = result[4]
-    projectScore = result[5]
+    aveComplexity = round(result[0],1)
+    aveStructure = round(result[1],1)
+    aveTestability = round(result[2],1)
+    aveUnderstand = round(result[3],1)
+    aveMaintainability = round(result[4],1)
+    projectScore = round(result[5],1)
     testID = result[6]
 
     return render(request, 'd3_test.html', {
