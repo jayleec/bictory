@@ -113,7 +113,7 @@ def gitLoader(request):
 #/visualTest.html/
 def visual(request):
     result = d3test()
-    outlierId = result[6]
+    outlierlist = result[6]
 
     # cpnt_len 초과 function id 뽑기
     cpntlenlist = []
@@ -132,7 +132,7 @@ def visual(request):
         if findMetric(f.test, 'cpnt_voca'):
             cpnt_voca_list.append(f.function_id)
     # print("cpntlenlist:", cpntlenlist)
-    return render(request, 'visualTest.html', {'outlierId': outlierId,
+    return render(request, 'visualTest.html', {'outlierId': outlierlist,
                                                'cpnt_len_id_list': cpntlenlist,
                                                'exit_pnts': exit_pnts,
                                                'cpnt_voca_list': cpnt_voca_list})
@@ -187,6 +187,8 @@ def d3test():
     TotalTestabilityScore = 0
 
     funcarr = []
+    # totalscore 리스트로 넣음
+    totalscoreList = []
 
     for child in root:
         #print("File Path : ", child[0].text)  # 파일 경로 출력
@@ -202,6 +204,7 @@ def d3test():
             complexity = cal_complexity(child2)
             complexity_list.append(complexity)
             aveComplexity = ave_complexity(complexity_list, numOfFunctions)
+
 
             #대근이가 쓴거
             function_number += 1
@@ -286,6 +289,9 @@ def d3test():
                         TestabilityScoreOfFunction -= 25
 
             MaintainabilityScoreOfFunction = 0.25 * ComplexityScoreOfFunction + 0.25 * StructurednessScoreOfFunction + 0.25 * TestabilityScoreOfFunction + 0.25 * UnderstandabilityScoreOfFunction
+            # function 별 total 점수
+            totalScoreOfFunction = (StructurednessScoreOfFunction + ComplexityScoreOfFunction + TestabilityScoreOfFunction +
+            UnderstandabilityScoreOfFunction + MaintainabilityScoreOfFunction )/5
 
             funcdict['ID'] = "1." + str(numberOfFile) + "." + str(function_number)
             funcdict['Structuredness'] = str(StructurednessScoreOfFunction)
@@ -293,7 +299,10 @@ def d3test():
             funcdict['Testability'] = str(TestabilityScoreOfFunction)
             funcdict['Understandabilty'] = str(UnderstandabilityScoreOfFunction)
             funcdict['Maintainability'] = str(MaintainabilityScoreOfFunction)
+            funcdict['totalScore'] = totalScoreOfFunction
+
             funcarr.append(funcdict)
+
             funcdict = {}
 
             AverageComplexityOfFile += ComplexityScoreOfFunction
@@ -327,25 +336,25 @@ def d3test():
         cpntLenOfFuntion = 0
         totalCpntLenOfFunction = 0
 
-
-    #표준화변수 출력 테스트 - 'Understandability'
-    print("표준편차 standardDeviation(funcarr)",standardDeviation(funcarr, "Understandabilty"))
-    print("평균: ", getAverage(funcarr, "Understandabilty"))
-
-    #표준화변수 html 출력용 변수
-    #평균
-    average = getAverage(funcarr, "Understandabilty")
-    #표준편차
-    stdDeviation = standardDeviation(funcarr, "Understandabilty")
-    #표준화변수
-    stdDevVar = []
+    # 함수별 score를 리스트에 넣음
+    tempScoreList = []
     for x in funcarr:
-        stdDevVar.append(getStandardizationVar(float(x["Understandabilty"]), average, stdDeviation, x["ID"]))
-
-    print(getMinimum(stdDevVar,'stdVar'))
-    minimumVar = getMinimum(stdDevVar,'stdVar')
-    print("minimumVar print: ", minimumVar['ID'])
-    testID = minimumVar['ID']
+        tempScoreList.append(x['totalScore'])
+    ave = statistics.mean(tempScoreList)
+    # dictionary에 각 편차를 추가함
+    for x in funcarr:
+        x.update({'deviation': pow(x['totalScore']-ave,2)})
+        # print("test print:", pow(x['totalScore']-ave,2))
+    #     TODO: deviation중에서 가장 큰 수의 ID를 리턴
+    tempList = []
+    for x in funcarr:
+        print("print test:", x['deviation'])
+        if(x['deviation']>85):
+            tempList.append(x)
+    outlierList = []
+    for y in tempList:
+        outlierList.append(y['ID'])
+    # return index of highest value in devationlist
 
 
     #프로젝트 최종 점수 계산
@@ -355,7 +364,7 @@ def d3test():
     aveMaintainability = TotalMaintainabilityScore / numberOfFile
     projectScore = cal_projectScore(aveComplexity,aveStructure, aveTestability, aveMaintainability, aveUnderstand )
 
-    return aveComplexity, aveStructure, aveTestability, aveUnderstand, aveMaintainability, projectScore, testID
+    return aveComplexity, aveStructure, aveTestability, aveUnderstand, aveMaintainability, projectScore, outlierList
 
     #
     # return render(request, 'd3_test.html', {
@@ -370,8 +379,7 @@ def d3test():
 
 
 
-
-
+# TODO: 모든 함수 표준편차 리스트 리턴 함수 쓰기
 
 #표준화변수 구하기
 #(data -  평균) / 표준편차
@@ -396,9 +404,6 @@ def standardDeviation(data, category):
         temp.append(float(i[category]))
     return statistics.stdev(temp)
 
-#딕셔너리 리스트 중에 특정 카테고리 가장 작은값 리턴
-def getMinimum(list, category):
-    return min(list, key=lambda x: x[category])
 
 def cal_projectScore(comp, stru, text, under, main):
     return (comp + stru + text + under + main)/5

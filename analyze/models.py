@@ -92,7 +92,7 @@ class Function(models.Model):
     def check_metric(self, name):
         try:
             # 최소치 이상 일 경우
-            print(eval('self.table[name][0] <= self.' + name))
+            # print(eval('self.table[name][0] <= self.' + name))
             if eval('self.table[name][0] <= self.' + name):
                 # 최대치 이하일 경우
                 if eval('self.table[name][1] >= self.' + name):

@@ -203,7 +203,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
             } else {
                // console.log("localStorage print",  localStorage.getItem("showOutlier"));
                    //아웃라이어 색깔바꾸기
-                   if(node.ID == outlierId) {
+                   if(outlierId.indexOf(node.ID) > 0) {
                       chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "blue";
                    }else {
                       chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
