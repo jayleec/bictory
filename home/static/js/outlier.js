@@ -245,7 +245,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                   chosenContext.fillStyle = "rgba(191,191,191," + textAlpha +")" //"#BFBFBF";
                   chosenContext.textAlign = "center";
                   chosenContext.textBaseline = "middle";
-                  chosenContext.fillText("Total "+commaFormat(node.size)+" functions", nodeX, nodeY + -0.75 * nodeR);
+                  // chosenContext.fillText("Total "+commaFormat(node.size)+" functions", nodeX, nodeY + -0.75 * nodeR);
 
                   //Get the text back in pieces that will fit inside the node
                   var titleText = getLines(chosenContext, node.name, nodeR*2*0.7, fontSizeTitle, titleFont);

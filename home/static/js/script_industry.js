@@ -1,12 +1,12 @@
 /**
- * Created by cooljay on 8/11/16.
+ * Created by cooljay on 8/9/16.
  */
 
 
 queue()
-   .defer(d3.csv, "/static/data/Metrics for each Function.csv")
-   .defer(d3.csv, "/static/data/IDofParents.csv")
-   .defer(d3.json, "/static/data/Metrics.json")
+   .defer(d3.csv, "/static/data/industryByGender.csv")
+   .defer(d3.csv, "/static/data/IDofParentLevel_industry.csv")
+   .defer(d3.json, "/static/data/industry.json")
    .await(drawAll);
 
 //Initiates practically everything
@@ -108,12 +108,16 @@ function drawAll(error, ageCSV, idCSV, occupations) {
       root = occupations,
       focus = root,
       nodeCount = nodes.length; //json 파일에서 전체 node 갯수 뽑음
+      console.log("nodes:", nodes);
 
+   //COMMENT OUT
+   //
    var nodeByName = {};
    nodes.forEach(function(d,i) {
       nodeByName[d.name] = d;
       //test print
-      console.log(nodeByName[d.name].ID );
+   //   TODO: nodeByName[d.name] undefined
+      console.log("nodeByname = d:", d);
    });
 
    //////////////////////////////////////////////////////////////
@@ -148,13 +152,15 @@ function drawAll(error, ageCSV, idCSV, occupations) {
    idCSV.forEach(function (d, i) {
       IDbyName[d.name] = d.ID;
 
-      // console.log("ID print: ", IDbyName[d.name]);
+      console.log("ID print: ", IDbyName[d.name]);
 
    });
 
    //////////////////////////////////////////////////////////////
-   /////////////////// get exit_pnt list ////////////////////////
+   /////// Change Outlier function background color /////////////
    //////////////////////////////////////////////////////////////
+
+
 
 
 
@@ -179,17 +185,11 @@ function drawAll(error, ageCSV, idCSV, occupations) {
       chosenContext.rect(0,0,width,height);
       chosenContext.fill();
 
-
-
-
       //Select our dummy nodes and draw the data to canvas.
       var node = null;
       // It's slightly faster than nodes.forEach()
-      for (var i = 0; i < nodeCount; i++) {
+      for (var i = 0; i < nodeCount-1; i++) {
          node = nodes[i];
-
-
-            //cpnt_len의 기준에 맞지않는 function green 표기
 
             //If the hidden canvas was send into this function and it does not yet have a color, generate a unique one
             if(hidden) {
@@ -201,15 +201,16 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                // On the hidden canvas each rectangle gets a unique color.
                chosenContext.fillStyle = node.color;
             } else {
-                  // console.log("cpnt_len_list.indexOf(node.ID) :", exit_pnts.indexOf(node.ID) );
+               // console.log("nodeCount: ", nodeCount);
+               // console.log("200 data_print ??: ",data[i].key);
+               // console.log("node depth: ",node.depth);
+               chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white"
 
-               if (exit_pnts.indexOf(node.ID) > 0 ){
-                  chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "yellow";
-               } else {
-                  chosenContext.fillStyle = node.children ? colorCircle(node.depth) : "white";
-               }
+               //test print
+               // console.log("dataById: ", dataById);
 
-         }
+            }//else
+         //
 
 
 
@@ -245,7 +246,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
                   chosenContext.fillStyle = "rgba(191,191,191," + textAlpha +")" //"#BFBFBF";
                   chosenContext.textAlign = "center";
                   chosenContext.textBaseline = "middle";
-                  // chosenContext.fillText("Total "+commaFormat(node.size)+" functions", nodeX, nodeY + -0.75 * nodeR);
+                  chosenContext.fillText("Total "+commaFormat(node.size)+" functions", nodeX, nodeY + -0.75 * nodeR);
 
                   //Get the text back in pieces that will fit inside the node
                   var titleText = getLines(chosenContext, node.name, nodeR*2*0.7, fontSizeTitle, titleFont);
@@ -671,6 +672,7 @@ function drawAll(error, ageCSV, idCSV, occupations) {
    $('.combobox').combobox();
 
    //Function to call once the search box is filled in
+   //COMMENT OUT
    searchEvent = function(occupation) {
       //If the occupation is not equal to the default
       if (occupation !== "" & typeof occupation !== "undefined") {
@@ -823,7 +825,7 @@ function createLegend(scaleFactor) {
    //    .attr('class',"legendCircle")
    //    .attr('cx', legendCenter)
    //    .attr('cy', function(d) { return legendBottom-d; });
-   // //Draw the line connecting the top of the circle to the number
+   //Draw the line connecting the top of the circle to the number
    // svg.selectAll(".legendLine")
    //    .data(legendSizes)
    //    .enter().append("line")
@@ -832,7 +834,7 @@ function createLegend(scaleFactor) {
    //    .attr('y1', function(d) { return legendBottom-2*d; })
    //    .attr('x2', legendCenter + legendLineLength)
    //    .attr('y2', function(d) { return legendBottom-2*d; });
-   // //Place the value next to the line
+   //Place the value next to the line
    // svg.selectAll(".legendText")
    //    .data(legendSizes)
    //    .enter().append("text")

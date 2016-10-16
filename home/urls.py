@@ -19,4 +19,5 @@ urlpatterns = [
     url(r'^test/$', views.test, name='test'),
     url(r'^convert/$', views.convert, name='convert'),
     url(r'^Wtree_test/$', views.Wtree_test, name='Wtree_test'),
+    url(r'^gangwon/$', views.read_csv, name='read_csv'),
 ]

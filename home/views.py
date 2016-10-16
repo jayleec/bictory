@@ -1,5 +1,6 @@
 from django.shortcuts import render, HttpResponse
 import xml.etree.ElementTree as ET
+import sys, getopt
 import json
 import csv
 import re
@@ -9,6 +10,7 @@ import locale
 locale.setlocale(locale.LC_ALL, '')
 
 import statistics
+import math
 
 # UPLOAD FILE
 from .forms import GitFileForm
@@ -341,16 +343,21 @@ def d3test():
     for x in funcarr:
         tempScoreList.append(x['totalScore'])
     ave = statistics.mean(tempScoreList)
+    stdDeviation = statistics.stdev(tempScoreList)
+    print("stdDeviation:", stdDeviation)
+
     # dictionary에 각 편차를 추가함
     for x in funcarr:
-        x.update({'deviation': pow(x['totalScore']-ave,2)})
-        # print("test print:", pow(x['totalScore']-ave,2))
-    #     TODO: deviation중에서 가장 큰 수의 ID를 리턴
+        x.update({'deviation': abs(stdDeviation - math.sqrt(pow(x['totalScore']-ave,2)))})
+        # print("test print:", abs(stdDeviation - math.sqrt(pow(x['totalScore']-ave,2))))
+
+    #     deviation중에서 가장 큰 수의 ID를 리턴
     tempList = []
     for x in funcarr:
-        print("print test:", x['deviation'])
-        if(x['deviation']>85):
+        # print("print test:", x['deviation'])
+        if(x['deviation']>10):
             tempList.append(x)
+
     outlierList = []
     for y in tempList:
         outlierList.append(y['ID'])
@@ -468,6 +475,67 @@ def sign_up(request):
 
 def report(request):
     return render(request, 'report.html')
+
+
+
+# convert ganwon.csv to json
+def read_csv(request):
+    file = 'home/static/data/gangwon.csv'
+    csv_rows = []
+    with open(file) as csvfile:
+        reader = csv.DictReader(csvfile)
+        title = reader.fieldnames
+        for row in reader:
+                csv_rows.extend([{title[i]:row[title[i]] for i in range(len(title))}])
+        csvToCsv(csv_rows)
+        csvToJson(csv_rows)
+        return HttpResponse("CSV to JSON ...")
+
+def csvToJson(data):
+    jsonDict = {"name" : "Industry"}
+    level1Arr = []
+    jsonDict_level2 = {"name" : "Gangwon"}
+    level1Arr.append(jsonDict_level2)
+    fileArr = []
+    cnt = 1
+    for n in data:
+        fileDict = {}
+        fileDict['name'] = n['산업']
+        fileDict['male'] = n['남']
+        fileDict['female'] = n['여']
+        fileDict['ID'] = "1.1." + str(cnt)
+        fileArr.append(fileDict)
+        cnt += 1
+    jsonDict_level2['children'] = fileArr
+    jsonDict['children'] = level1Arr
+
+    with open('home/static/data/industry.json', 'w') as outfile:
+        json.dump(jsonDict, outfile, sort_keys=False, indent=4,
+                  ensure_ascii=False)
+
+def csvToCsv(data):
+    csv1 = open('home/static/data/industryByGender.csv', 'w')
+    cw1 = csv.writer(csv1, delimiter=',',quotechar='|')
+    cw1.writerow(["\"ID\"", "\"age\"", "\"value\""])
+
+    csv2 = open('home/static/data/IDofParentLevel_industry.csv', 'w')
+    cw2 = csv.writer(csv2, delimiter=',', quotechar='|')
+    cw2.writerow(["\"name\"", "\"ID\""])
+    cw2.writerow(["\"Gangwon\"", "\"\""])
+    cw2.writerow(["\"industry\"", "\"1\""])
+    cw2.writerow(["\"industry - dir\"", "\"1.1\""])
+
+    cnt = 1
+
+    del data[0:2]
+    # print(data)
+
+    for row in data:
+        cw1.writerow(["\"1.1." + str(cnt) + "\"", "\"남자\"", "\"1\""])
+        cw1.writerow(["\"1.1." + str(cnt) + "\"", "\"여자\"", "\"1\""])
+
+        cw2.writerow(["\"" + row['산업'] + "\"", "\"1.1." + str(cnt) + "\""])
+        cnt += 1
 
 
 def convert(request):
